@@ -33,7 +33,11 @@ const ProductCard = ({ product }) => {
 						</div> : ""
 					}
 				</div>
-				<BuyButton />
+				<BuyButton
+					type="small"
+					productLink={product.productLink}
+					product={product}
+				/>
 			</div>
 		</div>
 	)

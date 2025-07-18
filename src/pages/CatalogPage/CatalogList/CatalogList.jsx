@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react"
 import ProductCard from "@/components/ProductCard/ProductCard"
 import productService from "@/services/product.service"
-import { Filter, X } from "lucide-react"
+import { Filter, X, FilterX } from "lucide-react"
 import "./CatalogList.scss"
 
 const CatalogList = () => {
@@ -21,10 +21,12 @@ const CatalogList = () => {
 		loadProducts()
 	}, [])
 
-	// Применение фильтров
+	// Применение фильтров только при загрузке продуктов (без фильтров)
 	useEffect(() => {
-		applyFilters()
-	}, [productList, selectedModel, sortBy])
+		if (productList.length > 0) {
+			setFilteredProducts(productList)
+		}
+	}, [productList])
 
 	const loadProducts = async () => {
 		try {
@@ -86,6 +88,7 @@ const CatalogList = () => {
 	const resetFilters = () => {
 		setSelectedModel('all')
 		setSortBy('default')
+		setFilteredProducts(productList) // Сразу применяем сброс
 	}
 
 	const toggleFilter = () => {
@@ -134,13 +137,22 @@ const CatalogList = () => {
 				</select>
 			</div>
 
-			{/* Кнопка сброса */}
-			<button
-				className="CatalogList__reset-btn"
-				onClick={resetFilters}
-			>
-				Zrušiť filtre
-			</button>
+			{/* Кнопки фильтров */}
+			<div className="CatalogList__filter-buttons">
+				<button
+					className="CatalogList__reset-btn"
+					onClick={resetFilters}
+					title="Zrušiť filtre"
+				>
+					<FilterX size={20} />
+				</button>
+				<button
+					className="CatalogList__apply-btn"
+					onClick={applyFilters}
+				>
+					Aplikovať filtre
+				</button>
+			</div>
 		</div>
 	)
 

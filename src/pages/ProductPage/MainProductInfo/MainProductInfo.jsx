@@ -207,7 +207,11 @@ const MainProductInfo = ({ product }) => {
 
 						{/* Кнопка купить */}
 						<div className="MainProductInfo__buy-section">
-							<BuyButton type="full" />
+							<BuyButton
+								type="full"
+								productLink={product.productLink}
+								product={product}
+							/>
 						</div>
 
 						{/* Короткое описание */}
