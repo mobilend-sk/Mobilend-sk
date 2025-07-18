@@ -16,7 +16,7 @@ const Header = () => {
 			<div className="container">
 				<div className="header__wrapper">
 					<Logotype />
-					<div className="header__menu">
+					<div className={`header__menu ${activeMenu ? "active" : ""}`}>
 						<Menu />
 					</div>
 					<div className="header__cart">

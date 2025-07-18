@@ -31,8 +31,9 @@ header {
 			height: 100dvh;
 			width: 100%;
 			top: 0;
-			left: 0;
+			left: -150%;
 			background: var(--white);
+			transition: all 0.3s;
 			nav.Menu ul {
 				height: 100vh;
 				height: 100dvh;
@@ -43,6 +44,10 @@ header {
 					font-size: 20px;
 				}
 			}
+		}
+
+		.header__menu.active {
+			left: 0;
 		}
 
 		.header__burger {
