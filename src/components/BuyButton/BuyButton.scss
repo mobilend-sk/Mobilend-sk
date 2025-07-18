@@ -1,0 +1,33 @@
+.BuyButton {
+	border-radius: 5px;
+	border: none;
+	background: var(--darkBlue);
+	color: var(--white);
+	width: 32px;
+	height: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: all 0.3s;
+	&:hover {
+		transform: scale(1.1);
+	}
+
+	&:active {
+		transform: translateY(1px);
+	}
+
+	// &--small {
+	// 	width: 40px;
+	// 	height: 40px;
+	// 	border-radius: 50%;
+	// }
+
+	// &--full {
+	// 	padding: 12px 24px;
+	// 	font-size: 16px;
+	// 	min-width: 140px;
+	// 	height: 48px;
+	// }
+}

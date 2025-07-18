@@ -3,6 +3,7 @@ import Image from "next/image"
 import "./ProductCard.scss"
 import { Plus } from "lucide-react"
 import Link from "next/link"
+import BuyButton from "../BuyButton/BuyButton"
 
 const ProductCard = ({ product }) => {
 
@@ -31,12 +32,8 @@ const ProductCard = ({ product }) => {
 							{(product.price + (product.price * (product.discount / 100))).toFixed(0)} €
 						</div> : ""
 					}
-
 				</div>
-				{/* <button className="buy-btn">Do košíka</button> */}
-				<button className="buy-btn">
-					<Plus />
-				</button>
+				<BuyButton />
 			</div>
 		</div>
 	)

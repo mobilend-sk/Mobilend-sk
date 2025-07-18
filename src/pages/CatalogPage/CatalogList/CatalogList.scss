@@ -1,0 +1,295 @@
+.CatalogList {
+	padding: 40px 0;
+	min-height: 60vh;
+
+	&__loading,
+	&__error {
+		text-align: center;
+		padding: 60px 20px;
+		font-size: 18px;
+	}
+
+	&__error {
+		color: #e74c3c;
+	}
+
+	&__header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 30px;
+		flex-wrap: wrap;
+		gap: 20px;
+
+		h1 {
+			margin: 0;
+			font-size: 32px;
+			color: #2c3e50;
+		}
+
+		@media (max-width: 768px) {
+			h1 {
+				font-size: 24px;
+			}
+		}
+	}
+
+	&__header-right {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+
+		@media (max-width: 768px) {
+			width: 100%;
+			justify-content: space-between;
+		}
+	}
+
+	&__results-count {
+		font-size: 16px;
+		color: #7f8c8d;
+		font-weight: 500;
+	}
+
+	&__filter-btn {
+		display: none;
+		align-items: center;
+		gap: 8px;
+		padding: 10px 16px;
+		background: var(--darkBlue);
+		color: white;
+		border: none;
+		border-radius: 6px;
+		cursor: pointer;
+		font-size: 14px;
+		font-weight: 500;
+		transition: background-color 0.2s;
+
+		&:hover {
+			background: #2980b9;
+		}
+
+		@media (max-width: 768px) {
+			display: flex;
+		}
+	}
+
+	&__content {
+		display: grid;
+		grid-template-columns: 280px 1fr;
+		gap: 30px;
+
+		@media (max-width: 768px) {
+			grid-template-columns: 1fr;
+			gap: 20px;
+		}
+	}
+
+	&__filters {
+		&--desktop {
+			@media (max-width: 768px) {
+				display: none;
+			}
+		}
+	}
+
+	&__filters-content {
+		background: #f8f9fa;
+		padding: 20px;
+		border-radius: 12px;
+		border: 1px solid #e9ecef;
+		height: fit-content;
+		position: sticky;
+		top: 20px;
+	}
+
+	&__filters-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20px;
+
+		h3 {
+			margin: 0;
+			font-size: 18px;
+			color: #2c3e50;
+		}
+
+		@media (min-width: 769px) {
+			.CatalogList__close-btn {
+				display: none;
+			}
+		}
+	}
+
+	&__close-btn {
+		background: none;
+		border: none;
+		cursor: pointer;
+		padding: 5px;
+		color: #7f8c8d;
+		border-radius: 4px;
+		transition: background-color 0.2s;
+
+		&:hover {
+			background: #e9ecef;
+		}
+	}
+
+	&__filter {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		margin-bottom: 20px;
+
+		label {
+			font-weight: 600;
+			color: #2c3e50;
+			font-size: 14px;
+		}
+
+		select {
+			padding: 10px 12px;
+			border: 1px solid #ddd;
+			border-radius: 6px;
+			font-size: 14px;
+			background: white;
+			cursor: pointer;
+			transition: border-color 0.2s;
+
+			&:hover {
+				border-color: #3498db;
+			}
+
+			&:focus {
+				outline: none;
+				border-color: #3498db;
+				box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+			}
+		}
+	}
+
+	&__reset-btn {
+		padding: 10px 20px;
+		background: var(--darkBlue);
+		color: var(--white);
+		border: none;
+		border-radius: 6px;
+		cursor: pointer;
+		font-size: 14px;
+		font-weight: 500;
+		transition: all 0.2s;
+		width: 100%;
+
+		&:hover {
+			transform: scale(1.01);
+		}
+
+		&:active {
+			transform: translateY(1px);
+		}
+	}
+
+	&__products {
+		min-height: 400px;
+	}
+
+	&__grid {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 15px;
+	}
+
+	&__empty {
+		text-align: center;
+		padding: 60px 20px;
+
+		p {
+			font-size: 18px;
+			color: #7f8c8d;
+			margin-bottom: 20px;
+		}
+
+		button {
+			padding: 12px 24px;
+			background: #3498db;
+			color: white;
+			border: none;
+			border-radius: 6px;
+			cursor: pointer;
+			font-size: 16px;
+			font-weight: 500;
+			transition: background-color 0.2s;
+
+			&:hover {
+				background: #2980b9;
+			}
+		}
+	}
+
+	// Модалка для мобильных
+	&__modal-overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0, 0, 0, 0.5);
+		z-index: 1000;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 20px;
+
+		@media (min-width: 769px) {
+			display: none;
+		}
+	}
+
+	&__modal {
+		background: white;
+		border-radius: 12px;
+		max-width: 400px;
+		width: 100%;
+		max-height: 80vh;
+		overflow-y: auto;
+		animation: modalSlideIn 0.3s ease-out;
+
+		.CatalogList__filters-content {
+			background: white;
+			border: none;
+			position: static;
+		}
+	}
+}
+
+@keyframes modalSlideIn {
+	from {
+		transform: translateY(-20px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.ProductCard {
+		max-width: calc(50% - 5px);
+
+		img {
+			width: 100%;
+			height: auto;
+			aspect-ratio: 1/1.1;
+			object-fit: contain;
+		}
+	}
+
+	.CatalogList {
+		&__grid {
+			gap: 10px;
+		}
+	}
+}
