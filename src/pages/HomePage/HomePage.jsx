@@ -7,7 +7,7 @@ const HomePage = () => {
 	return (
 		<main>
 			<Hero />
-			<Sliders />
+			<Sliders type={"discount"} />
 		</main>
 	)
 }

@@ -2,7 +2,7 @@
 	{
 		"model": "Apple iPhone 14 128GB",
 		"category": "phone",
-		"discount": 10,
+		"discount": 8,
 		"mainImage": "",
 		"images": [
 			"https://example.com/apple_iphone_14_128gb-1.jpg",
@@ -13,6 +13,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": true,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -431,6 +433,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": true,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -849,6 +853,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": true,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -1267,6 +1273,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": true,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -1685,6 +1693,428 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": true,
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Apple",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "iOS",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "iOS 17",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "221 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "áno",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Apple iPhone 15 Pro Max",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "bez nadstavby",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": "2023",
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.7\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2796 x 1290",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "19,5:9",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": "1",
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Super Retina XDR",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "460 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "159.9 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "76.7 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "8.25 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "48 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "5x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "3 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.8",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/1.9",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "2160p (4K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "60 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "áno",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "nie",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "nie",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "1490000",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "áno",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "Li-Ion",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "4422 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "do 100 hodín",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.78 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "6",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "256 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "8 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "B",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Apple iPhone 15 Pro Max 256GB",
+		"category": "phone",
+		"discount": 15,
+		"mainImage": "",
+		"images": [
+			"https://example.com/apple_iphone_15_pro_max_256gb-1.jpg",
+			"https://example.com/apple_iphone_15_pro_max_256gb-2.jpg",
+			"https://example.com/apple_iphone_15_pro_max_256gb-3.jpg"
+		],
+		"modelGroup": "Iphones",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -2103,424 +2533,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
-		"main-characteristics": [
-			{
-				"label": "Výrobca",
-				"value": "Apple",
-				"key": "manufacturer"
-			},
-			{
-				"label": "Konštrukcia",
-				"value": "dotykové",
-				"key": "construction"
-			},
-			{
-				"label": "Operačný systém",
-				"value": "iOS",
-				"key": "os"
-			},
-			{
-				"label": "Verzia operačného systému",
-				"value": "iOS 17",
-				"key": "osVersion"
-			},
-			{
-				"label": "Hmotnosť",
-				"value": "221 g",
-				"key": "weight"
-			},
-			{
-				"label": "Možnosť pamäťovej karty",
-				"value": "nie",
-				"key": "memoryCard"
-			},
-			{
-				"label": "Odolné",
-				"value": "áno",
-				"key": "rugged"
-			},
-			{
-				"label": "Produktový rad",
-				"value": "Apple iPhone 15 Pro Max",
-				"key": "series"
-			},
-			{
-				"label": "Nadstavba systému",
-				"value": "bez nadstavby",
-				"key": "ui"
-			},
-			{
-				"label": "Modelový rok",
-				"value": "2023",
-				"key": "year"
-			}
-		],
-		"display": [
-			{
-				"label": "Veľkosť displeja",
-				"value": "6.7\"",
-				"key": "size"
-			},
-			{
-				"label": "Rozlíšenie displeja",
-				"value": "2796 x 1290",
-				"key": "resolution"
-			},
-			{
-				"label": "Pomer strán displeja",
-				"value": "19,5:9",
-				"key": "aspectRatio"
-			},
-			{
-				"label": "Počet displejov",
-				"value": "1",
-				"key": "displayCount"
-			},
-			{
-				"label": "Typ displeja",
-				"value": "Super Retina XDR",
-				"key": "type"
-			},
-			{
-				"label": "Jemnosť displeja (PPI)",
-				"value": "460 PPI",
-				"key": "ppi"
-			},
-			{
-				"label": "Obnovovacia frekvencia displeja",
-				"value": "120 Hz",
-				"key": "refreshRate"
-			}
-		],
-		"dimensions": [
-			{
-				"label": "Výška",
-				"value": "159.9 mm",
-				"key": "height"
-			},
-			{
-				"label": "Šírka",
-				"value": "76.7 mm",
-				"key": "width"
-			},
-			{
-				"label": "Hĺbka",
-				"value": "8.25 mm",
-				"key": "depth"
-			}
-		],
-		"camera": [
-			{
-				"label": "Rozlíšenie fotoaparátu",
-				"value": "48 Mpix",
-				"key": "mainResolution"
-			},
-			{
-				"label": "Automatické ostrenie",
-				"value": "áno",
-				"key": "autofocus"
-			},
-			{
-				"label": "Vstavaný blesk",
-				"value": "áno",
-				"key": "flash"
-			},
-			{
-				"label": "HD video",
-				"value": "áno",
-				"key": "hdVideo"
-			},
-			{
-				"label": "Predná kamera",
-				"value": "áno",
-				"key": "frontCamera"
-			},
-			{
-				"label": "Optický zoom",
-				"value": "5x",
-				"key": "opticalZoom"
-			},
-			{
-				"label": "Optická stabilizácia obrazu",
-				"value": "áno",
-				"key": "opticalStabilization"
-			},
-			{
-				"label": "Počet objektívov zadného fotoaparátu",
-				"value": "3 objektívy",
-				"key": "rearLenses"
-			},
-			{
-				"label": "Počet objektívov predného fotoaparátu",
-				"value": "1 objektív",
-				"key": "frontLenses"
-			},
-			{
-				"label": "Svetelnosť objektívu hlavného fotoaparátu",
-				"value": "f/1.8",
-				"key": "apertureMain"
-			},
-			{
-				"label": "Svetelnosť objektívu predného fotoaparátu",
-				"value": "f/1.9",
-				"key": "apertureFront"
-			},
-			{
-				"label": "Maximálne rozlíšenie videa",
-				"value": "2160p (4K)",
-				"key": "videoMaxRes"
-			},
-			{
-				"label": "Max. snímková frekvencia videa",
-				"value": "60 sn./s",
-				"key": "videoMaxFps"
-			}
-		],
-		"features": [
-			{
-				"label": "Internetový prehliadač",
-				"value": "áno",
-				"key": "browser"
-			},
-			{
-				"label": "Apple Pay",
-				"value": "áno",
-				"key": "applePay"
-			},
-			{
-				"label": "Google Pay",
-				"value": "nie",
-				"key": "googlePay"
-			},
-			{
-				"label": "Odomykanie tvárou",
-				"value": "áno",
-				"key": "faceUnlock"
-			},
-			{
-				"label": "Prehrávanie MP3",
-				"value": "áno",
-				"key": "mp3Player"
-			},
-			{
-				"label": "Jack 3,5",
-				"value": "nie",
-				"key": "jack35"
-			},
-			{
-				"label": "Pre seniorov",
-				"value": "nie",
-				"key": "forSeniors"
-			},
-			{
-				"label": "Vodoodolný",
-				"value": "áno",
-				"key": "waterResistant"
-			},
-			{
-				"label": "Snímač otlačkov prstov",
-				"value": "áno",
-				"key": "fingerprintSensor"
-			},
-			{
-				"label": "Typ nabíjačky (konektor)",
-				"value": "USB-C",
-				"key": "chargerType"
-			},
-			{
-				"label": "USB On-The-Go",
-				"value": "nie",
-				"key": "otg"
-			},
-			{
-				"label": "Rýchlonabíjanie",
-				"value": "áno",
-				"key": "fastCharging"
-			},
-			{
-				"label": "Notifikačná LED dióda",
-				"value": "nie",
-				"key": "notificationLed"
-			},
-			{
-				"label": "Slúchadlový konektor",
-				"value": "USB-C",
-				"key": "headphoneJack"
-			},
-			{
-				"label": "Skóre Antutu",
-				"value": "1490000",
-				"key": "antutuScore"
-			},
-			{
-				"label": "SOS tlačidlo",
-				"value": "áno",
-				"key": "sosButton"
-			},
-			{
-				"label": "Termokamera",
-				"value": "nie",
-				"key": "thermalCamera"
-			},
-			{
-				"label": "Outdoorový telefón",
-				"value": "nie",
-				"key": "outdoorPhone"
-			},
-			{
-				"label": "Počet SIM",
-				"value": "Dual SIM",
-				"key": "simCount"
-			},
-			{
-				"label": "Smartphone",
-				"value": "áno",
-				"key": "smartphone"
-			}
-		],
-		"battery": [
-			{
-				"label": "Typ batérie",
-				"value": "Li-Ion",
-				"key": "type"
-			},
-			{
-				"label": "Kapacita batérie",
-				"value": "4422 mAh",
-				"key": "capacity"
-			},
-			{
-				"label": "Pohotovostná doba",
-				"value": "do 100 hodín",
-				"key": "standby"
-			},
-			{
-				"label": "Bezdrôtové nabíjanie Qi",
-				"value": "áno",
-				"key": "wirelessCharging"
-			}
-		],
-		"hardware": [
-			{
-				"label": "Frekvencia procesoru",
-				"value": "3.78 GHz",
-				"key": "cpuFreq"
-			},
-			{
-				"label": "Počet jadier procesora",
-				"value": "6",
-				"key": "cpuCores"
-			},
-			{
-				"label": "Užívateľská pamäť",
-				"value": "256 GB",
-				"key": "storage"
-			},
-			{
-				"label": "Operačná pamäť RAM",
-				"value": "8 GB",
-				"key": "ram"
-			},
-			{
-				"label": "Akcelerometer (G-senzor)",
-				"value": "áno",
-				"key": "accelerometer"
-			},
-			{
-				"label": "Gyroskopický senzor",
-				"value": "áno",
-				"key": "gyroscope"
-			},
-			{
-				"label": "Konektor USB-C",
-				"value": "áno",
-				"key": "usbC"
-			}
-		],
-		"connectivity": [
-			{
-				"label": "5G",
-				"value": "áno",
-				"key": "5g"
-			},
-			{
-				"label": "LTE",
-				"value": "áno",
-				"key": "lte"
-			},
-			{
-				"label": "NFC",
-				"value": "áno",
-				"key": "nfc"
-			},
-			{
-				"label": "WiFi",
-				"value": "áno",
-				"key": "wifi"
-			},
-			{
-				"label": "Bluetooth",
-				"value": "áno",
-				"key": "bluetooth"
-			},
-			{
-				"label": "Dual sim",
-				"value": "áno",
-				"key": "dualSim"
-			},
-			{
-				"label": "GPS modul",
-				"value": "áno",
-				"key": "gps"
-			},
-			{
-				"label": "GPRS",
-				"value": "áno",
-				"key": "gprs"
-			},
-			{
-				"label": "EDGE",
-				"value": "áno",
-				"key": "edge"
-			},
-			{
-				"label": "Typ SIM karty",
-				"value": "nanoSIM + eSIM",
-				"key": "simType"
-			},
-			{
-				"label": "Verzia Bluetooth",
-				"value": "5.3",
-				"key": "bluetoothVersion"
-			}
-		],
-		"energy": [
-			{
-				"label": "Trieda energetickej účinnosti",
-				"value": "B",
-				"key": "efficiencyClass"
-			},
-			{
-				"label": "Stupeň krytia",
-				"value": "IP68",
-				"key": "ipRating"
-			}
-		]
-	},
-	{
-		"model": "Apple iPhone 15 Pro Max 256GB",
-		"category": "phone",
-		"discount": 10,
-		"mainImage": "",
-		"images": [
-			"https://example.com/apple_iphone_15_pro_max_256gb-1.jpg",
-			"https://example.com/apple_iphone_15_pro_max_256gb-2.jpg",
-			"https://example.com/apple_iphone_15_pro_max_256gb-3.jpg"
-		],
-		"modelGroup": "Iphones",
-		"price": 699.0,
-		"currency": "EUR",
-		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -2928,7 +2942,7 @@
 	{
 		"model": "Apple iPhone 15 128GB",
 		"category": "phone",
-		"discount": 10,
+		"discount": 0,
 		"mainImage": "",
 		"images": [
 			"https://example.com/apple_iphone_15_128gb-1.jpg",
@@ -2939,6 +2953,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -3346,7 +3362,7 @@
 	{
 		"model": "Apple iPhone 15 Plus 128GB",
 		"category": "phone",
-		"discount": 10,
+		"discount": 0,
 		"mainImage": "",
 		"images": [
 			"https://example.com/apple_iphone_15_plus_128gb-1.jpg",
@@ -3357,6 +3373,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -3764,7 +3782,7 @@
 	{
 		"model": "Apple iPhone 15 Pro 128GB",
 		"category": "phone",
-		"discount": 10,
+		"discount": 0,
 		"mainImage": "",
 		"images": [
 			"https://example.com/apple_iphone_15_pro_128gb-1.jpg",
@@ -3775,6 +3793,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -4182,7 +4202,7 @@
 	{
 		"model": "Samsung Galaxy S23 S911B 8GB/128GB",
 		"category": "phone",
-		"discount": 10,
+		"discount": 0,
 		"mainImage": "",
 		"images": [
 			"https://example.com/samsung_galaxy_s23_s911b_8gb/128gb-1.jpg",
@@ -4193,6 +4213,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -4600,7 +4622,7 @@
 	{
 		"model": "Samsung Galaxy S23+ S916B 8GB/256GB",
 		"category": "phone",
-		"discount": 10,
+		"discount": 0,
 		"mainImage": "",
 		"images": [
 			"https://example.com/samsung_galaxy_s23+_s916b_8gb/256gb-1.jpg",
@@ -4611,6 +4633,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -5018,7 +5042,7 @@
 	{
 		"model": "Samsung Galaxy S23 Ultra S918B 8GB/256GB",
 		"category": "phone",
-		"discount": 10,
+		"discount": 0,
 		"mainImage": "",
 		"images": [
 			"https://example.com/samsung_galaxy_s23_ultra_s918b_8gb/256gb-1.jpg",
@@ -5029,6 +5053,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -5436,7 +5462,7 @@
 	{
 		"model": "Samsung Galaxy S24 S921B 8GB/128GB",
 		"category": "phone",
-		"discount": 10,
+		"discount": 0,
 		"mainImage": "",
 		"images": [
 			"https://example.com/samsung_galaxy_s24_s921b_8gb/128gb-1.jpg",
@@ -5447,6 +5473,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -5854,7 +5882,7 @@
 	{
 		"model": "Samsung Galaxy S24+ S926B 12GB/256GB",
 		"category": "phone",
-		"discount": 10,
+		"discount": 0,
 		"mainImage": "",
 		"images": [
 			"https://example.com/samsung_galaxy_s24+_s926b_12gb/256gb-1.jpg",
@@ -5865,6 +5893,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -6272,7 +6302,7 @@
 	{
 		"model": "Samsung Galaxy S24 Ultra S928B 12GB/256GB",
 		"category": "phone",
-		"discount": 10,
+		"discount": 0,
 		"mainImage": "",
 		"images": [
 			"https://example.com/samsung_galaxy_s24_ultra_s928b_12gb/256gb-1.jpg",
@@ -6283,6 +6313,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -6690,7 +6722,7 @@
 	{
 		"model": "Samsung Galaxy S25 12GB/128GB S931B Icyblue",
 		"category": "phone",
-		"discount": 10,
+		"discount": 0,
 		"mainImage": "",
 		"images": [
 			"https://example.com/samsung_galaxy_s25_12gb/128gb_s931b_icyblue-1.jpg",
@@ -6701,6 +6733,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -7108,7 +7142,7 @@
 	{
 		"model": "Samsung Galaxy S25+ 12GB/256GB S936B Navy",
 		"category": "phone",
-		"discount": 10,
+		"discount": 0,
 		"mainImage": "",
 		"images": [
 			"https://example.com/samsung_galaxy_s25+_12gb/256gb_s936b_navy-1.jpg",
@@ -7119,6 +7153,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -7526,7 +7562,7 @@
 	{
 		"model": "Samsung Galaxy S25 Edge 12GB/512GB S937B Titanium Silver",
 		"category": "phone",
-		"discount": 10,
+		"discount": 0,
 		"mainImage": "",
 		"images": [
 			"https://example.com/samsung_galaxy_s25_edge_12gb/512gb_s937b_titanium_silver-1.jpg",
@@ -7537,6 +7573,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -7944,7 +7982,7 @@
 	{
 		"model": "Samsung Galaxy S25 Ultra 12GB/512GB S938B Titanium Whitesilver",
 		"category": "phone",
-		"discount": 10,
+		"discount": 0,
 		"mainImage": "",
 		"images": [
 			"https://example.com/samsung_galaxy_s25_ultra_12gb/512gb_s938b_titanium_whitesilver-1.jpg",
@@ -7955,6 +7993,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -8362,7 +8402,7 @@
 	{
 		"model": "Unknown Model",
 		"category": "phone",
-		"discount": 10,
+		"discount": 0,
 		"mainImage": "",
 		"images": [
 			"https://example.com/unknown_model-1.jpg",
@@ -8373,6 +8413,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -8780,7 +8822,7 @@
 	{
 		"model": "Samsung Galaxy Z Flip6 12GB/256GB F741B",
 		"category": "phone",
-		"discount": 10,
+		"discount": 0,
 		"mainImage": "",
 		"images": [
 			"https://example.com/samsung_galaxy_z_flip6_12gb/256gb_f741b-1.jpg",
@@ -8791,6 +8833,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -9198,7 +9242,7 @@
 	{
 		"model": "Samsung Galaxy Z Flip7 F766B 12GB/512GB Blue Shadow",
 		"category": "phone",
-		"discount": 10,
+		"discount": 0,
 		"mainImage": "",
 		"images": [
 			"https://example.com/samsung_galaxy_z_flip7_f766b_12gb/512gb_blue_shadow-1.jpg",
@@ -9209,6 +9253,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -9616,7 +9662,7 @@
 	{
 		"model": "Samsung Galaxy Z Fold5 5G 12GB/512GB F946B",
 		"category": "phone",
-		"discount": 10,
+		"discount": 0,
 		"mainImage": "",
 		"images": [
 			"https://example.com/samsung_galaxy_z_fold5_5g_12gb/512gb_f946b-1.jpg",
@@ -9627,6 +9673,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
@@ -10045,6 +10093,8 @@
 		"price": 699.0,
 		"currency": "EUR",
 		"currencyLabel": "€",
+		"productLink": "apple-iphone-14-128gb-v1",
+		"popular": false,
 		"main-characteristics": [
 			{
 				"label": "Výrobca",
