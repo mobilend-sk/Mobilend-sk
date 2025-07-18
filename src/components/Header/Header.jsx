@@ -17,7 +17,7 @@ const Header = () => {
 				<div className="header__wrapper">
 					<Logotype />
 					<div className={`header__menu ${activeMenu ? "active" : ""}`}>
-						<Menu />
+						<Menu setActiveMenu={setActiveMenu} />
 					</div>
 					<div className="header__cart">
 						<CartLink />

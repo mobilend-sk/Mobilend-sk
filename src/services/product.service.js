@@ -58,7 +58,7 @@ class ProductService {
 		try {
 			const allProds = await this.getAllProducts()
 
-			const product = allProds.filter(prod => prod.productLink === productLink)
+			const product = allProds.find(prod => prod.productLink === productLink)
 			return product
 		} catch (error) {
 			throw error

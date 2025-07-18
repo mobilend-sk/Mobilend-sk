@@ -11,7 +11,7 @@ const ProductCard = ({ product }) => {
 
 	return (
 		<div className="ProductCard">
-			<Link href={"/katalog/"}>
+			<Link href={`/katalog/${product.productLink}`}>
 				<div className="ProductCard__image">
 					<Image src={product.mainImage ? product.mainImage : "/images/placeholder.webp"} alt="Image" width={200} height={220} />
 					{

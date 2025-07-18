@@ -2,15 +2,21 @@
 import Link from "next/link"
 import "./Menu.scss"
 
-const Menu = () => {
+const Menu = ({ setActiveMenu }) => {
+
+	const closeMenu = () => {
+		if (!setActiveMenu) return
+
+		setActiveMenu(false)
+	}
 
 	return (
 		<nav className="Menu">
 			<ul>
-				<li><Link href={"/"}>Hlavná</Link></li>
-				<li><Link href={"/katalog"}>Katalóg</Link></li>
-				<li><Link href={"/o-nas"}>O nás</Link></li>
-				<li><Link href={"/kontakty"}>Kontakty</Link></li>
+				<li><Link onClick={closeMenu} href={"/"}>Hlavná</Link></li>
+				<li><Link onClick={closeMenu} href={"/katalog"}>Katalóg</Link></li>
+				<li><Link onClick={closeMenu} href={"/o-nas"}>O nás</Link></li>
+				<li><Link onClick={closeMenu} href={"/kontakty"}>Kontakty</Link></li>
 			</ul>
 		</nav>
 	)

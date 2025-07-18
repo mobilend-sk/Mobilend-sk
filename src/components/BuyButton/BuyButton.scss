@@ -3,8 +3,6 @@
 	border: none;
 	background: var(--darkBlue);
 	color: var(--white);
-	width: 32px;
-	height: 32px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -18,16 +16,15 @@
 		transform: translateY(1px);
 	}
 
-	// &--small {
-	// 	width: 40px;
-	// 	height: 40px;
-	// 	border-radius: 50%;
-	// }
+	&--small {
+		width: 32px;
+		height: 32px;
+	}
 
-	// &--full {
-	// 	padding: 12px 24px;
-	// 	font-size: 16px;
-	// 	min-width: 140px;
-	// 	height: 48px;
-	// }
+	&--full {
+		height: 42px;
+		font-weight: 700;
+		font-size: 16px;
+		padding: 0 24px;
+	}
 }
