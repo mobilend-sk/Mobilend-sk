@@ -1,0 +1,10452 @@
+[
+	{
+		"model": "Apple iPhone 14 128GB",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/apple_iphone_14_128gb-1.jpg",
+			"https://example.com/apple_iphone_14_128gb-2.jpg",
+			"https://example.com/apple_iphone_14_128gb-3.jpg"
+		],
+		"modelGroup": "Iphones",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Apple",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "iOS",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "iOS 16",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "172 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "áno",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Apple iPhone 14",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "bez nadstavby",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": "2022",
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.1\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2532 x 1170",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "19,5:9",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": "1",
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Super Retina XDR",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "460 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "60 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "146.7 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "71.5 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "7.8 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "12 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "2x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "2 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.5",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/1.9",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "2160p (4K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "240 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "áno",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "nie",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "nie",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "Lightning",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "nie",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "lightning",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "818321",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "áno",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "Li-Ion",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "3279 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.23 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "6",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "128 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "6 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "nie",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "A",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Apple iPhone 14 128GB",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/apple_iphone_14_128gb-1.jpg",
+			"https://example.com/apple_iphone_14_128gb-2.jpg",
+			"https://example.com/apple_iphone_14_128gb-3.jpg"
+		],
+		"modelGroup": "Iphones",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Apple",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "iOS",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "iOS 16",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "172 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "áno",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Apple iPhone 14",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "bez nadstavby",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": "2022",
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.1\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2532 x 1170",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "19,5:9",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": "1",
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Super Retina XDR",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "460 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "60 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "146.7 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "71.5 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "7.8 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "12 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "2x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "2 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.5",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/1.9",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "2160p (4K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "240 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "áno",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "nie",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "nie",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "Lightning",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "nie",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "lightning",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "818321",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "áno",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "Li-Ion",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "3279 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.23 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "6",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "128 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "6 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "nie",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "A",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Apple iPhone 14 Pro 128GB",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/apple_iphone_14_pro_128gb-1.jpg",
+			"https://example.com/apple_iphone_14_pro_128gb-2.jpg",
+			"https://example.com/apple_iphone_14_pro_128gb-3.jpg"
+		],
+		"modelGroup": "Iphones",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Apple",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "iOS",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "iOS 16",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "206 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "áno",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Apple iPhone 14",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "bez nadstavby",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": "2022",
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.1\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "1179 x 2556",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "19.5:9",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": "1",
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Super Retina XDR",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "460 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "147.5 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "71.5 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "7.85 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "48 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "3x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "3 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.78",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/1.9",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "2160p (4K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "240 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "áno",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "nie",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "nie",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "Lightning",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "nie",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "lightning",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "972936",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "áno",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "doplnit",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "Li-Ion",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "3200 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.46 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "6",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "128 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "6 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "nie",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "A",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Apple iPhone 14 Pro Max 128GB",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/apple_iphone_14_pro_max_128gb-1.jpg",
+			"https://example.com/apple_iphone_14_pro_max_128gb-2.jpg",
+			"https://example.com/apple_iphone_14_pro_max_128gb-3.jpg"
+		],
+		"modelGroup": "Iphones",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Apple",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "iOS",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "iOS 16",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "240 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "áno",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Apple iPhone 14 Pro Max",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "bez nadstavby",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": "2022",
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.7\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2796 x 1290",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "19.5:9",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": "1",
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Super Retina XDR",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "460 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "160.7 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "77.6 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "7.85 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "48 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "6x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "3 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.78",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/1.9",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "2160p (4K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "240 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "áno",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "nie",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "nie",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "Lightning",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "nie",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "lightning",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "972936",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "áno",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "doplnit",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "Li-Ion",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "4323 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.46 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "6",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "128 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "6 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "nie",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "doplnit",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Apple iPhone 15 Pro Max 256GB",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/apple_iphone_15_pro_max_256gb-1.jpg",
+			"https://example.com/apple_iphone_15_pro_max_256gb-2.jpg",
+			"https://example.com/apple_iphone_15_pro_max_256gb-3.jpg"
+		],
+		"modelGroup": "Iphones",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Apple",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "iOS",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "iOS 17",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "221 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "áno",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Apple iPhone 15 Pro Max",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "bez nadstavby",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": "2023",
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.7\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2796 x 1290",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "19,5:9",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": "1",
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Super Retina XDR",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "460 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "159.9 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "76.7 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "8.25 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "48 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "5x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "3 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.8",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/1.9",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "2160p (4K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "60 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "áno",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "nie",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "nie",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "1490000",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "áno",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "Li-Ion",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "4422 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "do 100 hodín",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.78 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "6",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "256 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "8 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "B",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Apple iPhone 15 Pro Max 256GB",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/apple_iphone_15_pro_max_256gb-1.jpg",
+			"https://example.com/apple_iphone_15_pro_max_256gb-2.jpg",
+			"https://example.com/apple_iphone_15_pro_max_256gb-3.jpg"
+		],
+		"modelGroup": "Iphones",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Apple",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "iOS",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "iOS 17",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "221 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "áno",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Apple iPhone 15 Pro Max",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "bez nadstavby",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": "2023",
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.7\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2796 x 1290",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "19,5:9",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": "1",
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Super Retina XDR",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "460 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "159.9 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "76.7 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "8.25 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "48 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "5x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "3 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.8",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/1.9",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "2160p (4K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "60 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "áno",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "nie",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "nie",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "1490000",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "áno",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "Li-Ion",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "4422 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "do 100 hodín",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.78 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "6",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "256 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "8 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "B",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Apple iPhone 15 Pro Max 256GB",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/apple_iphone_15_pro_max_256gb-1.jpg",
+			"https://example.com/apple_iphone_15_pro_max_256gb-2.jpg",
+			"https://example.com/apple_iphone_15_pro_max_256gb-3.jpg"
+		],
+		"modelGroup": "Iphones",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Apple",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "iOS",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "iOS 17",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "221 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "áno",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Apple iPhone 15 Pro Max",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "bez nadstavby",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": "2023",
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.7\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2796 x 1290",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "19,5:9",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": "1",
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Super Retina XDR",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "460 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "159.9 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "76.7 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "8.25 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "48 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "5x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "3 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.8",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/1.9",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "2160p (4K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "60 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "áno",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "nie",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "nie",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "1490000",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "áno",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "Li-Ion",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "4422 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "do 100 hodín",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.78 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "6",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "256 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "8 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "B",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Apple iPhone 15 128GB",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/apple_iphone_15_128gb-1.jpg",
+			"https://example.com/apple_iphone_15_128gb-2.jpg",
+			"https://example.com/apple_iphone_15_128gb-3.jpg"
+		],
+		"modelGroup": "Iphones",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Apple",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "iOS",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "iOS 17",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "171 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "nie",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Apple iPhone 15",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "bez nadstavby",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": "2023",
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.1\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2556 x 1179",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "19,5:9",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": "1",
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Super Retina XDR",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "461 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "60 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "147.6 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "71.6 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "7.8 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "48 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "2x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "2 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.6",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/1.9",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "2160p (4K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "240 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "áno",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "nie",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "nie",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "nie",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "1470000",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "áno",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "Li-Ion",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "3349 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "80 hodín",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.46 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "6",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "128 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "6 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "B",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Apple iPhone 15 Plus 128GB",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/apple_iphone_15_plus_128gb-1.jpg",
+			"https://example.com/apple_iphone_15_plus_128gb-2.jpg",
+			"https://example.com/apple_iphone_15_plus_128gb-3.jpg"
+		],
+		"modelGroup": "Iphones",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Apple",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "iOS",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "iOS 17",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "201 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "doplnit",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Apple iPhone 15",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "bez nadstavby",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": "doplnit",
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.7\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2796 x 1290",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "doplnit",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": "doplnit",
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Super Retina XDR",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "460 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "60 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "160.9 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "77.8 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "7.8 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "48 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "4x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "2 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.6",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/1.9",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "2160p (4K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "60 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "áno",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "doplnit",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "doplnit",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "nie",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "doplnit",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "doplnit",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "doplnit",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "doplnit",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "doplnit",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "doplnit",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "Li-Ion",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "4383 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.46 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "6",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "128 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "6 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "B",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Apple iPhone 15 Pro 128GB",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/apple_iphone_15_pro_128gb-1.jpg",
+			"https://example.com/apple_iphone_15_pro_128gb-2.jpg",
+			"https://example.com/apple_iphone_15_pro_128gb-3.jpg"
+		],
+		"modelGroup": "Iphones",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Apple",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "iOS",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "iOS 17",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "187 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "áno",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Apple iPhone 15",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "bez nadstavby",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": "2023",
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.1\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2556 x 1179",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "19,5:9",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": "1",
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Super Retina XDR",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "461 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "146.6 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "70.6 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "8.25 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "48 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "3x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "3 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.78",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/1.9",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "2160p (4K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "240 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "áno",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "nie",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "nie",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "1641883",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "áno",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "Li-Ion",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "3274 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.78 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "6",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "128 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "8 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "A",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Samsung Galaxy S23 S911B 8GB/128GB",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/samsung_galaxy_s23_s911b_8gb/128gb-1.jpg",
+			"https://example.com/samsung_galaxy_s23_s911b_8gb/128gb-2.jpg",
+			"https://example.com/samsung_galaxy_s23_s911b_8gb/128gb-3.jpg"
+		],
+		"modelGroup": "Samsung Galaxy",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Samsung",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "Android",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "Android 13",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "168 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "áno",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Samsung Galaxy S23",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "Samsung One UI",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": 2023,
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.1\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2340 x 1080",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "19.5:9",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": 1,
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Dynamic AMOLED 2X",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "425 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "146.3 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "70.9 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "7.6 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "50 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "3x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "3 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.8",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/2.2",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "4320p (8K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "960 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "nie",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "áno",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "áno",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": 1148900,
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "nie",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "no",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "3900 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.36 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "8",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "128 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "8 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "A",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Samsung Galaxy S23+ S916B 8GB/256GB",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/samsung_galaxy_s23+_s916b_8gb/256gb-1.jpg",
+			"https://example.com/samsung_galaxy_s23+_s916b_8gb/256gb-2.jpg",
+			"https://example.com/samsung_galaxy_s23+_s916b_8gb/256gb-3.jpg"
+		],
+		"modelGroup": "Samsung Galaxy",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Samsung",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "Android",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "Android 13",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "195 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "áno",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Samsung Galaxy S23",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "Samsung One UI",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": 2023,
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.6\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2340 x 1080",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "19,5:9",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": 1,
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Dynamic AMOLED 2X",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "393 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "157.8 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "76.2 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "7.6 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "50 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "3x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "3 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.8",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/2.2",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "4320p (8K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "960 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "nie",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "áno",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "áno",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": 1211566,
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "nie",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "Li-Ion",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "4700 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.36 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "8",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "256 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "8 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "A",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Samsung Galaxy S23 Ultra S918B 8GB/256GB",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/samsung_galaxy_s23_ultra_s918b_8gb/256gb-1.jpg",
+			"https://example.com/samsung_galaxy_s23_ultra_s918b_8gb/256gb-2.jpg",
+			"https://example.com/samsung_galaxy_s23_ultra_s918b_8gb/256gb-3.jpg"
+		],
+		"modelGroup": "Samsung Galaxy",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Samsung",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "Android",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "Android 13",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "233 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "áno",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Samsung Galaxy S23",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "Samsung One UI",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": 2023,
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.8\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "3088 x 1440",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "19,5:9",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": 1,
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Dynamic AMOLED 2X",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "500 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "163.4 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "78.1 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "8.9 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "200 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "10x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "4 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.7",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/2.2",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "4320p (8K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "960 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "nie",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "áno",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "áno",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": 1277468,
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "nie",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "no",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "5000 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.36 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "8",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "256 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "8 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "A",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Samsung Galaxy S24 S921B 8GB/128GB",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/samsung_galaxy_s24_s921b_8gb/128gb-1.jpg",
+			"https://example.com/samsung_galaxy_s24_s921b_8gb/128gb-2.jpg",
+			"https://example.com/samsung_galaxy_s24_s921b_8gb/128gb-3.jpg"
+		],
+		"modelGroup": "Samsung Galaxy",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Samsung",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "Android",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "Android 14",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "167 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "nie",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Samsung Galaxy S24",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "Samsung One UI",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": 2024,
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.2\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2340 x 1080",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "19,5:9",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": 1,
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Dynamic AMOLED 2X",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "416 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "147 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "70.6 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "7.6 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "50 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "3x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "3 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.8",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/2.2",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "4320p (8K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "240 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "nie",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "áno",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "áno",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": 1639695,
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "nie",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "no",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "4000 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.39 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": 8,
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "128 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "8 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "A",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Samsung Galaxy S24+ S926B 12GB/256GB",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/samsung_galaxy_s24+_s926b_12gb/256gb-1.jpg",
+			"https://example.com/samsung_galaxy_s24+_s926b_12gb/256gb-2.jpg",
+			"https://example.com/samsung_galaxy_s24+_s926b_12gb/256gb-3.jpg"
+		],
+		"modelGroup": "Samsung Galaxy",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Samsung",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "Android",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "Android 14",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "196 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "nie",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Samsung Galaxy S24",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "Samsung One UI",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": 2024,
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.7\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "3120 x 1440",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "19.5:9",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": 1,
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Dynamic AMOLED 2X",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "513 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "158.5 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "75.9 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "7.7 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "50 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "3x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "3 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.8",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/2.2",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "4320p (8K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "240 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "nie",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "áno",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "áno",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": 1639695,
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "nie",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "no",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "4900 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.39 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": 8,
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "256 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "12 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "A",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Samsung Galaxy S24 Ultra S928B 12GB/256GB",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/samsung_galaxy_s24_ultra_s928b_12gb/256gb-1.jpg",
+			"https://example.com/samsung_galaxy_s24_ultra_s928b_12gb/256gb-2.jpg",
+			"https://example.com/samsung_galaxy_s24_ultra_s928b_12gb/256gb-3.jpg"
+		],
+		"modelGroup": "Samsung Galaxy",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Samsung",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "Android",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "Android 14",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "233 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "nie",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Samsung Galaxy S24",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "Samsung One UI",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": 2024,
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.8\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "3120 x 1440",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "19,5:9",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": 1,
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Dynamic AMOLED 2X",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "505 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "162.3 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "79 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "8.6 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "200 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "5x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "4 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.7",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/2.2",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "4320p (8K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "240 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "nie",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "áno",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "áno",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": 1814869,
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "nie",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "no",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "5000 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.39 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "8",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "256 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "12 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "A",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Samsung Galaxy S25 12GB/128GB S931B Icyblue",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/samsung_galaxy_s25_12gb/128gb_s931b_icyblue-1.jpg",
+			"https://example.com/samsung_galaxy_s25_12gb/128gb_s931b_icyblue-2.jpg",
+			"https://example.com/samsung_galaxy_s25_12gb/128gb_s931b_icyblue-3.jpg"
+		],
+		"modelGroup": "Samsung Galaxy",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Samsung",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "Android",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "doplnit",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "126 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "nie",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Samsung Galaxy S25",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "Samsung One UI",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": "doplnit",
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.2\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2340 x 1080",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "doplnit",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": 1,
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "AMOLED",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "doplnit",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "146.9 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "70.5 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "7.2 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "50 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "3x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "doplnit",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "doplnit",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "doplnit",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.8",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/2.22",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "4320p (8K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "120 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "nie",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "áno",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "nie",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "doplnit",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "doplnit",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "doplnit",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "doplnit",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "nie",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "doplnit",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "4000 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "doplnit",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": 8,
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "128 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "12 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "doplnit",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.4",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "B",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Samsung Galaxy S25+ 12GB/256GB S936B Navy",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/samsung_galaxy_s25+_12gb/256gb_s936b_navy-1.jpg",
+			"https://example.com/samsung_galaxy_s25+_12gb/256gb_s936b_navy-2.jpg",
+			"https://example.com/samsung_galaxy_s25+_12gb/256gb_s936b_navy-3.jpg"
+		],
+		"modelGroup": "Samsung Galaxy",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Samsung",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "Android",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "doplnit",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "190 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "nie",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Samsung Galaxy S25",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "Samsung One UI",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": "doplnit",
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.7\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "3120 x 1440",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "doplnit",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": 1,
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "doplnit",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "doplnit",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "158.4 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "75.8 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "7.3 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "50 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "doplnit",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "doplnit",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "doplnit",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "doplnit",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.8",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/2.22",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "4320p (8K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "120 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "nie",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "áno",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "nie",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "doplnit",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "doplnit",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "doplnit",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "doplnit",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "nie",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "doplnit",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "doplnit",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "doplnit",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "doplnit",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "4900 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "doplnit",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": 8,
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "256 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "12 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "doplnit",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.4",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "B",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Samsung Galaxy S25 Edge 12GB/512GB S937B Titanium Silver",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/samsung_galaxy_s25_edge_12gb/512gb_s937b_titanium_silver-1.jpg",
+			"https://example.com/samsung_galaxy_s25_edge_12gb/512gb_s937b_titanium_silver-2.jpg",
+			"https://example.com/samsung_galaxy_s25_edge_12gb/512gb_s937b_titanium_silver-3.jpg"
+		],
+		"modelGroup": "Samsung Galaxy",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Samsung",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "Android",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "doplnit",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "163 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "doplnit",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "doplnit",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "doplnit",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "doplnit",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": "doplnit",
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.7\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "1440 x 3120",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "doplnit",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": "doplnit",
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Dynamic AMOLED",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "513 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "doplnit",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "158.2 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "75.6 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "5.8 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "200 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "doplnit",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "2 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.7",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/2.2",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "4320p (8K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "doplnit",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "doplnit",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "doplnit",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "doplnit",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "doplnit",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "doplnit",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "doplnit",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "doplnit",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "doplnit",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "doplnit",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "doplnit",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "doplnit",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "doplnit",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "doplnit",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "lítiovo-iónový",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "3900 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "doplnit",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": 8,
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "512 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "12 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "doplnit",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "doplnit",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "doplnit",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "doplnit",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.4",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "doplnit",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Samsung Galaxy S25 Ultra 12GB/512GB S938B Titanium Whitesilver",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/samsung_galaxy_s25_ultra_12gb/512gb_s938b_titanium_whitesilver-1.jpg",
+			"https://example.com/samsung_galaxy_s25_ultra_12gb/512gb_s938b_titanium_whitesilver-2.jpg",
+			"https://example.com/samsung_galaxy_s25_ultra_12gb/512gb_s938b_titanium_whitesilver-3.jpg"
+		],
+		"modelGroup": "Samsung Galaxy",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Samsung",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "Android",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "doplnit",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "218 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "doplnit",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Samsung Galaxy S25",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "Samsung One UI",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": 2025,
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.9\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "3120 x 1440",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "doplnit",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": 1,
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "AMOLED",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "doplnit",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "162.8 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "77.6 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "8.2 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "200 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "3x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "doplnit",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "doplnit",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.7",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/2.2",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "4320p (8K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "240 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "nie",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "áno",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "doplnit",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "doplnit",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "doplnit",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "doplnit",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "doplnit",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "nie",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "doplnit",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "5000 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "doplnit",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": 8,
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "512 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "12 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "doplnit",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.4",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "B",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP68",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Unknown Model",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/unknown_model-1.jpg",
+			"https://example.com/unknown_model-2.jpg",
+			"https://example.com/unknown_model-3.jpg"
+		],
+		"modelGroup": "Samsung Galaxy",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "doplnit",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "doplnit",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "doplnit",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "doplnit",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "doplnit",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "doplnit",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "doplnit",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "doplnit",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "doplnit",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": "doplnit",
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "doplnit",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "doplnit",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "doplnit",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": "doplnit",
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "doplnit",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "doplnit",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "doplnit",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "doplnit",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "doplnit",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "doplnit",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "doplnit",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "doplnit",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "doplnit",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "doplnit",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "doplnit",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "doplnit",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "doplnit",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "doplnit",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "doplnit",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "doplnit",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "doplnit",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "doplnit",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "doplnit",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "doplnit",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "doplnit",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "doplnit",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "doplnit",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "doplnit",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "doplnit",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "doplnit",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "doplnit",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "doplnit",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "doplnit",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "doplnit",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "doplnit",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "doplnit",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "doplnit",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "doplnit",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "doplnit",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "doplnit",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "doplnit",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "doplnit",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "doplnit",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "doplnit",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "doplnit",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "doplnit",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "doplnit",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "doplnit",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "doplnit",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "doplnit",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "doplnit",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "doplnit",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "doplnit",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "doplnit",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "doplnit",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "doplnit",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "doplnit",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "doplnit",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "doplnit",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "doplnit",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "doplnit",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "doplnit",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "doplnit",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "doplnit",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "doplnit",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "doplnit",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Samsung Galaxy Z Flip6 12GB/256GB F741B",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/samsung_galaxy_z_flip6_12gb/256gb_f741b-1.jpg",
+			"https://example.com/samsung_galaxy_z_flip6_12gb/256gb_f741b-2.jpg",
+			"https://example.com/samsung_galaxy_z_flip6_12gb/256gb_f741b-3.jpg"
+		],
+		"modelGroup": "Samsung Galaxy",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Samsung",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "véčkové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "Android",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "187 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "doplnit",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Samsung Galaxy Z Flip 6",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "Samsung One UI",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": "doplnit",
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.7\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2640 x 1080",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "doplnit",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": "doplnit",
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Dynamic AMOLED 2X",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "doplnit",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "165.1 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "71.9 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "6.9 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "50 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "2x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "2 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.8",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/2.2",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "2160p (4K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "60 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "nie",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "áno",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "doplnit",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "doplnit",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "doplnit",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "doplnit",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "doplnit",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "doplnit",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "doplnit",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "doplnit",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "lítiovo-iónový",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "4000 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.39 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "8",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "256 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "12 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "doplnit",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "doplnit",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "A",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP48",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Samsung Galaxy Z Flip7 F766B 12GB/512GB Blue Shadow",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/samsung_galaxy_z_flip7_f766b_12gb/512gb_blue_shadow-1.jpg",
+			"https://example.com/samsung_galaxy_z_flip7_f766b_12gb/512gb_blue_shadow-2.jpg",
+			"https://example.com/samsung_galaxy_z_flip7_f766b_12gb/512gb_blue_shadow-3.jpg"
+		],
+		"modelGroup": "Samsung Galaxy",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Samsung",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "ohybné",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "Android",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "doplnit",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "188 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "áno",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Samsung Galaxy Z Flip 7",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "doplnit",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": 2025,
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "6.9\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2520 x 1080",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "doplnit",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": 2,
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Dynamic AMOLED 2X",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "doplnit",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "166.7 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "75.2 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "6.5 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "50 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "doplnit",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "2 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.8",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/2.2",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "2160p (4K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "60 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "nie",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "áno",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "áno",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "nie",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "áno",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "doplnit",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "doplnit",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "nie",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "doplnit",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "4300 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.3 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "10",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "512 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "12 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "áno",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "áno",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.4",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "B",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP48",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Samsung Galaxy Z Fold5 5G 12GB/512GB F946B",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/samsung_galaxy_z_fold5_5g_12gb/512gb_f946b-1.jpg",
+			"https://example.com/samsung_galaxy_z_fold5_5g_12gb/512gb_f946b-2.jpg",
+			"https://example.com/samsung_galaxy_z_fold5_5g_12gb/512gb_f946b-3.jpg"
+		],
+		"modelGroup": "Samsung Galaxy",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Samsung",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "dotykové",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "Android",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "Android 13",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "254 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "doplnit",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Samsung Galaxy Z Fold 5",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "Samsung One UI",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": "doplnit",
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "7.6\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2176 x 1812",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "doplnit",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": "doplnit",
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Dynamic AMOLED 2X",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "373 PPI",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "154.9 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "129.9 mm",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "6.1 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "50 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "3x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "3 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "2 objektívy",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.8",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/1.8",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "2160p (4K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "60 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "doplnit",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "doplnit",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "doplnit",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "nie",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "doplnit",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "áno",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "áno",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "doplnit",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "USB-C",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "doplnit",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "doplnit",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "doplnit",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "Li-Pol",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "4400 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.36 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "8",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "512 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "12 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "doplnit",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "doplnit",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "doplnit",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IPX8",
+				"key": "ipRating"
+			}
+		]
+	},
+	{
+		"model": "Samsung Galaxy Z Fold6 12GB/256GB F956B",
+		"category": "phone",
+		"discount": 10,
+		"mainImage": "",
+		"images": [
+			"https://example.com/samsung_galaxy_z_fold6_12gb/256gb_f956b-1.jpg",
+			"https://example.com/samsung_galaxy_z_fold6_12gb/256gb_f956b-2.jpg",
+			"https://example.com/samsung_galaxy_z_fold6_12gb/256gb_f956b-3.jpg"
+		],
+		"modelGroup": "Samsung Galaxy",
+		"price": 699.0,
+		"currency": "EUR",
+		"currencyLabel": "€",
+		"main-characteristics": [
+			{
+				"label": "Výrobca",
+				"value": "Samsung",
+				"key": "manufacturer"
+			},
+			{
+				"label": "Konštrukcia",
+				"value": "ohybné",
+				"key": "construction"
+			},
+			{
+				"label": "Operačný systém",
+				"value": "Android",
+				"key": "os"
+			},
+			{
+				"label": "Verzia operačného systému",
+				"value": "",
+				"key": "osVersion"
+			},
+			{
+				"label": "Hmotnosť",
+				"value": "239 g",
+				"key": "weight"
+			},
+			{
+				"label": "Možnosť pamäťovej karty",
+				"value": "nie",
+				"key": "memoryCard"
+			},
+			{
+				"label": "Odolné",
+				"value": "doplnit",
+				"key": "rugged"
+			},
+			{
+				"label": "Produktový rad",
+				"value": "Samsung Galaxy Z Fold 6",
+				"key": "series"
+			},
+			{
+				"label": "Nadstavba systému",
+				"value": "Samsung One UI",
+				"key": "ui"
+			},
+			{
+				"label": "Modelový rok",
+				"value": 2024,
+				"key": "year"
+			}
+		],
+		"display": [
+			{
+				"label": "Veľkosť displeja",
+				"value": "7.6\"",
+				"key": "size"
+			},
+			{
+				"label": "Rozlíšenie displeja",
+				"value": "2160 x 1856",
+				"key": "resolution"
+			},
+			{
+				"label": "Pomer strán displeja",
+				"value": "doplnit",
+				"key": "aspectRatio"
+			},
+			{
+				"label": "Počet displejov",
+				"value": "doplnit",
+				"key": "displayCount"
+			},
+			{
+				"label": "Typ displeja",
+				"value": "Dynamic AMOLED 2X",
+				"key": "type"
+			},
+			{
+				"label": "Jemnosť displeja (PPI)",
+				"value": "doplnit",
+				"key": "ppi"
+			},
+			{
+				"label": "Obnovovacia frekvencia displeja",
+				"value": "120 Hz",
+				"key": "refreshRate"
+			}
+		],
+		"dimensions": [
+			{
+				"label": "Výška",
+				"value": "153.5 mm",
+				"key": "height"
+			},
+			{
+				"label": "Šírka",
+				"value": "doplnit",
+				"key": "width"
+			},
+			{
+				"label": "Hĺbka",
+				"value": "5.6 mm",
+				"key": "depth"
+			}
+		],
+		"camera": [
+			{
+				"label": "Rozlíšenie fotoaparátu",
+				"value": "50 Mpix",
+				"key": "mainResolution"
+			},
+			{
+				"label": "Automatické ostrenie",
+				"value": "áno",
+				"key": "autofocus"
+			},
+			{
+				"label": "Vstavaný blesk",
+				"value": "áno",
+				"key": "flash"
+			},
+			{
+				"label": "HD video",
+				"value": "áno",
+				"key": "hdVideo"
+			},
+			{
+				"label": "Predná kamera",
+				"value": "áno",
+				"key": "frontCamera"
+			},
+			{
+				"label": "Optický zoom",
+				"value": "3x",
+				"key": "opticalZoom"
+			},
+			{
+				"label": "Optická stabilizácia obrazu",
+				"value": "áno",
+				"key": "opticalStabilization"
+			},
+			{
+				"label": "Počet objektívov zadného fotoaparátu",
+				"value": "3 objektívy",
+				"key": "rearLenses"
+			},
+			{
+				"label": "Počet objektívov predného fotoaparátu",
+				"value": "1 objektív",
+				"key": "frontLenses"
+			},
+			{
+				"label": "Svetelnosť objektívu hlavného fotoaparátu",
+				"value": "f/1.8",
+				"key": "apertureMain"
+			},
+			{
+				"label": "Svetelnosť objektívu predného fotoaparátu",
+				"value": "f/1.8",
+				"key": "apertureFront"
+			},
+			{
+				"label": "Maximálne rozlíšenie videa",
+				"value": "4320p (8K)",
+				"key": "videoMaxRes"
+			},
+			{
+				"label": "Max. snímková frekvencia videa",
+				"value": "240 sn./s",
+				"key": "videoMaxFps"
+			}
+		],
+		"features": [
+			{
+				"label": "Internetový prehliadač",
+				"value": "áno",
+				"key": "browser"
+			},
+			{
+				"label": "Apple Pay",
+				"value": "nie",
+				"key": "applePay"
+			},
+			{
+				"label": "Google Pay",
+				"value": "áno",
+				"key": "googlePay"
+			},
+			{
+				"label": "Odomykanie tvárou",
+				"value": "doplnit",
+				"key": "faceUnlock"
+			},
+			{
+				"label": "Prehrávanie MP3",
+				"value": "áno",
+				"key": "mp3Player"
+			},
+			{
+				"label": "Jack 3,5",
+				"value": "doplnit",
+				"key": "jack35"
+			},
+			{
+				"label": "Pre seniorov",
+				"value": "doplnit",
+				"key": "forSeniors"
+			},
+			{
+				"label": "Vodoodolný",
+				"value": "doplnit",
+				"key": "waterResistant"
+			},
+			{
+				"label": "Snímač otlačkov prstov",
+				"value": "áno",
+				"key": "fingerprintSensor"
+			},
+			{
+				"label": "Typ nabíjačky (konektor)",
+				"value": "USB-C",
+				"key": "chargerType"
+			},
+			{
+				"label": "USB On-The-Go",
+				"value": "doplnit",
+				"key": "otg"
+			},
+			{
+				"label": "Rýchlonabíjanie",
+				"value": "áno",
+				"key": "fastCharging"
+			},
+			{
+				"label": "Notifikačná LED dióda",
+				"value": "nie",
+				"key": "notificationLed"
+			},
+			{
+				"label": "Slúchadlový konektor",
+				"value": "doplnit",
+				"key": "headphoneJack"
+			},
+			{
+				"label": "Skóre Antutu",
+				"value": "doplnit",
+				"key": "antutuScore"
+			},
+			{
+				"label": "SOS tlačidlo",
+				"value": "doplnit",
+				"key": "sosButton"
+			},
+			{
+				"label": "Termokamera",
+				"value": "doplnit",
+				"key": "thermalCamera"
+			},
+			{
+				"label": "Outdoorový telefón",
+				"value": "nie",
+				"key": "outdoorPhone"
+			},
+			{
+				"label": "Počet SIM",
+				"value": "Dual SIM",
+				"key": "simCount"
+			},
+			{
+				"label": "Smartphone",
+				"value": "áno",
+				"key": "smartphone"
+			}
+		],
+		"battery": [
+			{
+				"label": "Typ batérie",
+				"value": "lítiovo-polymérový",
+				"key": "type"
+			},
+			{
+				"label": "Kapacita batérie",
+				"value": "4400 mAh",
+				"key": "capacity"
+			},
+			{
+				"label": "Pohotovostná doba",
+				"value": "doplnit",
+				"key": "standby"
+			},
+			{
+				"label": "Bezdrôtové nabíjanie Qi",
+				"value": "áno",
+				"key": "wirelessCharging"
+			}
+		],
+		"hardware": [
+			{
+				"label": "Frekvencia procesoru",
+				"value": "3.39 GHz",
+				"key": "cpuFreq"
+			},
+			{
+				"label": "Počet jadier procesora",
+				"value": "8",
+				"key": "cpuCores"
+			},
+			{
+				"label": "Užívateľská pamäť",
+				"value": "256 GB",
+				"key": "storage"
+			},
+			{
+				"label": "Operačná pamäť RAM",
+				"value": "12 GB",
+				"key": "ram"
+			},
+			{
+				"label": "Akcelerometer (G-senzor)",
+				"value": "áno",
+				"key": "accelerometer"
+			},
+			{
+				"label": "Gyroskopický senzor",
+				"value": "áno",
+				"key": "gyroscope"
+			},
+			{
+				"label": "Konektor USB-C",
+				"value": "áno",
+				"key": "usbC"
+			}
+		],
+		"connectivity": [
+			{
+				"label": "5G",
+				"value": "áno",
+				"key": "5g"
+			},
+			{
+				"label": "LTE",
+				"value": "áno",
+				"key": "lte"
+			},
+			{
+				"label": "NFC",
+				"value": "áno",
+				"key": "nfc"
+			},
+			{
+				"label": "WiFi",
+				"value": "áno",
+				"key": "wifi"
+			},
+			{
+				"label": "Bluetooth",
+				"value": "áno",
+				"key": "bluetooth"
+			},
+			{
+				"label": "Dual sim",
+				"value": "áno",
+				"key": "dualSim"
+			},
+			{
+				"label": "GPS modul",
+				"value": "áno",
+				"key": "gps"
+			},
+			{
+				"label": "GPRS",
+				"value": "doplnit",
+				"key": "gprs"
+			},
+			{
+				"label": "EDGE",
+				"value": "doplnit",
+				"key": "edge"
+			},
+			{
+				"label": "Typ SIM karty",
+				"value": "nanoSIM + eSIM",
+				"key": "simType"
+			},
+			{
+				"label": "Verzia Bluetooth",
+				"value": "5.3",
+				"key": "bluetoothVersion"
+			}
+		],
+		"energy": [
+			{
+				"label": "Trieda energetickej účinnosti",
+				"value": "doplnit",
+				"key": "efficiencyClass"
+			},
+			{
+				"label": "Stupeň krytia",
+				"value": "IP48",
+				"key": "ipRating"
+			}
+		]
+	}
+]

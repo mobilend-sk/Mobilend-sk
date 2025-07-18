@@ -1,6 +1,5 @@
+import HomePage from "@/pages/HomePage/HomePage"
 
 export default function Home() {
-	return (
-		<>Hello</>
-	)
+	return <HomePage />
 }
