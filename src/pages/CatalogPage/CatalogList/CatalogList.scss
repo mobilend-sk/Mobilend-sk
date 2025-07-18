@@ -156,6 +156,7 @@
 			background: white;
 			cursor: pointer;
 			transition: border-color 0.2s;
+			color: var(--darkBlue);
 
 			&:hover {
 				border-color: #3498db;
