@@ -1,25 +1,33 @@
 .CartItem {
 	display: flex;
 	gap: 20px;
-	padding: 20px;
+	padding: 15px;
 	background: white;
 	border-radius: 12px;
 	border: 1px solid #e9ecef;
 	transition: all 0.2s ease;
+	position: relative;
 
 	&:hover {
 		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 	}
 
 	@media (max-width: 768px) {
-		flex-direction: column;
 		gap: 16px;
-		padding: 16px;
+		padding: 12px;
+		padding-bottom: 64px;
 	}
 
 	&__image {
 		position: relative;
-		flex-shrink: 0;
+
+		width: 120px;
+		height: 120px;
+
+		@media (max-width: 768px) {
+			width: 100px;
+			height: 100px;
+		}
 
 		a {
 			display: block;
@@ -30,10 +38,6 @@
 			&:hover {
 				transform: scale(1.05);
 			}
-		}
-
-		@media (max-width: 768px) {
-			align-self: center;
 		}
 	}
 
@@ -87,9 +91,15 @@
 		font-weight: 600;
 		color: var(--darkBlue);
 		text-decoration: none;
-		display: flex;
-		align-items: center;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		overflow: hidden;
+		line-height: 1.4;
+		max-height: calc(1.4em * 2); // высота двух строк
+
 		gap: 8px;
+		align-items: center;
 		transition: color 0.2s;
 
 		&:hover {
@@ -123,7 +133,9 @@
 		}
 
 		@media (max-width: 768px) {
-			align-self: flex-end;
+			position: absolute;
+			bottom: 12px;
+			right: 12px;
 		}
 	}
 
@@ -135,9 +147,7 @@
 		flex-wrap: wrap;
 
 		@media (max-width: 768px) {
-			flex-direction: column;
-			align-items: stretch;
-			gap: 16px;
+			gap: 12px;
 		}
 	}
 
@@ -187,6 +197,11 @@
 		font-weight: 600;
 		transition: all 0.2s;
 
+		@media (max-width: 768px) {
+			width: 24px;
+			height: 36px;
+		}
+
 		&:hover:not(:disabled) {
 			background: var(--lightGreen);
 			color: white;
@@ -219,7 +234,10 @@
 		gap: 4px;
 
 		@media (max-width: 768px) {
-			align-items: center;
+			align-items: flex-start;
+			position: absolute;
+			left: 12px;
+			bottom: 12px;
 		}
 	}
 

@@ -2,6 +2,8 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Header";
 import CartProvider from "@/components/CartProvider/CartProvider";
+import Footer from "@/components/Footer/Footer";
+
 
 const montserrat = Montserrat({
 	variable: "--font-montserrat-sans",
@@ -22,6 +24,7 @@ export default function RootLayout({ children }) {
 				<CartProvider>
 					{children}
 				</CartProvider>
+				<Footer />
 			</body>
 		</html>
 	);

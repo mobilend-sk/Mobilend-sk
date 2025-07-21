@@ -13,10 +13,16 @@ const ProductCard = ({ product }) => {
 		<div className="ProductCard">
 			<Link href={`/katalog/${product.productLink}`}>
 				<div className="ProductCard__image">
-					<Image src={product.mainImage ? product.mainImage : "/images/placeholder.webp"} alt="Image" width={200} height={220} />
+					<Image src={product.mainImage ? `/data/gallery/${product.mainImage}` : "/images/placeholder.webp"} alt="Image" width={200} height={220} />
 					{
 						product.discount ? <div className="ProductCard__image-discount">
 							-{product.discount}%
+						</div> : ""
+					}
+
+					{
+						product.popular ? <div className="ProductCard__image-popular">
+							Populárne
 						</div> : ""
 					}
 				</div>

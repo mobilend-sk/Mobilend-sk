@@ -5,28 +5,45 @@ import productService from "@/services/product.service"
 import { Filter, X, FilterX } from "lucide-react"
 import "./CatalogList.scss"
 
+const PRODUCTS_PER_PAGE = 12
+
 const CatalogList = () => {
 	const [productList, setProductList] = useState([])
 	const [filteredProducts, setFilteredProducts] = useState([])
+	const [visibleCount, setVisibleCount] = useState(PRODUCTS_PER_PAGE)
 	const [loading, setLoading] = useState(true)
 	const [error, setError] = useState(null)
 	const [isFilterOpen, setIsFilterOpen] = useState(false)
 
-	// Фильтры
-	const [selectedModel, setSelectedModel] = useState('all')
-	const [sortBy, setSortBy] = useState('default')
+	const [selectedModel, setSelectedModel] = useState("all")
+	const [sortBy, setSortBy] = useState("default")
 
 	// Загрузка всех продуктов
 	useEffect(() => {
 		loadProducts()
 	}, [])
 
-	// Применение фильтров только при загрузке продуктов (без фильтров)
+	// Применение фильтров при загрузке
 	useEffect(() => {
 		if (productList.length > 0) {
-			setFilteredProducts(productList)
+			applyFilters()
 		}
 	}, [productList])
+
+	// Подгрузка при прокрутке
+	useEffect(() => {
+		const handleScroll = () => {
+			const bottom =
+				window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 400
+
+			if (bottom && visibleCount < filteredProducts.length) {
+				setVisibleCount((prev) => prev + PRODUCTS_PER_PAGE)
+			}
+		}
+
+		window.addEventListener("scroll", handleScroll)
+		return () => window.removeEventListener("scroll", handleScroll)
+	}, [visibleCount, filteredProducts.length])
 
 	const loadProducts = async () => {
 		try {
@@ -35,8 +52,8 @@ const CatalogList = () => {
 			setProductList(products)
 			setError(null)
 		} catch (error) {
-			console.error('Ошибка загрузки продуктов:', error)
-			setError('Ошибка загрузки продуктов')
+			console.error("Ошибка загрузки продуктов:", error)
+			setError("Ошибка загрузки продуктов")
 		} finally {
 			setLoading(false)
 		}
@@ -45,30 +62,27 @@ const CatalogList = () => {
 	const applyFilters = () => {
 		let filtered = [...productList]
 
-		// Фильтр по модели
-		if (selectedModel !== 'all') {
-			filtered = filtered.filter(product => product.modelGroup === selectedModel)
+		if (selectedModel !== "all") {
+			filtered = filtered.filter((product) => product.modelGroup === selectedModel)
 		}
 
-		// Сортировка
 		switch (sortBy) {
-			case 'priceAsc':
+			case "priceAsc":
 				filtered.sort((a, b) => a.price - b.price)
 				break
-			case 'priceDesc':
+			case "priceDesc":
 				filtered.sort((a, b) => b.price - a.price)
 				break
-			case 'nameAsc':
+			case "nameAsc":
 				filtered.sort((a, b) => a.model.localeCompare(b.model))
 				break
-			case 'nameDesc':
+			case "nameDesc":
 				filtered.sort((a, b) => b.model.localeCompare(a.model))
 				break
-			case 'discount':
+			case "discount":
 				filtered.sort((a, b) => b.discount - a.discount)
 				break
 			default:
-				// Сортировка по умолчанию - сначала популярные
 				filtered.sort((a, b) => {
 					if (a.popular && !b.popular) return -1
 					if (!a.popular && b.popular) return 1
@@ -77,19 +91,26 @@ const CatalogList = () => {
 		}
 
 		setFilteredProducts(filtered)
+		setVisibleCount(PRODUCTS_PER_PAGE)
+
+		// Прокрутка вверх
+		window.scrollTo({ top: 0, behavior: "smooth" })
 	}
 
-	// Получение уникальных моделей
 	const getUniqueModels = () => {
-		const models = [...new Set(productList.map(product => product.modelGroup))]
-		return models.filter(model => model) // Убираем пустые значения
+		const models = [...new Set(productList.map((p) => p.modelGroup))]
+		return models.filter((m) => m)
 	}
 
 	const resetFilters = () => {
-		setSelectedModel('all')
-		setSortBy('default')
-		setFilteredProducts(productList) // Сразу применяем сброс
+		setSelectedModel("all")
+		setSortBy("default")
+		setFilteredProducts(productList)
+		setVisibleCount(PRODUCTS_PER_PAGE)
+
+		window.scrollTo({ top: 0, behavior: "smooth" })
 	}
+
 
 	const toggleFilter = () => {
 		setIsFilterOpen(!isFilterOpen)
@@ -99,10 +120,7 @@ const CatalogList = () => {
 		<div className="CatalogList__filters-content">
 			<div className="CatalogList__filters-header">
 				<h3>Filtre:</h3>
-				<button
-					className="CatalogList__close-btn"
-					onClick={() => setIsFilterOpen(false)}
-				>
+				<button className="CatalogList__close-btn" onClick={() => setIsFilterOpen(false)}>
 					<X size={20} />
 				</button>
 			</div>
@@ -110,13 +128,12 @@ const CatalogList = () => {
 			{/* Фильтр по модели */}
 			<div className="CatalogList__filter">
 				<label>Model:</label>
-				<select
-					value={selectedModel}
-					onChange={(e) => setSelectedModel(e.target.value)}
-				>
+				<select value={selectedModel} onChange={(e) => setSelectedModel(e.target.value)}>
 					<option value="all">Všetky modely</option>
-					{getUniqueModels().map(model => (
-						<option key={model} value={model}>{model}</option>
+					{getUniqueModels().map((model) => (
+						<option key={model} value={model}>
+							{model}
+						</option>
 					))}
 				</select>
 			</div>
@@ -124,10 +141,7 @@ const CatalogList = () => {
 			{/* Сортировка */}
 			<div className="CatalogList__filter">
 				<label>Triedenie:</label>
-				<select
-					value={sortBy}
-					onChange={(e) => setSortBy(e.target.value)}
-				>
+				<select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
 					<option value="default">Predvolené</option>
 					<option value="priceAsc">Cena: najlacnejšie najprv</option>
 					<option value="priceDesc">Cena: najdrahšie najprv</option>
@@ -137,19 +151,11 @@ const CatalogList = () => {
 				</select>
 			</div>
 
-			{/* Кнопки фильтров */}
 			<div className="CatalogList__filter-buttons">
-				<button
-					className="CatalogList__reset-btn"
-					onClick={resetFilters}
-					title="Zrušiť filtre"
-				>
+				<button className="CatalogList__reset-btn" onClick={resetFilters} title="Zrušiť filtre">
 					<FilterX size={20} />
 				</button>
-				<button
-					className="CatalogList__apply-btn"
-					onClick={applyFilters}
-				>
+				<button className="CatalogList__apply-btn" onClick={applyFilters}>
 					Aplikovať filtre
 				</button>
 			</div>
@@ -177,7 +183,6 @@ const CatalogList = () => {
 				</div>
 
 				<div className="CatalogList__sticky-controls">
-
 					<div className="CatalogList__sticky-controls--box">
 						<div className="CatalogList__sticky-controls--header">
 							<h1 className="title-h1 title-h1--mobile">Katalóg tovaru</h1>
@@ -185,10 +190,7 @@ const CatalogList = () => {
 								Nájdené: {filteredProducts.length} produktov
 							</div>
 						</div>
-						<button
-							className="CatalogList__filter-btn"
-							onClick={toggleFilter}
-						>
+						<button className="CatalogList__filter-btn" onClick={toggleFilter}>
 							<Filter size={20} />
 							Filter
 						</button>
@@ -196,12 +198,10 @@ const CatalogList = () => {
 				</div>
 
 				<div className="CatalogList__content">
-					{/* Фильтры слева на десктопе */}
 					<div className="CatalogList__filters CatalogList__filters--desktop">
 						<FilterContent />
 					</div>
 
-					{/* Список продуктов */}
 					<div className="CatalogList__products">
 						{filteredProducts.length === 0 ? (
 							<div className="CatalogList__empty">
@@ -210,7 +210,7 @@ const CatalogList = () => {
 							</div>
 						) : (
 							<div className="CatalogList__grid">
-								{filteredProducts.map((product, index) => (
+								{filteredProducts.slice(0, visibleCount).map((product, index) => (
 									<ProductCard key={`${product.productLink}-${index}`} product={product} />
 								))}
 							</div>
@@ -218,7 +218,6 @@ const CatalogList = () => {
 					</div>
 				</div>
 
-				{/* Модалка фильтров для мобильных */}
 				{isFilterOpen && (
 					<div className="CatalogList__modal-overlay" onClick={() => setIsFilterOpen(false)}>
 						<div className="CatalogList__modal" onClick={(e) => e.stopPropagation()}>

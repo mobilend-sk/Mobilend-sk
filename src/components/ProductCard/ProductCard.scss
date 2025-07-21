@@ -58,7 +58,19 @@
 		top: 6px;
 		right: 6px;
 		background: var(--red);
-		padding: 6px 10px;
+		padding: 4px 8px;
+		font-size: 14px;
+		border-radius: 10px;
+		color: var(--white);
+		font-weight: 500;
+	}
+
+	.ProductCard__image-popular {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		background: var(--lightGreen);
+		padding: 4px 8px;
 		font-size: 14px;
 		border-radius: 10px;
 		color: var(--white);
@@ -97,6 +109,12 @@
 			font-weight: 600;
 		}
 		.ProductCard__image-discount {
+			padding: 4px 6px;
+			border-radius: 5px;
+			font-size: 12px;
+		}
+
+		.ProductCard__image-popular {
 			padding: 4px 6px;
 			border-radius: 5px;
 			font-size: 12px;
