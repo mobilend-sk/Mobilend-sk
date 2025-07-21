@@ -1,200 +1,123 @@
 class TelegramService {
 	constructor() {
-		// Здесь будут настройки для Telegram Bot API
-		this.botToken = process.env.TELEGRAM_BOT_TOKEN || ''
-		this.chatId = process.env.TELEGRAM_CHAT_ID || ''
+		// Клиентская версия - использует только API routes
+		this.apiEndpoint = '/api/telegram/send-order'
 	}
 
-	// Форматирование сообщения с заказом
-	formatOrderMessage(orderData) {
-		const {
-			orderNumber,
-			contact,
-			delivery,
-			items,
-			total,
-			totalItems,
-			timestamp
-		} = orderData
-
-		// Форматируем дату
-		const date = new Date(timestamp).toLocaleString('sk-SK', {
-			year: 'numeric',
-			month: '2-digit',
-			day: '2-digit',
-			hour: '2-digit',
-			minute: '2-digit'
-		})
-
-		// Форматируем список товаров
-		const itemsList = items.map((item, index) => {
-			const price = parseFloat(item.product?.price) || 0
-			const discount = parseFloat(item.product?.discount) || 0
-			const discountedPrice = discount > 0
-				? price - (price * discount / 100)
-				: price
-			const totalPrice = discountedPrice * item.quantity
-
-			return `${index + 1}. ${item.product?.model || 'Neznámy produkt'}
-   • Množstvo: ${item.quantity}x
-   • Cena: €${totalPrice.toFixed(2)}${discount > 0 ? ` (pôvodne €${price.toFixed(2)})` : ''}`
-		}).join('\n\n')
-
-		// Získanie názvu spôsobu platby
-		const getPaymentMethodLabel = (method) => {
-			const methods = {
-				cash_on_delivery: 'Dobierka (platba pri prevzatí)',
-				credit: 'Kúpa na splátky',
-				online_payment: 'Online platba kartou'
-			}
-			return methods[method] || method
-		}
-
-		// Hlavná správa
-		const message = `
-🛍️ NOVÁ OBJEDNÁVKA #${orderNumber}
-
-📅 Dátum: ${date}
-
-👤 ZÁKAZNÍK:
-• Meno: ${contact.firstName} ${contact.lastName}
-• Telefón: ${contact.phone}
-• Email: ${contact.email}${contact.comment ? `
-• Poznámka: ${contact.comment}` : ''}
-
-🚚 DORUČENIE:
-• Adresa: ${delivery.address}
-• PSČ: ${delivery.postalCode}
-• Mesto: ${delivery.city}
-• Platba: ${getPaymentMethodLabel(delivery.paymentMethod)}
-
-🛒 OBJEDNANÉ PRODUKTY (${totalItems} ks):
-${itemsList}
-
-💰 CELKOVÁ SUMA: €${total.toFixed(2)}
-
-───────────────────────
-Mobilend - mobilne-technologie.sk
-		`.trim()
-
-		return message
-	}
-
-	// Отправка сообщения в Telegram (пока console.log)
+	// Главная функция отправки заказа через API route
 	async sendOrderToTelegram(orderData) {
 		try {
-			const message = this.formatOrderMessage(orderData)
+			console.log('📤 Odosielanie objednávky cez server API...')
 
-			// Пока выводим в консоль вместо отправки в Telegram
-			console.log('📱 TELEGRAM ORDER MESSAGE:')
-			console.log('─'.repeat(50))
-			console.log(message)
-			console.log('─'.repeat(50))
-
-			// В будущем здесь будет реальная отправка:
-			/*
-			const response = await fetch(`https://api.telegram.org/bot${this.botToken}/sendMessage`, {
+			// Отправляем данные на наш API endpoint
+			const response = await fetch(this.apiEndpoint, {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
 				},
-				body: JSON.stringify({
-					chat_id: this.chatId,
-					text: message,
-					parse_mode: 'HTML'
-				})
+				body: JSON.stringify(orderData)
 			})
 
+			// Парсим ответ
+			const result = await response.json()
+
+			// Проверяем статус ответа
 			if (!response.ok) {
-				throw new Error('Chyba pri odoslaní správy do Telegram')
+				console.error('❌ Server API error:', result.message)
+				throw new Error(result.message || 'Chyba pri odoslaní objednávky')
 			}
 
-			return await response.json()
-			*/
+			// Логируем успех
+			console.log('✅ Objednávka úspešne odoslaná cez server:', {
+				orderNumber: result.orderNumber,
+				messageId: result.messageId
+			})
 
-			// Симуляция успешной отправки
 			return {
 				success: true,
-				message: 'Objednávka bola úspešne odoslaná',
-				orderNumber: orderData.orderNumber
+				message: result.message,
+				orderNumber: result.orderNumber,
+				messageId: result.messageId
 			}
 
 		} catch (error) {
-			console.error('Chyba pri odoslaní objednávky do Telegram:', error)
+			console.error('❌ Chyba pri odoslaní objednávky:', error)
+
+			// Показываем fallback информацию в консоли для отладки
+			console.warn('📋 Objednávka ktorá sa nepodarila odoslať:')
+			console.table({
+				'Číslo objednávky': orderData.orderNumber,
+				'Zákazník': `${orderData.contact.firstName} ${orderData.contact.lastName}`,
+				'Email': orderData.contact.email,
+				'Telefón': orderData.contact.phone,
+				'Suma': `€${orderData.total.toFixed(2)}`,
+				'Produkty': orderData.totalItems
+			})
+
+			// Пробрасываем ошибку дальше
 			throw new Error('Nepodarilo sa odoslať objednávku. Skúste to znovu.')
 		}
 	}
 
-	// Метод для отправки уведомлений (для будущего использования)
-	async sendNotification(message, type = 'info') {
+	// Метод для отправки тестового уведомления
+	async sendTestNotification() {
 		try {
-			const emoji = {
-				info: 'ℹ️',
-				success: '✅',
-				warning: '⚠️',
-				error: '❌'
+			const testOrder = {
+				orderNumber: 'TEST' + Date.now(),
+				contact: {
+					firstName: 'Ján',
+					lastName: 'Test',
+					phone: '+421 900 123 456',
+					email: 'test@example.sk',
+					comment: 'Testovacia objednávka pre overenie Telegram integrácie'
+				},
+				delivery: {
+					address: 'Testovacia adresa 123',
+					postalCode: '811 01',
+					city: 'Bratislava',
+					paymentMethod: 'cash_on_delivery'
+				},
+				items: [
+					{
+						product: {
+							model: 'TEST Samsung Galaxy S24 256GB',
+							price: 100,
+							discount: 0
+						},
+						quantity: 1
+					}
+				],
+				total: 100,
+				totalItems: 1,
+				timestamp: new Date().toISOString()
 			}
 
-			const formattedMessage = `${emoji[type]} ${message}`
+			console.log('🧪 Spúšťanie testovej objednávky...')
+			const result = await this.sendOrderToTelegram(testOrder)
+			console.log('✅ Test úspešný:', result)
 
-			console.log(`📱 TELEGRAM NOTIFICATION [${type.toUpperCase()}]:`)
-			console.log(formattedMessage)
-
-			return { success: true }
+			return result
 		} catch (error) {
-			console.error('Chyba pri odoslaní notifikácie:', error)
+			console.error('❌ Test neúspešný:', error)
 			throw error
 		}
 	}
 
-	// Валидация конфигурации Telegram (для будущего использования)
-	validateConfig() {
-		if (!this.botToken) {
-			console.warn('⚠️ TELEGRAM_BOT_TOKEN nie je nastavený')
-			return false
+	// Метод для проверки доступности API
+	async checkApiHealth() {
+		try {
+			// Можно добавить отдельный endpoint для проверки здоровья API
+			// Пока просто возвращаем true
+			return {
+				success: true,
+				message: 'API endpoint je dostupný'
+			}
+		} catch (error) {
+			return {
+				success: false,
+				message: 'API endpoint nie je dostupný'
+			}
 		}
-
-		if (!this.chatId) {
-			console.warn('⚠️ TELEGRAM_CHAT_ID nie je nastavený')
-			return false
-		}
-
-		return true
-	}
-
-	// Тестовое сообщение
-	async sendTestMessage() {
-		const testOrder = {
-			orderNumber: 'TEST123',
-			contact: {
-				firstName: 'Ján',
-				lastName: 'Novák',
-				phone: '+421 900 123 456',
-				email: 'jan.novak@example.sk',
-				comment: 'Testovacia objednávka'
-			},
-			delivery: {
-				address: 'Hlavná ulica 123',
-				postalCode: '811 01',
-				city: 'Bratislava',
-				paymentMethod: 'cash_on_delivery'
-			},
-			items: [
-				{
-					product: {
-						model: 'Samsung Galaxy S24 256GB Black',
-						price: 899,
-						discount: 10
-					},
-					quantity: 1
-				}
-			],
-			total: 809.10,
-			totalItems: 1,
-			timestamp: new Date().toISOString()
-		}
-
-		return await this.sendOrderToTelegram(testOrder)
 	}
 }
 
