@@ -39,12 +39,12 @@ const MainProductInfo = ({ product }) => {
 		}
 	}, [thumbsSwiper])
 
-	// Получение цветов и памяти из sharedModels с правильной фильтрацией
+	// Получение цветов и памяти из shareModels с правильной фильтрацией
 	const getColorOptions = () => {
-		if (!product.sharedModels || !Array.isArray(product.sharedModels) || !product.memory) return []
+		if (!product.shareModels || !Array.isArray(product.shareModels) || !product.memory) return []
 
 		// Показываем только цвета с той же памятью, что и у текущего продукта
-		const colorOptions = product.sharedModels.filter(model =>
+		const colorOptions = product.shareModels.filter(model =>
 			model.hexColor && model.capacity === product.memory
 		)
 
@@ -57,10 +57,10 @@ const MainProductInfo = ({ product }) => {
 	}
 
 	const getMemoryOptions = () => {
-		if (!product.sharedModels || !Array.isArray(product.sharedModels) || !product.color) return []
+		if (!product.shareModels || !Array.isArray(product.shareModels) || !product.color) return []
 
 		// Показываем только варианты памяти с тем же цветом, что и у текущего продукта
-		const memoryOptions = product.sharedModels.filter(model =>
+		const memoryOptions = product.shareModels.filter(model =>
 			model.capacity && model.hexColor === product.color
 		)
 
@@ -173,7 +173,7 @@ const MainProductInfo = ({ product }) => {
 									{getColorOptions().map((model, index) => (
 										<Link
 											key={index}
-											href={`/product/${model.productLink}`}
+											href={`/katalog/${model.productLink}`}
 											className={`MainProductInfo__color-link ${model.hexColor === product.color ? 'active' : ''}`}
 										>
 											<div
@@ -195,7 +195,7 @@ const MainProductInfo = ({ product }) => {
 									{getMemoryOptions().map((model, index) => (
 										<Link
 											key={index}
-											href={`/product/${model.productLink}`}
+											href={`/katalog/${model.productLink}`}
 											className={`MainProductInfo__memory-link ${model.capacity === product.memory ? 'active' : ''}`}
 										>
 											<span>{model.capacity}</span>

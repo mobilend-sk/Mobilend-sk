@@ -44,10 +44,25 @@ class ProductService {
 		try {
 			const res = await fetch(this.baseUrl)
 
-			const products = await res.json()
+			const data = await res.json()
 
-			if (!products || !Array.isArray(products)) throw new Error("Products is not defined")
+			if (!data || !Array.isArray(data)) throw new Error("Products is not defined")
 
+			const products = data.flatMap(el =>
+				el.models.map(model => ({
+					...model,
+					shareModels: el.shareModels,
+					mainCharacteristics: el.mainCharacteristics,
+					display: el.display,
+					dimensions: el.dimensions,
+					camera: el.camera,
+					features: el.features,
+					battery: el.battery,
+					hardware: el.hardware,
+					connectivity: el.connectivity,
+					energy: el.energy
+				}))
+			)
 			return products
 		} catch (error) {
 			throw error

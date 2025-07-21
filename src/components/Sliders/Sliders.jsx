@@ -46,6 +46,7 @@ const Sliders = ({ type, model }) => {
 						spaceBetween={30}
 						pagination={{
 							clickable: true,
+							dynamicBullets: true
 						}}
 						modules={[Pagination]}
 						className="mySwiper"
