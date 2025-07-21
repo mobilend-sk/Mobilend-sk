@@ -92,6 +92,7 @@ const CatalogList = () => {
 
 		setFilteredProducts(filtered)
 		setVisibleCount(PRODUCTS_PER_PAGE)
+		setIsFilterOpen(false)
 
 		// Прокрутка вверх
 		window.scrollTo({ top: 0, behavior: "smooth" })
@@ -102,11 +103,19 @@ const CatalogList = () => {
 		return models.filter((m) => m)
 	}
 
+	const getActiveFiltersCount = () => {
+		let count = 0
+		if (selectedModel !== "all") count++
+		if (sortBy !== "default") count++
+		return count
+	}
+
 	const resetFilters = () => {
 		setSelectedModel("all")
 		setSortBy("default")
 		setFilteredProducts(productList)
 		setVisibleCount(PRODUCTS_PER_PAGE)
+		setIsFilterOpen(false)
 
 		window.scrollTo({ top: 0, behavior: "smooth" })
 	}
@@ -193,6 +202,9 @@ const CatalogList = () => {
 						<button className="CatalogList__filter-btn" onClick={toggleFilter}>
 							<Filter size={20} />
 							Filter
+							{getActiveFiltersCount() > 0 && (
+								<span className="filter-badge">{getActiveFiltersCount()}</span>
+							)}
 						</button>
 					</div>
 				</div>

@@ -4,15 +4,32 @@ import Logotype from "../Logotype/Logotype"
 import Menu from "../Menu/Menu"
 import CartLink from "../CartLink/CartLink"
 import { AlignJustify } from "lucide-react"
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import { usePathname } from "next/navigation"
 import { X } from "lucide-react"
 import "./Header.scss"
 
+
 const Header = () => {
 	const [activeMenu, setActiveMenu] = useState(false)
+	const [isScrolled, setIsScrolled] = useState(false)
+	const pathname = usePathname()
+
+	useEffect(() => {
+		const handleScroll = () => {
+			if (pathname === '/katalog') {
+				setIsScrolled(false)
+				return
+			}
+			setIsScrolled(window.scrollY > 0)
+		}
+
+		window.addEventListener('scroll', handleScroll)
+		return () => window.removeEventListener('scroll', handleScroll)
+	}, [pathname])
 
 	return (
-		<header>
+		<header className={isScrolled ? 'scrolled' : ''}>
 			<div className="container">
 				<div className="header__wrapper">
 					<Logotype />

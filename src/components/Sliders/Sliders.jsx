@@ -58,10 +58,15 @@ const Sliders = ({ type, model, title, limit = 10 }) => {
 				<div className="Sliders__Swiper">
 					<Swiper
 						slidesPerView={'auto'}
-						spaceBetween={30}
+						spaceBetween={15}
 						pagination={{
 							clickable: true,
 							dynamicBullets: true
+						}}
+						breakpoints={{
+							768: {
+								spaceBetween: 25
+							}
 						}}
 						modules={[Pagination]}
 						className="mySwiper"
@@ -71,7 +76,6 @@ const Sliders = ({ type, model, title, limit = 10 }) => {
 						}
 
 					</Swiper>
-
 				</div>
 			</div>
 		</section>

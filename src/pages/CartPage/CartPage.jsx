@@ -148,9 +148,12 @@ const CartPage = () => {
 								</div>
 
 								<div className="CartPage__summary-actions">
-									<button className="CartPage__checkout-btn">
-										Pokračovať k objednávke
-									</button>
+									<Link
+										href="/potvrdenie-o-kupe"
+										className="CartPage__checkout-btn"
+									>
+										Pokračovať na pokladňu
+									</Link>
 									<button
 										className="CartPage__clear-btn"
 										onClick={clearCart}
