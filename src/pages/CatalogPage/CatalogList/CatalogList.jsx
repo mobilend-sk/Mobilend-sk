@@ -168,10 +168,22 @@ const CatalogList = () => {
 		<div className="CatalogList">
 			<div className="container">
 				<div className="CatalogList__header">
-					<h1>Katalóg tovaru</h1>
-					<div className="CatalogList__header-right">
+					<h1 className="title-h1 title-h1--desktop">Katalóg tovaru</h1>
+					<div className="CatalogList__header-right CatalogList__header-right--desktop">
 						<div className="CatalogList__results-count">
 							Nájdené: {filteredProducts.length} produktov
+						</div>
+					</div>
+				</div>
+
+				<div className="CatalogList__sticky-controls">
+
+					<div className="CatalogList__sticky-controls--box">
+						<div className="CatalogList__sticky-controls--header">
+							<h1 className="title-h1 title-h1--mobile">Katalóg tovaru</h1>
+							<div className="CatalogList__results-count">
+								Nájdené: {filteredProducts.length} produktov
+							</div>
 						</div>
 						<button
 							className="CatalogList__filter-btn"
