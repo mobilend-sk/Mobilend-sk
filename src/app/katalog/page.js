@@ -66,7 +66,7 @@ export async function generateMetadata() {
 
 		// Dodatočné meta tagy
 		other: {
-			'theme-color': '#252758',
+			'theme-color': '#ffffff',
 		},
 	}
 }

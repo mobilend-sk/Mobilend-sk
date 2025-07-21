@@ -65,7 +65,7 @@ export async function generateMetadata() {
 
 		// JSON-LD schema pre organizáciu (pridáme nižšie)
 		other: {
-			'theme-color': '#252758',
+			'theme-color': '#ffffff',
 		},
 	}
 }

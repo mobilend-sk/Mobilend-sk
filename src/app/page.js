@@ -66,7 +66,7 @@ export async function generateMetadata() {
 
 		// Dodatočné meta tagy
 		other: {
-			'theme-color': '#252758', // Tvoja hlavná farba
+			'theme-color': '#ffffff', // Tvoja hlavná farba
 			'apple-mobile-web-app-capable': 'yes',
 			'apple-mobile-web-app-status-bar-style': 'default',
 		},

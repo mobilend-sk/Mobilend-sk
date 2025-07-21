@@ -66,7 +66,7 @@ export async function generateMetadata() {
 
 		// Dodatočné meta tagy pre kontakty
 		other: {
-			'theme-color': '#252758',
+			'theme-color': '#ffffff',
 			// Local Business schema (pridáme v ďalšom kroku)
 			'geo.region': 'SK-BL',
 			'geo.placename': 'Bratislava',
