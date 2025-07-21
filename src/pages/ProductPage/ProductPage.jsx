@@ -7,6 +7,8 @@ import productService from "@/services/productClient.service"
 import MainProductInfo from "./MainProductInfo/MainProductInfo"
 import AllProductInfo from "./AllProductInfo/AllProductInfo"
 import Sliders from "@/components/Sliders/Sliders"
+import JsonLd from "@/components/SEO/JsonLd"
+import { generateProductSchema, generateBreadcrumbSchema } from "@/components/SEO/JsonLdSchemas"
 import "./ProductPage.scss"
 
 const ProductPage = ({ product: initialProduct, productLink }) => {
@@ -101,6 +103,14 @@ const ProductPage = ({ product: initialProduct, productLink }) => {
 
 	return (
 		<main className="ProductPage">
+			{/* JSON-LD схемы */}
+			<JsonLd schema={generateProductSchema(product)} />
+			<JsonLd schema={generateBreadcrumbSchema([
+				{ name: 'Domov', url: '/' },
+				{ name: 'Katalóg', url: '/katalog' },
+				{ name: product.model, url: `/katalog/${productLink || product.productLink}` }
+			])} />
+
 			{/* Основная информация о продукте */}
 			<MainProductInfo product={product} />
 

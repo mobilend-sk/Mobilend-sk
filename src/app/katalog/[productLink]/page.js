@@ -25,7 +25,7 @@ export async function generateStaticParams() {
 	}
 }
 
-// Генерация мета-данных для каждого товара (пока базовые, детальные добавим в следующем пункте)
+// Генерация мета-данных для каждого товара
 export async function generateMetadata({ params }) {
 	try {
 		const { productLink } = await params
@@ -40,7 +40,7 @@ export async function generateMetadata({ params }) {
 			}
 		}
 
-		// Базовые мета-теги (детальные добавим позже)
+		// Базовые мета-теги
 		const price = product.discount
 			? (product.price * (1 - product.discount / 100)).toFixed(0)
 			: product.price.toFixed(0)

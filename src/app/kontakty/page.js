@@ -1,7 +1,7 @@
 // src/app/kontakty/page.js
 // Страница контактов с SEO метаданными
 
-import ContactsPage from "@/pages/ContactsPage/ContactsPage"
+import Contacts from "@/pages/ContactsPage/Contacts"
 
 // Генерация мета-данных для страницы контактов
 export async function generateMetadata() {
@@ -77,5 +77,5 @@ export async function generateMetadata() {
 }
 
 export default function Kontakty() {
-	return <ContactsPage />
+	return <Contacts />
 }
