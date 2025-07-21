@@ -1,26 +1,37 @@
+// src/pages/ProductPage/ProductPage.jsx
+// Обновленный компонент для работы с SSG (данные уже предзагружены)
+
 "use client"
 import { useEffect, useState } from "react"
-import productService from "@/services/product.service"
+import productService from "@/services/productClient.service"
 import MainProductInfo from "./MainProductInfo/MainProductInfo"
 import AllProductInfo from "./AllProductInfo/AllProductInfo"
 import Sliders from "@/components/Sliders/Sliders"
 import "./ProductPage.scss"
 
-const ProductPage = ({ productLink }) => {
-	const [product, setProduct] = useState(null)
-	const [loading, setLoading] = useState(true)
+const ProductPage = ({ product: initialProduct, productLink }) => {
+	// Если данные переданы с сервера (SSG) - используем их сразу
+	// Если нет - загружаем на клиенте (fallback)
+	const [product, setProduct] = useState(initialProduct || null)
+	const [loading, setLoading] = useState(!initialProduct)
 	const [error, setError] = useState(null)
 
 	useEffect(() => {
+		// Если данные уже есть - ничего не делаем
+		if (initialProduct) {
+			return
+		}
+
+		// Иначе загружаем на клиенте (fallback для development)
 		loadProduct()
-	}, [productLink])
+	}, [productLink, initialProduct])
 
 	const loadProduct = async () => {
 		try {
 			setLoading(true)
 			setError(null)
 
-			// Получаем продукт по ссылке
+			// Получаем продукт по ссылке (клиентский fallback)
 			const productData = await productService.getProductInfo(productLink)
 
 			if (!productData) {
@@ -37,6 +48,7 @@ const ProductPage = ({ productLink }) => {
 		}
 	}
 
+	// Loading состояние
 	if (loading) {
 		return (
 			<div className="ProductPage">
@@ -50,6 +62,7 @@ const ProductPage = ({ productLink }) => {
 		)
 	}
 
+	// Error состояние
 	if (error) {
 		return (
 			<div className="ProductPage">
@@ -66,6 +79,7 @@ const ProductPage = ({ productLink }) => {
 		)
 	}
 
+	// Продукт не найден
 	if (!product) {
 		return (
 			<div className="ProductPage">
@@ -93,6 +107,7 @@ const ProductPage = ({ productLink }) => {
 			{/* Подробная информация о продукте */}
 			<AllProductInfo product={product} />
 
+			{/* Слайдеры с рекомендуемыми товарами */}
 			<Sliders type={"discount"} />
 		</main>
 	)

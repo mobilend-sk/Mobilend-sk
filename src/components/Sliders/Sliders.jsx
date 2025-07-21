@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import { useEffect, useState } from "react";
-import productService from "@/services/product.service";
+import productService from "@/services/productClient.service";
 
 const Sliders = ({ type, model, title, limit = 10 }) => {
 	const [productList, setProductList] = useState([])

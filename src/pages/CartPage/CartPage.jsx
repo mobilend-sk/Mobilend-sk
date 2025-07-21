@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useState } from "react"
 import { useCart } from "@/hooks/useCart"
-import productService from "@/services/product.service"
+import productService from "@/services/productClient.service"
 import CartItem from "@/components/CartItem/CartItem"
 import Link from "next/link"
 import { ShoppingBag, ArrowLeft } from "lucide-react"

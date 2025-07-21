@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useState } from "react"
 import ProductCard from "@/components/ProductCard/ProductCard"
-import productService from "@/services/product.service"
+import productService from "@/services/productClient.service"
 import { Filter, X, FilterX } from "lucide-react"
 import "./CatalogList.scss"
 

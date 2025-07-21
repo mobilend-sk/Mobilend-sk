@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect } from "react"
 import { useCart } from "@/hooks/useCart"
-import productService from "@/services/product.service"
+import productService from "@/services/productClient.service"
 import ProgressBar from "./ProgressBar/ProgressBar"
 import StepContact from "./StepContact/StepContact"
 import StepDelivery from "./StepDelivery/StepDelivery"
