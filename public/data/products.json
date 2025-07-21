@@ -10321,161 +10321,161 @@
 	{
 		"models": [
 			{
-				"model": "Samsung Galaxy S23+ 256 GB Black",
+				"model": "Samsung Galaxy S23plus 256 GB Black",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/256gb-black-1.jpg",
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/256gb-black-2.jpg",
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/256gb-black-3.jpg"
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/256gb-black-1.jpg",
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/256gb-black-2.jpg",
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/256gb-black-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s23+-256gb-Phantom-Black",
+				"productLink": "samsung-galaxy-s23plus-256gb-Phantom-Black",
 				"shortInfo": "Lorem some text",
 				"colors": "#393939",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy S23+ 512 GB Black",
+				"model": "Samsung Galaxy S23plus 512 GB Black",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/512gb-black-1.jpg",
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/512gb-black-2.jpg",
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/512gb-black-3.jpg"
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/512gb-black-1.jpg",
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/512gb-black-2.jpg",
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/512gb-black-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s23+-512gb-Phantom-Black",
+				"productLink": "samsung-galaxy-s23plus-512gb-Phantom-Black",
 				"shortInfo": "Lorem some text",
 				"colors": "#393939",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Samsung Galaxy S23+ 256 GB Cream",
+				"model": "Samsung Galaxy S23plus 256 GB Cream",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/256gb-cream-1.jpg",
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/256gb-cream-2.jpg",
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/256gb-cream-3.jpg"
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/256gb-cream-1.jpg",
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/256gb-cream-2.jpg",
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/256gb-cream-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s23+-256gb-Cream",
+				"productLink": "samsung-galaxy-s23plus-256gb-Cream",
 				"shortInfo": "Lorem some text",
 				"colors": "#f6ebe3",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy S23+ 512 GB Cream",
+				"model": "Samsung Galaxy S23plus 512 GB Cream",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/512gb-cream-1.jpg",
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/512gb-cream-2.jpg",
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/512gb-cream-3.jpg"
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/512gb-cream-1.jpg",
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/512gb-cream-2.jpg",
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/512gb-cream-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s23+-512gb-Cream",
+				"productLink": "samsung-galaxy-s23plus-512gb-Cream",
 				"shortInfo": "Lorem some text",
 				"colors": "#f6ebe3",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Samsung Galaxy S23+ 256 GB Green",
+				"model": "Samsung Galaxy S23plus 256 GB Green",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/256gb-green-1.jpg",
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/256gb-green-2.jpg",
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/256gb-green-3.jpg"
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/256gb-green-1.jpg",
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/256gb-green-2.jpg",
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/256gb-green-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s23+-256gb-Green",
+				"productLink": "samsung-galaxy-s23plus-256gb-Green",
 				"shortInfo": "Lorem some text",
 				"colors": "#90ab83",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy S23+ 512 GB Green",
+				"model": "Samsung Galaxy S23plus 512 GB Green",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/512gb-green-1.jpg",
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/512gb-green-2.jpg",
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/512gb-green-3.jpg"
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/512gb-green-1.jpg",
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/512gb-green-2.jpg",
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/512gb-green-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s23+-512gb-Green",
+				"productLink": "samsung-galaxy-s23plus-512gb-Green",
 				"shortInfo": "Lorem some text",
 				"colors": "#90ab83",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Samsung Galaxy S23+ 256 GB Lavender",
+				"model": "Samsung Galaxy S23plus 256 GB Lavender",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/256gb-lavender-1.jpg",
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/256gb-lavender-2.jpg",
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/256gb-lavender-3.jpg"
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/256gb-lavender-1.jpg",
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/256gb-lavender-2.jpg",
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/256gb-lavender-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s23+-256gb-Lavender",
+				"productLink": "samsung-galaxy-s23plus-256gb-Lavender",
 				"shortInfo": "Lorem some text",
 				"colors": "#ece1e9",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy S23+ 512 GB Lavender",
+				"model": "Samsung Galaxy S23plus 512 GB Lavender",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/512gb-lavender-1.jpg",
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/512gb-lavender-2.jpg",
-					"https://example.com/samsung_galaxy_s23+_s916b_8gb/512gb-lavender-3.jpg"
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/512gb-lavender-1.jpg",
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/512gb-lavender-2.jpg",
+					"https://example.com/samsung_galaxy_s23plus_s916b_8gb/512gb-lavender-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s23+-512gb-Lavender",
+				"productLink": "samsung-galaxy-s23plus-512gb-Lavender",
 				"shortInfo": "Lorem some text",
 				"colors": "#ece1e9",
 				"memory": "512 GB"
@@ -10485,42 +10485,42 @@
 			{
 				"hexColor": "#393939",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s23+-256gb-Phantom-Black"
+				"productLink": "samsung-galaxy-s23plus-256gb-Phantom-Black"
 			},
 			{
 				"hexColor": "#393939",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s23+-512gb-Phantom-Black"
+				"productLink": "samsung-galaxy-s23plus-512gb-Phantom-Black"
 			},
 			{
 				"hexColor": "#f6ebe3",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s23+-256gb-Cream"
+				"productLink": "samsung-galaxy-s23plus-256gb-Cream"
 			},
 			{
 				"hexColor": "#f6ebe3",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s23+-512gb-Cream"
+				"productLink": "samsung-galaxy-s23plus-512gb-Cream"
 			},
 			{
 				"hexColor": "#90ab83",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s23+-256gb-Green"
+				"productLink": "samsung-galaxy-s23plus-256gb-Green"
 			},
 			{
 				"hexColor": "#90ab83",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s23+-512gb-Green"
+				"productLink": "samsung-galaxy-s23plus-512gb-Green"
 			},
 			{
 				"hexColor": "#ece1e9",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s23+-256gb-Lavender"
+				"productLink": "samsung-galaxy-s23plus-256gb-Lavender"
 			},
 			{
 				"hexColor": "#ece1e9",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s23+-512gb-Lavender"
+				"productLink": "samsung-galaxy-s23plus-512gb-Lavender"
 			}
 		],
 		"popular": false,
@@ -10562,7 +10562,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Samsung Galaxy S23+",
+				"value": "Samsung Galaxy S23plus",
 				"key": "series"
 			},
 			{
@@ -12251,161 +12251,161 @@
 	{
 		"models": [
 			{
-				"model": "Samsung Galaxy S24+ 256 GB Black",
+				"model": "Samsung Galaxy S24plus 256 GB Black",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/256gb-black-1.jpg",
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/256gb-black-2.jpg",
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/256gb-black-3.jpg"
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/256gb-black-1.jpg",
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/256gb-black-2.jpg",
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/256gb-black-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s24+-256gb-Onyx-Black",
+				"productLink": "samsung-galaxy-s24plus-256gb-Onyx-Black",
 				"shortInfo": "Lorem some text",
 				"color": "#616161",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy S24+ 512 GB Black",
+				"model": "Samsung Galaxy S24plus 512 GB Black",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/512gb-black-1.jpg",
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/512gb-black-2.jpg",
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/512gb-black-3.jpg"
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/512gb-black-1.jpg",
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/512gb-black-2.jpg",
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/512gb-black-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s24+-512gb-Onyx-Black",
+				"productLink": "samsung-galaxy-s24plus-512gb-Onyx-Black",
 				"shortInfo": "Lorem some text",
 				"color": "#616161",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Samsung Galaxy S24+ 256 GB Gray",
+				"model": "Samsung Galaxy S24plus 256 GB Gray",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/256gb-gray-1.jpg",
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/256gb-gray-2.jpg",
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/256gb-gray-3.jpg"
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/256gb-gray-1.jpg",
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/256gb-gray-2.jpg",
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/256gb-gray-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s24+-256gb-Marble-Gray",
+				"productLink": "samsung-galaxy-s24plus-256gb-Marble-Gray",
 				"shortInfo": "Lorem some text",
 				"color": "#d8d5d6",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy S24+ 512 GB Gray",
+				"model": "Samsung Galaxy S24plus 512 GB Gray",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/512gb-gray-1.jpg",
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/512gb-gray-2.jpg",
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/512gb-gray-3.jpg"
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/512gb-gray-1.jpg",
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/512gb-gray-2.jpg",
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/512gb-gray-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s24+-512gb-Marble-Gray",
+				"productLink": "samsung-galaxy-s24plus-512gb-Marble-Gray",
 				"shortInfo": "Lorem some text",
 				"color": "#d8d5d6",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Samsung Galaxy S24+ 256 GB Violet",
+				"model": "Samsung Galaxy S24plus 256 GB Violet",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/256gb-violet-1.jpg",
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/256gb-violet-2.jpg",
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/256gb-violet-3.jpg"
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/256gb-violet-1.jpg",
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/256gb-violet-2.jpg",
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/256gb-violet-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s24+-256gb-Cobalt-Violet",
+				"productLink": "samsung-galaxy-s24plus-256gb-Cobalt-Violet",
 				"shortInfo": "Lorem some text",
 				"color": "#b2b5db",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy S24+ 512 GB Violet",
+				"model": "Samsung Galaxy S24plus 512 GB Violet",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/512gb-violet-1.jpg",
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/512gb-violet-2.jpg",
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/512gb-violet-3.jpg"
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/512gb-violet-1.jpg",
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/512gb-violet-2.jpg",
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/512gb-violet-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s24+-512gb-Cobalt-Violet",
+				"productLink": "samsung-galaxy-s24plus-512gb-Cobalt-Violet",
 				"shortInfo": "Lorem some text",
 				"color": "#b2b5db",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Samsung Galaxy S24+ 256 GB Yellow",
+				"model": "Samsung Galaxy S24plus 256 GB Yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/256gb-yellow-1.jpg",
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/256gb-yellow-2.jpg",
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/256gb-yellow-3.jpg"
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/256gb-yellow-1.jpg",
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/256gb-yellow-2.jpg",
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/256gb-yellow-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s24+-256gb-Amber-Yellow",
+				"productLink": "samsung-galaxy-s24plus-256gb-Amber-Yellow",
 				"shortInfo": "Lorem some text",
 				"color": "#ffe397",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy S24+ 512 GB Yellow",
+				"model": "Samsung Galaxy S24plus 512 GB Yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/512gb-yellow-1.jpg",
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/512gb-yellow-2.jpg",
-					"https://example.com/samsung_galaxy_s24+_s926b_12gb/512gb-yellow-3.jpg"
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/512gb-yellow-1.jpg",
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/512gb-yellow-2.jpg",
+					"https://example.com/samsung_galaxy_s24plus_s926b_12gb/512gb-yellow-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s24+-512gb-Amber-Yellow",
+				"productLink": "samsung-galaxy-s24plus-512gb-Amber-Yellow",
 				"shortInfo": "Lorem some text",
 				"color": "#ffe397",
 				"memory": "512 GB"
@@ -12415,42 +12415,42 @@
 			{
 				"hexColor": "#616161",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s24+-256gb-Onyx-Black"
+				"productLink": "samsung-galaxy-s24plus-256gb-Onyx-Black"
 			},
 			{
 				"hexColor": "#616161",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s24+-512gb-Onyx-Black"
+				"productLink": "samsung-galaxy-s24plus-512gb-Onyx-Black"
 			},
 			{
 				"hexColor": "#d8d5d6",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s24+-256gb-Marble-Gray"
+				"productLink": "samsung-galaxy-s24plus-256gb-Marble-Gray"
 			},
 			{
 				"hexColor": "#d8d5d6",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s24+-512gb-Marble-Gray"
+				"productLink": "samsung-galaxy-s24plus-512gb-Marble-Gray"
 			},
 			{
 				"hexColor": "#b2b5db",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s24+-256gb-Cobalt-Violet"
+				"productLink": "samsung-galaxy-s24plus-256gb-Cobalt-Violet"
 			},
 			{
 				"hexColor": "#b2b5db",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s24+-512gb-Cobalt-Violet"
+				"productLink": "samsung-galaxy-s24plus-512gb-Cobalt-Violet"
 			},
 			{
 				"hexColor": "#ffe397",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s24+-256gb-Amber-Yellow"
+				"productLink": "samsung-galaxy-s24plus-256gb-Amber-Yellow"
 			},
 			{
 				"hexColor": "#ffe397",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s24+-512gb-Amber-Yellow"
+				"productLink": "samsung-galaxy-s24plus-512gb-Amber-Yellow"
 			}
 		],
 		"popular": false,
@@ -12492,7 +12492,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Samsung Galaxy S24+",
+				"value": "Samsung Galaxy S24plus",
 				"key": "series"
 			},
 			{
@@ -14281,161 +14281,161 @@
 	{
 		"models": [
 			{
-				"model": "Samsung Galaxy S25+ 256 GB Icyblue",
+				"model": "Samsung Galaxy S25plus 256 GB Icyblue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s25+_12gb/256gb_s936b_icyblue-1.jpg",
-					"https://example.com/samsung_galaxy_s25+_12gb/256gb_s936b_icyblue-2.jpg",
-					"https://example.com/samsung_galaxy_s25+_12gb/256gb_s936b_icyblue-3.jpg"
+					"https://example.com/samsung_galaxy_s25plus_12gb/256gb_s936b_icyblue-1.jpg",
+					"https://example.com/samsung_galaxy_s25plus_12gb/256gb_s936b_icyblue-2.jpg",
+					"https://example.com/samsung_galaxy_s25plus_12gb/256gb_s936b_icyblue-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s25+-256gb-Icyblue",
+				"productLink": "samsung-galaxy-s25plus-256gb-Icyblue",
 				"shortInfo": "Lorem some text",
 				"color": "393939",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy S25+ 512 GB Icyblue",
+				"model": "Samsung Galaxy S25plus 512 GB Icyblue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s25+_12gb/512gb_s936b_icyblue-1.jpg",
-					"https://example.com/samsung_galaxy_s25+_12gb/512gb_s936b_icyblue-2.jpg",
-					"https://example.com/samsung_galaxy_s25+_12gb/512gb_s936b_icyblue-3.jpg"
+					"https://example.com/samsung_galaxy_s25plus_12gb/512gb_s936b_icyblue-1.jpg",
+					"https://example.com/samsung_galaxy_s25plus_12gb/512gb_s936b_icyblue-2.jpg",
+					"https://example.com/samsung_galaxy_s25plus_12gb/512gb_s936b_icyblue-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s25+-512gb-Icyblue",
+				"productLink": "samsung-galaxy-s25plus-512gb-Icyblue",
 				"shortInfo": "Lorem some text",
 				"color": "393939",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Samsung Galaxy S25+ 256 GB Mint",
+				"model": "Samsung Galaxy S25plus 256 GB Mint",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s25+_12gb/256gb_s936b_mint-1.jpg",
-					"https://example.com/samsung_galaxy_s25+_12gb/256gb_s936b_mint-2.jpg",
-					"https://example.com/samsung_galaxy_s25+_12gb/256gb_s936b_mint-3.jpg"
+					"https://example.com/samsung_galaxy_s25plus_12gb/256gb_s936b_mint-1.jpg",
+					"https://example.com/samsung_galaxy_s25plus_12gb/256gb_s936b_mint-2.jpg",
+					"https://example.com/samsung_galaxy_s25plus_12gb/256gb_s936b_mint-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s25+-256gb-Mint",
+				"productLink": "samsung-galaxy-s25plus-256gb-Mint",
 				"shortInfo": "Lorem some text",
 				"color": "eaf5ea",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy S25+ 512 GB Mint",
+				"model": "Samsung Galaxy S25plus 512 GB Mint",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s25+_12gb/512gb_s936b_mint-1.jpg",
-					"https://example.com/samsung_galaxy_s25+_12gb/512gb_s936b_mint-2.jpg",
-					"https://example.com/samsung_galaxy_s25+_12gb/512gb_s936b_mint-3.jpg"
+					"https://example.com/samsung_galaxy_s25plus_12gb/512gb_s936b_mint-1.jpg",
+					"https://example.com/samsung_galaxy_s25plus_12gb/512gb_s936b_mint-2.jpg",
+					"https://example.com/samsung_galaxy_s25plus_12gb/512gb_s936b_mint-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s25+-512gb-Mint",
+				"productLink": "samsung-galaxy-s25plus-512gb-Mint",
 				"shortInfo": "Lorem some text",
 				"color": "eaf5ea",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Samsung Galaxy S25+ 256 GB Navy",
+				"model": "Samsung Galaxy S25plus 256 GB Navy",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s25+_12gb/256gb_s936b_navy-1.jpg",
-					"https://example.com/samsung_galaxy_s25+_12gb/256gb_s936b_navy-2.jpg",
-					"https://example.com/samsung_galaxy_s25+_12gb/256gb_s936b_navy-3.jpg"
+					"https://example.com/samsung_galaxy_s25plus_12gb/256gb_s936b_navy-1.jpg",
+					"https://example.com/samsung_galaxy_s25plus_12gb/256gb_s936b_navy-2.jpg",
+					"https://example.com/samsung_galaxy_s25plus_12gb/256gb_s936b_navy-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s25+-256gb-Navy",
+				"productLink": "samsung-galaxy-s25plus-256gb-Navy",
 				"shortInfo": "Lorem some text",
 				"color": "456699",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy S25+ 512 GB Navy",
+				"model": "Samsung Galaxy S25plus 512 GB Navy",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s25+_12gb/512gb_s936b_navy-1.jpg",
-					"https://example.com/samsung_galaxy_s25+_12gb/512gb_s936b_navy-2.jpg",
-					"https://example.com/samsung_galaxy_s25+_12gb/512gb_s936b_navy-3.jpg"
+					"https://example.com/samsung_galaxy_s25plus_12gb/512gb_s936b_navy-1.jpg",
+					"https://example.com/samsung_galaxy_s25plus_12gb/512gb_s936b_navy-2.jpg",
+					"https://example.com/samsung_galaxy_s25plus_12gb/512gb_s936b_navy-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s25+-512gb-Navy",
+				"productLink": "samsung-galaxy-s25plus-512gb-Navy",
 				"shortInfo": "Lorem some text",
 				"color": "456699",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Samsung Galaxy S25+ 256 GB Shadow",
+				"model": "Samsung Galaxy S25plus 256 GB Shadow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s25+_12gb/256gb_s936b_shadow-1.jpg",
-					"https://example.com/samsung_galaxy_s25+_12gb/256gb_s936b_shadow-2.jpg",
-					"https://example.com/samsung_galaxy_s25+_12gb/256gb_s936b_shadow-3.jpg"
+					"https://example.com/samsung_galaxy_s25plus_12gb/256gb_s936b_shadow-1.jpg",
+					"https://example.com/samsung_galaxy_s25plus_12gb/256gb_s936b_shadow-2.jpg",
+					"https://example.com/samsung_galaxy_s25plus_12gb/256gb_s936b_shadow-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s25+-256gb-Silver-Shadow",
+				"productLink": "samsung-galaxy-s25plus-256gb-Silver-Shadow",
 				"shortInfo": "Lorem some text",
 				"color": "d5d6da",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy S25+ 512 GB Shadow",
+				"model": "Samsung Galaxy S25plus 512 GB Shadow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
 				"images": [
-					"https://example.com/samsung_galaxy_s25+_12gb/512gb_s936b_shadow-1.jpg",
-					"https://example.com/samsung_galaxy_s25+_12gb/512gb_s936b_shadow-2.jpg",
-					"https://example.com/samsung_galaxy_s25+_12gb/512gb_s936b_shadow-3.jpg"
+					"https://example.com/samsung_galaxy_s25plus_12gb/512gb_s936b_shadow-1.jpg",
+					"https://example.com/samsung_galaxy_s25plus_12gb/512gb_s936b_shadow-2.jpg",
+					"https://example.com/samsung_galaxy_s25plus_12gb/512gb_s936b_shadow-3.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
-				"productLink": "samsung-galaxy-s25+-512gb-Silver-Shadow",
+				"productLink": "samsung-galaxy-s25plus-512gb-Silver-Shadow",
 				"shortInfo": "Lorem some text",
 				"color": "d5d6da",
 				"memory": "512 GB"
@@ -14445,42 +14445,42 @@
 			{
 				"hexColor": "#393939",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s25+-256gb-Icyblue"
+				"productLink": "samsung-galaxy-s25plus-256gb-Icyblue"
 			},
 			{
 				"hexColor": "#393939",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s25+-512gb-Icyblue"
+				"productLink": "samsung-galaxy-s25plus-512gb-Icyblue"
 			},
 			{
 				"hexColor": "#eaf5ea",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s25+-256gb-Mint"
+				"productLink": "samsung-galaxy-s25plus-256gb-Mint"
 			},
 			{
 				"hexColor": "#eaf5ea",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s25+-512gb-Mint"
+				"productLink": "samsung-galaxy-s25plus-512gb-Mint"
 			},
 			{
 				"hexColor": "#456699",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s25+-256gb-Navy"
+				"productLink": "samsung-galaxy-s25plus-256gb-Navy"
 			},
 			{
 				"hexColor": "#456699",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s25+-512gb-Navy"
+				"productLink": "samsung-galaxy-s25plus-512gb-Navy"
 			},
 			{
 				"hexColor": "#d5d6da",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s25+-256gb-Silver-Shadow"
+				"productLink": "samsung-galaxy-s25plus-256gb-Silver-Shadow"
 			},
 			{
 				"hexColor": "#d5d6da",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s25+-512gb-Silver-Shadow"
+				"productLink": "samsung-galaxy-s25plus-512gb-Silver-Shadow"
 			}
 		],
 		"popular": false,
@@ -14522,7 +14522,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Samsung Galaxy S25+",
+				"value": "Samsung Galaxy S25plus",
 				"key": "series"
 			},
 			{
