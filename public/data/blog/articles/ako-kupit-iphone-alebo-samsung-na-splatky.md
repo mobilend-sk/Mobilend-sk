@@ -41,7 +41,7 @@ Nový smartfón môže byť drahou investíciou. Našťastie, existuje riešenie
 4. **Schválenie zvyčajne do 15 minút**
 5. **Telefón vám doručíme do 2 dní**
 
-> 📞 Máte otázky? Zavolajte nám alebo napíšte: [zl.maildesk@gmail.com](mailto:zl.maildesk@gmail.com)
+> 📞 Máte otázky? Zavolajte nám alebo napíšte: [support@mobilend.sk](mailto:support@mobilend.sk)
 
 ## Výhody kúpy u nás
 

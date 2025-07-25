@@ -94,7 +94,7 @@ export function generateOrganizationSchema() {
 			"@type": "ContactPoint",
 			"telephone": "+421919496013",
 			"contactType": "customer service",
-			"email": "zl.maildesk@gmail.com",
+			"email": "support@mobilend.sk",
 			"availableLanguage": ["Slovak"]
 		},
 
@@ -138,7 +138,7 @@ export function generateLocalBusinessSchema() {
 		"description": "Obchod s mobilnými telefónmi v Bratislave. Predaj iPhone, Samsung Galaxy a ďalších značiek.",
 		"url": baseUrl,
 		"telephone": "+421919496013",
-		"email": "zl.maildesk@gmail.com",
+		"email": "support@mobilend.sk",
 
 		// Адрес и геолокация
 		"address": {

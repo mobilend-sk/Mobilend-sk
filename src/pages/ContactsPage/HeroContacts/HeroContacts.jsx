@@ -9,13 +9,10 @@ const HeroContacts = () => {
 				<div className="HeroContacts__wrapper">
 					<div className="HeroContacts-part">
 						<h1>Kontakty</h1>
-						<div className="HeroContacts-part__contact">
-							<h2>Telefón</h2>
-							<a href="tel:+421919496013">+421 919 496 013</a>
-						</div>
+		
 						<div className="HeroContacts-part__contact">
 							<h2>Email</h2>
-							<a href="mailto:zl.maildesk@gmail.com">zl.maildesk@gmail.com</a>
+							<a href="mailto:support@mobilend.sk">support@mobilend.sk</a>
 						</div>
 						<div className="HeroContacts-part__contact">
 							<h2>Adresa</h2>

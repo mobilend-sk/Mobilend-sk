@@ -6,13 +6,12 @@ import Contacts from "@/pages/ContactsPage/Contacts"
 // Генерация мета-данных для страницы контактов
 export async function generateMetadata() {
 	return {
-		title: 'Kontakt - Mobilend | +421 919 496 013 | Bratislava',
-		description: 'Kontaktujte nás pre poradenstvo a objednávky mobilných telefónov. Tel: +421 919 496 013, Email: zl.maildesk@gmail.com. Návštívte nás na Pekná cesta 2459, Bratislava.',
+		title: 'Kontakt - Mobilend | support@mobilend.sk | Bratislava',
+		description: 'Kontaktujte nás pre poradenstvo a objednávky mobilných telefónov. Email: support@mobilend.sk. Návštívte nás na Pekná cesta 2459, Bratislava.',
 
 		keywords: [
 			'kontakt mobilend',
-			'+421 919 496 013',
-			'zl.maildesk@gmail.com',
+			'support@mobilend.sk',
 			'Pekná cesta 2459 Bratislava',
 			'kontakt predajňa telefóny',
 			'adresa mobilend',
@@ -23,7 +22,7 @@ export async function generateMetadata() {
 		// Open Graph
 		openGraph: {
 			title: 'Kontakt - Mobilend Bratislava',
-			description: 'Potrebujete poradiť s výberom telefónu? Kontaktujte nás na +421 919 496 013 alebo navštívte našu predajňu v Bratislave.',
+			description: 'Potrebujete poradiť s výberom telefónu? Kontaktujte nás na support@mobilend.sk alebo navštívte našu predajňu v Bratislave.',
 			type: 'website',
 			url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://mobilend.sk'}/kontakty`,
 			siteName: 'Mobilend',
@@ -42,7 +41,7 @@ export async function generateMetadata() {
 		twitter: {
 			card: 'summary_large_image',
 			title: 'Kontakt - Mobilend',
-			description: 'Kontaktujte nás: +421 919 496 013 | Bratislava, Pekná cesta 2459',
+			description: 'Kontaktujte nás: support@mobilend.sk | Bratislava, Pekná cesta 2459',
 			images: [`${process.env.NEXT_PUBLIC_SITE_URL || 'https://mobilend.sk'}/images/og.jpg`],
 		},
 

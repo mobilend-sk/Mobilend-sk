@@ -363,7 +363,7 @@ If you have questions or issues:
 
 1. Check [Issues](https://github.com/your-repo/issues)
 2. Create a new Issue with detailed description
-3. Email: zl.maildesk@gmail.com
+3. Email: support@mobilend.sk
 
 ## 🤝 Contributing
 
@@ -396,7 +396,7 @@ This project is developed for Mobilend company. All rights reserved.
 
 - **Website**: https://mobilend.sk
 - **Documentation**: [Project Wiki](https://github.com/your-repo/wiki)
-- **Support**: zl.maildesk@gmail.com
+- **Support**: support@mobilend.sk
 
 ---
 

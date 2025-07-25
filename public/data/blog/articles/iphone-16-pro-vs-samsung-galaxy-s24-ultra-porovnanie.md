@@ -100,7 +100,7 @@ Oba telefóny sú vynikajúce, rozhodnutie závisí od vašich **osobných prefe
 
 ---
 
-*Máte otázky ohľadom výberu smartfóna? Napíšte nám na [zl.maildesk@gmail.com](mailto:zl.maildesk@gmail.com) alebo navštívte náš obchod v Bratislave.*
+*Máte otázky ohľadom výberu smartfóna? Napíšte nám na [support@mobilend.sk](mailto:support@mobilend.sk) alebo navštívte náš obchod v Bratislave.*
 
 ## Často kladené otázky
 

@@ -70,4 +70,4 @@ Mobilend.sk je vaším partnerom pre nákup originálnych iPhonov na Slovensku. 
 
 ➡️ [Prejsť do sekcie iPhony na mobilend.sk](https://mobilend.sk/iphone)
 
-📞 Máte otázky? Kontaktujte nás na [zl.maildesk@gmail.com](mailto:zl.maildesk@gmail.com) alebo telefonicky.
+📞 Máte otázky? Kontaktujte nás na [support@mobilend.sk](mailto:support@mobilend.sk) alebo telefonicky.
