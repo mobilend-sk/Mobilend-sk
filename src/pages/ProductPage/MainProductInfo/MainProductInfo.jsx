@@ -94,7 +94,7 @@ const MainProductInfo = ({ product }) => {
 									<SwiperSlide key={index}>
 										<div className="MainProductInfo__thumb-container">
 											<img
-												src={`/data/gallery/${image}`}
+												src={`${product.baseImageUrl}/${image}`}
 												alt={`${product.model} - miniatúra ${index + 1}`}
 												onError={(e) => { e.target.src = '/images/placeholder.webp' }}
 											/>
@@ -121,7 +121,7 @@ const MainProductInfo = ({ product }) => {
 									<SwiperSlide key={index}>
 										<div className="MainProductInfo__image-container">
 											<img
-												src={`/data/gallery/${image}`}
+												src={`${product.baseImageUrl}/${image}`}
 												alt={`${product.model} - ${index + 1}`}
 											// onError={(e) => { e.target.src = '/images/placeholder.webp' }}
 											/>
