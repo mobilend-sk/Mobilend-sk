@@ -48,12 +48,12 @@ export async function generateMetadata({ params }) {
 		// Определяем изображение для OpenGraph
 		let ogImage = null
 		if (product.mainImage) {
-			ogImage = `${process.env.NEXT_PUBLIC_SITE_URL || 'https://mobilend.sk'}/data/gallery/${product.mainImage}`
+			ogImage = `${process.env.NEXT_PUBLIC_SITE_URL || 'https://mobilend.sk'}${product.baseImageUrl}/${product.mainImage}`
 		} else if (product.images && product.images.length > 0) {
 			// Берем первое изображение, если mainImage пустое
 			const firstImage = product.images[0]
 			if (firstImage && !firstImage.startsWith('http')) {
-				ogImage = `${process.env.NEXT_PUBLIC_SITE_URL || 'https://mobilend.sk'}/data/gallery/${firstImage}`
+				ogImage = `${process.env.NEXT_PUBLIC_SITE_URL || 'https://mobilend.sk'}${product.baseImageUrl}/${firstImage}`
 			}
 		}
 

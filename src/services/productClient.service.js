@@ -1,4 +1,3 @@
-// src/services/product.service.js
 // Клиентская версия для работы с продуктами в браузере
 
 class ProductService {
@@ -18,13 +17,21 @@ class ProductService {
 
 			const data = await response.json()
 
-			// Извлекаем все модели из всех групп
+			// Извлекаем все модели из всех групп и добавляем baseImageUrl и phone
 			const allProducts = []
 			data.forEach(group => {
 				if (group.models && Array.isArray(group.models)) {
-					allProducts.push(...group.models)
+					// Добавляем phone и baseImageUrl в каждую модель
+					const modelsWithGroupInfo = group.models.map(model => ({
+						...model,
+						phone: group.phone,
+						baseImageUrl: group.baseImageUrl
+					}))
+					allProducts.push(...modelsWithGroupInfo)
 				}
 			})
+
+			console.log(allProducts);
 
 			return allProducts
 		} catch (error) {
@@ -71,6 +78,9 @@ class ProductService {
 			// Объединяем продукт с характеристиками из его группы
 			return {
 				...product,
+				// Добавляем базовые поля группы
+				phone: productGroup.phone,
+				baseImageUrl: productGroup.baseImageUrl,
 				// Добавляем все характеристики из группы
 				'main-characteristics': productGroup['main-characteristics'] || [],
 				'display': productGroup['display'] || [],

@@ -51,7 +51,7 @@ const CartItem = ({ item, product }) => {
 			<div className="CartItem__image">
 				<Link href={`/katalog/${product.productLink}`}>
 					<Image
-						src={`/data/gallery/${product.mainImage}` || "/images/placeholder.webp"}
+						src={`${product.baseImageUrl}/${product.mainImage}` || "/images/placeholder.webp"}
 						alt={product.model}
 						width={120}
 						height={120}

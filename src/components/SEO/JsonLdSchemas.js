@@ -17,9 +17,9 @@ export function generateProductSchema(product) {
 	// Определяем изображение
 	let productImage = null
 	if (product.mainImage) {
-		productImage = `${baseUrl}/data/gallery/${product.mainImage}`
+		productImage = `${baseUrl + product.baseImageUrl}/${product.mainImage}`
 	} else if (product.images && product.images.length > 0 && !product.images[0].startsWith('http')) {
-		productImage = `${baseUrl}/data/gallery/${product.images[0]}`
+		productImage = `${baseUrl + product.baseImageUrl}/${product.images[0]}`
 	}
 
 	const schema = {

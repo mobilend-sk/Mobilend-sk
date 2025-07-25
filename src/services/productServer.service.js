@@ -1,4 +1,3 @@
-// src/services/product.service.server.js
 // Серверная версия для работы с продуктами на этапе билда (SSG)
 
 import fs from 'fs'
@@ -16,13 +15,21 @@ class ProductServiceServer {
 			const fileContent = fs.readFileSync(this.productsPath, 'utf8')
 			const data = JSON.parse(fileContent)
 
-			// Извлекаем все модели из всех групп
+			// Извлекаем все модели из всех групп и добавляем baseImageUrl и phone
 			const allProducts = []
 			data.forEach(group => {
 				if (group.models && Array.isArray(group.models)) {
-					allProducts.push(...group.models)
+					// Добавляем phone и baseImageUrl в каждую модель
+					const modelsWithGroupInfo = group.models.map(model => ({
+						...model,
+						phone: group.phone,
+						baseImageUrl: group.baseImageUrl
+					}))
+					allProducts.push(...modelsWithGroupInfo)
 				}
 			})
+
+			console.log(allProducts);
 
 			return allProducts
 		} catch (error) {
@@ -64,6 +71,9 @@ class ProductServiceServer {
 			// Объединяем продукт с характеристиками из его группы
 			return {
 				...product,
+				// Добавляем базовые поля группы
+				phone: productGroup.phone,
+				baseImageUrl: productGroup.baseImageUrl,
 				// Добавляем все характеристики из группы
 				'main-characteristics': productGroup['main-characteristics'] || [],
 				'display': productGroup['display'] || [],
