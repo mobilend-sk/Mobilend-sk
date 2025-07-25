@@ -96,6 +96,6 @@ Moderný smartfón je dnes nevyhnutnosť – pre prácu, komunikáciu aj zábavu
 
 ---
 
-👉 [Zobraziť ponuku iPhonov a Samsungov na splátky](./telefony)
+👉 [Zobraziť všetky modely iPhone a Samsung](/katalog)
 
 📍 Alebo nás navštívte osobne v Bratislave – radi vám poradíme.

@@ -82,12 +82,4 @@ Ak túžite po **najnovšom smartfóne**, ale nechcete míňať veľké peniaze 
 ---
 
 *Navštívte náš obchod v Bratislave alebo objednajte online ešte dnes.*  
-➡️ [Zobraziť všetky modely iPhone a Samsung](./telefony)
-
----
-
-## Súvisiace články:
-
-- [iPhone 16 Pro vs Galaxy S24 Ultra: Porovnanie](./iphone-16-pro-vs-samsung-galaxy-s24-ultra-porovnanie)
-- [Ktorý telefón sa oplatí v roku 2025?](./ako-vybrat-spravny-smartfon-2025)
-- [Ako funguje nákup na splátky? Otázky a odpovede](./splátky-otazky-odpovede)
+➡️ [Zobraziť všetky modely iPhone a Samsung](/katalog)

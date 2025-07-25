@@ -105,6 +105,4 @@ Aj keď nemáte oficiálnu prácu alebo ste na začiatku svojej finančnej cesty
 
 ---
 
-👉 [Pozrieť ponuku iPhonov dostupných na splátky bez navýšenia](./iphone)
-
-📍 Máte otázky? Ozvite sa nám – poradíme vám osobne, telefonicky alebo cez Telegram.
+👉 [Zobraziť všetky modely iPhone a Samsung](/katalog)

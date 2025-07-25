@@ -1,10 +1,14 @@
+// src/pages/HomePage/HomePage.jsx
+// Главная страница с добавленным BlogSlider и FAQ
+
 "use client"
 import Hero from "./Hero/Hero"
 import Sliders from "../../components/Sliders/Sliders"
 import BlogSlider from "../../components/BlogSlider/BlogSlider"
+import FAQ from "../../components/FAQ/FAQ"
 import HomeAdvantages from "./HomeAdvantages/HomeAdvantages"
 
-const HomePage = ({ blogPosts = [] }) => {
+const HomePage = ({ blogPosts = [], faqs = [] }) => {
 
 	return (
 		<main>
@@ -28,6 +32,17 @@ const HomePage = ({ blogPosts = [] }) => {
 			)}
 
 			<HomeAdvantages />
+
+			{/* FAQ секция - показываем только топ 4 вопроса */}
+			{faqs.length > 0 && (
+				<FAQ
+					faqs={faqs}
+					title="Často kladené otázky"
+					subtitle="Odpovede na najčastejšie otázky o nákupe mobilných telefónov"
+					className="FAQ--compact"
+					limit={4}
+				/>
+			)}
 		</main>
 	)
 }

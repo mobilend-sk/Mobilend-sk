@@ -1,7 +1,8 @@
 // src/app/page.js
-// Главная страница с SEO метаданными + блог
+// Главная страница с SEO метаданными + блог + FAQ
 
 import { getAllBlogPosts } from '@/lib/blog'
+import { faqData } from '@/data/faq'
 import HomePage from "@/pages/HomePage/HomePage"
 
 // ISR - перегенерация каждый час (добавляем для блога)
@@ -81,5 +82,5 @@ export default async function Home() {
 	// Получаем последние статьи блога для главной страницы (ISR - обновляется каждый час)
 	const blogPosts = getAllBlogPosts(4) // Берем только 4 последние статьи
 
-	return <HomePage blogPosts={blogPosts} />
+	return <HomePage blogPosts={blogPosts} faqs={faqData} />
 }

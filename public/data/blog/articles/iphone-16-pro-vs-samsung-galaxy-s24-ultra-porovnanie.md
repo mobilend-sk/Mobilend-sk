@@ -119,7 +119,4 @@ Oba telefóny majú vynikajúci **nočný režim**. iPhone má konzistentnejšie
 
 ---
 
-**Súvisiace články:**
-- [Najlepšie príslušenstvo pre iPhone 16 Pro](./najlepsie-prislusenstvo-iphone-16-pro)
-- [Samsung Galaxy S24 Ultra: Kompletná recenzia](./samsung-galaxy-s24-ultra-recenzia)
-- [Ako vybrať správny smartfón v roku 2025](./ako-vybrat-spravny-smartfon-2025)
+👉 [Zobraziť všetky modely iPhone a Samsung](/katalog)

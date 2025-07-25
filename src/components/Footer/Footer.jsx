@@ -24,6 +24,8 @@ const Footer = () => {
 				<div className="footer__bottom">
 					<p>Mobilend 2025 @ Všetky práva vyhradené</p>
 
+					<a href="mailto:support@mobilend.sk">support@mobilend.sk</a>
+
 					<div className="footer__bottom-social">
 						<a href="" target="#">
 							<Instagram />

@@ -138,8 +138,6 @@
 // Tablet styles
 @media (max-width: 1024px) {
 	.HomeAdvantages {
-		padding: 60px 0;
-
 		&__header {
 			margin-bottom: 40px;
 		}
@@ -166,8 +164,6 @@
 // Mobile styles
 @media (max-width: 768px) {
 	.HomeAdvantages {
-		padding: 50px 0;
-
 		&__title {
 			font-size: 28px;
 		}
@@ -213,8 +209,6 @@
 // Small mobile styles
 @media (max-width: 480px) {
 	.HomeAdvantages {
-		padding: 40px 0;
-
 		&__title {
 			font-size: 24px;
 		}

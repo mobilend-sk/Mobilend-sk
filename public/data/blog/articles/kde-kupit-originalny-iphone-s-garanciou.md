@@ -68,6 +68,6 @@ Mobilend.sk je vaším partnerom pre nákup originálnych iPhonov na Slovensku. 
 
 ---
 
-➡️ [Prejsť do sekcie iPhony na mobilend.sk](https://mobilend.sk/iphone)
+👉 [Zobraziť všetky modely iPhone a Samsung](/katalog)
 
 📞 Máte otázky? Kontaktujte nás na [support@mobilend.sk](mailto:support@mobilend.sk) alebo telefonicky.

@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header/Header";
 import CartProvider from "@/components/CartProvider/CartProvider";
 import Footer from "@/components/Footer/Footer";
+import Script from "next/script";
 
 
 const montserrat = Montserrat({
@@ -20,11 +21,33 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="sk">
 			<body className={`${montserrat.variable}`}>
+				<Script
+					id="zoho-salesiq-init"
+					strategy="beforeInteractive"
+					dangerouslySetInnerHTML={{
+						__html: `
+							window.$zoho = window.$zoho || {};
+							$zoho.salesiq = $zoho.salesiq || {
+								ready: function() {
+									console.log('Zoho SalesIQ initialized');
+								}
+							};
+						`
+					}}
+				/>
 				<Header />
 				<CartProvider>
 					{children}
 				</CartProvider>
 				<Footer />
+
+				{/* Zoho SalesIQ Chat Widget - Main Script */}
+				<Script
+					id="zoho-salesiq-widget"
+					src="https://salesiq.zohopublic.eu/widget?wc=siq6baa26158f6358677c5d4ab519fd128520a6948174d7839f102574e3dbd3f4c2"
+					strategy="lazyOnload"
+				/>
+
 			</body>
 		</html>
 	);
