@@ -5,6 +5,7 @@
 	padding: 80px 0;
 	background: linear-gradient(135deg, #f8f9fa 0%, var(--white) 100%);
 	position: relative;
+	overflow: hidden;
 
 	&__header {
 		display: flex;
@@ -311,8 +312,6 @@
 
 @media (max-width: 480px) {
 	.BlogSlider {
-		padding: 32px 0;
-
 		&__header {
 			gap: 16px;
 			margin-bottom: 24px;

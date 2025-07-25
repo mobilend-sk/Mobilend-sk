@@ -4,7 +4,7 @@
 'use client'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination, Autoplay } from 'swiper/modules'
+import { Navigation, Autoplay } from 'swiper/modules'
 import BlogCard from '@/components/BlogCard/BlogCard'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
@@ -29,17 +29,12 @@ const BlogSlider = ({
 
 	// Настройки слайдера
 	const swiperSettings = {
-		modules: [Navigation, Pagination, Autoplay],
+		modules: [Navigation, Autoplay],
 		spaceBetween: 24,
 		slidesPerView: 1,
 		navigation: {
 			prevEl: '.blog-slider-prev',
 			nextEl: '.blog-slider-next',
-		},
-		pagination: {
-			el: '.blog-slider-pagination',
-			clickable: true,
-			dynamicBullets: true,
 		},
 		autoplay: autoplay ? {
 			delay: 5000,
@@ -109,9 +104,6 @@ const BlogSlider = ({
 							</SwiperSlide>
 						))}
 					</Swiper>
-
-					{/* Пагинация */}
-					<div className="BlogSlider__pagination blog-slider-pagination"></div>
 				</div>
 
 				{/* Кнопка "Показать все" */}

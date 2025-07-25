@@ -1,7 +1,11 @@
 // src/app/page.js
-// Главная страница с SEO метаданными
+// Главная страница с SEO метаданными + блог
 
+import { getAllBlogPosts } from '@/lib/blog'
 import HomePage from "@/pages/HomePage/HomePage"
+
+// ISR - перегенерация каждый час (добавляем для блога)
+export const revalidate = 3600
 
 // Генерация мета-данных для главной страницы
 export async function generateMetadata() {
@@ -73,6 +77,9 @@ export async function generateMetadata() {
 	}
 }
 
-export default function Home() {
-	return <HomePage />
+export default async function Home() {
+	// Получаем последние статьи блога для главной страницы (ISR - обновляется каждый час)
+	const blogPosts = getAllBlogPosts(4) // Берем только 4 последние статьи
+
+	return <HomePage blogPosts={blogPosts} />
 }
