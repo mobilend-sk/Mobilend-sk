@@ -6,7 +6,7 @@
 			{
 				"model": "Apple iPhone 14 128 GB Color Midnight",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_128gb_Midnight-1.jpg",
@@ -21,7 +21,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -33,7 +33,7 @@
 			{
 				"model": "Apple iPhone 14 256 GB Color Midnight",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_128gb_Midnight-1.jpg",
@@ -48,7 +48,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 799.0,
+				"price": 659.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -60,7 +60,7 @@
 			{
 				"model": "Apple iPhone 14 512 GB Color Midnight",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_128gb_Midnight-1.jpg",
@@ -75,7 +75,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 949.0,
+				"price": 845.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -87,7 +87,7 @@
 			{
 				"model": "Apple iPhone 14 128 GB Color Starlight",
 				"category": "phone",
-				"discount": 8,
+				"discount": 32.92,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_Starlight-1.jpg",
@@ -102,7 +102,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -114,7 +114,7 @@
 			{
 				"model": "Apple iPhone 14 256 GB Color Starlight",
 				"category": "phone",
-				"discount": 8,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_Starlight-1.jpg",
@@ -129,7 +129,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 799.0,
+				"price": 560.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -141,7 +141,7 @@
 			{
 				"model": "Apple iPhone 14 512 GB Color Starlight",
 				"category": "phone",
-				"discount": 8,
+				"discount": 32.92,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_Starlight-1.jpg",
@@ -156,7 +156,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 949.0,
+				"price": 845.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -168,7 +168,7 @@
 			{
 				"model": "Apple iPhone 14 128 GB Color Blue",
 				"category": "phone",
-				"discount": 8,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_Blue-1.jpg",
@@ -183,7 +183,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 700.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -195,7 +195,7 @@
 			{
 				"model": "Apple iPhone 14 256 GB Color Blue",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_Blue-1.jpg",
@@ -210,7 +210,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 799.0,
+				"price": 823.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -222,7 +222,7 @@
 			{
 				"model": "Apple iPhone 14 512 GB Color Blue",
 				"category": "phone",
-				"discount": 8,
+				"discount": 34,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_Blue-1.jpg",
@@ -237,7 +237,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 949.0,
+				"price": 990.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -249,7 +249,7 @@
 			{
 				"model": "Apple iPhone 14 128 GB Color Purple",
 				"category": "phone",
-				"discount": 8,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_Purple-1.jpg",
@@ -264,7 +264,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 609.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -276,7 +276,7 @@
 			{
 				"model": "Apple iPhone 14 256 GB Color Purple",
 				"category": "phone",
-				"discount": 8,
+				"discount": 6.98,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_Purple-1.jpg",
@@ -303,7 +303,7 @@
 			{
 				"model": "Apple iPhone 14 512 GB Color Purple",
 				"category": "phone",
-				"discount": 8,
+				"discount": 7,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_Purple-1.jpg",
@@ -318,7 +318,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 949.0,
+				"price": 799.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -330,7 +330,7 @@
 			{
 				"model": "Apple iPhone 14 128 GB Color Red",
 				"category": "phone",
-				"discount": 8,
+				"discount": 10,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_Red-1.jpg",
@@ -345,7 +345,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 587.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -357,7 +357,7 @@
 			{
 				"model": "Apple iPhone 14 256 GB Color Red",
 				"category": "phone",
-				"discount": 8,
+				"discount": 28,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_Red-1.jpg",
@@ -372,7 +372,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 799.0,
+				"price": 845.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -384,7 +384,7 @@
 			{
 				"model": "Apple iPhone 14 512 GB Color Red",
 				"category": "phone",
-				"discount": 8,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_Red-1.jpg",
@@ -399,7 +399,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 949.0,
+				"price": 513.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -411,7 +411,7 @@
 			{
 				"model": "Apple iPhone 14 128 GB Color Yellow",
 				"category": "phone",
-				"discount": 8,
+				"discount": 34,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_Yellow-1.jpg",
@@ -426,7 +426,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 823.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -438,7 +438,7 @@
 			{
 				"model": "Apple iPhone 14 256 GB Color Yellow",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_Yellow-1.jpg",
@@ -453,7 +453,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 799.0,
+				"price": 823.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -465,7 +465,7 @@
 			{
 				"model": "Apple iPhone 14 512 GB Color Yellow",
 				"category": "phone",
-				"discount": 8,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_Yellow-1.jpg",
@@ -480,7 +480,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 949.0,
+				"price": 991.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -987,11 +987,13 @@
 		]
 	},
 	{
+		"phone": "Apple iPhone 14 Pro",
+		"baseImageUrl": "/data/gallery/14pro",
 		"models": [
 			{
 				"model": "Apple iPhone 14 Pro 128 GB Purple",
 				"category": "phone",
-				"discount": 10,
+				"discount": 15,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_Purple-1.jpg",
@@ -1002,7 +1004,7 @@
 					"apple_iphones_14.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 509.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1025,7 +1027,7 @@
 					"apple_iphones_14.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 920.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1048,7 +1050,7 @@
 					"apple_iphones_14.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 704.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1060,7 +1062,7 @@
 			{
 				"model": "Apple iPhone 14 Pro 1 T Purple",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_Purple-1.jpg",
@@ -1071,7 +1073,7 @@
 					"apple_iphones_14.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 677.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1083,7 +1085,7 @@
 			{
 				"model": "Apple iPhone 14 Pro 128 GB Gold",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_Gold-1.jpg",
@@ -1094,7 +1096,7 @@
 					"apple_iphones_14.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 600.92,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1106,7 +1108,7 @@
 			{
 				"model": "Apple iPhone 14 Pro 256 GB Gold",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_Gold-1.jpg",
@@ -1117,7 +1119,7 @@
 					"apple_iphones_14.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 600.92,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1129,7 +1131,7 @@
 			{
 				"model": "Apple iPhone 14 Pro 512 GB Gold",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_Gold-1.jpg",
@@ -1140,7 +1142,7 @@
 					"apple_iphones_14.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 669.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1163,7 +1165,7 @@
 					"apple_iphones_14.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 775.44,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1175,7 +1177,7 @@
 			{
 				"model": "Apple iPhone 14 Pro 128 GB Silver",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_Silver-1.jpg",
@@ -1186,7 +1188,7 @@
 					"apple_iphones_14.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 731.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1198,7 +1200,7 @@
 			{
 				"model": "Apple iPhone 14 Pro 256 GB Silver",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_Silver-1.jpg",
@@ -1209,7 +1211,7 @@
 					"apple_iphones_14.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 654.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1232,7 +1234,7 @@
 					"apple_iphones_14.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 760.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1255,7 +1257,7 @@
 					"apple_iphones_14.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1278,7 +1280,7 @@
 					"apple_iphones_14.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 999.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1290,7 +1292,7 @@
 			{
 				"model": "Apple iPhone 14 Pro 256 GB Black",
 				"category": "phone",
-				"discount": 10,
+				"discount": 33,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_Black-1.jpg",
@@ -1301,7 +1303,7 @@
 					"apple_iphones_14.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 843.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1324,7 +1326,7 @@
 					"apple_iphones_14.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 1359,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1336,7 +1338,7 @@
 			{
 				"model": "Apple iPhone 14 Pro 1 T Black",
 				"category": "phone",
-				"discount": 10,
+				"discount": 6,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_Black-1.jpg",
@@ -1347,7 +1349,7 @@
 					"apple_iphones_14.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 838.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1844,11 +1846,13 @@
 		]
 	},
 	{
+		"phone": "Apple iPhone 14 Pro Max",
+		"baseImageUrl": "/data/gallery/14pro-max",
 		"models": [
 			{
 				"model": "Apple iPhone 14 Pro Max 128 GB Purple",
 				"category": "phone",
-				"discount": 10,
+				"discount": 34,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_max_purple-1.jpg",
@@ -1860,7 +1864,7 @@
 					"apple_iphones_14_pro_max.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 798.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1872,7 +1876,7 @@
 			{
 				"model": "Apple iPhone 14 Pro Max 256 GB Purple",
 				"category": "phone",
-				"discount": 10,
+				"discount": 6,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_max_purple-1.jpg",
@@ -1884,7 +1888,7 @@
 					"apple_iphones_14_pro_max.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 1279.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1896,7 +1900,7 @@
 			{
 				"model": "Apple iPhone 14 Pro Max 512 GB Purple",
 				"category": "phone",
-				"discount": 10,
+				"discount": 6,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_max_purple-1.jpg",
@@ -1908,7 +1912,7 @@
 					"apple_iphones_14_pro_max.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 1279.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1932,7 +1936,7 @@
 					"apple_iphones_14_pro_max.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 677.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1944,7 +1948,7 @@
 			{
 				"model": "Apple iPhone 14 Pro Max 128 GB Gold",
 				"category": "phone",
-				"discount": 10,
+				"discount": 21,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_max_gold-1.jpg",
@@ -1956,7 +1960,7 @@
 					"apple_iphones_14_pro_max.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 1015.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1968,7 +1972,7 @@
 			{
 				"model": "Apple iPhone 14 Pro Max 256 GB Gold",
 				"category": "phone",
-				"discount": 10,
+				"discount": 33,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_max_gold-1.jpg",
@@ -1980,7 +1984,7 @@
 					"apple_iphones_14_pro_max.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 884.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1992,7 +1996,7 @@
 			{
 				"model": "Apple iPhone 14 Pro Max 512 GB Gold",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_max_gold-1.jpg",
@@ -2004,7 +2008,7 @@
 					"apple_iphones_14_pro_max.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 859.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2016,7 +2020,7 @@
 			{
 				"model": "Apple iPhone 14 Pro Max 1 T Gold",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_max_gold-1.jpg",
@@ -2028,7 +2032,7 @@
 					"apple_iphones_14_pro_max.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 739.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2040,7 +2044,7 @@
 			{
 				"model": "Apple iPhone 14 Pro Max 128 GB Silver",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_max_silver-1.jpg",
@@ -2052,7 +2056,7 @@
 					"apple_iphones_14_pro_max.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 589.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -2064,7 +2068,7 @@
 			{
 				"model": "Apple iPhone 14 Pro Max 256 GB Silver",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_max_silver-1.jpg",
@@ -2076,7 +2080,7 @@
 					"apple_iphones_14_pro_max.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 829.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -2088,7 +2092,7 @@
 			{
 				"model": "Apple iPhone 14 Pro Max 512 GB Silver",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_max_silver-1.jpg",
@@ -2100,7 +2104,7 @@
 					"apple_iphones_14_pro_max.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 759.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -2112,7 +2116,7 @@
 			{
 				"model": "Apple iPhone 14 Pro Max 1 T Silver",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_max_silver-1.jpg",
@@ -2124,7 +2128,7 @@
 					"apple_iphones_14_pro_max.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 1424.75,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -2136,7 +2140,7 @@
 			{
 				"model": "Apple iPhone 14 Pro Max 128 GB Black",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_max_black-1.jpg",
@@ -2148,7 +2152,7 @@
 					"apple_iphones_14_pro_max.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 1025.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -2160,7 +2164,7 @@
 			{
 				"model": "Apple iPhone 14 Pro Max 256 GB Black",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_max_black-1.jpg",
@@ -2172,7 +2176,7 @@
 					"apple_iphones_14_pro_max.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 1025.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2184,7 +2188,7 @@
 			{
 				"model": "Apple iPhone 14 Pro Max 512 GB Black",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_14_pro_max_black-1.jpg",
@@ -2196,7 +2200,7 @@
 					"apple_iphones_14_pro_max.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 1025.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2220,7 +2224,7 @@
 					"apple_iphones_14_pro_max.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 1799.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2717,6 +2721,8 @@
 		]
 	},
 	{
+		"phone": "Apple iPhone 14 Plus",
+		"baseImageUrl": "/data/gallery/14plus",
 		"models": [
 			{
 				"model": "Apple iPhone 14 Plus 128 GB Blue",
@@ -2731,7 +2737,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2753,7 +2759,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2775,7 +2781,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2797,7 +2803,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2819,7 +2825,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2841,7 +2847,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2863,7 +2869,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2885,7 +2891,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2907,7 +2913,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2929,7 +2935,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2951,7 +2957,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -2973,7 +2979,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -2995,7 +3001,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -3017,7 +3023,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3039,7 +3045,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3061,7 +3067,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3083,7 +3089,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3105,7 +3111,7 @@
 					"apple_iphones_14_plus.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3627,6 +3633,8 @@
 		]
 	},
 	{
+		"phone": "Apple iPhone 15 Pro Max",
+		"baseImageUrl": "/data/gallery/15promax",
 		"models": [
 			{
 				"model": "Apple iPhone 15 Pro Max 256 GB Black Titanium",
@@ -3639,7 +3647,7 @@
 					"apple_iphone_15_pro_max_Black_Titanium-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3659,7 +3667,7 @@
 					"apple_iphone_15_pro_max_Black_Titanium-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3679,7 +3687,7 @@
 					"apple_iphone_15_pro_max_Black_Titanium-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3699,7 +3707,7 @@
 					"apple_iphone_15_pro_max_White_Titanium-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3719,7 +3727,7 @@
 					"apple_iphone_15_pro_max_White_Titanium-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3739,7 +3747,7 @@
 					"apple_iphone_15_pro_max_White_Titanium-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3759,7 +3767,7 @@
 					"apple_iphone_15_pro_max_Blue_Titanium-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -3779,7 +3787,7 @@
 					"apple_iphone_15_pro_max_Blue_Titanium-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -3799,7 +3807,7 @@
 					"apple_iphone_15_pro_max_Blue_Titanium-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -3819,7 +3827,7 @@
 					"apple_iphone_15_pro_max_Natural_Titanium-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3839,7 +3847,7 @@
 					"apple_iphone_15_pro_max_Natural_Titanium-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3859,7 +3867,7 @@
 					"apple_iphone_15_pro_max_Natural_Titanium-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4336,11 +4344,13 @@
 		]
 	},
 	{
+		"phone": "Apple iPhone 15 Pro",
+		"baseImageUrl": "/data/gallery/15pro",
 		"models": [
 			{
 				"model": "Apple iPhone 15 Pro 128 GB Black Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_15_pro_Black_Titanium-1.jpg",
@@ -4350,7 +4360,7 @@
 					"apple_iphone_15_pro_Black_Titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 700.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4372,7 +4382,7 @@
 					"apple_iphone_15_pro_Black_Titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4394,7 +4404,7 @@
 					"apple_iphone_15_pro_Black_Titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4416,7 +4426,7 @@
 					"apple_iphone_15_pro_Black_Titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4438,7 +4448,7 @@
 					"apple_iphone_15_pro_White_Titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4460,7 +4470,7 @@
 					"apple_iphone_15_pro_White_Titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4482,7 +4492,7 @@
 					"apple_iphone_15_pro_White_Titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4504,7 +4514,7 @@
 					"apple_iphone_15_pro_White_Titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4526,7 +4536,7 @@
 					"apple_iphone_15_pro_Blue_Titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4548,7 +4558,7 @@
 					"apple_iphone_15_pro_Blue_Titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4570,7 +4580,7 @@
 					"apple_iphone_15_pro_Blue_Titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4592,7 +4602,7 @@
 					"apple_iphone_15_pro_Blue_Titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4614,7 +4624,7 @@
 					"apple_iphone_15_pro_Natural_Titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4636,7 +4646,7 @@
 					"apple_iphone_15_pro_Natural_Titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4658,7 +4668,7 @@
 					"apple_iphone_15_pro_Natural_Titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4680,7 +4690,7 @@
 					"apple_iphone_15_pro_Natural_Titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5177,6 +5187,8 @@
 		]
 	},
 	{
+		"phone": "Apple iPhone 15",
+		"baseImageUrl": "/data/gallery/15",
 		"models": [
 			{
 				"model": "Apple iPhone 15 128 GB Blue",
@@ -5189,7 +5201,7 @@
 					"apple_iphone_15_Blue-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5209,7 +5221,7 @@
 					"apple_iphone_15_Blue-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5229,7 +5241,7 @@
 					"apple_iphone_15_Blue-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5249,7 +5261,7 @@
 					"apple_iphone_15_Yellow-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5269,7 +5281,7 @@
 					"apple_iphone_15_Yellow-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5289,7 +5301,7 @@
 					"apple_iphone_15_Yellow-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5309,7 +5321,7 @@
 					"apple_iphone_15_Pink-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5329,7 +5341,7 @@
 					"apple_iphone_15_Pink-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5349,7 +5361,7 @@
 					"apple_iphone_15_Pink-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5369,7 +5381,7 @@
 					"apple_iphone_15_Green-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5389,7 +5401,7 @@
 					"apple_iphone_15_Green-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5409,7 +5421,7 @@
 					"apple_iphone_15_Green-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5429,7 +5441,7 @@
 					"apple_iphone_15_Midnight-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5449,7 +5461,7 @@
 					"apple_iphone_15_Midnight-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5469,7 +5481,7 @@
 					"apple_iphone_15_Midnight-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5961,6 +5973,8 @@
 		]
 	},
 	{
+		"phone": "Apple iPhone 15",
+		"baseImageUrl": "/data/gallery/15+",
 		"models": [
 			{
 				"model": "Apple iPhone 15 Plus 128 GB Blue",
@@ -5973,7 +5987,7 @@
 					"apple_iphone_15_plus_Blue-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5993,7 +6007,7 @@
 					"apple_iphone_15_plus_Blue-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6013,7 +6027,7 @@
 					"apple_iphone_15_plus_Blue-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6033,7 +6047,7 @@
 					"apple_iphone_15_plus_Yellow-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6053,7 +6067,7 @@
 					"apple_iphone_15_plus_Yellow-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6073,7 +6087,7 @@
 					"apple_iphone_15_plus_Yellow-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6093,7 +6107,7 @@
 					"apple_iphone_15_plus_Pink-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6113,7 +6127,7 @@
 					"apple_iphone_15_plus_Pink-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6133,7 +6147,7 @@
 					"apple_iphone_15_plus_Pink-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6153,7 +6167,7 @@
 					"apple_iphone_15_plus_Green-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6173,7 +6187,7 @@
 					"apple_iphone_15_plus_Green-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6193,7 +6207,7 @@
 					"apple_iphone_15_plus_Green-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6213,7 +6227,7 @@
 					"apple_iphone_15_plus_Midnight-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6233,7 +6247,7 @@
 					"apple_iphone_15_plus_Midnight-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6253,7 +6267,7 @@
 					"apple_iphone_15_plus_Midnight-3.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6745,11 +6759,13 @@
 		]
 	},
 	{
+		"phone": "Apple iPhone 16",
+		"baseImageUrl": "/data/gallery/16",
 		"models": [
 			{
 				"model": "Apple iPhone 16 128 GB Color Black",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_Black-1.jpg",
@@ -6759,7 +6775,7 @@
 					"apple_iphone_16_Black-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6771,7 +6787,7 @@
 			{
 				"model": "Apple iPhone 16 256 GB Color Black",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_Black-1.jpg",
@@ -6781,7 +6797,7 @@
 					"apple_iphone_16_Black-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6793,7 +6809,7 @@
 			{
 				"model": "Apple iPhone 16 512 GB Color Black",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_Black-1.jpg",
@@ -6803,7 +6819,7 @@
 					"apple_iphone_16_Black-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6815,7 +6831,7 @@
 			{
 				"model": "Apple iPhone 16 128 GB Color White",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_White-1.jpg",
@@ -6825,7 +6841,7 @@
 					"apple_iphone_16_White-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6837,7 +6853,7 @@
 			{
 				"model": "Apple iPhone 16 256 GB Color White",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_White-1.jpg",
@@ -6847,7 +6863,7 @@
 					"apple_iphone_16_White-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6859,7 +6875,7 @@
 			{
 				"model": "Apple iPhone 16 512 GB Color White",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_White-1.jpg",
@@ -6869,7 +6885,7 @@
 					"apple_iphone_16_White-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6881,7 +6897,7 @@
 			{
 				"model": "Apple iPhone 16 128 GB Color Pink",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_Pink-1.jpg",
@@ -6891,7 +6907,7 @@
 					"apple_iphone_16_Pink-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6903,7 +6919,7 @@
 			{
 				"model": "Apple iPhone 16 256 GB Color Pink",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_Pink-1.jpg",
@@ -6913,7 +6929,7 @@
 					"apple_iphone_16_Pink-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6925,7 +6941,7 @@
 			{
 				"model": "Apple iPhone 16 512 GB Color Pink",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_Pink-1.jpg",
@@ -6935,7 +6951,7 @@
 					"apple_iphone_16_Pink-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6947,7 +6963,7 @@
 			{
 				"model": "Apple iPhone 16 128 GB Color Blue",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_Blue-1.jpg",
@@ -6957,7 +6973,7 @@
 					"apple_iphone_16_Blue-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6969,7 +6985,7 @@
 			{
 				"model": "Apple iPhone 16 256 GB Color Blue",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_Blue-1.jpg",
@@ -6979,7 +6995,7 @@
 					"apple_iphone_16_Blue-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -6991,7 +7007,7 @@
 			{
 				"model": "Apple iPhone 16 512 GB Color Blue",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_Blue-1.jpg",
@@ -7001,7 +7017,7 @@
 					"apple_iphone_16_Blue-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7013,7 +7029,7 @@
 			{
 				"model": "Apple iPhone 16 128 GB Color Green",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_Green-1.jpg",
@@ -7023,7 +7039,7 @@
 					"apple_iphone_16_Green-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7035,7 +7051,7 @@
 			{
 				"model": "Apple iPhone 16 256 GB Color Green",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_Green-1.jpg",
@@ -7045,7 +7061,7 @@
 					"apple_iphone_16_Green-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7057,7 +7073,7 @@
 			{
 				"model": "Apple iPhone 16 512 GB Color Green",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_Green-1.jpg",
@@ -7067,7 +7083,7 @@
 					"apple_iphone_16_Green-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7559,11 +7575,13 @@
 		]
 	},
 	{
+		"phone": "Apple iPhone 16 Plus",
+		"baseImageUrl": "/data/gallery/16+",
 		"models": [
 			{
 				"model": "Apple iPhone 16 Plus 128 GB Color Black",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_plus_Black-1.jpg",
@@ -7573,7 +7591,7 @@
 					"apple_iphone_16_plus_Black-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7585,7 +7603,7 @@
 			{
 				"model": "Apple iPhone 16 Plus 256 GB Color Black",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_plus_Black-1.jpg",
@@ -7595,7 +7613,7 @@
 					"apple_iphone_16_plus_Black-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7607,7 +7625,7 @@
 			{
 				"model": "Apple iPhone 16 Plus 512 GB Color Black",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_plus_Black-1.jpg",
@@ -7617,7 +7635,7 @@
 					"apple_iphone_16_plus_Black-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7629,7 +7647,7 @@
 			{
 				"model": "Apple iPhone 16 Plus 128 GB Color White",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_plus_White-1.jpg",
@@ -7639,7 +7657,7 @@
 					"apple_iphone_16_plus_White-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7651,7 +7669,7 @@
 			{
 				"model": "Apple iPhone 16 Plus 256 GB Color White",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_plus_White-1.jpg",
@@ -7661,7 +7679,7 @@
 					"apple_iphone_16_plus_White-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7673,7 +7691,7 @@
 			{
 				"model": "Apple iPhone 16 Plus 512 GB Color White",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_plus_White-1.jpg",
@@ -7683,7 +7701,7 @@
 					"apple_iphone_16_plus_White-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7695,7 +7713,7 @@
 			{
 				"model": "Apple iPhone 16 Plus 128 GB Color Pink",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_plus_Pink-1.jpg",
@@ -7705,7 +7723,7 @@
 					"apple_iphone_16_plus_Pink-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7717,7 +7735,7 @@
 			{
 				"model": "Apple iPhone 16 Plus 256 GB Color Pink",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_plus_Pink-1.jpg",
@@ -7727,7 +7745,7 @@
 					"apple_iphone_16_plus_Pink-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7739,7 +7757,7 @@
 			{
 				"model": "Apple iPhone 16 Plus 512 GB Color Pink",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_plus_Pink-1.jpg",
@@ -7749,7 +7767,7 @@
 					"apple_iphone_16_plus_Pink-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7761,7 +7779,7 @@
 			{
 				"model": "Apple iPhone 16 Plus 128 GB Color Blue",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_plus_Blue-1.jpg",
@@ -7771,7 +7789,7 @@
 					"apple_iphone_16_plus_Blue-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7783,7 +7801,7 @@
 			{
 				"model": "Apple iPhone 16 Plus 256 GB Color Blue",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_plus_Blue-1.jpg",
@@ -7793,7 +7811,7 @@
 					"apple_iphone_16_plus_Blue-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7805,7 +7823,7 @@
 			{
 				"model": "Apple iPhone 16 Plus 512 GB Color Blue",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_plus_Blue-1.jpg",
@@ -7815,7 +7833,7 @@
 					"apple_iphone_16_plus_Blue-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7827,7 +7845,7 @@
 			{
 				"model": "Apple iPhone 16 Plus 128 GB Color Green",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_plus_Green-1.jpg",
@@ -7837,7 +7855,7 @@
 					"apple_iphone_16_plus_Green-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7849,7 +7867,7 @@
 			{
 				"model": "Apple iPhone 16 Plus 256 GB Color Green",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_plus_Green-1.jpg",
@@ -7859,7 +7877,7 @@
 					"apple_iphone_16_plus_Green-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -7871,7 +7889,7 @@
 			{
 				"model": "Apple iPhone 16 Plus 512 GB Color Green",
 				"category": "phone",
-				"discount": 8,
+				"discount": 9,
 				"mainImage": "",
 				"images": [
 					"apple_iphone_16_plus_Green-1.jpg",
@@ -7881,7 +7899,7 @@
 					"apple_iphone_16_plus_Green-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8373,6 +8391,8 @@
 		]
 	},
 	{
+		"phone": "Apple iPhone 16 Pro",
+		"baseImageUrl": "/data/gallery/16pro",
 		"models": [
 			{
 				"model": "Apple iPhone 16 Pro 128 GB Black Titanium",
@@ -8386,7 +8406,7 @@
 					"apple_iphone_16_pro_Black-Titanium-4.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8407,7 +8427,7 @@
 					"apple_iphone_16_pro_Black-Titanium-4.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8428,7 +8448,7 @@
 					"apple_iphone_16_pro_Black-Titanium-4.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8449,7 +8469,7 @@
 					"apple_iphone_16_pro_Black-Titanium-4.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8470,7 +8490,7 @@
 					"apple_iphone_16_pro_White-Titanium-4.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8491,7 +8511,7 @@
 					"apple_iphone_16_pro_White-Titanium-4.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8512,7 +8532,7 @@
 					"apple_iphone_16_pro_White-Titanium-4.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8533,7 +8553,7 @@
 					"apple_iphone_16_pro_White-Titanium-4.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8554,7 +8574,7 @@
 					"apple_iphone_16_pro_Desert-Titanium-4.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8575,7 +8595,7 @@
 					"apple_iphone_16_pro_Desert-Titanium-4.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8596,7 +8616,7 @@
 					"apple_iphone_16_pro_Desert-Titanium-4.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8617,7 +8637,7 @@
 					"apple_iphone_16_pro_Desert-Titanium-4.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8638,7 +8658,7 @@
 					"apple_iphone_16_pro_Natural-Titanium-4.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8659,7 +8679,7 @@
 					"apple_iphone_16_pro_Natural-Titanium-4.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8680,7 +8700,7 @@
 					"apple_iphone_16_pro_Natural-Titanium-4.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8701,7 +8721,7 @@
 					"apple_iphone_16_pro_Natural-Titanium-4.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9198,6 +9218,8 @@
 		]
 	},
 	{
+		"phone": "Apple iPhone 16 Pro Max",
+		"baseImageUrl": "/data/gallery/16promax",
 		"models": [
 			{
 				"model": "Apple iPhone 16 Pro Max 256 GB Black Titanium",
@@ -9212,7 +9234,7 @@
 					"apple_iphone_16_pro_max_black-titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9234,7 +9256,7 @@
 					"apple_iphone_16_pro_max_black-titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9256,7 +9278,7 @@
 					"apple_iphone_16_pro_max_black-titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9278,7 +9300,7 @@
 					"apple_iphone_16_pro_max_white-titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9300,7 +9322,7 @@
 					"apple_iphone_16_pro_max_white-titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9322,7 +9344,7 @@
 					"apple_iphone_16_pro_max_white-titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9344,7 +9366,7 @@
 					"apple_iphone_16_pro_max_desert-titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9366,7 +9388,7 @@
 					"apple_iphone_16_pro_max_desert-titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9388,7 +9410,7 @@
 					"apple_iphone_16_pro_max_desert-titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9410,7 +9432,7 @@
 					"apple_iphone_16_pro_max_natural-titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9432,7 +9454,7 @@
 					"apple_iphone_16_pro_max_natural-titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9454,7 +9476,7 @@
 					"apple_iphone_16_pro_max_natural-titanium-5.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9931,6 +9953,8 @@
 		]
 	},
 	{
+		"phone": "Samsung Galaxy S23",
+		"baseImageUrl": "/data/gallery/s23",
 		"models": [
 			{
 				"model": "Samsung Galaxy S23 128 GB Black",
@@ -9950,7 +9974,7 @@
 					"samsung_galaxy_s23_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9977,7 +10001,7 @@
 					"samsung_galaxy_s23_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10004,7 +10028,7 @@
 					"samsung_galaxy_s23_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10031,7 +10055,7 @@
 					"samsung_galaxy_s23_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10058,7 +10082,7 @@
 					"samsung_galaxy_s23_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10085,7 +10109,7 @@
 					"samsung_galaxy_s23_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10112,7 +10136,7 @@
 					"samsung_galaxy_s23_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10139,7 +10163,7 @@
 					"samsung_galaxy_s23_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10166,7 +10190,7 @@
 					"samsung_galaxy_s23_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10193,7 +10217,7 @@
 					"samsung_galaxy_s23_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10220,7 +10244,7 @@
 					"samsung_galaxy_s23_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10247,7 +10271,7 @@
 					"samsung_galaxy_s23_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10724,6 +10748,8 @@
 		]
 	},
 	{
+		"phone": "Samsung Galaxy S23+",
+		"baseImageUrl": "/data/gallery/s23+",
 		"models": [
 			{
 				"model": "Samsung Galaxy S23+ 256 GB Black",
@@ -10743,7 +10769,7 @@
 					"samsung_galaxy_s23+_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10770,7 +10796,7 @@
 					"samsung_galaxy_s23+_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10797,7 +10823,7 @@
 					"samsung_galaxy_s23+_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10824,7 +10850,7 @@
 					"samsung_galaxy_s23+_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10851,7 +10877,7 @@
 					"samsung_galaxy_s23+_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10878,7 +10904,7 @@
 					"samsung_galaxy_s23+_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10905,7 +10931,7 @@
 					"samsung_galaxy_s23+_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10932,7 +10958,7 @@
 					"samsung_galaxy_s23+_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -11389,6 +11415,8 @@
 		]
 	},
 	{
+		"phone": "Samsung Galaxy S23 Ultra",
+		"baseImageUrl": "/data/gallery/s23ultra",
 		"models": [
 			{
 				"model": "Samsung Galaxy S23 Ultra 256 GB Black",
@@ -11404,7 +11432,7 @@
 					"samsung_galaxy_s23_ultra-black-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -11427,7 +11455,7 @@
 					"samsung_galaxy_s23_ultra-black-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -11450,7 +11478,7 @@
 					"samsung_galaxy_s23_ultra-black-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -11477,7 +11505,7 @@
 					"samsung_galaxy_s23_ultra-cream-10.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -11504,7 +11532,7 @@
 					"samsung_galaxy_s23_ultra-cream-10.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -11531,7 +11559,7 @@
 					"samsung_galaxy_s23_ultra-cream-10.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -11556,7 +11584,7 @@
 					"samsung_galaxy_s23_ultra-green-8.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -11581,7 +11609,7 @@
 					"samsung_galaxy_s23_ultra-green-8.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -11606,7 +11634,7 @@
 					"samsung_galaxy_s23_ultra-green-8.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -11630,7 +11658,7 @@
 					"samsung_galaxy_s23_ultra-lavender-7.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -11654,7 +11682,7 @@
 					"samsung_galaxy_s23_ultra-lavender-7.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -11678,7 +11706,7 @@
 					"samsung_galaxy_s23_ultra-lavender-7.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -12155,6 +12183,8 @@
 		]
 	},
 	{
+		"phone": "Samsung Galaxy S24",
+		"baseImageUrl": "/data/gallery/24",
 		"models": [
 			{
 				"model": "Samsung Galaxy S24 128 GB Black",
@@ -12172,7 +12202,7 @@
 					"samsung_galaxy_s24_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -12197,7 +12227,7 @@
 					"samsung_galaxy_s24_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -12223,7 +12253,7 @@
 					"samsung_galaxy_s24_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -12249,7 +12279,7 @@
 					"samsung_galaxy_s24_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -12274,7 +12304,7 @@
 					"samsung_galaxy_s24_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -12299,7 +12329,7 @@
 					"samsung_galaxy_s24_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -12325,7 +12355,7 @@
 					"samsung_galaxy_s24_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -12351,7 +12381,7 @@
 					"samsung_galaxy_s24_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -12808,6 +12838,8 @@
 		]
 	},
 	{
+		"phone": "Samsung Galaxy S24+",
+		"baseImageUrl": "/data/gallery/24+",
 		"models": [
 			{
 				"model": "Samsung Galaxy S24+ 256 GB Black",
@@ -12825,7 +12857,7 @@
 					"samsung_galaxy_s24_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -12850,7 +12882,7 @@
 					"samsung_galaxy_s24_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -12876,7 +12908,7 @@
 					"samsung_galaxy_s24_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -12902,7 +12934,7 @@
 					"samsung_galaxy_s24_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -12927,7 +12959,7 @@
 					"samsung_galaxy_s24_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -12952,7 +12984,7 @@
 					"samsung_galaxy_s24_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -12978,7 +13010,7 @@
 					"samsung_galaxy_s24_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -13004,7 +13036,7 @@
 					"samsung_galaxy_s24_all.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -13461,6 +13493,8 @@
 		]
 	},
 	{
+		"phone": "Samsung Galaxy S24 Ultra",
+		"baseImageUrl": "/data/gallery/24ultra",
 		"models": [
 			{
 				"model": "Samsung Galaxy S24 Ultra 256 GB Black",
@@ -13478,7 +13512,7 @@
 					"samsung_galaxy_s24_ultra-black-8.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -13503,7 +13537,7 @@
 					"samsung_galaxy_s24_ultra-black-8.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -13528,7 +13562,7 @@
 					"samsung_galaxy_s24_ultra-black-8.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -13553,7 +13587,7 @@
 					"samsung_galaxy_s24_ultra-gray-8.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -13578,7 +13612,7 @@
 					"samsung_galaxy_s24_ultra-gray-8.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -13603,7 +13637,7 @@
 					"samsung_galaxy_s24_ultra-gray-8.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -13628,7 +13662,7 @@
 					"samsung_galaxy_s24_ultra-violet-8.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -13653,7 +13687,7 @@
 					"samsung_galaxy_s24_ultra-violet-8.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -13678,7 +13712,7 @@
 					"samsung_galaxy_s24_ultra-violet-8.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -13703,7 +13737,7 @@
 					"samsung_galaxy_s24_ultra-yellow-8.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -13728,7 +13762,7 @@
 					"samsung_galaxy_s24_ultra-yellow-8.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -13753,7 +13787,7 @@
 					"samsung_galaxy_s24_ultra-yellow-8.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14230,6 +14264,8 @@
 		]
 	},
 	{
+		"phone": "Samsung Galaxy S25",
+		"baseImageUrl": "/data/gallery/25",
 		"models": [
 			{
 				"model": "Samsung Galaxy S25 128 GB Icyblue",
@@ -14245,7 +14281,7 @@
 					"samsung_galaxy_s25_s931b_icyblue-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14268,7 +14304,7 @@
 					"samsung_galaxy_s25_s931b_icyblue-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14291,7 +14327,7 @@
 					"samsung_galaxy_s25_s931b_icyblue-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14314,7 +14350,7 @@
 					"samsung_galaxy_s25_mint-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14337,7 +14373,7 @@
 					"samsung_galaxy_s25_mint-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14360,7 +14396,7 @@
 					"samsung_galaxy_s25_mint-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14383,7 +14419,7 @@
 					"samsung_galaxy_s25_navy-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14406,7 +14442,7 @@
 					"samsung_galaxy_s25_navy-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14429,7 +14465,7 @@
 					"samsung_galaxy_s25_navy-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14452,7 +14488,7 @@
 					"samsung_galaxy_s25_shadow-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14475,7 +14511,7 @@
 					"samsung_galaxy_s25_shadow-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14498,7 +14534,7 @@
 					"samsung_galaxy_s25_shadow-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14521,7 +14557,7 @@
 					"samsung_galaxy_s25_coralred-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14544,7 +14580,7 @@
 					"samsung_galaxy_s25_coralred-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14567,7 +14603,7 @@
 					"samsung_galaxy_s25_coralred-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14590,7 +14626,7 @@
 					"samsung_galaxy_s25_blueblack-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14613,7 +14649,7 @@
 					"samsung_galaxy_s25_blueblack-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14636,7 +14672,7 @@
 					"samsung_galaxy_s25_blueblack-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14659,7 +14695,7 @@
 					"samsung_galaxy_s25_pinkgold-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14682,7 +14718,7 @@
 					"samsung_galaxy_s25_pinkgold-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -14705,7 +14741,7 @@
 					"samsung_galaxy_s25_pinkgold-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -15212,6 +15248,8 @@
 		]
 	},
 	{
+		"phone": "Samsung Galaxy S25+",
+		"baseImageUrl": "/data/gallery/25+",
 		"models": [
 			{
 				"model": "Samsung Galaxy S25+ 256 GB Icyblue",
@@ -15227,7 +15265,7 @@
 					"samsung_galaxy_s25_s931b_icyblue-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -15250,7 +15288,7 @@
 					"samsung_galaxy_s25_s931b_icyblue-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -15273,7 +15311,7 @@
 					"samsung_galaxy_s25_mint-1.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -15296,7 +15334,7 @@
 					"samsung_galaxy_s25_mint-1.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -15319,7 +15357,7 @@
 					"samsung_galaxy_s25_navy-1.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -15342,7 +15380,7 @@
 					"samsung_galaxy_s25_navy-1.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -15365,7 +15403,7 @@
 					"samsung_galaxy_s25_shadow-1.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -15388,7 +15426,7 @@
 					"samsung_galaxy_s25_shadow-1.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -15845,6 +15883,8 @@
 		]
 	},
 	{
+		"phone": "Samsung Galaxy S25 Edge",
+		"baseImageUrl": "/data/gallery/s25edge",
 		"models": [
 			{
 				"model": "Samsung Galaxy S25 Edge 256 GB Icyblue",
@@ -15861,7 +15901,7 @@
 					"samsung_galaxy_s25_edge_icyblue-7.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -15884,7 +15924,7 @@
 					"samsung_galaxy_s25_edge_icyblue-6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -15908,7 +15948,7 @@
 					"samsung_galaxy_s25_edge_silver-7.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -15932,7 +15972,7 @@
 					"samsung_galaxy_s25_edge_silver-7.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -15956,7 +15996,7 @@
 					"samsung_galaxy_s25_edge_black-7.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -15980,7 +16020,7 @@
 					"samsung_galaxy_s25_edge_black-7.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -16427,6 +16467,8 @@
 		]
 	},
 	{
+		"phone": "Samsung Galaxy S25 Ultra",
+		"baseImageUrl": "/data/gallery/s25ultra",
 		"models": [
 			{
 				"model": "Samsung Galaxy S25 Ultra 256 GB Titanium Silverblue",
@@ -16445,7 +16487,7 @@
 					"samsung_galaxy_s25_ultra_titanium-silverblue-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -16471,7 +16513,7 @@
 					"samsung_galaxy_s25_ultra_titanium-silverblue-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -16497,7 +16539,7 @@
 					"samsung_galaxy_s25_ultra_titanium-silverblue-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -16523,7 +16565,7 @@
 					"samsung_galaxy_s25_ultra_titanium-black-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -16549,7 +16591,7 @@
 					"samsung_galaxy_s25_ultra_titanium-black-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -16575,7 +16617,7 @@
 					"samsung_galaxy_s25_ultra_titanium-black-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -16601,7 +16643,7 @@
 					"samsung_galaxy_s25_ultra_titanium-gray-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -16627,7 +16669,7 @@
 					"samsung_galaxy_s25_ultra_titanium-gray-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -16653,7 +16695,7 @@
 					"samsung_galaxy_s25_ultra_titanium-gray-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -16679,7 +16721,7 @@
 					"samsung_galaxy_s25_ultra_titanium-whitesilver-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -16705,7 +16747,7 @@
 					"samsung_galaxy_s25_ultra_titanium-whitesilver-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -16731,7 +16773,7 @@
 					"samsung_galaxy_s25_ultra_titanium-whitesilver-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -17208,6 +17250,8 @@
 		]
 	},
 	{
+		"phone": "Samsung Galaxy Z Flip6",
+		"baseImageUrl": "/data/gallery/Flip6",
 		"models": [
 			{
 				"model": "Samsung Galaxy Z Flip6 256 GB Blue",
@@ -17227,7 +17271,7 @@
 					"samsung_galaxy_z_flips6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -17254,7 +17298,7 @@
 					"samsung_galaxy_z_flips6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -17281,7 +17325,7 @@
 					"samsung_galaxy_z_flips6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -17308,7 +17352,7 @@
 					"samsung_galaxy_z_flips6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -17336,7 +17380,7 @@
 					"samsung_galaxy_z_flips6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -17363,7 +17407,7 @@
 					"samsung_galaxy_z_flips6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -17390,7 +17434,7 @@
 					"samsung_galaxy_z_flips6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -17417,7 +17461,7 @@
 					"samsung_galaxy_z_flips6.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -17874,9 +17918,11 @@
 		]
 	},
 	{
+		"phone": "Samsung Galaxy Z Flip7",
+		"baseImageUrl": "/data/gallery/Flip7",
 		"models": [
 			{
-				"model": "Samsung Galaxy Z Flip7 F766B 256 GB Blue Shadow",
+				"model": "Samsung Galaxy Z Flip 7 256 GB Blue Shadow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
@@ -17892,7 +17938,7 @@
 					"samsung_galaxy_z_flip7_-blue-shadow-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -17902,7 +17948,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy Z Flip7 F766B 512 GB Blue Shadow",
+				"model": "Samsung Galaxy Z Flip 7 512 GB Blue Shadow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
@@ -17918,7 +17964,7 @@
 					"samsung_galaxy_z_flip7_-blue-shadow-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -17928,7 +17974,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Samsung Galaxy Z Flip7 F766B 256 GB Jetblack",
+				"model": "Samsung Galaxy Z Flip 7 256 GB Jetblack",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
@@ -17944,7 +17990,7 @@
 					"samsung_galaxy_z_flip7_jetblack-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -17954,7 +18000,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy Z Flip7 F766B 512 GB Jetblack",
+				"model": "Samsung Galaxy Z Flip 7 512 GB Jetblack",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
@@ -17970,7 +18016,7 @@
 					"samsung_galaxy_z_flip7_jetblack-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -17980,7 +18026,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Samsung Galaxy Z Flip7 F766B 256 GB Coralred",
+				"model": "Samsung Galaxy Z Flip 7 256 GB Coralred",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
@@ -17996,7 +18042,7 @@
 					"samsung_galaxy_z_flip7_coralred-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -18006,7 +18052,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy Z Flip7 F766B 512 GB Coralred",
+				"model": "Samsung Galaxy Z Flip 7 512 GB Coralred",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
@@ -18022,7 +18068,7 @@
 					"samsung_galaxy_z_flip7_coralred-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -18469,9 +18515,11 @@
 		]
 	},
 	{
+		"phone": "Samsung Galaxy Z Fold 5",
+		"baseImageUrl": "/data/gallery/ZFold5",
 		"models": [
 			{
-				"model": "Samsung Galaxy Z Fold5 256 GB Icyblue",
+				"model": "Samsung Galaxy Z Fold 5 256 GB Icyblue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
@@ -18488,7 +18536,7 @@
 					"samsung_galaxy_z_folds5.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -18498,7 +18546,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy Z Fold5 512 GB Icyblue",
+				"model": "Samsung Galaxy Z Fold 5 512 GB Icyblue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
@@ -18515,7 +18563,7 @@
 					"samsung_galaxy_z_folds5.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -18525,7 +18573,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Samsung Galaxy Z Fold5 1T Icyblue",
+				"model": "Samsung Galaxy Z Fold 5 1T Icyblue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
@@ -18542,7 +18590,7 @@
 					"samsung_galaxy_z_folds5.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -18552,7 +18600,7 @@
 				"memory": "1T"
 			},
 			{
-				"model": "Samsung Galaxy Z Fold5 256 GB Phantomblack",
+				"model": "Samsung Galaxy Z Fold 5 256 GB Phantomblack",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
@@ -18569,7 +18617,7 @@
 					"samsung_galaxy_z_folds5.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -18579,7 +18627,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy Z Fold5 512 GB Phantomblack",
+				"model": "Samsung Galaxy Z Fold 5 512 GB Phantomblack",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
@@ -18596,7 +18644,7 @@
 					"samsung_galaxy_z_folds5.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -18606,7 +18654,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Samsung Galaxy Z Fold5 1T Phantomblack",
+				"model": "Samsung Galaxy Z Fold 5 1T Phantomblack",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
@@ -18623,7 +18671,7 @@
 					"samsung_galaxy_z_folds5.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -18633,7 +18681,7 @@
 				"memory": "1T"
 			},
 			{
-				"model": "Samsung Galaxy Z Fold5 256 GB Cream",
+				"model": "Samsung Galaxy Z Fold 5 256 GB Cream",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
@@ -18650,7 +18698,7 @@
 					"samsung_galaxy_z_folds5.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -18660,7 +18708,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy Z Fold5 512 GB Cream",
+				"model": "Samsung Galaxy Z Fold 5 512 GB Cream",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
@@ -18677,7 +18725,7 @@
 					"samsung_galaxy_z_folds5.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -18687,7 +18735,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Samsung Galaxy Z Fold5 1T Cream",
+				"model": "Samsung Galaxy Z Fold 5 1T Cream",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "",
@@ -18704,7 +18752,7 @@
 					"samsung_galaxy_z_folds5.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -19166,9 +19214,11 @@
 		]
 	},
 	{
+		"phone": "Samsung Galaxy Z Fold 6",
+		"baseImageUrl": "/data/gallery/Fold6",
 		"models": [
 			{
-				"model": "Samsung Galaxy Z Fold6 256 GB Navy",
+				"model": "Samsung Galaxy Z Fold 6 256 GB Navy",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "",
@@ -19184,7 +19234,7 @@
 					"samsung_galaxy_z_fold6_navy-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -19194,7 +19244,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy Z Fold6 512 GB Navy",
+				"model": "Samsung Galaxy Z Fold 6 512 GB Navy",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "",
@@ -19210,7 +19260,7 @@
 					"samsung_galaxy_z_fold6_navy-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -19220,7 +19270,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Samsung Galaxy Z Fold6 1T Navy",
+				"model": "Samsung Galaxy Z Fold 6 1T Navy",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "",
@@ -19236,7 +19286,7 @@
 					"samsung_galaxy_z_fold6_navy-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -19246,7 +19296,7 @@
 				"memory": "1T"
 			},
 			{
-				"model": "Samsung Galaxy Z Fold6 256 GB Pink",
+				"model": "Samsung Galaxy Z Fold 6 256 GB Pink",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "",
@@ -19262,7 +19312,7 @@
 					"samsung_galaxy_z_fold6_pink-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -19272,7 +19322,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy Z Fold6 512 GB Pink",
+				"model": "Samsung Galaxy Z Fold 6 512 GB Pink",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "",
@@ -19288,7 +19338,7 @@
 					"samsung_galaxy_z_fold6_pink-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -19298,7 +19348,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Samsung Galaxy Z Fold6 1T Pink",
+				"model": "Samsung Galaxy Z Fold 6 1T Pink",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "",
@@ -19314,7 +19364,7 @@
 					"samsung_galaxy_z_fold6_pink-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -19324,7 +19374,7 @@
 				"memory": "1T"
 			},
 			{
-				"model": "Samsung Galaxy Z Fold6 256 GB Shadow",
+				"model": "Samsung Galaxy Z Fold 6 256 GB Shadow",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "",
@@ -19340,7 +19390,7 @@
 					"samsung_galaxy_z_fold6_shadow-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -19350,7 +19400,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Samsung Galaxy Z Fold6 512 GB Shadow",
+				"model": "Samsung Galaxy Z Fold 6 512 GB Shadow",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "",
@@ -19366,7 +19416,7 @@
 					"samsung_galaxy_z_fold6_shadow-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -19376,7 +19426,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Samsung Galaxy Z Fold6 1T Shadow",
+				"model": "Samsung Galaxy Z Fold 6 1T Shadow",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "",
@@ -19392,7 +19442,7 @@
 					"samsung_galaxy_z_fold6_shadow-9.jpg"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 699.0,
+				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
