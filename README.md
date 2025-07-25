@@ -1,5 +1,5 @@
 # 📱 Mobilend - Mobile Phone E-commerce Platform
-**Version: 1.0.2**
+**Version: 1.0.3**
 
 **Modern mobile phone store** built with Next.js 15 App Router, optimized for maximum performance and SEO.
 
