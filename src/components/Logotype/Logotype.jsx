@@ -7,7 +7,7 @@ const Logotype = () => {
 	return (
 		<div className="Logotype">
 			<Link href={"/"}>
-				<img height={48} src="/logo.svg" alt="Mobilend" />
+				Mobilend
 			</Link>
 		</div>
 	)
