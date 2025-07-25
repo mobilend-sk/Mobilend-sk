@@ -1,5 +1,5 @@
-footer {
-	padding: 30px 0 20px 0;
+footer.footer {
+	padding: 40px 0 30px 0;
 	background: var(--darkBlue);
 	color: var(--white);
 
@@ -14,8 +14,13 @@ footer {
 		}
 	}
 
-	.Menu a {
-		color: var(--white);
+	.Menu {
+		ul {
+			flex-wrap: wrap;
+		}
+		a {
+			color: var(--white);
+		}
 	}
 
 	.footer__wrapper {
@@ -23,11 +28,14 @@ footer {
 		justify-content: space-between;
 		flex-wrap: wrap;
 		gap: 30px;
-		margin-bottom: 30px;
+		margin-bottom: 40px;
 	}
 
 	.footer__part {
-		max-width: 640px;
+		max-width: 440px;
+		p {
+			letter-spacing: 1px;
+		}
 	}
 
 	.footer__bottom {
@@ -35,7 +43,7 @@ footer {
 		align-items: center;
 		justify-content: space-between;
 		flex-wrap: wrap;
-		padding-top: 20px;
+		padding-top: 30px;
 		border-top: 1px solid var(--gray);
 		gap: 30px;
 

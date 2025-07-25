@@ -17,8 +17,8 @@ const HomeAdvantages = () => {
 		},
 		{
 			icon: Award,
-			title: "Modely 2024",
-			description: "Iba najnovšie zariadenia Samsung a Xiaomi z roku 2024"
+			title: "Modely 2023-2025",
+			description: "Iba najnovšie zariadenia Samsung a Iphone z roku 2023-2025"
 		},
 		{
 			icon: HeartHandshake,

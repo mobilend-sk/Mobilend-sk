@@ -15,6 +15,7 @@ const Menu = ({ setActiveMenu }) => {
 			<ul>
 				<li><Link onClick={closeMenu} href={"/"}>Hlavná</Link></li>
 				<li><Link onClick={closeMenu} href={"/katalog"}>Katalóg</Link></li>
+				<li><Link onClick={closeMenu} href={"/blog"}>Blog</Link></li>
 				<li><Link onClick={closeMenu} href={"/o-nas"}>O nás</Link></li>
 				<li><Link onClick={closeMenu} href={"/kontakty"}>Kontakty</Link></li>
 			</ul>

@@ -9,12 +9,12 @@ const Footer = () => {
 
 	return (
 
-		<footer>
+		<footer className="footer">
 			<div className="container">
 				<div className="footer__wrapper">
 					<div className="footer__part">
 						<Logotype />
-						<p>vaše obľúbené miesto pre najnovšie smartfóny, gadgety a technológie. Rýchle doručenie, férové ceny, bez starostí.</p>
+						<p>Vaše obľúbené miesto pre najnovšie smartfóny, gadgety a technológie. Rýchle doručenie, férové ceny, bez starostí.</p>
 					</div>
 					<div className="footer__part">
 						<Menu />

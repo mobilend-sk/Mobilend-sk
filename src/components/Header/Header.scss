@@ -1,4 +1,4 @@
-header {
+header.header {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -29,7 +29,7 @@ header {
 }
 
 @media all and (max-width: 768px) {
-	header {
+	header.header {
 		.header__menu {
 			position: absolute;
 			z-index: 1;

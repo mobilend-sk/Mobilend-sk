@@ -29,7 +29,7 @@ const Header = () => {
 	}, [pathname])
 
 	return (
-		<header className={isScrolled ? 'scrolled' : ''}>
+		<header className={`header ${isScrolled ? 'scrolled' : ''}`}>
 			<div className="container">
 				<div className="header__wrapper">
 					<Logotype />
