@@ -3639,7 +3639,7 @@
 			{
 				"model": "Apple iPhone 15 Pro Max 256 GB Black Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Black_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_max_Black_Titanium-1.webp",
@@ -3647,7 +3647,7 @@
 					"apple_iphone_15_pro_max_Black_Titanium-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 823.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3659,7 +3659,7 @@
 			{
 				"model": "Apple iPhone 15 Pro Max 512 GB Black Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 15,
 				"mainImage": "apple_iphone_15_pro_max_Black_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_max_Black_Titanium-1.webp",
@@ -3667,7 +3667,7 @@
 					"apple_iphone_15_pro_max_Black_Titanium-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 999.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3679,7 +3679,7 @@
 			{
 				"model": "Apple iPhone 15 Pro Max 1 T Black Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 62,
 				"mainImage": "apple_iphone_15_pro_max_Black_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_max_Black_Titanium-1.webp",
@@ -3687,7 +3687,7 @@
 					"apple_iphone_15_pro_max_Black_Titanium-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1350.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3699,7 +3699,7 @@
 			{
 				"model": "Apple iPhone 15 Pro Max 256 GB White Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_White_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_max_White_Titanium-1.webp",
@@ -3707,7 +3707,7 @@
 					"apple_iphone_15_pro_max_White_Titanium-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 729.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3719,7 +3719,7 @@
 			{
 				"model": "Apple iPhone 15 Pro Max 512 GB White Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_White_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_max_White_Titanium-1.webp",
@@ -3727,7 +3727,7 @@
 					"apple_iphone_15_pro_max_White_Titanium-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1079.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3739,7 +3739,7 @@
 			{
 				"model": "Apple iPhone 15 Pro Max 1 T White Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_White_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_max_White_Titanium-1.webp",
@@ -3747,7 +3747,7 @@
 					"apple_iphone_15_pro_max_White_Titanium-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1549.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3759,7 +3759,7 @@
 			{
 				"model": "Apple iPhone 15 Pro Max 256 GB Blue Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Blue_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_max_Blue_Titanium-1.webp",
@@ -3767,7 +3767,7 @@
 					"apple_iphone_15_pro_max_Blue_Titanium-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1079.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -3779,7 +3779,7 @@
 			{
 				"model": "Apple iPhone 15 Pro Max 512 GB Blue Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Blue_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_max_Blue_Titanium-1.webp",
@@ -3787,7 +3787,7 @@
 					"apple_iphone_15_pro_max_Blue_Titanium-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1199.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -3799,7 +3799,7 @@
 			{
 				"model": "Apple iPhone 15 Pro Max 1 T Blue Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Blue_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_max_Blue_Titanium-1.webp",
@@ -3807,7 +3807,7 @@
 					"apple_iphone_15_pro_max_Blue_Titanium-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1799.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -3819,7 +3819,7 @@
 			{
 				"model": "Apple iPhone 15 Pro Max 256 GB Natural Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Natural_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_max_Natural_Titanium-1.webp",
@@ -3827,7 +3827,7 @@
 					"apple_iphone_15_pro_max_Natural_Titanium-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 999.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3839,7 +3839,7 @@
 			{
 				"model": "Apple iPhone 15 Pro Max 512 GB Natural Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Natural_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_max_Natural_Titanium-1.webp",
@@ -3847,7 +3847,7 @@
 					"apple_iphone_15_pro_max_Natural_Titanium-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1549.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3859,7 +3859,7 @@
 			{
 				"model": "Apple iPhone 15 Pro Max 1 T Natural Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Natural_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_max_Natural_Titanium-1.webp",
@@ -3867,7 +3867,7 @@
 					"apple_iphone_15_pro_max_Natural_Titanium-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1549.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4372,7 +4372,7 @@
 			{
 				"model": "Apple iPhone 15 Pro 256 GB Black Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_Black_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_Black_Titanium-1.webp",
@@ -4382,7 +4382,7 @@
 					"apple_iphone_15_pro_Black_Titanium-5.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 815.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4394,7 +4394,7 @@
 			{
 				"model": "Apple iPhone 15 Pro 512 GB Black Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_Black_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_Black_Titanium-1.webp",
@@ -4404,7 +4404,7 @@
 					"apple_iphone_15_pro_Black_Titanium-5.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1079.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4426,7 +4426,7 @@
 					"apple_iphone_15_pro_Black_Titanium-5.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1449.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4438,7 +4438,7 @@
 			{
 				"model": "Apple iPhone 15 Pro 128 GB White Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_White_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_White_Titanium-1.webp",
@@ -4448,7 +4448,7 @@
 					"apple_iphone_15_pro_White_Titanium-5.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 729.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4470,7 +4470,7 @@
 					"apple_iphone_15_pro_White_Titanium-5.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1079.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4492,7 +4492,7 @@
 					"apple_iphone_15_pro_White_Titanium-5.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1199.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4514,7 +4514,7 @@
 					"apple_iphone_15_pro_White_Titanium-5.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1349.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4526,7 +4526,7 @@
 			{
 				"model": "Apple iPhone 15 Pro 128 GB Blue Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_Blue_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_Blue_Titanium-1.webp",
@@ -4536,7 +4536,7 @@
 					"apple_iphone_15_pro_Blue_Titanium-5.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1079.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4548,7 +4548,7 @@
 			{
 				"model": "Apple iPhone 15 Pro 256 GB Blue Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 25,
 				"mainImage": "apple_iphone_15_pro_Blue_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_Blue_Titanium-1.webp",
@@ -4558,7 +4558,7 @@
 					"apple_iphone_15_pro_Blue_Titanium-5.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 823.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4570,7 +4570,7 @@
 			{
 				"model": "Apple iPhone 15 Pro 512 GB Blue Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_Blue_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_Blue_Titanium-1.webp",
@@ -4580,7 +4580,7 @@
 					"apple_iphone_15_pro_Blue_Titanium-5.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1079.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4602,7 +4602,7 @@
 					"apple_iphone_15_pro_Blue_Titanium-5.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1349.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4624,7 +4624,7 @@
 					"apple_iphone_15_pro_Natural_Titanium-5.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 729.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4636,7 +4636,7 @@
 			{
 				"model": "Apple iPhone 15 Pro 256 GB Natural Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 5,
 				"mainImage": "apple_iphone_15_pro_Natural_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_Natural_Titanium-1.webp",
@@ -4646,7 +4646,7 @@
 					"apple_iphone_15_pro_Natural_Titanium-5.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1079.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4658,7 +4658,7 @@
 			{
 				"model": "Apple iPhone 15 Pro 512 GB Natural Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 7,
 				"mainImage": "apple_iphone_15_pro_Natural_Titanium-1.webp",
 				"images": [
 					"apple_iphone_15_pro_Natural_Titanium-1.webp",
@@ -4668,7 +4668,7 @@
 					"apple_iphone_15_pro_Natural_Titanium-5.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 999.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4690,7 +4690,7 @@
 					"apple_iphone_15_pro_Natural_Titanium-5.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1349.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5193,7 +5193,7 @@
 			{
 				"model": "Apple iPhone 15 128 GB Blue",
 				"category": "phone",
-				"discount": 10,
+				"discount": 17,
 				"mainImage": "apple_iphone_15_Blue-1.webp",
 				"images": [
 					"apple_iphone_15_Blue-1.webp",
@@ -5201,7 +5201,7 @@
 					"apple_iphone_15_Blue-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 700.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5213,7 +5213,7 @@
 			{
 				"model": "Apple iPhone 15 256 GB Blue",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_Blue-1.webp",
 				"images": [
 					"apple_iphone_15_Blue-1.webp",
@@ -5221,7 +5221,7 @@
 					"apple_iphone_15_Blue-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 823.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5233,7 +5233,7 @@
 			{
 				"model": "Apple iPhone 15 512 GB Blue",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_Blue-1.webp",
 				"images": [
 					"apple_iphone_15_Blue-1.webp",
@@ -5241,7 +5241,7 @@
 					"apple_iphone_15_Blue-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1059.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5253,7 +5253,7 @@
 			{
 				"model": "Apple iPhone 15 128 GB Yellow",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_Yellow-1.webp",
 				"images": [
 					"apple_iphone_15_Yellow-1.webp",
@@ -5261,7 +5261,7 @@
 					"apple_iphone_15_Yellow-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 699.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5273,7 +5273,7 @@
 			{
 				"model": "Apple iPhone 15 256 GB Yellow",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_Yellow-1.webp",
 				"images": [
 					"apple_iphone_15_Yellow-1.webp",
@@ -5281,7 +5281,7 @@
 					"apple_iphone_15_Yellow-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 823.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5293,7 +5293,7 @@
 			{
 				"model": "Apple iPhone 15 512 GB Yellow",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_Yellow-1.webp",
 				"images": [
 					"apple_iphone_15_Yellow-1.webp",
@@ -5301,7 +5301,7 @@
 					"apple_iphone_15_Yellow-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 999.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5321,7 +5321,7 @@
 					"apple_iphone_15_Pink-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5341,7 +5341,7 @@
 					"apple_iphone_15_Pink-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 839.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5353,7 +5353,7 @@
 			{
 				"model": "Apple iPhone 15 512 GB Pink",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_Pink-1.webp",
 				"images": [
 					"apple_iphone_15_Pink-1.webp",
@@ -5361,7 +5361,7 @@
 					"apple_iphone_15_Pink-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 1059.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5373,7 +5373,7 @@
 			{
 				"model": "Apple iPhone 15 128 GB Green",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_Green-1.webp",
 				"images": [
 					"apple_iphone_15_Green-1.webp",
@@ -5381,7 +5381,7 @@
 					"apple_iphone_15_Green-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 700.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5393,7 +5393,7 @@
 			{
 				"model": "Apple iPhone 15 256 GB Green",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_Green-1.webp",
 				"images": [
 					"apple_iphone_15_Green-1.webp",
@@ -5401,7 +5401,7 @@
 					"apple_iphone_15_Green-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 809.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5421,7 +5421,7 @@
 					"apple_iphone_15_Green-3.webp"
 				],
 				"modelGroup": "Iphones",
-				"price": 550.90,
+				"price": 990.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
