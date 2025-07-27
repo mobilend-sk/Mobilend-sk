@@ -24,7 +24,7 @@ const AboutHero = () => {
 						</p>
 						<div className="AboutHero__text">
 							<p>
-								Sme online technický obchod špecializujúci sa na najnovšie smartfóny a tablety Samsung a Iphone
+								Sme online technický obchod špecializujúci sa na najnovšie smartfóny a tablety iPhone a Samsung
 								(modely 2023-2025) spolu s oficiálnymi príslušenstvami. Všetky naše produkty sú úplne nové,
 								certifikované a dodávajú sa s oficiálnou zárukou a rýchlym doručením.
 							</p>
