@@ -7,7 +7,7 @@ const Logotype = () => {
 	return (
 		<div className="Logotype">
 			<Link href={"/"}>
-				MobilendSK
+				Mobilend
 			</Link>
 		</div>
 	)
