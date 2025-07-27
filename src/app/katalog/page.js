@@ -7,7 +7,7 @@ import CatalogPage from "@/pages/CatalogPage/CatalogPage"
 export async function generateMetadata() {
 	return {
 		title: 'Katalóg mobilných telefónov - Mobilend.sk | iPhone, Samsung',
-		description: 'Kompletný katalóg mobilných telefónov. iPhone, Samsung Galaxy, Iphone a ďalšie značky za najlepšie ceny s doručením zadarmo. Porovnajte ceny a vyberte si.',
+		description: 'Kompletný katalóg mobilných telefónov. iPhone, Samsung Galaxy a ďalšie značky za najlepšie ceny s doručením zadarmo. Porovnajte ceny a vyberte si.',
 
 		keywords: [
 			'katalóg telefónov',

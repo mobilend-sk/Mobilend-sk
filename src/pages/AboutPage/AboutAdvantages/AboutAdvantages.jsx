@@ -17,7 +17,7 @@ const AboutAdvantages = () => {
 		{
 			icon: Award,
 			title: "Najnovšie modely 2023-2025",
-			description: "Ponúkame iba najnovšie zariadenia Samsung a Iphone z roku 2023-2025 s oficiálnymi príslušenstvami"
+			description: "Ponúkame iba najnovšie zariadenia Samsung a  z roku 2023-2025 s oficiálnymi príslušenstvami"
 		},
 		{
 			icon: HeartHandshake,

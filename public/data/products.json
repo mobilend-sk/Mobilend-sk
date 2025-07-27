@@ -1,10 +1,10 @@
 [
 	{
-		"phone": "Apple iPhone 14",
+		"phone": "Apple iphone 14",
 		"baseImageUrl": "/data/gallery/14-01",
 		"models": [
 			{
-				"model": "Apple iPhone 14 128 GB Color Midnight",
+				"model": "Apple iphone 14 128 GB Color Midnight",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_14_128gb_Midnight-1.webp",
@@ -20,7 +20,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -31,7 +31,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 256 GB Color Midnight",
+				"model": "Apple iphone 14 256 GB Color Midnight",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_14_128gb_Midnight-1.webp",
@@ -47,7 +47,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 659.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -58,7 +58,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 512 GB Color Midnight",
+				"model": "Apple iphone 14 512 GB Color Midnight",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_14_128gb_Midnight-1.webp",
@@ -74,7 +74,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 845.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -85,7 +85,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 128 GB Color Starlight",
+				"model": "Apple iphone 14 128 GB Color Starlight",
 				"category": "phone",
 				"discount": 32.92,
 				"mainImage": "apple_iphone_14_Starlight-1.webp",
@@ -101,7 +101,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -112,7 +112,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 256 GB Color Starlight",
+				"model": "Apple iphone 14 256 GB Color Starlight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_Starlight-1.webp",
@@ -128,7 +128,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 560.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -139,7 +139,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 512 GB Color Starlight",
+				"model": "Apple iphone 14 512 GB Color Starlight",
 				"category": "phone",
 				"discount": 32.92,
 				"mainImage": "apple_iphone_14_Starlight-1.webp",
@@ -155,7 +155,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 845.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -166,7 +166,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 128 GB Color Blue",
+				"model": "Apple iphone 14 128 GB Color Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_Blue-1.webp",
@@ -182,7 +182,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 700.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -193,7 +193,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 256 GB Color Blue",
+				"model": "Apple iphone 14 256 GB Color Blue",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_14_Blue-1.webp",
@@ -209,7 +209,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 823.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -220,7 +220,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 512 GB Color Blue",
+				"model": "Apple iphone 14 512 GB Color Blue",
 				"category": "phone",
 				"discount": 34,
 				"mainImage": "apple_iphone_14_Blue-1.webp",
@@ -236,7 +236,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 990.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -247,7 +247,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 128 GB Color Purple",
+				"model": "Apple iphone 14 128 GB Color Purple",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_Purple-1.webp",
@@ -263,7 +263,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 609.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -274,7 +274,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 256 GB Color Purple",
+				"model": "Apple iphone 14 256 GB Color Purple",
 				"category": "phone",
 				"discount": 6.98,
 				"mainImage": "apple_iphone_14_Purple-1.webp",
@@ -290,7 +290,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 799.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -301,7 +301,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 512 GB Color Purple",
+				"model": "Apple iphone 14 512 GB Color Purple",
 				"category": "phone",
 				"discount": 7,
 				"mainImage": "apple_iphone_14_Purple-1.webp",
@@ -317,7 +317,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 799.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -328,7 +328,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 128 GB Color Red",
+				"model": "Apple iphone 14 128 GB Color Red",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_Red-1.webp",
@@ -344,7 +344,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 587.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -355,7 +355,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 256 GB Color Red",
+				"model": "Apple iphone 14 256 GB Color Red",
 				"category": "phone",
 				"discount": 28,
 				"mainImage": "apple_iphone_14_Red-1.webp",
@@ -371,7 +371,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 845.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -382,7 +382,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 512 GB Color Red",
+				"model": "Apple iphone 14 512 GB Color Red",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_Red-1.webp",
@@ -398,7 +398,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 513.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -409,7 +409,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 128 GB Color Yellow",
+				"model": "Apple iphone 14 128 GB Color Yellow",
 				"category": "phone",
 				"discount": 34,
 				"mainImage": "apple_iphone_14_Yellow-1.webp",
@@ -425,7 +425,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 823.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -436,7 +436,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 256 GB Color Yellow",
+				"model": "Apple iphone 14 256 GB Color Yellow",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_14_Yellow-1.webp",
@@ -452,7 +452,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 823.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -463,7 +463,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 512 GB Color Yellow",
+				"model": "Apple iphone 14 512 GB Color Yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_Yellow-1.webp",
@@ -479,7 +479,7 @@
 					"apple_iphone_14_128gb_Midnight-9.webp",
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 991.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -620,7 +620,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iPhone 14",
+				"value": "Apple iphone 14",
 				"key": "series"
 			},
 			{
@@ -987,11 +987,11 @@
 		]
 	},
 	{
-		"phone": "Apple iPhone 14 Pro",
+		"phone": "Apple iphone 14 Pro",
 		"baseImageUrl": "/data/gallery/14pro",
 		"models": [
 			{
-				"model": "Apple iPhone 14 Pro 128 GB Purple",
+				"model": "Apple iphone 14 Pro 128 GB Purple",
 				"category": "phone",
 				"discount": 15,
 				"mainImage": "apple_iphone_14_pro_Purple-1.webp",
@@ -1003,7 +1003,7 @@
 					"apple_iphone_14_pro_Purple-5.webp",
 					"apple_iphones_14.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 509.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1014,7 +1014,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro 256 GB Purple",
+				"model": "Apple iphone 14 Pro 256 GB Purple",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_Purple-1.webp",
@@ -1026,7 +1026,7 @@
 					"apple_iphone_14_pro_Purple-5.webp",
 					"apple_iphones_14.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 920.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1037,7 +1037,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro 512 GB Purple",
+				"model": "Apple iphone 14 Pro 512 GB Purple",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_Purple-1.webp",
@@ -1049,7 +1049,7 @@
 					"apple_iphone_14_pro_Purple-5.webp",
 					"apple_iphones_14.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 704.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1060,7 +1060,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro 1 T Purple",
+				"model": "Apple iphone 14 Pro 1 T Purple",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_Purple-1.webp",
@@ -1072,7 +1072,7 @@
 					"apple_iphone_14_pro_Purple-5.webp",
 					"apple_iphones_14.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 677.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1083,7 +1083,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 14 Pro 128 GB Gold",
+				"model": "Apple iphone 14 Pro 128 GB Gold",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_Gold-1.webp",
@@ -1095,7 +1095,7 @@
 					"apple_iphone_14_pro_Gold-5.webp",
 					"apple_iphones_14.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 600.92,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1106,7 +1106,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro 256 GB Gold",
+				"model": "Apple iphone 14 Pro 256 GB Gold",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_Gold-1.webp",
@@ -1118,7 +1118,7 @@
 					"apple_iphone_14_pro_Gold-5.webp",
 					"apple_iphones_14.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 600.92,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1129,7 +1129,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro 512 GB Gold",
+				"model": "Apple iphone 14 Pro 512 GB Gold",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_Gold-1.webp",
@@ -1141,7 +1141,7 @@
 					"apple_iphone_14_pro_Gold-5.webp",
 					"apple_iphones_14.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 669.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1152,7 +1152,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro 1 T Gold",
+				"model": "Apple iphone 14 Pro 1 T Gold",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_Gold-1.webp",
@@ -1164,7 +1164,7 @@
 					"apple_iphone_14_pro_Gold-5.webp",
 					"apple_iphones_14.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 775.44,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1175,7 +1175,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 14 Pro 128 GB Silver",
+				"model": "Apple iphone 14 Pro 128 GB Silver",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_Silver-1.webp",
@@ -1187,7 +1187,7 @@
 					"apple_iphone_14_pro_Silver-5.webp",
 					"apple_iphones_14.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 731.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1198,7 +1198,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro 256 GB Silver",
+				"model": "Apple iphone 14 Pro 256 GB Silver",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_Silver-1.webp",
@@ -1210,7 +1210,7 @@
 					"apple_iphone_14_pro_Silver-5.webp",
 					"apple_iphones_14.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 654.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1221,7 +1221,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro 512 GB Silver",
+				"model": "Apple iphone 14 Pro 512 GB Silver",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_Silver-1.webp",
@@ -1233,7 +1233,7 @@
 					"apple_iphone_14_pro_Silver-5.webp",
 					"apple_iphones_14.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 760.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1244,7 +1244,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro 1 T Silver",
+				"model": "Apple iphone 14 Pro 1 T Silver",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_Silver-1.webp",
@@ -1256,7 +1256,7 @@
 					"apple_iphone_14_pro_Silver-5.webp",
 					"apple_iphones_14.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1267,7 +1267,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 14 Pro 128 GB Black",
+				"model": "Apple iphone 14 Pro 128 GB Black",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_Black-1.webp",
@@ -1279,7 +1279,7 @@
 					"apple_iphone_14_pro_Black-5.webp",
 					"apple_iphones_14.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 999.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1290,7 +1290,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro 256 GB Black",
+				"model": "Apple iphone 14 Pro 256 GB Black",
 				"category": "phone",
 				"discount": 33,
 				"mainImage": "apple_iphone_14_pro_Black-1.webp",
@@ -1302,7 +1302,7 @@
 					"apple_iphone_14_pro_Black-5.webp",
 					"apple_iphones_14.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 843.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1313,7 +1313,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro 512 GB Black",
+				"model": "Apple iphone 14 Pro 512 GB Black",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_Black-1.webp",
@@ -1325,7 +1325,7 @@
 					"apple_iphone_14_pro_Black-5.webp",
 					"apple_iphones_14.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1359,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1336,7 +1336,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro 1 T Black",
+				"model": "Apple iphone 14 Pro 1 T Black",
 				"category": "phone",
 				"discount": 6,
 				"mainImage": "apple_iphone_14_pro_Black-1.webp",
@@ -1348,7 +1348,7 @@
 					"apple_iphone_14_pro_Black-5.webp",
 					"apple_iphones_14.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 838.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1479,7 +1479,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iPhone 14",
+				"value": "Apple iphone 14",
 				"key": "series"
 			},
 			{
@@ -1846,11 +1846,11 @@
 		]
 	},
 	{
-		"phone": "Apple iPhone 14 Pro Max",
+		"phone": "Apple iphone 14 Pro Max",
 		"baseImageUrl": "/data/gallery/14pro-max",
 		"models": [
 			{
-				"model": "Apple iPhone 14 Pro Max 128 GB Purple",
+				"model": "Apple iphone 14 Pro Max 128 GB Purple",
 				"category": "phone",
 				"discount": 34,
 				"mainImage": "apple_iphone_14_pro_max_purple-1.webp",
@@ -1863,7 +1863,7 @@
 					"apple_iphone_14_pro_max_purple-6.webp",
 					"apple_iphones_14_pro_max.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 798.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1874,7 +1874,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro Max 256 GB Purple",
+				"model": "Apple iphone 14 Pro Max 256 GB Purple",
 				"category": "phone",
 				"discount": 6,
 				"mainImage": "apple_iphone_14_pro_max_purple-1.webp",
@@ -1887,7 +1887,7 @@
 					"apple_iphone_14_pro_max_purple-6.webp",
 					"apple_iphones_14_pro_max.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1279.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1898,7 +1898,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro Max 512 GB Purple",
+				"model": "Apple iphone 14 Pro Max 512 GB Purple",
 				"category": "phone",
 				"discount": 6,
 				"mainImage": "apple_iphone_14_pro_max_purple-1.webp",
@@ -1911,7 +1911,7 @@
 					"apple_iphone_14_pro_max_purple-6.webp",
 					"apple_iphones_14_pro_max.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1279.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1922,7 +1922,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro Max 1 T Purple",
+				"model": "Apple iphone 14 Pro Max 1 T Purple",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_max_purple-1.webp",
@@ -1935,7 +1935,7 @@
 					"apple_iphone_14_pro_max_purple-6.webp",
 					"apple_iphones_14_pro_max.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 677.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1946,7 +1946,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 14 Pro Max 128 GB Gold",
+				"model": "Apple iphone 14 Pro Max 128 GB Gold",
 				"category": "phone",
 				"discount": 21,
 				"mainImage": "apple_iphone_14_pro_max_gold-1.webp",
@@ -1959,7 +1959,7 @@
 					"apple_iphone_14_pro_max_gold-6.webp",
 					"apple_iphones_14_pro_max.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1015.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1970,7 +1970,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro Max 256 GB Gold",
+				"model": "Apple iphone 14 Pro Max 256 GB Gold",
 				"category": "phone",
 				"discount": 33,
 				"mainImage": "apple_iphone_14_pro_max_gold-1.webp",
@@ -1983,7 +1983,7 @@
 					"apple_iphone_14_pro_max_gold-6.webp",
 					"apple_iphones_14_pro_max.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 884.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -1994,7 +1994,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro Max 512 GB Gold",
+				"model": "Apple iphone 14 Pro Max 512 GB Gold",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_gold-1.webp",
@@ -2007,7 +2007,7 @@
 					"apple_iphone_14_pro_max_gold-6.webp",
 					"apple_iphones_14_pro_max.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 859.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2018,7 +2018,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro Max 1 T Gold",
+				"model": "Apple iphone 14 Pro Max 1 T Gold",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_gold-1.webp",
@@ -2031,7 +2031,7 @@
 					"apple_iphone_14_pro_max_gold-6.webp",
 					"apple_iphones_14_pro_max.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 739.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2042,7 +2042,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 14 Pro Max 128 GB Silver",
+				"model": "Apple iphone 14 Pro Max 128 GB Silver",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_silver-1.webp",
@@ -2055,7 +2055,7 @@
 					"apple_iphone_14_pro_max_silver-6.webp",
 					"apple_iphones_14_pro_max.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 589.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2066,7 +2066,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro Max 256 GB Silver",
+				"model": "Apple iphone 14 Pro Max 256 GB Silver",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_silver-1.webp",
@@ -2079,7 +2079,7 @@
 					"apple_iphone_14_pro_max_silver-6.webp",
 					"apple_iphones_14_pro_max.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 829.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2090,7 +2090,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro Max 512 GB Silver",
+				"model": "Apple iphone 14 Pro Max 512 GB Silver",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_silver-1.webp",
@@ -2103,7 +2103,7 @@
 					"apple_iphone_14_pro_max_silver-6.webp",
 					"apple_iphones_14_pro_max.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 759.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2114,7 +2114,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro Max 1 T Silver",
+				"model": "Apple iphone 14 Pro Max 1 T Silver",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_silver-1.webp",
@@ -2127,7 +2127,7 @@
 					"apple_iphone_14_pro_max_silver-6.webp",
 					"apple_iphones_14_pro_max.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1424.75,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2138,7 +2138,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 14 Pro Max 128 GB Black",
+				"model": "Apple iphone 14 Pro Max 128 GB Black",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_black-1.webp",
@@ -2151,7 +2151,7 @@
 					"apple_iphone_14_pro_max_black-6.webp",
 					"apple_iphones_14_pro_max.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1025.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2162,7 +2162,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro Max 256 GB Black",
+				"model": "Apple iphone 14 Pro Max 256 GB Black",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_black-1.webp",
@@ -2175,7 +2175,7 @@
 					"apple_iphone_14_pro_max_black-6.webp",
 					"apple_iphones_14_pro_max.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1025.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2186,7 +2186,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro Max 512 GB Black",
+				"model": "Apple iphone 14 Pro Max 512 GB Black",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_black-1.webp",
@@ -2199,7 +2199,7 @@
 					"apple_iphone_14_pro_max_black-6.webp",
 					"apple_iphones_14_pro_max.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1025.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2210,7 +2210,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Pro Max 1 T Black",
+				"model": "Apple iphone 14 Pro Max 1 T Black",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_max_black-1.webp",
@@ -2223,7 +2223,7 @@
 					"apple_iphone_14_pro_max_black-6.webp",
 					"apple_iphones_14_pro_max.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1799.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2354,7 +2354,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iPhone 14 Pro Max",
+				"value": "Apple iphone 14 Pro Max",
 				"key": "series"
 			},
 			{
@@ -2721,11 +2721,11 @@
 		]
 	},
 	{
-		"phone": "Apple iPhone 14 Plus",
+		"phone": "Apple iphone 14 Plus",
 		"baseImageUrl": "/data/gallery/14plus",
 		"models": [
 			{
-				"model": "Apple iPhone 14 Plus 128 GB Blue",
+				"model": "Apple iphone 14 Plus 128 GB Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_blue-1.webp",
@@ -2736,7 +2736,7 @@
 					"apple_iphone_14_plus_blue-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2747,7 +2747,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Plus 256 GB Blue",
+				"model": "Apple iphone 14 Plus 256 GB Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_blue-1.webp",
@@ -2758,7 +2758,7 @@
 					"apple_iphone_14_plus_blue-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2769,7 +2769,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Plus 512 GB Blue",
+				"model": "Apple iphone 14 Plus 512 GB Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_blue-1.webp",
@@ -2780,7 +2780,7 @@
 					"apple_iphone_14_plus_blue-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2791,7 +2791,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Plus 128 GB Purple",
+				"model": "Apple iphone 14 Plus 128 GB Purple",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_purple-1.webp",
@@ -2802,7 +2802,7 @@
 					"apple_iphone_14_plus_purple-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2813,7 +2813,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Plus 256 GB Purple",
+				"model": "Apple iphone 14 Plus 256 GB Purple",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_purple-1.webp",
@@ -2824,7 +2824,7 @@
 					"apple_iphone_14_plus_purple-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2835,7 +2835,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Plus 512 GB Purple",
+				"model": "Apple iphone 14 Plus 512 GB Purple",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_purple-1.webp",
@@ -2846,7 +2846,7 @@
 					"apple_iphone_14_plus_purple-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2857,7 +2857,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Plus 128 GB yellow",
+				"model": "Apple iphone 14 Plus 128 GB yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_yellow-1.webp",
@@ -2868,7 +2868,7 @@
 					"apple_iphone_14_plus_yellow-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2879,7 +2879,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Plus 256 GB yellow",
+				"model": "Apple iphone 14 Plus 256 GB yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_yellow-1.webp",
@@ -2890,7 +2890,7 @@
 					"apple_iphone_14_plus_yellow-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2901,7 +2901,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Plus 512 GB yellow",
+				"model": "Apple iphone 14 Plus 512 GB yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_yellow-1.webp",
@@ -2912,7 +2912,7 @@
 					"apple_iphone_14_plus_yellow-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2923,7 +2923,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Plus 128 GB Starlight",
+				"model": "Apple iphone 14 Plus 128 GB Starlight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_starlight-1.webp",
@@ -2934,7 +2934,7 @@
 					"apple_iphone_14_plus_starlight-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2945,7 +2945,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Plus 256 GB Starlight",
+				"model": "Apple iphone 14 Plus 256 GB Starlight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_starlight-1.webp",
@@ -2956,7 +2956,7 @@
 					"apple_iphone_14_plus_starlight-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2967,7 +2967,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Plus 512 GB Starlight",
+				"model": "Apple iphone 14 Plus 512 GB Starlight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_starlight-1.webp",
@@ -2978,7 +2978,7 @@
 					"apple_iphone_14_plus_starlight-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -2989,7 +2989,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Plus 128 GB Midnight",
+				"model": "Apple iphone 14 Plus 128 GB Midnight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_midnight-1.webp",
@@ -3000,7 +3000,7 @@
 					"apple_iphone_14_plus_midnight-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -3011,7 +3011,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Plus 256 GB Midnight",
+				"model": "Apple iphone 14 Plus 256 GB Midnight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_midnight-1.webp",
@@ -3022,7 +3022,7 @@
 					"apple_iphone_14_plus_midnight-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -3033,7 +3033,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Plus 512 GB Midnight",
+				"model": "Apple iphone 14 Plus 512 GB Midnight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_midnight-1.webp",
@@ -3044,7 +3044,7 @@
 					"apple_iphone_14_plus_midnight-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -3055,7 +3055,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Plus 128 GB RED",
+				"model": "Apple iphone 14 Plus 128 GB RED",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_red-1.webp",
@@ -3066,7 +3066,7 @@
 					"apple_iphone_14_plus_red-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -3077,7 +3077,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Plus 256 GB RED",
+				"model": "Apple iphone 14 Plus 256 GB RED",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_red-1.webp",
@@ -3088,7 +3088,7 @@
 					"apple_iphone_14_plus_red-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -3099,7 +3099,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 14 Plus 512 GB RED",
+				"model": "Apple iphone 14 Plus 512 GB RED",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_red-1.webp",
@@ -3110,7 +3110,7 @@
 					"apple_iphone_14_plus_red-4.webp",
 					"apple_iphones_14_plus.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -3266,7 +3266,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iPhone 14 Plus",
+				"value": "Apple iphone 14 Plus",
 				"key": "series"
 			},
 			{
@@ -3633,11 +3633,11 @@
 		]
 	},
 	{
-		"phone": "Apple iPhone 15 Pro Max",
+		"phone": "Apple iphone 15 Pro Max",
 		"baseImageUrl": "/data/gallery/15promax",
 		"models": [
 			{
-				"model": "Apple iPhone 15 Pro Max 256 GB Black Titanium",
+				"model": "Apple iphone 15 Pro Max 256 GB Black Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Black_Titanium-1.webp",
@@ -3646,18 +3646,18 @@
 					"apple_iphone_15_pro_max_Black_Titanium-2.webp",
 					"apple_iphone_15_pro_max_Black_Titanium-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 823.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-max-256gb-Black-Titanium",
-				"shortInfo": "iPhone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
+				"shortInfo": "iphone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
 				"colors": "#343434",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro Max 512 GB Black Titanium",
+				"model": "Apple iphone 15 Pro Max 512 GB Black Titanium",
 				"category": "phone",
 				"discount": 15,
 				"mainImage": "apple_iphone_15_pro_max_Black_Titanium-1.webp",
@@ -3666,18 +3666,18 @@
 					"apple_iphone_15_pro_max_Black_Titanium-2.webp",
 					"apple_iphone_15_pro_max_Black_Titanium-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 999.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-max-512gb-Black-Titanium",
-				"shortInfo": "iPhone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
+				"shortInfo": "iphone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
 				"colors": "#343434",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro Max 1 T Black Titanium",
+				"model": "Apple iphone 15 Pro Max 1 T Black Titanium",
 				"category": "phone",
 				"discount": 62,
 				"mainImage": "apple_iphone_15_pro_max_Black_Titanium-1.webp",
@@ -3686,18 +3686,18 @@
 					"apple_iphone_15_pro_max_Black_Titanium-2.webp",
 					"apple_iphone_15_pro_max_Black_Titanium-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1350.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-max-1T-Black-Titanium",
-				"shortInfo": "iPhone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
+				"shortInfo": "iphone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
 				"colors": "#343434",
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 15 Pro Max 256 GB White Titanium",
+				"model": "Apple iphone 15 Pro Max 256 GB White Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_White_Titanium-1.webp",
@@ -3706,18 +3706,18 @@
 					"apple_iphone_15_pro_max_White_Titanium-2.webp",
 					"apple_iphone_15_pro_max_White_Titanium-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 729.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-max-256gb-White-Titanium",
-				"shortInfo": "iPhone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
+				"shortInfo": "iphone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
 				"colors": "#fafafa",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro Max 512 GB White Titanium",
+				"model": "Apple iphone 15 Pro Max 512 GB White Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_White_Titanium-1.webp",
@@ -3726,18 +3726,18 @@
 					"apple_iphone_15_pro_max_White_Titanium-2.webp",
 					"apple_iphone_15_pro_max_White_Titanium-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1079.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-max-512gb-White-Titanium",
-				"shortInfo": "iPhone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
+				"shortInfo": "iphone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
 				"colors": "#fafafa",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro Max 1 T White Titanium",
+				"model": "Apple iphone 15 Pro Max 1 T White Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_White_Titanium-1.webp",
@@ -3746,18 +3746,18 @@
 					"apple_iphone_15_pro_max_White_Titanium-2.webp",
 					"apple_iphone_15_pro_max_White_Titanium-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1549.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-max-1T-White-Titanium",
-				"shortInfo": "iPhone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
+				"shortInfo": "iphone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
 				"colors": "#fafafa",
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 15 Pro Max 256 GB Blue Titanium",
+				"model": "Apple iphone 15 Pro Max 256 GB Blue Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Blue_Titanium-1.webp",
@@ -3766,18 +3766,18 @@
 					"apple_iphone_15_pro_max_Blue_Titanium-2.webp",
 					"apple_iphone_15_pro_max_Blue_Titanium-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1079.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
 				"productLink": "apple-iphone-15-pro-max-256gb-Blue-Titanium",
-				"shortInfo": "iPhone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
+				"shortInfo": "iphone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
 				"colors": "#8f98b2",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro Max 512 GB Blue Titanium",
+				"model": "Apple iphone 15 Pro Max 512 GB Blue Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Blue_Titanium-1.webp",
@@ -3786,18 +3786,18 @@
 					"apple_iphone_15_pro_max_Blue_Titanium-2.webp",
 					"apple_iphone_15_pro_max_Blue_Titanium-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1199.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
 				"productLink": "apple-iphone-15-pro-max-512gb-Blue-Titanium",
-				"shortInfo": "iPhone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
+				"shortInfo": "iphone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
 				"colors": "#8f98b2",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro Max 1 T Blue Titanium",
+				"model": "Apple iphone 15 Pro Max 1 T Blue Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Blue_Titanium-1.webp",
@@ -3806,18 +3806,18 @@
 					"apple_iphone_15_pro_max_Blue_Titanium-2.webp",
 					"apple_iphone_15_pro_max_Blue_Titanium-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1799.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
 				"productLink": "apple-iphone-15-pro-max-1T-Blue-Titanium",
-				"shortInfo": "iPhone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
+				"shortInfo": "iphone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
 				"colors": "#8f98b2",
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 15 Pro Max 256 GB Natural Titanium",
+				"model": "Apple iphone 15 Pro Max 256 GB Natural Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Natural_Titanium-1.webp",
@@ -3826,18 +3826,18 @@
 					"apple_iphone_15_pro_max_Natural_Titanium-2.webp",
 					"apple_iphone_15_pro_max_Natural_Titanium-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 999.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-max-256gb-Natural-Titanium",
-				"shortInfo": "iPhone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
+				"shortInfo": "iphone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
 				"colors": "#f6efe4",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro Max 512 GB Natural Titanium",
+				"model": "Apple iphone 15 Pro Max 512 GB Natural Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Natural_Titanium-1.webp",
@@ -3846,18 +3846,18 @@
 					"apple_iphone_15_pro_max_Natural_Titanium-2.webp",
 					"apple_iphone_15_pro_max_Natural_Titanium-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1549.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-max-512gb-Natural-Titanium",
-				"shortInfo": "iPhone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
+				"shortInfo": "iphone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
 				"colors": "#f6efe4",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro Max 1 T Natural Titanium",
+				"model": "Apple iphone 15 Pro Max 1 T Natural Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Natural_Titanium-1.webp",
@@ -3866,13 +3866,13 @@
 					"apple_iphone_15_pro_max_Natural_Titanium-2.webp",
 					"apple_iphone_15_pro_max_Natural_Titanium-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1549.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-max-1T-Natural-Titanium",
-				"shortInfo": "iPhone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
+				"shortInfo": "iphone 15 Pro Max prináša inovatívny dizajn z titánu, ultra rýchle nabíjanie a špičkový výkon pre tých, ktorí chcú to najlepšie z mobilných technológií.",
 				"colors": "#f6efe4",
 				"memory": "1 T"
 			}
@@ -3977,7 +3977,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iPhone 15 Pro Max",
+				"value": "Apple iphone 15 Pro Max",
 				"key": "series"
 			},
 			{
@@ -4344,11 +4344,11 @@
 		]
 	},
 	{
-		"phone": "Apple iPhone 15 Pro",
+		"phone": "Apple iphone 15 Pro",
 		"baseImageUrl": "/data/gallery/15pro",
 		"models": [
 			{
-				"model": "Apple iPhone 15 Pro 128 GB Black Titanium",
+				"model": "Apple iphone 15 Pro 128 GB Black Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_Black_Titanium-1.webp",
@@ -4359,18 +4359,18 @@
 					"apple_iphone_15_pro_Black_Titanium-4.webp",
 					"apple_iphone_15_pro_Black_Titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 700.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-128gb-Black-Titanium",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#343434",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro 256 GB Black Titanium",
+				"model": "Apple iphone 15 Pro 256 GB Black Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_Black_Titanium-1.webp",
@@ -4381,18 +4381,18 @@
 					"apple_iphone_15_pro_Black_Titanium-4.webp",
 					"apple_iphone_15_pro_Black_Titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 815.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-256gb-Black-Titanium",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#343434",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro 512 GB Black Titanium",
+				"model": "Apple iphone 15 Pro 512 GB Black Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_Black_Titanium-1.webp",
@@ -4403,18 +4403,18 @@
 					"apple_iphone_15_pro_Black_Titanium-4.webp",
 					"apple_iphone_15_pro_Black_Titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1079.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-512gb-Black-Titanium",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#343434",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro 1 T Black Titanium",
+				"model": "Apple iphone 15 Pro 1 T Black Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_pro_Black_Titanium-1.webp",
@@ -4425,18 +4425,18 @@
 					"apple_iphone_15_pro_Black_Titanium-4.webp",
 					"apple_iphone_15_pro_Black_Titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1449.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-1T-Black-Titanium",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#343434",
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 15 Pro 128 GB White Titanium",
+				"model": "Apple iphone 15 Pro 128 GB White Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_White_Titanium-1.webp",
@@ -4447,18 +4447,18 @@
 					"apple_iphone_15_pro_White_Titanium-4.webp",
 					"apple_iphone_15_pro_White_Titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 729.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-128gb-White-Titanium",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#fafafa",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro 256 GB White Titanium",
+				"model": "Apple iphone 15 Pro 256 GB White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_pro_White_Titanium-1.webp",
@@ -4469,18 +4469,18 @@
 					"apple_iphone_15_pro_White_Titanium-4.webp",
 					"apple_iphone_15_pro_White_Titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1079.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-256gb-White-Titanium",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#fafafa",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro 512 GB White Titanium",
+				"model": "Apple iphone 15 Pro 512 GB White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_pro_White_Titanium-1.webp",
@@ -4491,18 +4491,18 @@
 					"apple_iphone_15_pro_White_Titanium-4.webp",
 					"apple_iphone_15_pro_White_Titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1199.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-512gb-White-Titanium",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#fafafa",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro 1 T White Titanium",
+				"model": "Apple iphone 15 Pro 1 T White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_pro_White_Titanium-1.webp",
@@ -4513,18 +4513,18 @@
 					"apple_iphone_15_pro_White_Titanium-4.webp",
 					"apple_iphone_15_pro_White_Titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1349.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-1T-White-Titanium",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#fafafa",
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 15 Pro 128 GB Blue Titanium",
+				"model": "Apple iphone 15 Pro 128 GB Blue Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_Blue_Titanium-1.webp",
@@ -4535,18 +4535,18 @@
 					"apple_iphone_15_pro_Blue_Titanium-4.webp",
 					"apple_iphone_15_pro_Blue_Titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1079.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-128gb-Blue-Titanium",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#8f98b2",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro 256 GB Blue Titanium",
+				"model": "Apple iphone 15 Pro 256 GB Blue Titanium",
 				"category": "phone",
 				"discount": 25,
 				"mainImage": "apple_iphone_15_pro_Blue_Titanium-1.webp",
@@ -4557,18 +4557,18 @@
 					"apple_iphone_15_pro_Blue_Titanium-4.webp",
 					"apple_iphone_15_pro_Blue_Titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 823.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-256gb-Blue-Titanium",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#8f98b2",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro 512 GB Blue Titanium",
+				"model": "Apple iphone 15 Pro 512 GB Blue Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_Blue_Titanium-1.webp",
@@ -4579,18 +4579,18 @@
 					"apple_iphone_15_pro_Blue_Titanium-4.webp",
 					"apple_iphone_15_pro_Blue_Titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1079.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-512gb-Blue-Titanium",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#8f98b2",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro 1 T Blue Titanium",
+				"model": "Apple iphone 15 Pro 1 T Blue Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_pro_Blue_Titanium-1.webp",
@@ -4601,18 +4601,18 @@
 					"apple_iphone_15_pro_Blue_Titanium-4.webp",
 					"apple_iphone_15_pro_Blue_Titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1349.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-1T-Blue-Titanium",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#8f98b2",
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 15 Pro 128 GB Natural Titanium",
+				"model": "Apple iphone 15 Pro 128 GB Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_pro_Natural_Titanium-1.webp",
@@ -4623,18 +4623,18 @@
 					"apple_iphone_15_pro_Natural_Titanium-4.webp",
 					"apple_iphone_15_pro_Natural_Titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 729.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-128gb-Natural-Titanium",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#f6efe4",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro 256 GB Natural Titanium",
+				"model": "Apple iphone 15 Pro 256 GB Natural Titanium",
 				"category": "phone",
 				"discount": 5,
 				"mainImage": "apple_iphone_15_pro_Natural_Titanium-1.webp",
@@ -4645,18 +4645,18 @@
 					"apple_iphone_15_pro_Natural_Titanium-4.webp",
 					"apple_iphone_15_pro_Natural_Titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1079.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-256gb-Natural-Titanium",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#f6efe4",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro 512 GB Natural Titanium",
+				"model": "Apple iphone 15 Pro 512 GB Natural Titanium",
 				"category": "phone",
 				"discount": 7,
 				"mainImage": "apple_iphone_15_pro_Natural_Titanium-1.webp",
@@ -4667,18 +4667,18 @@
 					"apple_iphone_15_pro_Natural_Titanium-4.webp",
 					"apple_iphone_15_pro_Natural_Titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 999.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-512gb-Natural-Titanium",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#f6efe4",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Pro 1 T Natural Titanium",
+				"model": "Apple iphone 15 Pro 1 T Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_pro_Natural_Titanium-1.webp",
@@ -4689,13 +4689,13 @@
 					"apple_iphone_15_pro_Natural_Titanium-4.webp",
 					"apple_iphone_15_pro_Natural_Titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1349.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-pro-1T-Natural-Titanium",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#f6efe4",
 				"memory": "1 T"
 			}
@@ -4820,7 +4820,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iPhone 15 Pro",
+				"value": "Apple iphone 15 Pro",
 				"key": "series"
 			},
 			{
@@ -5187,11 +5187,11 @@
 		]
 	},
 	{
-		"phone": "Apple iPhone 15",
+		"phone": "Apple iphone 15",
 		"baseImageUrl": "/data/gallery/15",
 		"models": [
 			{
-				"model": "Apple iPhone 15 128 GB Blue",
+				"model": "Apple iphone 15 128 GB Blue",
 				"category": "phone",
 				"discount": 17,
 				"mainImage": "apple_iphone_15_Blue-1.webp",
@@ -5200,18 +5200,18 @@
 					"apple_iphone_15_Blue-2.webp",
 					"apple_iphone_15_Blue-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 700.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-128gb-Blue",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#f1f5f6",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 15 256 GB Blue",
+				"model": "Apple iphone 15 256 GB Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_Blue-1.webp",
@@ -5220,18 +5220,18 @@
 					"apple_iphone_15_Blue-2.webp",
 					"apple_iphone_15_Blue-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 823.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-256gb-Blue",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#f1f5f6",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 512 GB Blue",
+				"model": "Apple iphone 15 512 GB Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_Blue-1.webp",
@@ -5240,18 +5240,18 @@
 					"apple_iphone_15_Blue-2.webp",
 					"apple_iphone_15_Blue-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1059.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-512gb-Blue",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#f1f5f6",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 15 128 GB Yellow",
+				"model": "Apple iphone 15 128 GB Yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_Yellow-1.webp",
@@ -5260,18 +5260,18 @@
 					"apple_iphone_15_Yellow-2.webp",
 					"apple_iphone_15_Yellow-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 699.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-128gb-yellow",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#faf8dd",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 15 256 GB Yellow",
+				"model": "Apple iphone 15 256 GB Yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_Yellow-1.webp",
@@ -5280,18 +5280,18 @@
 					"apple_iphone_15_Yellow-2.webp",
 					"apple_iphone_15_Yellow-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 823.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-256gb-yellow",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#faf8dd",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 512 GB Yellow",
+				"model": "Apple iphone 15 512 GB Yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_Yellow-1.webp",
@@ -5300,18 +5300,18 @@
 					"apple_iphone_15_Yellow-2.webp",
 					"apple_iphone_15_Yellow-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 999.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-512gb-yellow",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#faf8dd",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 15 128 GB Pink",
+				"model": "Apple iphone 15 128 GB Pink",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_Pink-1.webp",
@@ -5320,18 +5320,18 @@
 					"apple_iphone_15_Pink-2.webp",
 					"apple_iphone_15_Pink-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 699.0,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-128gb-pink",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#fae1e1",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 15 256 GB Pink",
+				"model": "Apple iphone 15 256 GB Pink",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_Pink-1.webp",
@@ -5340,18 +5340,18 @@
 					"apple_iphone_15_Pink-2.webp",
 					"apple_iphone_15_Pink-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 839.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-256gb-pink",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#fae1e1",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 512 GB Pink",
+				"model": "Apple iphone 15 512 GB Pink",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_Pink-1.webp",
@@ -5360,18 +5360,18 @@
 					"apple_iphone_15_Pink-2.webp",
 					"apple_iphone_15_Pink-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 1059.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-512gb-pink",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#fae1e1",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 15 128 GB Green",
+				"model": "Apple iphone 15 128 GB Green",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_Green-1.webp",
@@ -5380,18 +5380,18 @@
 					"apple_iphone_15_Green-2.webp",
 					"apple_iphone_15_Green-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 700.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-128gb-Green",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#ecf4e1",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 15 256 GB Green",
+				"model": "Apple iphone 15 256 GB Green",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_Green-1.webp",
@@ -5400,18 +5400,18 @@
 					"apple_iphone_15_Green-2.webp",
 					"apple_iphone_15_Green-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 809.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-256gb-Green",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#ecf4e1",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 512 GB Green",
+				"model": "Apple iphone 15 512 GB Green",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_Green-1.webp",
@@ -5420,18 +5420,18 @@
 					"apple_iphone_15_Green-2.webp",
 					"apple_iphone_15_Green-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 990.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-512gb-Green",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#ecf4e1",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 15 128 GB Midnight",
+				"model": "Apple iphone 15 128 GB Midnight",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_Midnight-1.webp",
@@ -5440,38 +5440,38 @@
 					"apple_iphone_15_Midnight-2.webp",
 					"apple_iphone_15_Midnight-3.webp"
 				],
-				"modelGroup": "Iphones",
-				"price": 550.90,
+				"modelGroup": "iphones",
+				"price": 700.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-128gb-Midnight",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#454749",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 15 256 GB Midnight",
+				"model": "Apple iphone 15 256 GB Midnight",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_Midnight-1.webp",
 				"images": [
 					"apple_iphone_15_Midnight-1.webp",
 					"apple_iphone_15_Midnight-2.webp",
 					"apple_iphone_15_Midnight-3.webp"
 				],
-				"modelGroup": "Iphones",
-				"price": 550.90,
+				"modelGroup": "iphones",
+				"price": 809.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-256gb-Midnight",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#454749",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 512 GB Midnight",
+				"model": "Apple iphone 15 512 GB Midnight",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_Midnight-1.webp",
@@ -5480,13 +5480,13 @@
 					"apple_iphone_15_Midnight-2.webp",
 					"apple_iphone_15_Midnight-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-15-512gb-Midnight",
-				"shortInfo": "Elegantný iPhone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
+				"shortInfo": "Elegantný iphone 15 Pro zaujme precíznym spracovaním, inteligentnými funkciami a výnimočne rýchlou odozvou na každodenné úlohy.",
 				"colors": "#454749",
 				"memory": "512 GB"
 			}
@@ -5606,7 +5606,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iPhone 15",
+				"value": "Apple iphone 15",
 				"key": "series"
 			},
 			{
@@ -5973,11 +5973,11 @@
 		]
 	},
 	{
-		"phone": "Apple iPhone 15",
+		"phone": "Apple iphone 15",
 		"baseImageUrl": "/data/gallery/15+",
 		"models": [
 			{
-				"model": "Apple iPhone 15 Plus 128 GB Blue",
+				"model": "Apple iphone 15 Plus 128 GB Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Blue-1.webp",
@@ -5986,7 +5986,7 @@
 					"apple_iphone_15_plus_Blue-2.webp",
 					"apple_iphone_15_plus_Blue-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -5997,7 +5997,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Plus 256 GB Blue",
+				"model": "Apple iphone 15 Plus 256 GB Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Blue-1.webp",
@@ -6006,7 +6006,7 @@
 					"apple_iphone_15_plus_Blue-2.webp",
 					"apple_iphone_15_plus_Blue-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -6017,7 +6017,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Plus 512 GB Blue",
+				"model": "Apple iphone 15 Plus 512 GB Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Blue-1.webp",
@@ -6026,7 +6026,7 @@
 					"apple_iphone_15_plus_Blue-2.webp",
 					"apple_iphone_15_plus_Blue-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -6037,7 +6037,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Plus 128 GB Yellow",
+				"model": "Apple iphone 15 Plus 128 GB Yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Yellow-1.webp",
@@ -6046,7 +6046,7 @@
 					"apple_iphone_15_plus_Yellow-2.webp",
 					"apple_iphone_15_plus_Yellow-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -6057,7 +6057,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Plus 256 GB yellow",
+				"model": "Apple iphone 15 Plus 256 GB yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Yellow-1.webp",
@@ -6066,7 +6066,7 @@
 					"apple_iphone_15_plus_Yellow-2.webp",
 					"apple_iphone_15_plus_Yellow-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -6077,7 +6077,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Plus 512 GB yellow",
+				"model": "Apple iphone 15 Plus 512 GB yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Yellow-1.webp",
@@ -6086,7 +6086,7 @@
 					"apple_iphone_15_plus_Yellow-2.webp",
 					"apple_iphone_15_plus_Yellow-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -6097,7 +6097,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Plus 128 GB Pink",
+				"model": "Apple iphone 15 Plus 128 GB Pink",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Pink-1.webp",
@@ -6106,7 +6106,7 @@
 					"apple_iphone_15_plus_Pink-2.webp",
 					"apple_iphone_15_plus_Pink-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -6117,7 +6117,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Plus 256 GB pink",
+				"model": "Apple iphone 15 Plus 256 GB pink",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Pink-1.webp",
@@ -6126,7 +6126,7 @@
 					"apple_iphone_15_plus_Pink-2.webp",
 					"apple_iphone_15_plus_Pink-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -6137,7 +6137,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Plus 512 GB pink",
+				"model": "Apple iphone 15 Plus 512 GB pink",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Pink-1.webp",
@@ -6146,7 +6146,7 @@
 					"apple_iphone_15_plus_Pink-2.webp",
 					"apple_iphone_15_plus_Pink-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -6157,7 +6157,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Plus 128 GB Green",
+				"model": "Apple iphone 15 Plus 128 GB Green",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Green-1.webp",
@@ -6166,7 +6166,7 @@
 					"apple_iphone_15_plus_Green-2.webp",
 					"apple_iphone_15_plus_Green-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -6177,7 +6177,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Plus 256 GB Green",
+				"model": "Apple iphone 15 Plus 256 GB Green",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Green-1.webp",
@@ -6186,7 +6186,7 @@
 					"apple_iphone_15_plus_Green-2.webp",
 					"apple_iphone_15_plus_Green-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -6197,7 +6197,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Plus 512 GB Green",
+				"model": "Apple iphone 15 Plus 512 GB Green",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Green-1.webp",
@@ -6206,7 +6206,7 @@
 					"apple_iphone_15_plus_Green-2.webp",
 					"apple_iphone_15_plus_Green-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -6217,7 +6217,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Plus 128 GB Midnight",
+				"model": "Apple iphone 15 Plus 128 GB Midnight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Midnight-1.webp",
@@ -6226,7 +6226,7 @@
 					"apple_iphone_15_plus_Midnight-2.webp",
 					"apple_iphone_15_plus_Midnight-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -6237,7 +6237,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Plus 256 GB Midnight",
+				"model": "Apple iphone 15 Plus 256 GB Midnight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Midnight-1.webp",
@@ -6246,7 +6246,7 @@
 					"apple_iphone_15_plus_Midnight-2.webp",
 					"apple_iphone_15_plus_Midnight-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -6257,7 +6257,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 15 Plus 512 GB Midnight",
+				"model": "Apple iphone 15 Plus 512 GB Midnight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Midnight-1.webp",
@@ -6266,7 +6266,7 @@
 					"apple_iphone_15_plus_Midnight-2.webp",
 					"apple_iphone_15_plus_Midnight-3.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
@@ -6392,7 +6392,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iPhone 15 Plus",
+				"value": "Apple iphone 15 Plus",
 				"key": "series"
 			},
 			{
@@ -6759,11 +6759,11 @@
 		]
 	},
 	{
-		"phone": "Apple iPhone 16",
+		"phone": "Apple iphone 16",
 		"baseImageUrl": "/data/gallery/16",
 		"models": [
 			{
-				"model": "Apple iPhone 16 128 GB Color Black",
+				"model": "Apple iphone 16 128 GB Color Black",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Black-1.webp",
@@ -6774,18 +6774,18 @@
 					"apple_iphone_16_Black-4.webp",
 					"apple_iphone_16_Black-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-128gb-Black",
-				"shortInfo": "iPhone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
+				"shortInfo": "iphone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
 				"color": "#404040",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 16 256 GB Color Black",
+				"model": "Apple iphone 16 256 GB Color Black",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Black-1.webp",
@@ -6796,18 +6796,18 @@
 					"apple_iphone_16_Black-4.webp",
 					"apple_iphone_16_Black-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-256gb-Black",
-				"shortInfo": "iPhone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
+				"shortInfo": "iphone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
 				"color": "#404040",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 512 GB Color Black",
+				"model": "Apple iphone 16 512 GB Color Black",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Black-1.webp",
@@ -6818,18 +6818,18 @@
 					"apple_iphone_16_Black-4.webp",
 					"apple_iphone_16_Black-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-512gb-Black",
-				"shortInfo": "iPhone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
+				"shortInfo": "iphone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
 				"color": "#404040",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 16 128 GB Color White",
+				"model": "Apple iphone 16 128 GB Color White",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_White-1.webp",
@@ -6840,18 +6840,18 @@
 					"apple_iphone_16_White-4.webp",
 					"apple_iphone_16_White-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-128gb-White",
-				"shortInfo": "iPhone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
+				"shortInfo": "iphone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
 				"color": "#f5f5f3",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 16 256 GB Color White",
+				"model": "Apple iphone 16 256 GB Color White",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_White-1.webp",
@@ -6862,18 +6862,18 @@
 					"apple_iphone_16_White-4.webp",
 					"apple_iphone_16_White-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-256gb-White",
-				"shortInfo": "iPhone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
+				"shortInfo": "iphone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
 				"color": "#f5f5f3",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 512 GB Color White",
+				"model": "Apple iphone 16 512 GB Color White",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_White-1.webp",
@@ -6884,18 +6884,18 @@
 					"apple_iphone_16_White-4.webp",
 					"apple_iphone_16_White-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-512gb-White",
-				"shortInfo": "iPhone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
+				"shortInfo": "iphone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
 				"color": "#f5f5f3",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 16 128 GB Color Pink",
+				"model": "Apple iphone 16 128 GB Color Pink",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Pink-1.webp",
@@ -6906,18 +6906,18 @@
 					"apple_iphone_16_Pink-4.webp",
 					"apple_iphone_16_Pink-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-128gb-Pink",
-				"shortInfo": "iPhone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
+				"shortInfo": "iphone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
 				"color": "#f0b6dc",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 16 256 GB Color Pink",
+				"model": "Apple iphone 16 256 GB Color Pink",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Pink-1.webp",
@@ -6928,18 +6928,18 @@
 					"apple_iphone_16_Pink-4.webp",
 					"apple_iphone_16_Pink-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-256gb-Pink",
-				"shortInfo": "iPhone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
+				"shortInfo": "iphone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
 				"color": "#f0b6dc",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 512 GB Color Pink",
+				"model": "Apple iphone 16 512 GB Color Pink",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Pink-1.webp",
@@ -6950,18 +6950,18 @@
 					"apple_iphone_16_Pink-4.webp",
 					"apple_iphone_16_Pink-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-512gb-Pink",
-				"shortInfo": "iPhone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
+				"shortInfo": "iphone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
 				"color": "#f0b6dc",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 16 128 GB Color Blue",
+				"model": "Apple iphone 16 128 GB Color Blue",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Blue-1.webp",
@@ -6972,18 +6972,18 @@
 					"apple_iphone_16_Blue-4.webp",
 					"apple_iphone_16_Blue-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-128gb-Blue",
-				"shortInfo": "iPhone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
+				"shortInfo": "iphone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
 				"color": "#a1b3f9",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 16 256 GB Color Blue",
+				"model": "Apple iphone 16 256 GB Color Blue",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Blue-1.webp",
@@ -6994,18 +6994,18 @@
 					"apple_iphone_16_Blue-4.webp",
 					"apple_iphone_16_Blue-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-256gb-Blue",
-				"shortInfo": "iPhone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
+				"shortInfo": "iphone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
 				"color": "#a1b3f9",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 512 GB Color Blue",
+				"model": "Apple iphone 16 512 GB Color Blue",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Blue-1.webp",
@@ -7016,18 +7016,18 @@
 					"apple_iphone_16_Blue-4.webp",
 					"apple_iphone_16_Blue-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-512gb-Blue",
-				"shortInfo": "iPhone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
+				"shortInfo": "iphone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
 				"color": "#a1b3f9",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 16 128 GB Color Green",
+				"model": "Apple iphone 16 128 GB Color Green",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Green-1.webp",
@@ -7038,18 +7038,18 @@
 					"apple_iphone_16_Green-4.webp",
 					"apple_iphone_16_Green-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-128gb-Green",
-				"shortInfo": "iPhone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
+				"shortInfo": "iphone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
 				"color": "#b9dedb",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 16 256 GB Color Green",
+				"model": "Apple iphone 16 256 GB Color Green",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Green-1.webp",
@@ -7060,18 +7060,18 @@
 					"apple_iphone_16_Green-4.webp",
 					"apple_iphone_16_Green-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-256gb-Green",
-				"shortInfo": "iPhone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
+				"shortInfo": "iphone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
 				"color": "#b9dedb",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 512 GB Color Green",
+				"model": "Apple iphone 16 512 GB Color Green",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Green-1.webp",
@@ -7082,13 +7082,13 @@
 					"apple_iphone_16_Green-4.webp",
 					"apple_iphone_16_Green-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-512gb-Green",
-				"shortInfo": "iPhone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
+				"shortInfo": "iphone 16 posúva hranice inovácie s novými technológiami, rýchlym spracovaním a štýlovým dizajnom, ktorý upúta na prvý pohľad.",
 				"color": "#b9dedb",
 				"memory": "512 GB"
 			}
@@ -7208,7 +7208,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iPhone 14",
+				"value": "Apple iphone 14",
 				"key": "series"
 			},
 			{
@@ -7575,11 +7575,11 @@
 		]
 	},
 	{
-		"phone": "Apple iPhone 16 Plus",
+		"phone": "Apple iphone 16 Plus",
 		"baseImageUrl": "/data/gallery/16+",
 		"models": [
 			{
-				"model": "Apple iPhone 16 Plus 128 GB Color Black",
+				"model": "Apple iphone 16 Plus 128 GB Color Black",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Black-1.webp",
@@ -7590,18 +7590,18 @@
 					"apple_iphone_16_plus_Black-4.webp",
 					"apple_iphone_16_plus_Black-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-plus-128gb-Black",
-				"shortInfo": "iPhone 16 Plus prináša všetko, čo milujete na iPhone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
+				"shortInfo": "iphone 16 Plus prináša všetko, čo milujete na iphone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
 				"color": "#404040",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Plus 256 GB Color Black",
+				"model": "Apple iphone 16 Plus 256 GB Color Black",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Black-1.webp",
@@ -7612,18 +7612,18 @@
 					"apple_iphone_16_plus_Black-4.webp",
 					"apple_iphone_16_plus_Black-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-plus-256gb-Black",
-				"shortInfo": "iPhone 16 Plus prináša všetko, čo milujete na iPhone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
+				"shortInfo": "iphone 16 Plus prináša všetko, čo milujete na iphone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
 				"color": "#404040",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Plus 512 GB Color Black",
+				"model": "Apple iphone 16 Plus 512 GB Color Black",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Black-1.webp",
@@ -7634,18 +7634,18 @@
 					"apple_iphone_16_plus_Black-4.webp",
 					"apple_iphone_16_plus_Black-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-plus-512gb-Black",
-				"shortInfo": "iPhone 16 Plus prináša všetko, čo milujete na iPhone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
+				"shortInfo": "iphone 16 Plus prináša všetko, čo milujete na iphone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
 				"color": "#404040",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Plus 128 GB Color White",
+				"model": "Apple iphone 16 Plus 128 GB Color White",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_White-1.webp",
@@ -7656,18 +7656,18 @@
 					"apple_iphone_16_plus_White-4.webp",
 					"apple_iphone_16_plus_White-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-plus-128gb-White",
-				"shortInfo": "iPhone 16 Plus prináša všetko, čo milujete na iPhone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
+				"shortInfo": "iphone 16 Plus prináša všetko, čo milujete na iphone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
 				"color": "#f5f5f3",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Plus 256 GB Color White",
+				"model": "Apple iphone 16 Plus 256 GB Color White",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_White-1.webp",
@@ -7678,18 +7678,18 @@
 					"apple_iphone_16_plus_White-4.webp",
 					"apple_iphone_16_plus_White-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-plus-256gb-White",
-				"shortInfo": "iPhone 16 Plus prináša všetko, čo milujete na iPhone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
+				"shortInfo": "iphone 16 Plus prináša všetko, čo milujete na iphone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
 				"color": "#f5f5f3",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Plus 512 GB Color White",
+				"model": "Apple iphone 16 Plus 512 GB Color White",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_White-1.webp",
@@ -7700,18 +7700,18 @@
 					"apple_iphone_16_plus_White-4.webp",
 					"apple_iphone_16_plus_White-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-plus-512gb-White",
-				"shortInfo": "iPhone 16 Plus prináša všetko, čo milujete na iPhone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
+				"shortInfo": "iphone 16 Plus prináša všetko, čo milujete na iphone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
 				"color": "#f5f5f3",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Plus 128 GB Color Pink",
+				"model": "Apple iphone 16 Plus 128 GB Color Pink",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Pink-1.webp",
@@ -7722,18 +7722,18 @@
 					"apple_iphone_16_plus_Pink-4.webp",
 					"apple_iphone_16_plus_Pink-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-plus-128gb-Pink",
-				"shortInfo": "iPhone 16 Plus prináša všetko, čo milujete na iPhone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
+				"shortInfo": "iphone 16 Plus prináša všetko, čo milujete na iphone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
 				"color": "#f0b6dc",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Plus 256 GB Color Pink",
+				"model": "Apple iphone 16 Plus 256 GB Color Pink",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Pink-1.webp",
@@ -7744,18 +7744,18 @@
 					"apple_iphone_16_plus_Pink-4.webp",
 					"apple_iphone_16_plus_Pink-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-plus-256gb-Pink",
-				"shortInfo": "iPhone 16 Plus prináša všetko, čo milujete na iPhone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
+				"shortInfo": "iphone 16 Plus prináša všetko, čo milujete na iphone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
 				"color": "#f0b6dc",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Plus 512 GB Color Pink",
+				"model": "Apple iphone 16 Plus 512 GB Color Pink",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Pink-1.webp",
@@ -7766,18 +7766,18 @@
 					"apple_iphone_16_plus_Pink-4.webp",
 					"apple_iphone_16_plus_Pink-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-plus-512gb-Pink",
-				"shortInfo": "iPhone 16 Plus prináša všetko, čo milujete na iPhone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
+				"shortInfo": "iphone 16 Plus prináša všetko, čo milujete na iphone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
 				"color": "#f0b6dc",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Plus 128 GB Color Blue",
+				"model": "Apple iphone 16 Plus 128 GB Color Blue",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Blue-1.webp",
@@ -7788,18 +7788,18 @@
 					"apple_iphone_16_plus_Blue-4.webp",
 					"apple_iphone_16_plus_Blue-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-plus-128gb-Blue",
-				"shortInfo": "iPhone 16 Plus prináša všetko, čo milujete na iPhone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
+				"shortInfo": "iphone 16 Plus prináša všetko, čo milujete na iphone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
 				"color": "#a1b3f9",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Plus 256 GB Color Blue",
+				"model": "Apple iphone 16 Plus 256 GB Color Blue",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Blue-1.webp",
@@ -7810,18 +7810,18 @@
 					"apple_iphone_16_plus_Blue-4.webp",
 					"apple_iphone_16_plus_Blue-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-plus-256gb-Blue",
-				"shortInfo": "iPhone 16 Plus prináša všetko, čo milujete na iPhone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
+				"shortInfo": "iphone 16 Plus prináša všetko, čo milujete na iphone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
 				"color": "#a1b3f9",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Plus 512 GB Color Blue",
+				"model": "Apple iphone 16 Plus 512 GB Color Blue",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Blue-1.webp",
@@ -7832,18 +7832,18 @@
 					"apple_iphone_16_plus_Blue-4.webp",
 					"apple_iphone_16_plus_Blue-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-plus-512gb-Blue",
-				"shortInfo": "iPhone 16 Plus prináša všetko, čo milujete na iPhone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
+				"shortInfo": "iphone 16 Plus prináša všetko, čo milujete na iphone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
 				"color": "#a1b3f9",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Plus 128 GB Color Green",
+				"model": "Apple iphone 16 Plus 128 GB Color Green",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Green-1.webp",
@@ -7854,18 +7854,18 @@
 					"apple_iphone_16_plus_Green-4.webp",
 					"apple_iphone_16_plus_Green-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-plus-128gb-Green",
-				"shortInfo": "iPhone 16 Plus prináša všetko, čo milujete na iPhone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
+				"shortInfo": "iphone 16 Plus prináša všetko, čo milujete na iphone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
 				"color": "#b9dedb",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Plus 256 GB Color Green",
+				"model": "Apple iphone 16 Plus 256 GB Color Green",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Green-1.webp",
@@ -7876,18 +7876,18 @@
 					"apple_iphone_16_plus_Green-4.webp",
 					"apple_iphone_16_plus_Green-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-plus-256gb-Green",
-				"shortInfo": "iPhone 16 Plus prináša všetko, čo milujete na iPhone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
+				"shortInfo": "iphone 16 Plus prináša všetko, čo milujete na iphone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
 				"color": "#b9dedb",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Plus 512 GB Color Green",
+				"model": "Apple iphone 16 Plus 512 GB Color Green",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Green-1.webp",
@@ -7898,13 +7898,13 @@
 					"apple_iphone_16_plus_Green-4.webp",
 					"apple_iphone_16_plus_Green-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-plus-512gb-Green",
-				"shortInfo": "iPhone 16 Plus prináša všetko, čo milujete na iPhone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
+				"shortInfo": "iphone 16 Plus prináša všetko, čo milujete na iphone, vo väčšom a výkonnejšom balení. Vybavený čipom A18 pre bleskovú rýchlosť, veľkým 6,7' OLED displejom pre pohlcujúci zážitok a pokročilým duálnym fotoaparátom na dokonalé snímky vo dne aj v noci.",
 				"color": "#b9dedb",
 				"memory": "512 GB"
 			}
@@ -8024,7 +8024,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iPhone 14",
+				"value": "Apple iphone 14",
 				"key": "series"
 			},
 			{
@@ -8391,11 +8391,11 @@
 		]
 	},
 	{
-		"phone": "Apple iPhone 16 Pro",
+		"phone": "Apple iphone 16 Pro",
 		"baseImageUrl": "/data/gallery/16pro",
 		"models": [
 			{
-				"model": "Apple iPhone 16 Pro 128 GB Black Titanium",
+				"model": "Apple iphone 16 Pro 128 GB Black Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Black-Titanium-1.webp",
@@ -8405,18 +8405,18 @@
 					"apple_iphone_16_pro_Black-Titanium-3.webp",
 					"apple_iphone_16_pro_Black-Titanium-4.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-128gb-Black-Titanium",
-				"shortInfo": "iPhone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
+				"shortInfo": "iphone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
 				"colors": "#343434",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro 256 GB Black Titanium",
+				"model": "Apple iphone 16 Pro 256 GB Black Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Black-Titanium-1.webp",
@@ -8426,18 +8426,18 @@
 					"apple_iphone_16_pro_Black-Titanium-3.webp",
 					"apple_iphone_16_pro_Black-Titanium-4.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-256gb-Black-Titanium",
-				"shortInfo": "iPhone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
+				"shortInfo": "iphone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
 				"colors": "#343434",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro 512 GB Black Titanium",
+				"model": "Apple iphone 16 Pro 512 GB Black Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Black-Titanium-1.webp",
@@ -8447,18 +8447,18 @@
 					"apple_iphone_16_pro_Black-Titanium-3.webp",
 					"apple_iphone_16_pro_Black-Titanium-4.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-512gb-Black-Titanium",
-				"shortInfo": "iPhone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
+				"shortInfo": "iphone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
 				"colors": "#343434",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro 1 T Black Titanium",
+				"model": "Apple iphone 16 Pro 1 T Black Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Black-Titanium-1.webp",
@@ -8468,18 +8468,18 @@
 					"apple_iphone_16_pro_Black-Titanium-3.webp",
 					"apple_iphone_16_pro_Black-Titanium-4.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-1T-Black-Titanium",
-				"shortInfo": "iPhone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
+				"shortInfo": "iphone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
 				"colors": "#343434",
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 16 Pro 128 GB White Titanium",
+				"model": "Apple iphone 16 Pro 128 GB White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_White-Titanium-1.webp",
@@ -8489,18 +8489,18 @@
 					"apple_iphone_16_pro_White-Titanium-3.webp",
 					"apple_iphone_16_pro_White-Titanium-4.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-128gb-White-Titanium",
-				"shortInfo": "iPhone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
+				"shortInfo": "iphone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
 				"colors": "#fafafa",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro 256 GB White Titanium",
+				"model": "Apple iphone 16 Pro 256 GB White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_White-Titanium-1.webp",
@@ -8510,18 +8510,18 @@
 					"apple_iphone_16_pro_White-Titanium-3.webp",
 					"apple_iphone_16_pro_White-Titanium-4.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-256gb-White-Titanium",
-				"shortInfo": "iPhone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
+				"shortInfo": "iphone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
 				"colors": "#fafafa",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro 512 GB White Titanium",
+				"model": "Apple iphone 16 Pro 512 GB White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_White-Titanium-1.webp",
@@ -8531,18 +8531,18 @@
 					"apple_iphone_16_pro_White-Titanium-3.webp",
 					"apple_iphone_16_pro_White-Titanium-4.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-512gb-White-Titanium",
-				"shortInfo": "iPhone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
+				"shortInfo": "iphone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
 				"colors": "#fafafa",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro 1 T White Titanium",
+				"model": "Apple iphone 16 Pro 1 T White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_White-Titanium-1.webp",
@@ -8552,18 +8552,18 @@
 					"apple_iphone_16_pro_White-Titanium-3.webp",
 					"apple_iphone_16_pro_White-Titanium-4.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-1T-White-Titanium",
-				"shortInfo": "iPhone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
+				"shortInfo": "iphone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
 				"colors": "#fafafa",
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 16 Pro 128 GB Desert Titanium",
+				"model": "Apple iphone 16 Pro 128 GB Desert Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Desert-Titanium-1.webp",
@@ -8573,18 +8573,18 @@
 					"apple_iphone_16_pro_Desert-Titanium-3.webp",
 					"apple_iphone_16_pro_Desert-Titanium-4.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-128gb-Desert-Titanium",
-				"shortInfo": "iPhone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
+				"shortInfo": "iphone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
 				"colors": "#f9ecda",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro 256 GB Desert Titanium",
+				"model": "Apple iphone 16 Pro 256 GB Desert Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Desert-Titanium-1.webp",
@@ -8594,18 +8594,18 @@
 					"apple_iphone_16_pro_Desert-Titanium-3.webp",
 					"apple_iphone_16_pro_Desert-Titanium-4.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-256gb-Desert-Titanium",
-				"shortInfo": "iPhone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
+				"shortInfo": "iphone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
 				"colors": "#f9ecda",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro 512 GB Desert Titanium",
+				"model": "Apple iphone 16 Pro 512 GB Desert Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Desert-Titanium-1.webp",
@@ -8615,18 +8615,18 @@
 					"apple_iphone_16_pro_Desert-Titanium-3.webp",
 					"apple_iphone_16_pro_Desert-Titanium-4.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-512gb-Desert-Titanium",
-				"shortInfo": "iPhone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
+				"shortInfo": "iphone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
 				"colors": "#f9ecda",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro 1 T Desert Titanium",
+				"model": "Apple iphone 16 Pro 1 T Desert Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Desert-Titanium-1.webp",
@@ -8636,18 +8636,18 @@
 					"apple_iphone_16_pro_Desert-Titanium-3.webp",
 					"apple_iphone_16_pro_Desert-Titanium-4.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-1T-Desert-Titanium",
-				"shortInfo": "iPhone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
+				"shortInfo": "iphone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
 				"colors": "#f9ecda",
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 16 Pro 128 GB Natural Titanium",
+				"model": "Apple iphone 16 Pro 128 GB Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Natural-Titanium-1.webp",
@@ -8657,18 +8657,18 @@
 					"apple_iphone_16_pro_Natural-Titanium-3.webp",
 					"apple_iphone_16_pro_Natural-Titanium-4.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-128gb-Natural-Titanium",
-				"shortInfo": "iPhone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
+				"shortInfo": "iphone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
 				"colors": "#f6efe4",
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro 256 GB Natural Titanium",
+				"model": "Apple iphone 16 Pro 256 GB Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Natural-Titanium-1.webp",
@@ -8678,18 +8678,18 @@
 					"apple_iphone_16_pro_Natural-Titanium-3.webp",
 					"apple_iphone_16_pro_Natural-Titanium-4.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-256gb-Natural-Titanium",
-				"shortInfo": "iPhone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
+				"shortInfo": "iphone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
 				"colors": "#f6efe4",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro 512 GB Natural Titanium",
+				"model": "Apple iphone 16 Pro 512 GB Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Natural-Titanium-1.webp",
@@ -8699,18 +8699,18 @@
 					"apple_iphone_16_pro_Natural-Titanium-3.webp",
 					"apple_iphone_16_pro_Natural-Titanium-4.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-512gb-Natural-Titanium",
-				"shortInfo": "iPhone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
+				"shortInfo": "iphone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
 				"colors": "#f6efe4",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro 1 T Natural Titanium",
+				"model": "Apple iphone 16 Pro 1 T Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Natural-Titanium-1.webp",
@@ -8720,13 +8720,13 @@
 					"apple_iphone_16_pro_Natural-Titanium-3.webp",
 					"apple_iphone_16_pro_Natural-Titanium-4.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-1T-Natural-Titanium",
-				"shortInfo": "iPhone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
+				"shortInfo": "iphone 16 Pro posúva hranice technológií s titánovým telom, novým čipom A18 Pro a ProMotion displejom pre ultra plynulé zobrazenie. Systém trojitých fotoaparátov s LiDAR skenerom zachytí každý detail s dokonalou presnosťou – či už fotíte, natáčate alebo tvoríte.",
 				"colors": "#f6efe4",
 				"memory": "1 T"
 			}
@@ -8851,7 +8851,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iPhone 15 Pro Max",
+				"value": "Apple iphone 15 Pro Max",
 				"key": "series"
 			},
 			{
@@ -9218,11 +9218,11 @@
 		]
 	},
 	{
-		"phone": "Apple iPhone 16 Pro Max",
+		"phone": "Apple iphone 16 Pro Max",
 		"baseImageUrl": "/data/gallery/16promax",
 		"models": [
 			{
-				"model": "Apple iPhone 16 Pro Max 256 GB Black Titanium",
+				"model": "Apple iphone 16 Pro Max 256 GB Black Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_black-titanium-1.webp",
@@ -9233,18 +9233,18 @@
 					"apple_iphone_16_pro_max_black-titanium-4.webp",
 					"apple_iphone_16_pro_max_black-titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-max-256gb-Black-Titanium",
-				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iPhone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iPhone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
+				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iphone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iphone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
 				"color": "#343434",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro Max 512 GB Black Titanium",
+				"model": "Apple iphone 16 Pro Max 512 GB Black Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_black-titanium-1.webp",
@@ -9255,18 +9255,18 @@
 					"apple_iphone_16_pro_max_black-titanium-4.webp",
 					"apple_iphone_16_pro_max_black-titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-max-512gb-Black-Titanium",
-				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iPhone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iPhone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
+				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iphone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iphone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
 				"color": "#343434",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro Max 1 T Black Titanium",
+				"model": "Apple iphone 16 Pro Max 1 T Black Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_black-titanium-1.webp",
@@ -9277,18 +9277,18 @@
 					"apple_iphone_16_pro_max_black-titanium-4.webp",
 					"apple_iphone_16_pro_max_black-titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-max-1T-Black-Titanium",
-				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iPhone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iPhone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
+				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iphone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iphone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
 				"color": "#343434",
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 16 Pro Max 256 GB White Titanium",
+				"model": "Apple iphone 16 Pro Max 256 GB White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_white-titanium-1.webp",
@@ -9299,18 +9299,18 @@
 					"apple_iphone_16_pro_max_white-titanium-4.webp",
 					"apple_iphone_16_pro_max_white-titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-max-256gb-White-Titanium",
-				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iPhone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iPhone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
+				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iphone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iphone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
 				"color": "#fafafa",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro Max 512 GB White Titanium",
+				"model": "Apple iphone 16 Pro Max 512 GB White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_white-titanium-1.webp",
@@ -9321,18 +9321,18 @@
 					"apple_iphone_16_pro_max_white-titanium-4.webp",
 					"apple_iphone_16_pro_max_white-titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-max-512gb-White-Titanium",
-				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iPhone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iPhone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
+				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iphone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iphone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
 				"color": "#fafafa",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro Max 1 T White Titanium",
+				"model": "Apple iphone 16 Pro Max 1 T White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_white-titanium-1.webp",
@@ -9343,18 +9343,18 @@
 					"apple_iphone_16_pro_max_white-titanium-4.webp",
 					"apple_iphone_16_pro_max_white-titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-max-1T-White-Titanium",
-				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iPhone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iPhone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
+				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iphone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iphone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
 				"color": "#fafafa",
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 16 Pro Max 256 GB desert Titanium",
+				"model": "Apple iphone 16 Pro Max 256 GB desert Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_desert-titanium-1.webp",
@@ -9365,18 +9365,18 @@
 					"apple_iphone_16_pro_max_desert-titanium-4.webp",
 					"apple_iphone_16_pro_max_desert-titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-max-256gb-desert-Titanium",
-				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iPhone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iPhone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
+				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iphone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iphone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
 				"color": "#8f98b2",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro Max 512 GB desert Titanium",
+				"model": "Apple iphone 16 Pro Max 512 GB desert Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_desert-titanium-1.webp",
@@ -9387,18 +9387,18 @@
 					"apple_iphone_16_pro_max_desert-titanium-4.webp",
 					"apple_iphone_16_pro_max_desert-titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-max-512gb-desert-Titanium",
-				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iPhone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iPhone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
+				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iphone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iphone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
 				"color": "#8f98b2",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro Max 1 T desert Titanium",
+				"model": "Apple iphone 16 Pro Max 1 T desert Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_desert-titanium-1.webp",
@@ -9409,18 +9409,18 @@
 					"apple_iphone_16_pro_max_desert-titanium-4.webp",
 					"apple_iphone_16_pro_max_desert-titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-max-1T-desert-Titanium",
-				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iPhone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iPhone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
+				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iphone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iphone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
 				"color": "#8f98b2",
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 16 Pro Max 256 GB Natural Titanium",
+				"model": "Apple iphone 16 Pro Max 256 GB Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_natural-titanium-1.webp",
@@ -9431,18 +9431,18 @@
 					"apple_iphone_16_pro_max_natural-titanium-4.webp",
 					"apple_iphone_16_pro_max_natural-titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-max-256gb-Natural-Titanium",
-				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iPhone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iPhone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
+				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iphone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iphone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
 				"color": "#f6efe4",
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro Max 512 GB Natural Titanium",
+				"model": "Apple iphone 16 Pro Max 512 GB Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_natural-titanium-1.webp",
@@ -9453,18 +9453,18 @@
 					"apple_iphone_16_pro_max_natural-titanium-4.webp",
 					"apple_iphone_16_pro_max_natural-titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-max-512gb-Natural-Titanium",
-				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iPhone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iPhone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
+				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iphone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iphone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
 				"color": "#f6efe4",
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iPhone 16 Pro Max 1 T Natural Titanium",
+				"model": "Apple iphone 16 Pro Max 1 T Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_natural-titanium-1.webp",
@@ -9475,13 +9475,13 @@
 					"apple_iphone_16_pro_max_natural-titanium-4.webp",
 					"apple_iphone_16_pro_max_natural-titanium-5.webp"
 				],
-				"modelGroup": "Iphones",
+				"modelGroup": "iphones",
 				"price": 550.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-max-1T-Natural-Titanium",
-				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iPhone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iPhone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
+				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iphone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iphone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
 				"color": "#f6efe4",
 				"memory": "1 T"
 			}
@@ -9586,7 +9586,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iPhone 16 Pro Max",
+				"value": "Apple iphone 16 Pro Max",
 				"key": "series"
 			},
 			{

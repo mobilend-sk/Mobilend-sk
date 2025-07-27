@@ -18,7 +18,7 @@ const HomeAdvantages = () => {
 		{
 			icon: Award,
 			title: "Modely 2023-2025",
-			description: "Iba najnovšie zariadenia Samsung a Iphone z roku 2023-2025"
+			description: "Iba najnovšie zariadenia Samsung a iPhone z roku 2023-2025"
 		},
 		{
 			icon: HeartHandshake,
