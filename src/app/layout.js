@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="sk">
 			<head>
-				<meta name="google-site-verification" content="bzKEfHM5wrAB_oXd_tGgC9k0Xpcc23S9uHsYd2MNOmA" />
+				<meta name="google-site-verification" content="FSaPwNNHa_INuIokyRiaONgJt97b84T43F6xqFTkR_8" />
 			</head>
 			<body className={`${montserrat.variable}`}>
 				<Script
