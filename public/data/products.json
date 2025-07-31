@@ -1,10 +1,10 @@
 [
 	{
-		"phone": "Apple iphone 14",
+		"phone": "Apple iPhone 14",
 		"baseImageUrl": "/data/gallery/14-01",
 		"models": [
 			{
-				"model": "Apple iphone 14 128 GB Color Midnight",
+				"model": "Apple iPhone 14 128 GB Color Midnight",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_14_128gb_Midnight-1.webp",
@@ -31,7 +31,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 256 GB Color Midnight",
+				"model": "Apple iPhone 14 256 GB Color Midnight",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_14_128gb_Midnight-1.webp",
@@ -58,7 +58,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 512 GB Color Midnight",
+				"model": "Apple iPhone 14 512 GB Color Midnight",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_14_128gb_Midnight-1.webp",
@@ -85,7 +85,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 128 GB Color Starlight",
+				"model": "Apple iPhone 14 128 GB Color Starlight",
 				"category": "phone",
 				"discount": 32.92,
 				"mainImage": "apple_iphone_14_Starlight-1.webp",
@@ -112,7 +112,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 256 GB Color Starlight",
+				"model": "Apple iPhone 14 256 GB Color Starlight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_Starlight-1.webp",
@@ -139,7 +139,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 512 GB Color Starlight",
+				"model": "Apple iPhone 14 512 GB Color Starlight",
 				"category": "phone",
 				"discount": 32.92,
 				"mainImage": "apple_iphone_14_Starlight-1.webp",
@@ -166,7 +166,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 128 GB Color Blue",
+				"model": "Apple iPhone 14 128 GB Color Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_Blue-1.webp",
@@ -193,7 +193,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 256 GB Color Blue",
+				"model": "Apple iPhone 14 256 GB Color Blue",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_14_Blue-1.webp",
@@ -220,7 +220,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 512 GB Color Blue",
+				"model": "Apple iPhone 14 512 GB Color Blue",
 				"category": "phone",
 				"discount": 34,
 				"mainImage": "apple_iphone_14_Blue-1.webp",
@@ -247,7 +247,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 128 GB Color Purple",
+				"model": "Apple iPhone 14 128 GB Color Purple",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_Purple-1.webp",
@@ -274,7 +274,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 256 GB Color Purple",
+				"model": "Apple iPhone 14 256 GB Color Purple",
 				"category": "phone",
 				"discount": 6.98,
 				"mainImage": "apple_iphone_14_Purple-1.webp",
@@ -301,7 +301,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 512 GB Color Purple",
+				"model": "Apple iPhone 14 512 GB Color Purple",
 				"category": "phone",
 				"discount": 7,
 				"mainImage": "apple_iphone_14_Purple-1.webp",
@@ -328,7 +328,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 128 GB Color Red",
+				"model": "Apple iPhone 14 128 GB Color Red",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_Red-1.webp",
@@ -355,7 +355,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 256 GB Color Red",
+				"model": "Apple iPhone 14 256 GB Color Red",
 				"category": "phone",
 				"discount": 28,
 				"mainImage": "apple_iphone_14_Red-1.webp",
@@ -382,7 +382,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 512 GB Color Red",
+				"model": "Apple iPhone 14 512 GB Color Red",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_Red-1.webp",
@@ -409,7 +409,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 128 GB Color Yellow",
+				"model": "Apple iPhone 14 128 GB Color Yellow",
 				"category": "phone",
 				"discount": 34,
 				"mainImage": "apple_iphone_14_Yellow-1.webp",
@@ -436,7 +436,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 256 GB Color Yellow",
+				"model": "Apple iPhone 14 256 GB Color Yellow",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_14_Yellow-1.webp",
@@ -463,7 +463,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 512 GB Color Yellow",
+				"model": "Apple iPhone 14 512 GB Color Yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_Yellow-1.webp",
@@ -620,7 +620,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iphone 14",
+				"value": "Apple iPhone 14",
 				"key": "series"
 			},
 			{
@@ -987,11 +987,11 @@
 		]
 	},
 	{
-		"phone": "Apple iphone 14 Pro",
+		"phone": "Apple iPhone 14 Pro",
 		"baseImageUrl": "/data/gallery/14pro",
 		"models": [
 			{
-				"model": "Apple iphone 14 Pro 128 GB Purple",
+				"model": "Apple iPhone 14 Pro 128 GB Purple",
 				"category": "phone",
 				"discount": 15,
 				"mainImage": "apple_iphone_14_pro_Purple-1.webp",
@@ -1014,7 +1014,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro 256 GB Purple",
+				"model": "Apple iPhone 14 Pro 256 GB Purple",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_Purple-1.webp",
@@ -1037,7 +1037,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro 512 GB Purple",
+				"model": "Apple iPhone 14 Pro 512 GB Purple",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_Purple-1.webp",
@@ -1060,7 +1060,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro 1 T Purple",
+				"model": "Apple iPhone 14 Pro 1 T Purple",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_Purple-1.webp",
@@ -1083,7 +1083,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 14 Pro 128 GB Gold",
+				"model": "Apple iPhone 14 Pro 128 GB Gold",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_Gold-1.webp",
@@ -1106,7 +1106,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro 256 GB Gold",
+				"model": "Apple iPhone 14 Pro 256 GB Gold",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_Gold-1.webp",
@@ -1129,7 +1129,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro 512 GB Gold",
+				"model": "Apple iPhone 14 Pro 512 GB Gold",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_Gold-1.webp",
@@ -1152,7 +1152,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro 1 T Gold",
+				"model": "Apple iPhone 14 Pro 1 T Gold",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_Gold-1.webp",
@@ -1175,7 +1175,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 14 Pro 128 GB Silver",
+				"model": "Apple iPhone 14 Pro 128 GB Silver",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_Silver-1.webp",
@@ -1198,7 +1198,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro 256 GB Silver",
+				"model": "Apple iPhone 14 Pro 256 GB Silver",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_Silver-1.webp",
@@ -1221,7 +1221,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro 512 GB Silver",
+				"model": "Apple iPhone 14 Pro 512 GB Silver",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_Silver-1.webp",
@@ -1244,7 +1244,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro 1 T Silver",
+				"model": "Apple iPhone 14 Pro 1 T Silver",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_Silver-1.webp",
@@ -1267,7 +1267,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 14 Pro 128 GB Black",
+				"model": "Apple iPhone 14 Pro 128 GB Black",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_Black-1.webp",
@@ -1290,7 +1290,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro 256 GB Black",
+				"model": "Apple iPhone 14 Pro 256 GB Black",
 				"category": "phone",
 				"discount": 33,
 				"mainImage": "apple_iphone_14_pro_Black-1.webp",
@@ -1313,7 +1313,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro 512 GB Black",
+				"model": "Apple iPhone 14 Pro 512 GB Black",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_Black-1.webp",
@@ -1336,7 +1336,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro 1 T Black",
+				"model": "Apple iPhone 14 Pro 1 T Black",
 				"category": "phone",
 				"discount": 6,
 				"mainImage": "apple_iphone_14_pro_Black-1.webp",
@@ -1479,7 +1479,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iphone 14",
+				"value": "Apple iPhone 14",
 				"key": "series"
 			},
 			{
@@ -1846,11 +1846,11 @@
 		]
 	},
 	{
-		"phone": "Apple iphone 14 Pro Max",
+		"phone": "Apple iPhone 14 Pro Max",
 		"baseImageUrl": "/data/gallery/14pro-max",
 		"models": [
 			{
-				"model": "Apple iphone 14 Pro Max 128 GB Purple",
+				"model": "Apple iPhone 14 Pro Max 128 GB Purple",
 				"category": "phone",
 				"discount": 34,
 				"mainImage": "apple_iphone_14_pro_max_purple-1.webp",
@@ -1874,7 +1874,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro Max 256 GB Purple",
+				"model": "Apple iPhone 14 Pro Max 256 GB Purple",
 				"category": "phone",
 				"discount": 6,
 				"mainImage": "apple_iphone_14_pro_max_purple-1.webp",
@@ -1898,7 +1898,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro Max 512 GB Purple",
+				"model": "Apple iPhone 14 Pro Max 512 GB Purple",
 				"category": "phone",
 				"discount": 6,
 				"mainImage": "apple_iphone_14_pro_max_purple-1.webp",
@@ -1922,7 +1922,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro Max 1 T Purple",
+				"model": "Apple iPhone 14 Pro Max 1 T Purple",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_max_purple-1.webp",
@@ -1946,7 +1946,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 14 Pro Max 128 GB Gold",
+				"model": "Apple iPhone 14 Pro Max 128 GB Gold",
 				"category": "phone",
 				"discount": 21,
 				"mainImage": "apple_iphone_14_pro_max_gold-1.webp",
@@ -1970,7 +1970,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro Max 256 GB Gold",
+				"model": "Apple iPhone 14 Pro Max 256 GB Gold",
 				"category": "phone",
 				"discount": 33,
 				"mainImage": "apple_iphone_14_pro_max_gold-1.webp",
@@ -1994,7 +1994,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro Max 512 GB Gold",
+				"model": "Apple iPhone 14 Pro Max 512 GB Gold",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_gold-1.webp",
@@ -2018,7 +2018,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro Max 1 T Gold",
+				"model": "Apple iPhone 14 Pro Max 1 T Gold",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_gold-1.webp",
@@ -2042,7 +2042,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 14 Pro Max 128 GB Silver",
+				"model": "Apple iPhone 14 Pro Max 128 GB Silver",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_silver-1.webp",
@@ -2066,7 +2066,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro Max 256 GB Silver",
+				"model": "Apple iPhone 14 Pro Max 256 GB Silver",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_silver-1.webp",
@@ -2090,7 +2090,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro Max 512 GB Silver",
+				"model": "Apple iPhone 14 Pro Max 512 GB Silver",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_silver-1.webp",
@@ -2114,7 +2114,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro Max 1 T Silver",
+				"model": "Apple iPhone 14 Pro Max 1 T Silver",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_silver-1.webp",
@@ -2138,7 +2138,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 14 Pro Max 128 GB Black",
+				"model": "Apple iPhone 14 Pro Max 128 GB Black",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_black-1.webp",
@@ -2162,7 +2162,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro Max 256 GB Black",
+				"model": "Apple iPhone 14 Pro Max 256 GB Black",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_black-1.webp",
@@ -2186,7 +2186,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro Max 512 GB Black",
+				"model": "Apple iPhone 14 Pro Max 512 GB Black",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_black-1.webp",
@@ -2210,7 +2210,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 Pro Max 1 T Black",
+				"model": "Apple iPhone 14 Pro Max 1 T Black",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_14_pro_max_black-1.webp",
@@ -2354,7 +2354,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iphone 14 Pro Max",
+				"value": "Apple iPhone 14 Pro Max",
 				"key": "series"
 			},
 			{
@@ -2721,11 +2721,11 @@
 		]
 	},
 	{
-		"phone": "Apple iphone 14 Plus",
+		"phone": "Apple iPhone 14 Plus",
 		"baseImageUrl": "/data/gallery/14plus",
 		"models": [
 			{
-				"model": "Apple iphone 14 Plus 128 GB Blue",
+				"model": "Apple iPhone 14 Plus 128 GB Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_blue-1.webp",
@@ -2747,7 +2747,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 Plus 256 GB Blue",
+				"model": "Apple iPhone 14 Plus 256 GB Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_blue-1.webp",
@@ -2769,7 +2769,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 Plus 512 GB Blue",
+				"model": "Apple iPhone 14 Plus 512 GB Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_blue-1.webp",
@@ -2791,7 +2791,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 Plus 128 GB Purple",
+				"model": "Apple iPhone 14 Plus 128 GB Purple",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_purple-1.webp",
@@ -2813,7 +2813,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 Plus 256 GB Purple",
+				"model": "Apple iPhone 14 Plus 256 GB Purple",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_purple-1.webp",
@@ -2835,7 +2835,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 Plus 512 GB Purple",
+				"model": "Apple iPhone 14 Plus 512 GB Purple",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_purple-1.webp",
@@ -2857,7 +2857,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 Plus 128 GB yellow",
+				"model": "Apple iPhone 14 Plus 128 GB yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_yellow-1.webp",
@@ -2879,7 +2879,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 Plus 256 GB yellow",
+				"model": "Apple iPhone 14 Plus 256 GB yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_yellow-1.webp",
@@ -2901,7 +2901,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 Plus 512 GB yellow",
+				"model": "Apple iPhone 14 Plus 512 GB yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_yellow-1.webp",
@@ -2923,7 +2923,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 Plus 128 GB Starlight",
+				"model": "Apple iPhone 14 Plus 128 GB Starlight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_starlight-1.webp",
@@ -2945,7 +2945,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 Plus 256 GB Starlight",
+				"model": "Apple iPhone 14 Plus 256 GB Starlight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_starlight-1.webp",
@@ -2967,7 +2967,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 Plus 512 GB Starlight",
+				"model": "Apple iPhone 14 Plus 512 GB Starlight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_starlight-1.webp",
@@ -2989,7 +2989,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 Plus 128 GB Midnight",
+				"model": "Apple iPhone 14 Plus 128 GB Midnight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_midnight-1.webp",
@@ -3011,7 +3011,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 Plus 256 GB Midnight",
+				"model": "Apple iPhone 14 Plus 256 GB Midnight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_midnight-1.webp",
@@ -3033,7 +3033,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 Plus 512 GB Midnight",
+				"model": "Apple iPhone 14 Plus 512 GB Midnight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_midnight-1.webp",
@@ -3055,7 +3055,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 14 Plus 128 GB RED",
+				"model": "Apple iPhone 14 Plus 128 GB RED",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_red-1.webp",
@@ -3077,7 +3077,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 14 Plus 256 GB RED",
+				"model": "Apple iPhone 14 Plus 256 GB RED",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_red-1.webp",
@@ -3099,7 +3099,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 14 Plus 512 GB RED",
+				"model": "Apple iPhone 14 Plus 512 GB RED",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_plus_red-1.webp",
@@ -3266,7 +3266,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iphone 14 Plus",
+				"value": "Apple iPhone 14 Plus",
 				"key": "series"
 			},
 			{
@@ -3633,11 +3633,11 @@
 		]
 	},
 	{
-		"phone": "Apple iphone 15 Pro Max",
+		"phone": "Apple iPhone 15 Pro Max",
 		"baseImageUrl": "/data/gallery/15promax",
 		"models": [
 			{
-				"model": "Apple iphone 15 Pro Max 256 GB Black Titanium",
+				"model": "Apple iPhone 15 Pro Max 256 GB Black Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Black_Titanium-1.webp",
@@ -3657,7 +3657,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro Max 512 GB Black Titanium",
+				"model": "Apple iPhone 15 Pro Max 512 GB Black Titanium",
 				"category": "phone",
 				"discount": 15,
 				"mainImage": "apple_iphone_15_pro_max_Black_Titanium-1.webp",
@@ -3677,7 +3677,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro Max 1 T Black Titanium",
+				"model": "Apple iPhone 15 Pro Max 1 T Black Titanium",
 				"category": "phone",
 				"discount": 62,
 				"mainImage": "apple_iphone_15_pro_max_Black_Titanium-1.webp",
@@ -3697,7 +3697,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 15 Pro Max 256 GB White Titanium",
+				"model": "Apple iPhone 15 Pro Max 256 GB White Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_White_Titanium-1.webp",
@@ -3717,7 +3717,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro Max 512 GB White Titanium",
+				"model": "Apple iPhone 15 Pro Max 512 GB White Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_White_Titanium-1.webp",
@@ -3737,7 +3737,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro Max 1 T White Titanium",
+				"model": "Apple iPhone 15 Pro Max 1 T White Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_White_Titanium-1.webp",
@@ -3757,7 +3757,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 15 Pro Max 256 GB Blue Titanium",
+				"model": "Apple iPhone 15 Pro Max 256 GB Blue Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Blue_Titanium-1.webp",
@@ -3777,7 +3777,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro Max 512 GB Blue Titanium",
+				"model": "Apple iPhone 15 Pro Max 512 GB Blue Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Blue_Titanium-1.webp",
@@ -3797,7 +3797,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro Max 1 T Blue Titanium",
+				"model": "Apple iPhone 15 Pro Max 1 T Blue Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Blue_Titanium-1.webp",
@@ -3817,7 +3817,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 15 Pro Max 256 GB Natural Titanium",
+				"model": "Apple iPhone 15 Pro Max 256 GB Natural Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Natural_Titanium-1.webp",
@@ -3837,7 +3837,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro Max 512 GB Natural Titanium",
+				"model": "Apple iPhone 15 Pro Max 512 GB Natural Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Natural_Titanium-1.webp",
@@ -3857,7 +3857,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro Max 1 T Natural Titanium",
+				"model": "Apple iPhone 15 Pro Max 1 T Natural Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_max_Natural_Titanium-1.webp",
@@ -3977,7 +3977,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iphone 15 Pro Max",
+				"value": "Apple iPhone 15 Pro Max",
 				"key": "series"
 			},
 			{
@@ -4344,11 +4344,11 @@
 		]
 	},
 	{
-		"phone": "Apple iphone 15 Pro",
+		"phone": "Apple iPhone 15 Pro",
 		"baseImageUrl": "/data/gallery/15pro",
 		"models": [
 			{
-				"model": "Apple iphone 15 Pro 128 GB Black Titanium",
+				"model": "Apple iPhone 15 Pro 128 GB Black Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_Black_Titanium-1.webp",
@@ -4370,7 +4370,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro 256 GB Black Titanium",
+				"model": "Apple iPhone 15 Pro 256 GB Black Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_Black_Titanium-1.webp",
@@ -4392,7 +4392,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro 512 GB Black Titanium",
+				"model": "Apple iPhone 15 Pro 512 GB Black Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_Black_Titanium-1.webp",
@@ -4414,7 +4414,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro 1 T Black Titanium",
+				"model": "Apple iPhone 15 Pro 1 T Black Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_pro_Black_Titanium-1.webp",
@@ -4436,7 +4436,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 15 Pro 128 GB White Titanium",
+				"model": "Apple iPhone 15 Pro 128 GB White Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_White_Titanium-1.webp",
@@ -4458,7 +4458,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro 256 GB White Titanium",
+				"model": "Apple iPhone 15 Pro 256 GB White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_pro_White_Titanium-1.webp",
@@ -4480,7 +4480,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro 512 GB White Titanium",
+				"model": "Apple iPhone 15 Pro 512 GB White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_pro_White_Titanium-1.webp",
@@ -4502,7 +4502,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro 1 T White Titanium",
+				"model": "Apple iPhone 15 Pro 1 T White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_pro_White_Titanium-1.webp",
@@ -4524,7 +4524,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 15 Pro 128 GB Blue Titanium",
+				"model": "Apple iPhone 15 Pro 128 GB Blue Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_Blue_Titanium-1.webp",
@@ -4546,7 +4546,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro 256 GB Blue Titanium",
+				"model": "Apple iPhone 15 Pro 256 GB Blue Titanium",
 				"category": "phone",
 				"discount": 25,
 				"mainImage": "apple_iphone_15_pro_Blue_Titanium-1.webp",
@@ -4568,7 +4568,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro 512 GB Blue Titanium",
+				"model": "Apple iPhone 15 Pro 512 GB Blue Titanium",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_pro_Blue_Titanium-1.webp",
@@ -4590,7 +4590,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro 1 T Blue Titanium",
+				"model": "Apple iPhone 15 Pro 1 T Blue Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_pro_Blue_Titanium-1.webp",
@@ -4612,7 +4612,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 15 Pro 128 GB Natural Titanium",
+				"model": "Apple iPhone 15 Pro 128 GB Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_pro_Natural_Titanium-1.webp",
@@ -4634,7 +4634,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro 256 GB Natural Titanium",
+				"model": "Apple iPhone 15 Pro 256 GB Natural Titanium",
 				"category": "phone",
 				"discount": 5,
 				"mainImage": "apple_iphone_15_pro_Natural_Titanium-1.webp",
@@ -4656,7 +4656,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro 512 GB Natural Titanium",
+				"model": "Apple iPhone 15 Pro 512 GB Natural Titanium",
 				"category": "phone",
 				"discount": 7,
 				"mainImage": "apple_iphone_15_pro_Natural_Titanium-1.webp",
@@ -4678,7 +4678,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 15 Pro 1 T Natural Titanium",
+				"model": "Apple iPhone 15 Pro 1 T Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_pro_Natural_Titanium-1.webp",
@@ -4820,7 +4820,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iphone 15 Pro",
+				"value": "Apple iPhone 15 Pro",
 				"key": "series"
 			},
 			{
@@ -5187,11 +5187,11 @@
 		]
 	},
 	{
-		"phone": "Apple iphone 15",
+		"phone": "Apple iPhone 15",
 		"baseImageUrl": "/data/gallery/15",
 		"models": [
 			{
-				"model": "Apple iphone 15 128 GB Blue",
+				"model": "Apple iPhone 15 128 GB Blue",
 				"category": "phone",
 				"discount": 17,
 				"mainImage": "apple_iphone_15_Blue-1.webp",
@@ -5211,7 +5211,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 15 256 GB Blue",
+				"model": "Apple iPhone 15 256 GB Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_Blue-1.webp",
@@ -5231,7 +5231,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 512 GB Blue",
+				"model": "Apple iPhone 15 512 GB Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_Blue-1.webp",
@@ -5251,7 +5251,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 15 128 GB Yellow",
+				"model": "Apple iPhone 15 128 GB Yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_Yellow-1.webp",
@@ -5271,7 +5271,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 15 256 GB Yellow",
+				"model": "Apple iPhone 15 256 GB Yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_Yellow-1.webp",
@@ -5291,7 +5291,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 512 GB Yellow",
+				"model": "Apple iPhone 15 512 GB Yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_Yellow-1.webp",
@@ -5311,7 +5311,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 15 128 GB Pink",
+				"model": "Apple iPhone 15 128 GB Pink",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_Pink-1.webp",
@@ -5331,7 +5331,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 15 256 GB Pink",
+				"model": "Apple iPhone 15 256 GB Pink",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_Pink-1.webp",
@@ -5351,7 +5351,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 512 GB Pink",
+				"model": "Apple iPhone 15 512 GB Pink",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_Pink-1.webp",
@@ -5371,7 +5371,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 15 128 GB Green",
+				"model": "Apple iPhone 15 128 GB Green",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_Green-1.webp",
@@ -5391,7 +5391,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 15 256 GB Green",
+				"model": "Apple iPhone 15 256 GB Green",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_Green-1.webp",
@@ -5411,7 +5411,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 512 GB Green",
+				"model": "Apple iPhone 15 512 GB Green",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_Green-1.webp",
@@ -5431,7 +5431,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 15 128 GB Midnight",
+				"model": "Apple iPhone 15 128 GB Midnight",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_Midnight-1.webp",
@@ -5451,7 +5451,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 15 256 GB Midnight",
+				"model": "Apple iPhone 15 256 GB Midnight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_Midnight-1.webp",
@@ -5471,7 +5471,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 512 GB Midnight",
+				"model": "Apple iPhone 15 512 GB Midnight",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_15_Midnight-1.webp",
@@ -5606,7 +5606,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iphone 15",
+				"value": "Apple iPhone 15",
 				"key": "series"
 			},
 			{
@@ -5973,11 +5973,11 @@
 		]
 	},
 	{
-		"phone": "Apple iphone 15",
+		"phone": "Apple iPhone 15",
 		"baseImageUrl": "/data/gallery/15+",
 		"models": [
 			{
-				"model": "Apple iphone 15 Plus 128 GB Blue",
+				"model": "Apple iPhone 15 Plus 128 GB Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Blue-1.webp",
@@ -5997,7 +5997,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 15 Plus 256 GB Blue",
+				"model": "Apple iPhone 15 Plus 256 GB Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Blue-1.webp",
@@ -6017,7 +6017,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 Plus 512 GB Blue",
+				"model": "Apple iPhone 15 Plus 512 GB Blue",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Blue-1.webp",
@@ -6037,7 +6037,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 15 Plus 128 GB Yellow",
+				"model": "Apple iPhone 15 Plus 128 GB Yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Yellow-1.webp",
@@ -6057,7 +6057,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 15 Plus 256 GB yellow",
+				"model": "Apple iPhone 15 Plus 256 GB yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Yellow-1.webp",
@@ -6077,7 +6077,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 Plus 512 GB yellow",
+				"model": "Apple iPhone 15 Plus 512 GB yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Yellow-1.webp",
@@ -6097,7 +6097,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 15 Plus 128 GB Pink",
+				"model": "Apple iPhone 15 Plus 128 GB Pink",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Pink-1.webp",
@@ -6117,7 +6117,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 15 Plus 256 GB pink",
+				"model": "Apple iPhone 15 Plus 256 GB pink",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Pink-1.webp",
@@ -6137,7 +6137,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 Plus 512 GB pink",
+				"model": "Apple iPhone 15 Plus 512 GB pink",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Pink-1.webp",
@@ -6157,7 +6157,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 15 Plus 128 GB Green",
+				"model": "Apple iPhone 15 Plus 128 GB Green",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Green-1.webp",
@@ -6177,7 +6177,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 15 Plus 256 GB Green",
+				"model": "Apple iPhone 15 Plus 256 GB Green",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Green-1.webp",
@@ -6197,7 +6197,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 Plus 512 GB Green",
+				"model": "Apple iPhone 15 Plus 512 GB Green",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Green-1.webp",
@@ -6217,7 +6217,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 15 Plus 128 GB Midnight",
+				"model": "Apple iPhone 15 Plus 128 GB Midnight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Midnight-1.webp",
@@ -6237,7 +6237,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 15 Plus 256 GB Midnight",
+				"model": "Apple iPhone 15 Plus 256 GB Midnight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Midnight-1.webp",
@@ -6257,7 +6257,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 15 Plus 512 GB Midnight",
+				"model": "Apple iPhone 15 Plus 512 GB Midnight",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_15_plus_Midnight-1.webp",
@@ -6392,7 +6392,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iphone 15 Plus",
+				"value": "Apple iPhone 15 Plus",
 				"key": "series"
 			},
 			{
@@ -6759,11 +6759,11 @@
 		]
 	},
 	{
-		"phone": "Apple iphone 16",
+		"phone": "Apple iPhone 16",
 		"baseImageUrl": "/data/gallery/16",
 		"models": [
 			{
-				"model": "Apple iphone 16 128 GB Color Black",
+				"model": "Apple iPhone 16 128 GB Color Black",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Black-1.webp",
@@ -6785,7 +6785,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 16 256 GB Color Black",
+				"model": "Apple iPhone 16 256 GB Color Black",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Black-1.webp",
@@ -6807,7 +6807,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 512 GB Color Black",
+				"model": "Apple iPhone 16 512 GB Color Black",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Black-1.webp",
@@ -6829,7 +6829,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 16 128 GB Color White",
+				"model": "Apple iPhone 16 128 GB Color White",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_White-1.webp",
@@ -6851,7 +6851,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 16 256 GB Color White",
+				"model": "Apple iPhone 16 256 GB Color White",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_White-1.webp",
@@ -6873,7 +6873,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 512 GB Color White",
+				"model": "Apple iPhone 16 512 GB Color White",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_White-1.webp",
@@ -6895,7 +6895,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 16 128 GB Color Pink",
+				"model": "Apple iPhone 16 128 GB Color Pink",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Pink-1.webp",
@@ -6917,7 +6917,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 16 256 GB Color Pink",
+				"model": "Apple iPhone 16 256 GB Color Pink",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Pink-1.webp",
@@ -6939,7 +6939,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 512 GB Color Pink",
+				"model": "Apple iPhone 16 512 GB Color Pink",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Pink-1.webp",
@@ -6961,7 +6961,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 16 128 GB Color Blue",
+				"model": "Apple iPhone 16 128 GB Color Blue",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Blue-1.webp",
@@ -6983,7 +6983,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 16 256 GB Color Blue",
+				"model": "Apple iPhone 16 256 GB Color Blue",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Blue-1.webp",
@@ -7005,7 +7005,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 512 GB Color Blue",
+				"model": "Apple iPhone 16 512 GB Color Blue",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Blue-1.webp",
@@ -7027,7 +7027,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 16 128 GB Color Green",
+				"model": "Apple iPhone 16 128 GB Color Green",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Green-1.webp",
@@ -7049,7 +7049,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 16 256 GB Color Green",
+				"model": "Apple iPhone 16 256 GB Color Green",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Green-1.webp",
@@ -7071,7 +7071,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 512 GB Color Green",
+				"model": "Apple iPhone 16 512 GB Color Green",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_Green-1.webp",
@@ -7208,7 +7208,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iphone 14",
+				"value": "Apple iPhone 14",
 				"key": "series"
 			},
 			{
@@ -7575,11 +7575,11 @@
 		]
 	},
 	{
-		"phone": "Apple iphone 16 Plus",
+		"phone": "Apple iPhone 16 Plus",
 		"baseImageUrl": "/data/gallery/16+",
 		"models": [
 			{
-				"model": "Apple iphone 16 Plus 128 GB Color Black",
+				"model": "Apple iPhone 16 Plus 128 GB Color Black",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Black-1.webp",
@@ -7601,7 +7601,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 16 Plus 256 GB Color Black",
+				"model": "Apple iPhone 16 Plus 256 GB Color Black",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Black-1.webp",
@@ -7623,7 +7623,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 Plus 512 GB Color Black",
+				"model": "Apple iPhone 16 Plus 512 GB Color Black",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Black-1.webp",
@@ -7645,7 +7645,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 16 Plus 128 GB Color White",
+				"model": "Apple iPhone 16 Plus 128 GB Color White",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_White-1.webp",
@@ -7667,7 +7667,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 16 Plus 256 GB Color White",
+				"model": "Apple iPhone 16 Plus 256 GB Color White",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_White-1.webp",
@@ -7689,7 +7689,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 Plus 512 GB Color White",
+				"model": "Apple iPhone 16 Plus 512 GB Color White",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_White-1.webp",
@@ -7711,7 +7711,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 16 Plus 128 GB Color Pink",
+				"model": "Apple iPhone 16 Plus 128 GB Color Pink",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Pink-1.webp",
@@ -7733,7 +7733,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 16 Plus 256 GB Color Pink",
+				"model": "Apple iPhone 16 Plus 256 GB Color Pink",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Pink-1.webp",
@@ -7755,7 +7755,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 Plus 512 GB Color Pink",
+				"model": "Apple iPhone 16 Plus 512 GB Color Pink",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Pink-1.webp",
@@ -7777,7 +7777,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 16 Plus 128 GB Color Blue",
+				"model": "Apple iPhone 16 Plus 128 GB Color Blue",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Blue-1.webp",
@@ -7799,7 +7799,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 16 Plus 256 GB Color Blue",
+				"model": "Apple iPhone 16 Plus 256 GB Color Blue",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Blue-1.webp",
@@ -7821,7 +7821,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 Plus 512 GB Color Blue",
+				"model": "Apple iPhone 16 Plus 512 GB Color Blue",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Blue-1.webp",
@@ -7843,7 +7843,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 16 Plus 128 GB Color Green",
+				"model": "Apple iPhone 16 Plus 128 GB Color Green",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Green-1.webp",
@@ -7865,7 +7865,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 16 Plus 256 GB Color Green",
+				"model": "Apple iPhone 16 Plus 256 GB Color Green",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Green-1.webp",
@@ -7887,7 +7887,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 Plus 512 GB Color Green",
+				"model": "Apple iPhone 16 Plus 512 GB Color Green",
 				"category": "phone",
 				"discount": 9,
 				"mainImage": "apple_iphone_16_plus_Green-1.webp",
@@ -8024,7 +8024,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iphone 14",
+				"value": "Apple iPhone 14",
 				"key": "series"
 			},
 			{
@@ -8391,11 +8391,11 @@
 		]
 	},
 	{
-		"phone": "Apple iphone 16 Pro",
+		"phone": "Apple iPhone 16 Pro",
 		"baseImageUrl": "/data/gallery/16pro",
 		"models": [
 			{
-				"model": "Apple iphone 16 Pro 128 GB Black Titanium",
+				"model": "Apple iPhone 16 Pro 128 GB Black Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Black-Titanium-1.webp",
@@ -8416,7 +8416,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro 256 GB Black Titanium",
+				"model": "Apple iPhone 16 Pro 256 GB Black Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Black-Titanium-1.webp",
@@ -8437,7 +8437,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro 512 GB Black Titanium",
+				"model": "Apple iPhone 16 Pro 512 GB Black Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Black-Titanium-1.webp",
@@ -8458,7 +8458,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro 1 T Black Titanium",
+				"model": "Apple iPhone 16 Pro 1 T Black Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Black-Titanium-1.webp",
@@ -8479,7 +8479,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 16 Pro 128 GB White Titanium",
+				"model": "Apple iPhone 16 Pro 128 GB White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_White-Titanium-1.webp",
@@ -8500,7 +8500,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro 256 GB White Titanium",
+				"model": "Apple iPhone 16 Pro 256 GB White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_White-Titanium-1.webp",
@@ -8521,7 +8521,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro 512 GB White Titanium",
+				"model": "Apple iPhone 16 Pro 512 GB White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_White-Titanium-1.webp",
@@ -8542,7 +8542,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro 1 T White Titanium",
+				"model": "Apple iPhone 16 Pro 1 T White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_White-Titanium-1.webp",
@@ -8563,7 +8563,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 16 Pro 128 GB Desert Titanium",
+				"model": "Apple iPhone 16 Pro 128 GB Desert Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Desert-Titanium-1.webp",
@@ -8584,7 +8584,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro 256 GB Desert Titanium",
+				"model": "Apple iPhone 16 Pro 256 GB Desert Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Desert-Titanium-1.webp",
@@ -8605,7 +8605,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro 512 GB Desert Titanium",
+				"model": "Apple iPhone 16 Pro 512 GB Desert Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Desert-Titanium-1.webp",
@@ -8626,7 +8626,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro 1 T Desert Titanium",
+				"model": "Apple iPhone 16 Pro 1 T Desert Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Desert-Titanium-1.webp",
@@ -8647,7 +8647,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 16 Pro 128 GB Natural Titanium",
+				"model": "Apple iPhone 16 Pro 128 GB Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Natural-Titanium-1.webp",
@@ -8668,7 +8668,7 @@
 				"memory": "128 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro 256 GB Natural Titanium",
+				"model": "Apple iPhone 16 Pro 256 GB Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Natural-Titanium-1.webp",
@@ -8689,7 +8689,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro 512 GB Natural Titanium",
+				"model": "Apple iPhone 16 Pro 512 GB Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Natural-Titanium-1.webp",
@@ -8710,7 +8710,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro 1 T Natural Titanium",
+				"model": "Apple iPhone 16 Pro 1 T Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_Natural-Titanium-1.webp",
@@ -8851,7 +8851,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iphone 15 Pro Max",
+				"value": "Apple iPhone 15 Pro Max",
 				"key": "series"
 			},
 			{
@@ -9218,11 +9218,11 @@
 		]
 	},
 	{
-		"phone": "Apple iphone 16 Pro Max",
+		"phone": "Apple iPhone 16 Pro Max",
 		"baseImageUrl": "/data/gallery/16promax",
 		"models": [
 			{
-				"model": "Apple iphone 16 Pro Max 256 GB Black Titanium",
+				"model": "Apple iPhone 16 Pro Max 256 GB Black Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_black-titanium-1.webp",
@@ -9244,7 +9244,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro Max 512 GB Black Titanium",
+				"model": "Apple iPhone 16 Pro Max 512 GB Black Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_black-titanium-1.webp",
@@ -9266,7 +9266,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro Max 1 T Black Titanium",
+				"model": "Apple iPhone 16 Pro Max 1 T Black Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_black-titanium-1.webp",
@@ -9288,7 +9288,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 16 Pro Max 256 GB White Titanium",
+				"model": "Apple iPhone 16 Pro Max 256 GB White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_white-titanium-1.webp",
@@ -9310,7 +9310,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro Max 512 GB White Titanium",
+				"model": "Apple iPhone 16 Pro Max 512 GB White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_white-titanium-1.webp",
@@ -9332,7 +9332,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro Max 1 T White Titanium",
+				"model": "Apple iPhone 16 Pro Max 1 T White Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_white-titanium-1.webp",
@@ -9354,7 +9354,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 16 Pro Max 256 GB desert Titanium",
+				"model": "Apple iPhone 16 Pro Max 256 GB desert Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_desert-titanium-1.webp",
@@ -9376,7 +9376,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro Max 512 GB desert Titanium",
+				"model": "Apple iPhone 16 Pro Max 512 GB desert Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_desert-titanium-1.webp",
@@ -9398,7 +9398,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro Max 1 T desert Titanium",
+				"model": "Apple iPhone 16 Pro Max 1 T desert Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_desert-titanium-1.webp",
@@ -9420,7 +9420,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iphone 16 Pro Max 256 GB Natural Titanium",
+				"model": "Apple iPhone 16 Pro Max 256 GB Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_natural-titanium-1.webp",
@@ -9442,7 +9442,7 @@
 				"memory": "256 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro Max 512 GB Natural Titanium",
+				"model": "Apple iPhone 16 Pro Max 512 GB Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_natural-titanium-1.webp",
@@ -9464,7 +9464,7 @@
 				"memory": "512 GB"
 			},
 			{
-				"model": "Apple iphone 16 Pro Max 1 T Natural Titanium",
+				"model": "Apple iPhone 16 Pro Max 1 T Natural Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_natural-titanium-1.webp",
@@ -9586,7 +9586,7 @@
 			},
 			{
 				"label": "Produktový rad",
-				"value": "Apple iphone 16 Pro Max",
+				"value": "Apple iPhone 16 Pro Max",
 				"key": "series"
 			},
 			{
