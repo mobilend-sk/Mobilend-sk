@@ -1,11 +1,11 @@
 ---
 title: "5 krokov, ako kúpiť telefón na splátky bez preplácania"
 description: "Naučte sa, ako kúpiť iPhone alebo Samsung na splátky bez úrokov a skrytých poplatkov. Praktický návod od Mobilend.sk."
-date: "2025-07-29"
+date: "2025-07-31"
 slug: "5-krokov-telefon-na-splatky-bez-preplacania"
 image: "/data/blog/images/telefon-na-splatky-bez-preplacania.webp"
 categories: ["Splátky", "Nákupný poradca", "Smartfóny", "iPhone", "Samsung"]
-featured: false
+featured: true
 ---
 
 # 5 krokov, ako kúpiť telefón na splátky bez preplácania
@@ -18,7 +18,7 @@ V tomto článku sa dozviete, ako sa vyhnúť skrytým poplatkom, úrokom a zbyt
 
 ---
 
-## 1️⃣ Porovnávajte podmienky splátok pred nákupom
+## 1. Porovnávajte podmienky splátok pred nákupom
 
 Skôr než si kúpite smartfón na splátky, skontrolujte:
 
@@ -35,7 +35,7 @@ Skôr než si kúpite smartfón na splátky, skontrolujte:
 
 ---
 
-## 2️⃣ Vyberte si spoľahlivého predajcu
+## 2. Vyberte si spoľahlivého predajcu
 
 Mnohé e-shopy lákajú na „telefón na splátky bez preplácania“, no v zmluve sa skrývajú navýšenia alebo poistenia.  
 
@@ -49,7 +49,7 @@ Mnohé e-shopy lákajú na „telefón na splátky bez preplácania“, no v zml
 
 ---
 
-## 3️⃣ Vyhnite sa bankovým úverom
+## 3. Vyhnite sa bankovým úverom
 
 Banka často pridáva úrok a poistenie, vďaka čomu sa telefón môže predražiť až o 30 %.  
 
@@ -61,7 +61,7 @@ Banka často pridáva úrok a poistenie, vďaka čomu sa telefón môže predra�
 
 ---
 
-## 4️⃣ Sledujte svoje splátky
+## 4. Sledujte svoje splátky
 
 Najčastejším dôvodom preplatenia sú **penále za omeškanie**.  
 
@@ -73,7 +73,7 @@ Najčastejším dôvodom preplatenia sú **penále za omeškanie**.
 
 ---
 
-## 5️⃣ Dôkladne čítajte zmluvu
+## 5. Dôkladne čítajte zmluvu
 
 Pred podpisom vždy skontrolujte:
 
@@ -94,7 +94,7 @@ Pred podpisom vždy skontrolujte:
 
 ---
 
-## ❓ Často kladené otázky (FAQ)
+## ? Často kladené otázky (FAQ)
 
 ### Môžem kúpiť telefón na splátky bez preplácania?
 Áno! **Mobilend.sk** ponúka **splátky 0 % bez skrytých poplatkov**.

@@ -1,7 +1,7 @@
 ---
 title: "Ako kúpiť telefón na splátky online za 5 minút – jednoduchý návod"
 description: "Zistite, ako si rýchlo kúpiť nový iPhone alebo Samsung na splátky online. Mobilend.sk ponúka rýchle schválenie a doručenie až domov."
-date: "2025-07-29"
+date: "2025-07-30"
 slug: "ako-kupit-telefon-na-splatky-za-5-minut"
 image: "/data/blog/images/telefon-na-splatky-online.webp"
 categories: ["Splátky", "Smartfóny", "iPhone", "Samsung", "Online nákup"]
