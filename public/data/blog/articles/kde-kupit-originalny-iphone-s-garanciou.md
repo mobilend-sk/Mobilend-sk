@@ -4,7 +4,6 @@ description: "Hľadáte originálny iPhone s plnou zárukou a kvalitným serviso
 date: "2025-07-25"
 slug: "kde-kupit-originalny-iphone-s-garanciou"
 image: "/data/blog/images/zaruka-iphone.webp"
-author: "Tomáš Novák"
 categories: ["Nákupný poradca", "iPhone", "Záruka"]
 featured: true
 ---

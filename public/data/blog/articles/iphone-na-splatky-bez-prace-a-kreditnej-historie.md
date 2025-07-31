@@ -4,7 +4,6 @@ description: "Zistite, ako môžete získať iPhone na splátky aj bez oficiáln
 date: "2025-07-25"
 slug: "iphone-na-splatky-bez-prace-a-kreditnej-historie"
 image: "/data/blog/images/iphone-bez-prace.webp"
-author: "Tomáš Novák"
 categories: ["Splátky", "iPhone", "Financovanie", "Bezúročné platby"]
 featured: false
 ---

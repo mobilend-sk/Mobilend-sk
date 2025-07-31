@@ -4,7 +4,6 @@ description: "Zistite, ako si kúpiť nový smartfón na splátky bez úrokov a 
 date: "2025-07-25"
 slug: "ako-kupit-smartfon-na-splatky-bez-preplacania"
 image: "/data/blog/images/splatky-bez-navysenia.webp"
-author: "Tomáš Novák"
 categories: ["Splátky", "Nákupný poradca", "iPhone", "Samsung"]
 featured: false
 ---

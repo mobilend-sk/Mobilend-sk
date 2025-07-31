@@ -4,7 +4,6 @@ description: "Zistite, ako jednoducho kúpiť nový iPhone alebo Samsung Galaxy 
 date: "2025-07-24"
 slug: "ako-kupit-iPhone-alebo-samsung-na-splatky"
 image: "/data/blog/images/iPhone-samsung-splatky.webp"
-author: "Tomáš Novák"
 categories: ["Nákupný poradca", "iPhone", "Samsung", "Splátky"]
 featured: true
 ---
@@ -29,7 +28,7 @@ Nový smartfón môže byť drahou investíciou. Našťastie, existuje riešenie
 | Výkon | 🔥 Najvyšší výkon na trhu | 💪 Skvelý multitasking |
 | Fotoaparát | 🎥 Stabilné video | 📸 200MP foto |
 | Batéria | ⚡ Dobrý deň výdrže | 🔋 Výdrž 1,5 dňa |
-| Cena od | €1,199 | €1,299 |
+| Cena od | €510 | €1,799 |
 
 **Oba telefóny sú vynikajúce – ide len o to, čo preferujete.**
 

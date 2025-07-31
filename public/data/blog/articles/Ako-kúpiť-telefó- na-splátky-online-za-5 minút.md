@@ -4,7 +4,6 @@ description: "Zistite, ako si rýchlo kúpiť nový iPhone alebo Samsung na spl�
 date: "2025-07-29"
 slug: "ako-kupit-telefon-na-splatky-za-5-minut"
 image: "/data/blog/images/telefon-na-splatky-online.webp"
-author: "Tomáš Novák"
 categories: ["Splátky", "Smartfóny", "iPhone", "Samsung", "Online nákup"]
 featured: true
 ---

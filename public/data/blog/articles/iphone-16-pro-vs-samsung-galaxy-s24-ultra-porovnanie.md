@@ -4,7 +4,6 @@ description: "Detailné porovnanie dvoch vlajkových lodí - iPhone 16 Pro a Sam
 date: "2025-01-15"
 slug: "iphone-16-pro-vs-samsung-galaxy-s24-ultra-porovnanie"
 image: "/data/blog/images/iphone-vs-samsung.webp"
-author: "Tomáš Novák"
 categories: ["Porovnania", "iPhone", "Samsung", "Recenzie"]
 featured: true
 ---
