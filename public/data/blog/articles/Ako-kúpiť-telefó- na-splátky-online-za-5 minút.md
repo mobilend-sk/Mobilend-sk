@@ -36,7 +36,7 @@ Mobilend.sk je riešením pre všetkých, ktorí nechcú alebo nemôžu zaplati�
 **Proces nákupu je mimoriadne jednoduchý** a zaberie vám len pár minút:
 
 1. **Vyberte si svoj telefón**  
-   Prejdite si širokú ponuku smartfónov od **Samsung, Apple, Xiaomi či Huawei**.
+   Prejdite si širokú ponuku smartfónov **Apple a Samsung**.
 
 2. **Kliknite na „Kúpiť na splátky“**  
    Pri každom produkte nájdete možnosť nákupu na splátky. Stačí ju zvoliť a pokračovať v objednávke.
@@ -67,13 +67,10 @@ Mobilend.sk je riešením pre všetkých, ktorí nechcú alebo nemôžu zaplati�
 
 ## Záver
 
-Vďaka Mobilend.sk si môžete kúpiť **nový iPhone, Samsung alebo iný smartfón** na splátky bez čakania a bez komplikácií.  
+Vďaka Mobilend.sk si môžete kúpiť **nový iPhone alebo Samsung** na splátky bez čakania a bez komplikácií.  
 
 **Vyberte si svoj model, vyplňte formulár a telefón môžete používať už o pár dní.**  
 
 👉 [Navštívte Mobilend.sk a získajte svoj nový telefón na splátky ešte dnes](https://mobilend.sk/)
 
 ---
-
-### 🔑 SEO kľúčové slová:
-telefón na splátky, kúpiť iPhone na splátky, kúpiť Samsung na splátky, smartfón bez navýšenia, rýchle splátky online, Mobilend.sk
