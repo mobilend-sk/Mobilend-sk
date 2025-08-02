@@ -80,5 +80,4 @@ Ak túžite po **najnovšom smartfóne**, ale nechcete míňať veľké peniaze 
 
 ---
 
-*Navštívte náš obchod v Bratislave alebo objednajte online ešte dnes.*  
 ➡️ [Zobraziť všetky modely iPhone a Samsung](/katalog)
