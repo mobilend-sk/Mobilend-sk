@@ -1004,7 +1004,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 509.00,
+				"price": 1129.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1027,7 +1027,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 920.00,
+				"price": 1268.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1050,7 +1050,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 704.00,
+				"price": 1565.86,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1073,7 +1073,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 677.90,
+				"price": 1822.12,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1096,7 +1096,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 600.92,
+				"price": 1176.47,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1119,7 +1119,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 600.92,
+				"price": 1309.62,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1142,7 +1142,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 669.90,
+				"price": 1227.73,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1165,7 +1165,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 775.44,
+				"price": 1569.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1188,7 +1188,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 731.90,
+				"price": 770.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1211,7 +1211,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 654.00,
+				"price": 1309.62,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1234,7 +1234,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 760.00,
+				"price": 1565.86,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1257,7 +1257,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1449.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1280,7 +1280,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 999.00,
+				"price": 1135.48,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1303,7 +1303,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 843.90,
+				"price": 1412.13,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1326,7 +1326,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1359,
+				"price": 1565.86,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1349,7 +1349,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 838.90,
+				"price": 1822.12,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -19442,7 +19442,7 @@
 					"samsung_galaxy_z_fold6_shadow-9.webp"
 				],
 				"modelGroup": "Samsung Galaxy",
-				"price": 550.90,
+				"price": 1549.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,

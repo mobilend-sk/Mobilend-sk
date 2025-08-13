@@ -5,7 +5,7 @@ date: "2025-07-30"
 slug: "ako-kupit-telefon-na-splatky-za-5-minut"
 image: "/data/blog/images/telefon-na-splatky-online.webp"
 categories: ["Splátky", "Smartfóny", "iPhone", "Samsung", "Online nákup"]
-featured: true
+featured: false
 ---
 
 # Ako kúpiť telefón na splátky online za 5 minút
