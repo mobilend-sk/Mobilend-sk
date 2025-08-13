@@ -5,7 +5,7 @@ date: "2025-07-25"
 slug: "kde-kupit-originalny-iphone-s-garanciou"
 image: "/data/blog/images/zaruka-iphone.webp"
 categories: ["Nákupný poradca", "iPhone", "Záruka"]
-featured: true
+featured: false
 ---
 
 # Kde kúpiť originálny iPhone so zárukou na Slovensku? – Mobilend.sk má riešenie
