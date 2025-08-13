@@ -3,7 +3,7 @@ title: "Ako kúpiť iPhone alebo Samsung na splátky: Kompletný sprievodca"
 description: "Zistite, ako jednoducho kúpiť nový iPhone alebo Samsung Galaxy na splátky. Výhody, porovnanie modelov a odporúčania pre rok 2025."
 date: "2025-07-24"
 slug: "ako-kupit-iPhone-alebo-samsung-na-splatky"
-image: "/data/blog/images/iPhone-samsung-splatky.webp"
+image: "closeup-shot-entrepreneur-working-from-home-his-personal-finances-savings.webp"
 categories: ["Nákupný poradca", "iPhone", "Samsung", "Splátky"]
 featured: true
 ---

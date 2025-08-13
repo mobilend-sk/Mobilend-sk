@@ -3,7 +3,7 @@ title: "5 krokov, ako kúpiť telefón na splátky bez preplácania"
 description: "Naučte sa, ako kúpiť iPhone alebo Samsung na splátky bez úrokov a skrytých poplatkov. Praktický návod od Mobilend.sk."
 date: "2025-07-31"
 slug: "5-krokov-telefon-na-splatky-bez-preplacania"
-image: "/data/blog/images/telefon-na-splatky-bez-preplacania.webp"
+image: "pleased-handsome-man-cheering-while-looking-his-mobile-phone-achieve-goal-app-smartphone-celebrating-standing-white-background.webp"
 categories: ["Splátky", "Nákupný poradca", "Smartfóny", "iPhone", "Samsung"]
 featured: true
 ---
