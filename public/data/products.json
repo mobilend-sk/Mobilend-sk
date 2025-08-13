@@ -21,7 +21,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 662.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -102,7 +102,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.00,
+				"price": 665.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -129,7 +129,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 560.0,
+				"price": 664.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -141,7 +141,7 @@
 			{
 				"model": "Apple iPhone 14 512 GB Color Starlight",
 				"category": "phone",
-				"discount": 32.92,
+				"discount": 14,
 				"mainImage": "apple_iphone_14_Starlight-1.webp",
 				"images": [
 					"apple_iphone_14_Starlight-1.webp",
@@ -156,7 +156,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 845.0,
+				"price": 1094.48,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -183,7 +183,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 700.90,
+				"price": 604.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -195,7 +195,7 @@
 			{
 				"model": "Apple iPhone 14 256 GB Color Blue",
 				"category": "phone",
-				"discount": 9,
+				"discount": 0,
 				"mainImage": "apple_iphone_14_Blue-1.webp",
 				"images": [
 					"apple_iphone_14_Blue-1.webp",
@@ -210,7 +210,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 823.90,
+				"price": 664.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -222,7 +222,7 @@
 			{
 				"model": "Apple iPhone 14 512 GB Color Blue",
 				"category": "phone",
-				"discount": 34,
+				"discount": 0,
 				"mainImage": "apple_iphone_14_Blue-1.webp",
 				"images": [
 					"apple_iphone_14_Blue-1.webp",
@@ -237,7 +237,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 990.90,
+				"price": 1094.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -264,7 +264,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 609.90,
+				"price": 755.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -276,7 +276,7 @@
 			{
 				"model": "Apple iPhone 14 256 GB Color Purple",
 				"category": "phone",
-				"discount": 6.98,
+				"discount": 0,
 				"mainImage": "apple_iphone_14_Purple-1.webp",
 				"images": [
 					"apple_iphone_14_Purple-1.webp",
@@ -291,7 +291,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 799.0,
+				"price": 665.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -303,7 +303,7 @@
 			{
 				"model": "Apple iPhone 14 512 GB Color Purple",
 				"category": "phone",
-				"discount": 7,
+				"discount": 0,
 				"mainImage": "apple_iphone_14_Purple-1.webp",
 				"images": [
 					"apple_iphone_14_Purple-1.webp",
@@ -318,7 +318,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 799.0,
+				"price": 1094.50,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -330,7 +330,7 @@
 			{
 				"model": "Apple iPhone 14 128 GB Color Red",
 				"category": "phone",
-				"discount": 10,
+				"discount": 8,
 				"mainImage": "apple_iphone_14_Red-1.webp",
 				"images": [
 					"apple_iphone_14_Red-1.webp",
@@ -345,7 +345,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 587.90,
+				"price": 668.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -357,7 +357,7 @@
 			{
 				"model": "Apple iPhone 14 256 GB Color Red",
 				"category": "phone",
-				"discount": 28,
+				"discount": 3,
 				"mainImage": "apple_iphone_14_Red-1.webp",
 				"images": [
 					"apple_iphone_14_Red-1.webp",
@@ -372,7 +372,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 845.0,
+				"price": 778.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -384,7 +384,7 @@
 			{
 				"model": "Apple iPhone 14 512 GB Color Red",
 				"category": "phone",
-				"discount": 0,
+				"discount": 14,
 				"mainImage": "apple_iphone_14_Red-1.webp",
 				"images": [
 					"apple_iphone_14_Red-1.webp",
@@ -399,7 +399,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 513.0,
+				"price": 1094.50,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
