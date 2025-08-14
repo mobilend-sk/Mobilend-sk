@@ -68,10 +68,10 @@ Okamžitá kúpa za plnú cenu by bola príliš veľká rana. Preto si na **Mobi
 
 ---
 
-- ##  Záver  
+ ##  Záver  
 
 Ak sa váš iPhone alebo Samsung Galaxy náhle pokazí a nemôžete čakať do výplaty, nákup na splátky od **Mobilend.sk** je férový a pohodlný spôsob, ako získať nový telefón bez navýšenia.  
 
- - **Objednajte si ho teraz a už o pár dní budete mať nový iPhone alebo Samsung Galaxy s oficiálnou zárukou.**  
+  **Objednajte si ho teraz a už o pár dní budete mať nový iPhone alebo Samsung Galaxy s oficiálnou zárukou.**  
 
  [Kúpiť mobilný telefón na splátky na Mobilend.sk](https://mobilend.sk/)
