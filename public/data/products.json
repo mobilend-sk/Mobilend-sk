@@ -3760,11 +3760,11 @@
 				"model": "Apple iPhone 15 Pro Max 256 GB Blue Titanium",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "iphone_15_pro_max_Blue_Titanium-1.webp",
+				"mainImage": "iphone_15_pro_max_256gb_Blue_Titanium-1.webp",
 				"images": [
-					"iphone_15_pro_max_Blue_Titanium-2.webp",
-					"iphone_15_pro_max_Blue_Titanium-1.webp",
-					"iphone_15_pro_max_Blue_Titanium-3.webp"
+					"iphone_15_pro_max_256gb_Blue_Titanium-2.webp",
+					"iphone_15_pro_max_256gb_Blue_Titanium-1.webp",
+					"iphone_15_pro_max_256gb_Blue_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 1079.90,
@@ -3780,11 +3780,11 @@
 				"model": "Apple iPhone 15 Pro Max 512 GB Blue Titanium",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "iphone_15_pro_max_Blue_Titanium-1.webp",
+				"mainImage": "iphone_15_pro_max_256gb_Blue_Titanium-1.webp",
 				"images": [
-					"iphone_15_pro_max_Blue_Titanium-2.webp",
-					"iphone_15_pro_max_Blue_Titanium-1.webp",
-					"iphone_15_pro_max_Blue_Titanium-3.webp"
+					"iphone_15_pro_max_256gb_Blue_Titanium-2.webp",
+					"iphone_15_pro_max_256gb_Blue_Titanium-1.webp",
+					"iphone_15_pro_max_256gb_Blue_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 1199.00,
@@ -3800,11 +3800,11 @@
 				"model": "Apple iPhone 15 Pro Max 1 T Blue Titanium",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "iphone_15_pro_max_Blue_Titanium-1.webp",
+				"mainImage": "iphone_15_pro_max_256gb_Blue_Titanium-1.webp",
 				"images": [
-					"iphone_15_pro_max_Blue_Titanium-2.webp",
-					"iphone_15_pro_max_Blue_Titanium-1.webp",
-					"iphone_15_pro_max_Blue_Titanium-3.webp"
+					"iphone_15_pro_max_256gb_Blue_Titanium-2.webp",
+					"iphone_15_pro_max_256gb_Blue_Titanium-1.webp",
+					"iphone_15_pro_max_256gb_Blue_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 1799.90,
@@ -3820,11 +3820,11 @@
 				"model": "Apple iPhone 15 Pro Max 256 GB Natural Titanium",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "iphone_15_pro_max_Natural_Titanium-1.webp",
+				"mainImage": "iphone_15_pro_max_256gb_Natural_Titanium-1.webp",
 				"images": [
-					"iphone_15_pro_max_Natural_Titanium-2.webp",
-					"iphone_15_pro_max_Natural_Titanium-1.webp",
-					"iphone_15_pro_max_Natural_Titanium-3.webp"
+					"iphone_15_pro_max_256gb_Natural_Titanium-1.webp",
+					"iphone_15_pro_max_256gb_Natural_Titanium-2.webp",
+					"iphone_15_pro_max_256gb_Natural_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 999.90,
@@ -3840,11 +3840,11 @@
 				"model": "Apple iPhone 15 Pro Max 512 GB Natural Titanium",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "apple_iphone_15_pro_max_Natural_Titanium-1.webp",
+				"mainImage": "iphone_15_pro_max_256gb_Natural_Titanium-1.webp",
 				"images": [
-					"apple_iphone_15_pro_max_Natural_Titanium-1.webp",
-					"apple_iphone_15_pro_max_Natural_Titanium-2.webp",
-					"apple_iphone_15_pro_max_Natural_Titanium-3.webp"
+					"iphone_15_pro_max_256gb_Natural_Titanium-1.webp",
+					"iphone_15_pro_max_256gb_Natural_Titanium-2.webp",
+					"iphone_15_pro_max_256gb_Natural_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 1549.00,
@@ -3860,11 +3860,11 @@
 				"model": "Apple iPhone 15 Pro Max 1 T Natural Titanium",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "apple_iphone_15_pro_max_Natural_Titanium-1.webp",
+				"mainImage": "iphone_15_pro_max_256gb_Natural_Titanium-1.webp",
 				"images": [
-					"apple_iphone_15_pro_max_Natural_Titanium-1.webp",
-					"apple_iphone_15_pro_max_Natural_Titanium-2.webp",
-					"apple_iphone_15_pro_max_Natural_Titanium-3.webp"
+					"iphone_15_pro_max_256gb_Natural_Titanium-1.webp",
+					"iphone_15_pro_max_256gb_Natural_Titanium-2.webp",
+					"iphone_15_pro_max_256gb_Natural_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 1549.90,
@@ -5980,11 +5980,11 @@
 				"model": "Apple iPhone 15 Plus 128 GB Blue",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "apple_iphone_15_plus_Blue-1.webp",
+				"mainImage": "apple_iphone_15_plus_128gb-blue-1.webp",
 				"images": [
-					"apple_iphone_15_plus_Blue-1.webp",
-					"apple_iphone_15_plus_Blue-2.webp",
-					"apple_iphone_15_plus_Blue-3.webp"
+					"apple_iphone_15_plus_128gb-blue-1.webp",
+					"apple_iphone_15_plus_128gb-blue-2.webp",
+					"apple_iphone_15_plus_128gb-blue-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -6000,11 +6000,11 @@
 				"model": "Apple iPhone 15 Plus 256 GB Blue",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "apple_iphone_15_plus_Blue-1.webp",
+				"mainImage": "apple_iphone_15_plus_128gb-blue-1.webp",
 				"images": [
-					"apple_iphone_15_plus_Blue-1.webp",
-					"apple_iphone_15_plus_Blue-2.webp",
-					"apple_iphone_15_plus_Blue-3.webp"
+					"apple_iphone_15_plus_128gb-blue-1.webp",
+					"apple_iphone_15_plus_128gb-blue-2.webp",
+					"apple_iphone_15_plus_128gb-blue-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -6020,11 +6020,11 @@
 				"model": "Apple iPhone 15 Plus 512 GB Blue",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "apple_iphone_15_plus_Blue-1.webp",
+				"mainImage": "apple_iphone_15_plus_128gb-blue-1.webp",
 				"images": [
-					"apple_iphone_15_plus_Blue-1.webp",
-					"apple_iphone_15_plus_Blue-2.webp",
-					"apple_iphone_15_plus_Blue-3.webp"
+					"apple_iphone_15_plus_128gb-blue-1.webp",
+					"apple_iphone_15_plus_128gb-blue-2.webp",
+					"apple_iphone_15_plus_128gb-blue-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -6040,11 +6040,11 @@
 				"model": "Apple iPhone 15 Plus 128 GB Yellow",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "apple_iphone_15_plus_Yellow-1.webp",
+				"mainImage": "apple_iphone_15_plus_128gb-yellow-1.webp",
 				"images": [
-					"apple_iphone_15_plus_Yellow-1.webp",
-					"apple_iphone_15_plus_Yellow-2.webp",
-					"apple_iphone_15_plus_Yellow-3.webp"
+					"apple_iphone_15_plus_128gb-yellow-1.webp",
+					"apple_iphone_15_plus_128gb-yellow-2.webp",
+					"apple_iphone_15_plus_128gb-yellow-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -6060,11 +6060,11 @@
 				"model": "Apple iPhone 15 Plus 256 GB yellow",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "apple_iphone_15_plus_Yellow-1.webp",
+				"mainImage": "apple_iphone_15_plus_128gb-yellow-1.webp",
 				"images": [
-					"apple_iphone_15_plus_Yellow-1.webp",
-					"apple_iphone_15_plus_Yellow-2.webp",
-					"apple_iphone_15_plus_Yellow-3.webp"
+					"apple_iphone_15_plus_128gb-yellow-1.webp",
+					"apple_iphone_15_plus_128gb-yellow-2.webp",
+					"apple_iphone_15_plus_128gb-yellow-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -6080,11 +6080,11 @@
 				"model": "Apple iPhone 15 Plus 512 GB yellow",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "apple_iphone_15_plus_Yellow-1.webp",
+				"mainImage": "apple_iphone_15_plus_128gb-yellow-1.webp",
 				"images": [
-					"apple_iphone_15_plus_Yellow-1.webp",
-					"apple_iphone_15_plus_Yellow-2.webp",
-					"apple_iphone_15_plus_Yellow-3.webp"
+					"apple_iphone_15_plus_128gb-yellow-1.webp",
+					"apple_iphone_15_plus_128gb-yellow-2.webp",
+					"apple_iphone_15_plus_128gb-yellow-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -6100,11 +6100,11 @@
 				"model": "Apple iPhone 15 Plus 128 GB Pink",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "apple_iphone_15_plus_Pink-1.webp",
+				"mainImage": "apple_iphone_15_plus_128gb-pink-1.webp",
 				"images": [
-					"apple_iphone_15_plus_Pink-1.webp",
-					"apple_iphone_15_plus_Pink-2.webp",
-					"apple_iphone_15_plus_Pink-3.webp"
+					"apple_iphone_15_plus_128gb-pink-1.webp",
+					"apple_iphone_15_plus_128gb-pink-2.webp",
+					"apple_iphone_15_plus_128gb-pink-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -6120,11 +6120,11 @@
 				"model": "Apple iPhone 15 Plus 256 GB pink",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "apple_iphone_15_plus_Pink-1.webp",
+				"mainImage": "apple_iphone_15_plus_128gb-pink-1.webp",
 				"images": [
-					"apple_iphone_15_plus_Pink-1.webp",
-					"apple_iphone_15_plus_Pink-2.webp",
-					"apple_iphone_15_plus_Pink-3.webp"
+					"apple_iphone_15_plus_128gb-pink-1.webp",
+					"apple_iphone_15_plus_128gb-pink-2.webp",
+					"apple_iphone_15_plus_128gb-pink-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -6140,11 +6140,11 @@
 				"model": "Apple iPhone 15 Plus 512 GB pink",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "apple_iphone_15_plus_Pink-1.webp",
+				"mainImage": "apple_iphone_15_plus_128gb-pink-1.webp",
 				"images": [
-					"apple_iphone_15_plus_Pink-1.webp",
-					"apple_iphone_15_plus_Pink-2.webp",
-					"apple_iphone_15_plus_Pink-3.webp"
+					"apple_iphone_15_plus_128gb-pink-1.webp",
+					"apple_iphone_15_plus_128gb-pink-2.webp",
+					"apple_iphone_15_plus_128gb-pink-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -6160,11 +6160,11 @@
 				"model": "Apple iPhone 15 Plus 128 GB Green",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "apple_iphone_15_plus_Green-1.webp",
+				"mainImage": "apple_iphone_15_plus_128gb-green-1.webp",
 				"images": [
-					"apple_iphone_15_plus_Green-1.webp",
-					"apple_iphone_15_plus_Green-2.webp",
-					"apple_iphone_15_plus_Green-3.webp"
+					"apple_iphone_15_plus_128gb-green-1.webp",
+					"apple_iphone_15_plus_128gb-green-2.webp",
+					"apple_iphone_15_plus_128gb-green-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -6180,11 +6180,11 @@
 				"model": "Apple iPhone 15 Plus 256 GB Green",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "apple_iphone_15_plus_Green-1.webp",
+				"mainImage": "apple_iphone_15_plus_128gb-green-1.webp",
 				"images": [
-					"apple_iphone_15_plus_Green-1.webp",
-					"apple_iphone_15_plus_Green-2.webp",
-					"apple_iphone_15_plus_Green-3.webp"
+					"apple_iphone_15_plus_128gb-green-1.webp",
+					"apple_iphone_15_plus_128gb-green-2.webp",
+					"apple_iphone_15_plus_128gb-green-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -6200,11 +6200,11 @@
 				"model": "Apple iPhone 15 Plus 512 GB Green",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "apple_iphone_15_plus_Green-1.webp",
+				"mainImage": "apple_iphone_15_plus_128gb-green-1.webp",
 				"images": [
-					"apple_iphone_15_plus_Green-1.webp",
-					"apple_iphone_15_plus_Green-2.webp",
-					"apple_iphone_15_plus_Green-3.webp"
+					"apple_iphone_15_plus_128gb-green-1.webp",
+					"apple_iphone_15_plus_128gb-green-2.webp",
+					"apple_iphone_15_plus_128gb-green-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -6220,11 +6220,11 @@
 				"model": "Apple iPhone 15 Plus 128 GB Midnight",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "apple_iphone_15_plus_Midnight-1.webp",
+				"mainImage": "apple_iphone_15_plus_128gb-Midnight-1.webp",
 				"images": [
-					"apple_iphone_15_plus_Midnight-1.webp",
-					"apple_iphone_15_plus_Midnight-2.webp",
-					"apple_iphone_15_plus_Midnight-3.webp"
+					"apple_iphone_15_plus_128gb-Midnight-1.webp",
+					"apple_iphone_15_plus_128gb-Midnight-2.webp",
+					"apple_iphone_15_plus_128gb-Midnight-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -6240,11 +6240,11 @@
 				"model": "Apple iPhone 15 Plus 256 GB Midnight",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "apple_iphone_15_plus_Midnight-1.webp",
+				"mainImage": "apple_iphone_15_plus_128gb-Midnight-1.webp",
 				"images": [
-					"apple_iphone_15_plus_Midnight-1.webp",
-					"apple_iphone_15_plus_Midnight-2.webp",
-					"apple_iphone_15_plus_Midnight-3.webp"
+					"apple_iphone_15_plus_128gb-Midnight-1.webp",
+					"apple_iphone_15_plus_128gb-Midnight-2.webp",
+					"apple_iphone_15_plus_128gb-Midnight-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -6260,11 +6260,11 @@
 				"model": "Apple iPhone 15 Plus 512 GB Midnight",
 				"category": "phone",
 				"discount": 0,
-				"mainImage": "apple_iphone_15_plus_Midnight-1.webp",
+				"mainImage": "apple_iphone_15_plus_128gb-Midnight-1.webp",
 				"images": [
-					"apple_iphone_15_plus_Midnight-1.webp",
-					"apple_iphone_15_plus_Midnight-2.webp",
-					"apple_iphone_15_plus_Midnight-3.webp"
+					"apple_iphone_15_plus_128gb-Midnight-1.webp",
+					"apple_iphone_15_plus_128gb-Midnight-2.webp",
+					"apple_iphone_15_plus_128gb-Midnight-3.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
