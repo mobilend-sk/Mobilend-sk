@@ -3,7 +3,7 @@ title: "Rátajte každé euro: Ako kúpiť iPhone alebo Samsung na splátky bez 
 description: "Zistite, ako si kúpiť nový smartfón na splátky bez úrokov a skrytých poplatkov. Skutočne zaplatíte len to, čo stojí."
 date: "2025-07-25"
 slug: "ako-kupit-smartfon-na-splatky-bez-preplacania"
-image: "/data/blog/images/two phone 0%.webp"
+image: "/data/blog/images/two-phone-0.webp"
 categories: ["Splátky", "Nákupný poradca", "iPhone", "Samsung"]
 featured: false
 ---

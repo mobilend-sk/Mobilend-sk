@@ -411,7 +411,7 @@
 			{
 				"model": "Apple iPhone 14 128 GB Color Yellow",
 				"category": "phone",
-				"discount": 34,
+				"discount": 1,
 				"mainImage": "apple_iphone_14_Yellow-1.webp",
 				"images": [
 					"apple_iphone_14_Yellow-1.webp",
@@ -426,7 +426,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 823.90,
+				"price": 665.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -437,33 +437,6 @@
 			},
 			{
 				"model": "Apple iPhone 14 256 GB Color Yellow",
-				"category": "phone",
-				"discount": 9,
-				"mainImage": "apple_iphone_14_Yellow-1.webp",
-				"images": [
-					"apple_iphone_14_Yellow-1.webp",
-					"apple_iphone_14_Yellow-2.webp",
-					"apple_iphone_14_Yellow-3.webp",
-					"apple_iphone_14_Yellow-4.webp",
-					"apple_iphone_14_128gb_Midnight-5.webp",
-					"apple_iphone_14_128gb_Midnight-6.webp",
-					"apple_iphone_14_128gb_Midnight-7.webp",
-					"apple_iphone_14_128gb_Midnight-8.webp",
-					"apple_iphone_14_128gb_Midnight-9.webp",
-					"apple_iphone_14_128gb_Midnight-10.webp"
-				],
-				"modelGroup": "iPhone",
-				"price": 823.90,
-				"currency": "EUR",
-				"currencyLabel": "€",
-				"popular": false,
-				"productLink": "apple-iphone-14-256gb-Yellow",
-				"shortInfo": "Moderný smartfón s jasným displejom, výkonným procesorom a vylepšeným fotoaparátom pre skvelé fotografie a videá.",
-				"color": "#fae065",
-				"memory": "256 GB"
-			},
-			{
-				"model": "Apple iPhone 14 512 GB Color Yellow",
 				"category": "phone",
 				"discount": 0,
 				"mainImage": "apple_iphone_14_Yellow-1.webp",
@@ -480,7 +453,34 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 991.00,
+				"price": 671.90,
+				"currency": "EUR",
+				"currencyLabel": "€",
+				"popular": false,
+				"productLink": "apple-iphone-14-256gb-Yellow",
+				"shortInfo": "Moderný smartfón s jasným displejom, výkonným procesorom a vylepšeným fotoaparátom pre skvelé fotografie a videá.",
+				"color": "#fae065",
+				"memory": "256 GB"
+			},
+			{
+				"model": "Apple iPhone 14 512 GB Color Yellow",
+				"category": "phone",
+				"discount": 14,
+				"mainImage": "apple_iphone_14_Yellow-1.webp",
+				"images": [
+					"apple_iphone_14_Yellow-1.webp",
+					"apple_iphone_14_Yellow-2.webp",
+					"apple_iphone_14_Yellow-3.webp",
+					"apple_iphone_14_Yellow-4.webp",
+					"apple_iphone_14_128gb_Midnight-5.webp",
+					"apple_iphone_14_128gb_Midnight-6.webp",
+					"apple_iphone_14_128gb_Midnight-7.webp",
+					"apple_iphone_14_128gb_Midnight-8.webp",
+					"apple_iphone_14_128gb_Midnight-9.webp",
+					"apple_iphone_14_128gb_Midnight-10.webp"
+				],
+				"modelGroup": "iPhone",
+				"price": 1094.50,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -993,7 +993,7 @@
 			{
 				"model": "Apple iPhone 14 Pro 128 GB Purple",
 				"category": "phone",
-				"discount": 15,
+				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_Purple-1.webp",
 				"images": [
 					"apple_iphone_14_pro_Purple-1.webp",
@@ -1004,7 +1004,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1129.00,
+				"price": 839.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1016,7 +1016,7 @@
 			{
 				"model": "Apple iPhone 14 Pro 256 GB Purple",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_Purple-1.webp",
 				"images": [
 					"apple_iphone_14_pro_Purple-1.webp",
@@ -1027,7 +1027,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1268.00,
+				"price": 935.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1039,7 +1039,7 @@
 			{
 				"model": "Apple iPhone 14 Pro 512 GB Purple",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_Purple-1.webp",
 				"images": [
 					"apple_iphone_14_pro_Purple-1.webp",
@@ -1050,7 +1050,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1565.86,
+				"price": 991.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1085,7 +1085,7 @@
 			{
 				"model": "Apple iPhone 14 Pro 128 GB Gold",
 				"category": "phone",
-				"discount": 0,
+				"discount": 30,
 				"mainImage": "apple_iphone_14_pro_Gold-1.webp",
 				"images": [
 					"apple_iphone_14_pro_Gold-1.webp",
@@ -1154,7 +1154,7 @@
 			{
 				"model": "Apple iPhone 14 Pro 1 T Gold",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_Gold-1.webp",
 				"images": [
 					"apple_iphone_14_pro_Gold-1.webp",
@@ -1165,7 +1165,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1569.00,
+				"price": 1489.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1188,7 +1188,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 770.90,
+				"price": 759.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -1269,7 +1269,7 @@
 			{
 				"model": "Apple iPhone 14 Pro 128 GB Black",
 				"category": "phone",
-				"discount": 10,
+				"discount": 20,
 				"mainImage": "apple_iphone_14_pro_Black-1.webp",
 				"images": [
 					"apple_iphone_14_pro_Black-1.webp",
@@ -1292,7 +1292,7 @@
 			{
 				"model": "Apple iPhone 14 Pro 256 GB Black",
 				"category": "phone",
-				"discount": 33,
+				"discount": 15,
 				"mainImage": "apple_iphone_14_pro_Black-1.webp",
 				"images": [
 					"apple_iphone_14_pro_Black-1.webp",
@@ -1303,7 +1303,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1412.13,
+				"price": 933.20,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1315,7 +1315,7 @@
 			{
 				"model": "Apple iPhone 14 Pro 512 GB Black",
 				"category": "phone",
-				"discount": 10,
+				"discount": 3,
 				"mainImage": "apple_iphone_14_pro_Black-1.webp",
 				"images": [
 					"apple_iphone_14_pro_Black-1.webp",
@@ -1326,7 +1326,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1565.86,
+				"price": 1227.73,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1338,7 +1338,7 @@
 			{
 				"model": "Apple iPhone 14 Pro 1 T Black",
 				"category": "phone",
-				"discount": 6,
+				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_Black-1.webp",
 				"images": [
 					"apple_iphone_14_pro_Black-1.webp",
@@ -1349,7 +1349,7 @@
 					"apple_iphones_14.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1822.12,
+				"price": 1078.81,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,

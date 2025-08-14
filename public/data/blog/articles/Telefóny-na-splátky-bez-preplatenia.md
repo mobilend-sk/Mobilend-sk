@@ -5,7 +5,7 @@ date: "2025-08-08"
 slug: "telefony-na-splatky-bez-preplatenia-2025"
 image: "/data/blog/images/telefony-na-splatky.webp"
 categories: ["Splátky", "Smartfóny", "iPhone", "Nákupný poradca"]
-featured: true
+featured: false
 ---
 
 # Telefóny na splátky bez preplatenia — kde ich kúpiť v roku 2025

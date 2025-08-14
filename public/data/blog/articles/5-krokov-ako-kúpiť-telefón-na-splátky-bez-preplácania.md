@@ -5,7 +5,7 @@ date: "2025-07-31"
 slug: "5-krokov-telefon-na-splatky-bez-preplacania"
 image: "/data/blog/images/pleased-handsome-man-cheering-while-looking-his-mobile-phone-achieve-goal-app-smartphone-celebrating-standing-white-background.webp"
 categories: ["Splátky", "Nákupný poradca", "Smartfóny", "iPhone", "Samsung"]
-featured: true
+featured: false
 ---
 
 # 5 krokov, ako kúpiť telefón na splátky bez preplácania
