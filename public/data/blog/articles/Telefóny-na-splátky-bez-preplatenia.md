@@ -3,7 +3,7 @@ title: "Telefóny na splátky bez preplatenia — kde ich kúpiť v roku 2025"
 description: "Zistite, kde kúpiť iPhone, Samsung alebo iný smartfón na splátky bez úrokov a bez banky. Rýchlo, online a s doručením po celom Slovensku."
 date: "2025-08-08"
 slug: "telefony-na-splatky-bez-preplatenia-2025"
-image: "/data/blog/images/telefony-na-splatky.webp"
+image: "/data/blog/images/ChatGPT Image 14 авг. 2025 г., 19_57_03.webp"
 categories: ["Splátky", "Smartfóny", "iPhone", "Nákupný poradca"]
 featured: false
 ---
