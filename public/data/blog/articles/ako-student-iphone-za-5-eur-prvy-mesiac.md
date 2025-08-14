@@ -3,7 +3,7 @@ title: "Ako si študent kúpil nový iPhone a za prvý mesiac zaplatil len 5 €
 description: "Skúsenosť so splátkami na mobilend.sk: iPhone 15, prvá platba 5 €, rýchle online schválenie, oficiálna záruka a doručenie po celom Slovensku."
 date: "2025-08-13"
 slug: "student-novy-iphone-za-5-eur-prvy-mesiac"
-image: "/data/blog/images/student-iphone-5-eur.webp"
+image: "/data/blog/images/20250814_1902_iPhone 15 и 5 €_simple_compose_01k2mrez21e9etc14yx21a99fn"
 categories: ["Splátky", "Smartfóny", "iPhone", "Online nákup", "Študenti"]
 featured: true
 ---
