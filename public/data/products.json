@@ -9231,7 +9231,8 @@
 					"apple_iphone_16_pro_max_black-titanium-2.webp",
 					"apple_iphone_16_pro_max_black-titanium-3.webp",
 					"apple_iphone_16_pro_max_black-titanium-4.webp",
-					"apple_iphone_16_pro_max_black-titanium-5.webp"
+					"apple_iphone_16_pro_max_black-titanium-5.webp",
+					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -9253,7 +9254,8 @@
 					"apple_iphone_16_pro_max_black-titanium-2.webp",
 					"apple_iphone_16_pro_max_black-titanium-3.webp",
 					"apple_iphone_16_pro_max_black-titanium-4.webp",
-					"apple_iphone_16_pro_max_black-titanium-5.webp"
+					"apple_iphone_16_pro_max_black-titanium-5.webp",
+					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -9275,7 +9277,8 @@
 					"apple_iphone_16_pro_max_black-titanium-2.webp",
 					"apple_iphone_16_pro_max_black-titanium-3.webp",
 					"apple_iphone_16_pro_max_black-titanium-4.webp",
-					"apple_iphone_16_pro_max_black-titanium-5.webp"
+					"apple_iphone_16_pro_max_black-titanium-5.webp",
+					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -9297,7 +9300,8 @@
 					"apple_iphone_16_pro_max_white-titanium-2.webp",
 					"apple_iphone_16_pro_max_white-titanium-3.webp",
 					"apple_iphone_16_pro_max_white-titanium-4.webp",
-					"apple_iphone_16_pro_max_white-titanium-5.webp"
+					"apple_iphone_16_pro_max_white-titanium-5.webp",
+					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -9319,7 +9323,8 @@
 					"apple_iphone_16_pro_max_white-titanium-2.webp",
 					"apple_iphone_16_pro_max_white-titanium-3.webp",
 					"apple_iphone_16_pro_max_white-titanium-4.webp",
-					"apple_iphone_16_pro_max_white-titanium-5.webp"
+					"apple_iphone_16_pro_max_white-titanium-5.webp",
+					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -9341,7 +9346,8 @@
 					"apple_iphone_16_pro_max_white-titanium-2.webp",
 					"apple_iphone_16_pro_max_white-titanium-3.webp",
 					"apple_iphone_16_pro_max_white-titanium-4.webp",
-					"apple_iphone_16_pro_max_white-titanium-5.webp"
+					"apple_iphone_16_pro_max_white-titanium-5.webp",
+					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -9354,7 +9360,7 @@
 				"memory": "1 T"
 			},
 			{
-				"model": "Apple iPhone 16 Pro Max 256 GB desert Titanium",
+				"model": "Apple iPhone 16 Pro Max 256 GB Desert Titanium",
 				"category": "phone",
 				"discount": 10,
 				"mainImage": "apple_iphone_16_pro_max_desert-titanium-1.webp",
@@ -9363,7 +9369,9 @@
 					"apple_iphone_16_pro_max_desert-titanium-2.webp",
 					"apple_iphone_16_pro_max_desert-titanium-3.webp",
 					"apple_iphone_16_pro_max_desert-titanium-4.webp",
-					"apple_iphone_16_pro_max_desert-titanium-5.webp"
+					"apple_iphone_16_pro_max_desert-titanium-5.webp",
+					"apple_iphone_16_pro_max_desert-titanium-6.webp",
+					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -9385,7 +9393,9 @@
 					"apple_iphone_16_pro_max_desert-titanium-2.webp",
 					"apple_iphone_16_pro_max_desert-titanium-3.webp",
 					"apple_iphone_16_pro_max_desert-titanium-4.webp",
-					"apple_iphone_16_pro_max_desert-titanium-5.webp"
+					"apple_iphone_16_pro_max_desert-titanium-5.webp",
+					"apple_iphone_16_pro_max_desert-titanium-6.webp",
+					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -9407,7 +9417,9 @@
 					"apple_iphone_16_pro_max_desert-titanium-2.webp",
 					"apple_iphone_16_pro_max_desert-titanium-3.webp",
 					"apple_iphone_16_pro_max_desert-titanium-4.webp",
-					"apple_iphone_16_pro_max_desert-titanium-5.webp"
+					"apple_iphone_16_pro_max_desert-titanium-5.webp",
+					"apple_iphone_16_pro_max_desert-titanium-6.webp",
+					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -9429,7 +9441,8 @@
 					"apple_iphone_16_pro_max_natural-titanium-2.webp",
 					"apple_iphone_16_pro_max_natural-titanium-3.webp",
 					"apple_iphone_16_pro_max_natural-titanium-4.webp",
-					"apple_iphone_16_pro_max_natural-titanium-5.webp"
+					"apple_iphone_16_pro_max_natural-titanium-5.webp",
+					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -9451,7 +9464,8 @@
 					"apple_iphone_16_pro_max_natural-titanium-2.webp",
 					"apple_iphone_16_pro_max_natural-titanium-3.webp",
 					"apple_iphone_16_pro_max_natural-titanium-4.webp",
-					"apple_iphone_16_pro_max_natural-titanium-5.webp"
+					"apple_iphone_16_pro_max_natural-titanium-5.webp",
+					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
@@ -9473,7 +9487,8 @@
 					"apple_iphone_16_pro_max_natural-titanium-2.webp",
 					"apple_iphone_16_pro_max_natural-titanium-3.webp",
 					"apple_iphone_16_pro_max_natural-titanium-4.webp",
-					"apple_iphone_16_pro_max_natural-titanium-5.webp"
+					"apple_iphone_16_pro_max_natural-titanium-5.webp",
+					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
 				"price": 550.90,
