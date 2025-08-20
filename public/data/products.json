@@ -1852,7 +1852,7 @@
 			{
 				"model": "Apple iPhone 14 Pro Max 128 GB Purple",
 				"category": "phone",
-				"discount": 34,
+				"discount": 14,
 				"mainImage": "apple_iphone_14_pro_max_purple-1.webp",
 				"images": [
 					"apple_iphone_14_pro_max_purple-1.webp",
@@ -1864,7 +1864,7 @@
 					"apple_iphones_14_pro_max.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 798.90,
+				"price": 1278.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1876,7 +1876,7 @@
 			{
 				"model": "Apple iPhone 14 Pro Max 256 GB Purple",
 				"category": "phone",
-				"discount": 6,
+				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_purple-1.webp",
 				"images": [
 					"apple_iphone_14_pro_max_purple-1.webp",
@@ -1888,7 +1888,7 @@
 					"apple_iphones_14_pro_max.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1279.00,
+				"price": 1412.11,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1900,7 +1900,7 @@
 			{
 				"model": "Apple iPhone 14 Pro Max 512 GB Purple",
 				"category": "phone",
-				"discount": 6,
+				"discount": 0,
 				"mainImage": "apple_iphone_14_pro_max_purple-1.webp",
 				"images": [
 					"apple_iphone_14_pro_max_purple-1.webp",
@@ -1912,7 +1912,7 @@
 					"apple_iphones_14_pro_max.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1279.00,
+				"price": 1299.50,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -1936,7 +1936,7 @@
 					"apple_iphones_14_pro_max.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 677.90,
+				"price": 1924.60,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2176,7 +2176,7 @@
 					"apple_iphones_14_pro_max.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1025.90,
+				"price": 1412.15,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2200,7 +2200,7 @@
 					"apple_iphones_14_pro_max.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1025.90,
+				"price": 1668.40,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9235,7 +9235,7 @@
 					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1551.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
