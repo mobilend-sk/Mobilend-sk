@@ -9225,7 +9225,7 @@
 				"model": "Apple iPhone 16 Pro Max 256 GB Black Titanium",
 				"category": "phone",
 				"discount": 10,
-				"mainImage": "apple_iphone_16_pro_max_black-titanium-3.webp",
+				"mainImage": "apple_iphone_16_pro_max_black-titanium-1.webp",
 				"images": [
 					"apple_iphone_16_pro_max_black-titanium-1.webp",
 					"apple_iphone_16_pro_max_black-titanium-2.webp",
@@ -9380,7 +9380,7 @@
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-max-256gb-desert-Titanium",
 				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iphone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iphone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
-				"color": "#8f98b2",
+				"color": "#ffd1a3",
 				"memory": "256 GB"
 			},
 			{
@@ -9404,7 +9404,7 @@
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-max-512gb-desert-Titanium",
 				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iphone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iphone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
-				"color": "#8f98b2",
+				"color": "#ffd1a3",
 				"memory": "512 GB"
 			},
 			{
@@ -9428,7 +9428,7 @@
 				"popular": false,
 				"productLink": "apple-iphone-16-pro-max-1T-desert-Titanium",
 				"shortInfo": "Zažite technologickú dokonalosť s najväčším iPhonom vôbec. iphone 16 Pro Max kombinuje obrovský 6,9' displej, titánový rám, nový A18 Pro čip a najpokročilejší kamerový systém, aký kedy iphone mal. Perfektný pre tvorcov, profesionálov a tých, čo chcú absolútne to najlepšie.",
-				"color": "#8f98b2",
+				"color": "#ffd1a3",
 				"memory": "1 T"
 			},
 			{
@@ -9533,19 +9533,19 @@
 				"productLink": "apple-iphone-16-pro-max-1T-White-Titanium"
 			},
 			{
-				"hexColor": "#8f98b2",
+				"hexColor": "#ffd1a3",
 				"capacity": "256 GB",
-				"productLink": "apple-iphone-16-pro-max-256gb-Blue-Titanium"
+				"productLink": "apple-iphone-16-pro-max-256gb-desert-Titanium"
 			},
 			{
-				"hexColor": "#8f98b2",
+				"hexColor": "#ffd1a3",
 				"capacity": "512 GB",
-				"productLink": "apple-iphone-16-pro-max-512gb-Blue-Titanium"
+				"productLink": "apple-iphone-16-pro-max-512gb-desert-Titanium"
 			},
 			{
-				"hexColor": "#8f98b2",
+				"hexColor": "#ffd1a3",
 				"capacity": "1 T",
-				"productLink": "apple-iphone-16-pro-max-1T-Blue-Titanium"
+				"productLink": "apple-iphone-16-pro-max-1T-desert-Titanium"
 			},
 			{
 				"hexColor": "#f6efe4",
