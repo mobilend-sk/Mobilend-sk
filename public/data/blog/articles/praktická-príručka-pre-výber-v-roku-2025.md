@@ -138,7 +138,7 @@ Kľúčom k úspešnej kúpe je dôkladné preskúmanie podmienok, výber spoľa
 
 ---
 
-Máte otázky ohľadom výberu smartfóna na splátky? Kontaktujte nás na **support@mobilend.sk** alebo navštívte náš obchod.
+Máte otázky ohľadom výberu smartfóna na splátky? Kontaktujte nás na **support@mobilend.sk**.
 
 ## Často kladené otázky
 
