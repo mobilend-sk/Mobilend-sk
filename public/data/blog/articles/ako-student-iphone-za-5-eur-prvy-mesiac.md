@@ -5,7 +5,7 @@ date: "2025-08-13"
 slug: "student-novy-iphone-za-5-eur-prvy-mesiac"
 image: "/data/blog/images/20250814_1902_iPhone 15 и 5 €_simple_compose_01k2mrez21e9etc14yx21a99fn.webp"
 categories: ["Splátky", "Smartfóny", "iPhone", "Online nákup", "Študenti"]
-featured: true
+featured: false
 ---
 
 # Ako si študent kúpil nový iPhone a za prvý mesiac zaplatil len 5 €
