@@ -5,7 +5,7 @@ date: "2025-08-14"
 slug: "pribehy-zakaznikov-mobilny-telefon-na-splatky"
 image: "/data/blog/images/5-iphons.webp"
 categories: ["Splátky", "Smartfóny", "iPhone", "Samsung", "Príbehy zákazníkov"]
-featured: true
+featured: false
 ---
 
 # Príbehy zákazníkov: Ako im nákup na splátky zachránil život, keď sa im pokazil mobilný telefón

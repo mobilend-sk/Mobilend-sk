@@ -1,6 +1,6 @@
 ---
-title: "5 vecí pred podpisom splátkového plánu"
-description: "Zistite, na čo si dať pozor pri výbere splátkového plánu. 5 tipov, ako kúpiť mobil na splátky bez preplatenia a vyhnúť sa zbytočným poplatkom."
+title: "5 vecí, ktoré musíte vedieť pred podpisom splátok"
+description: "Na čo si dať pozor pred podpisom splátkového plánu pri kúpe mobilu? Praktické rady."
 slug: "5-veci-pred-podpisom-splatkoveho-planu"
 date: "2025-08-27"
 categories: ["Splátky", "Financie", "Mobilné telefóny"]
