@@ -5,7 +5,7 @@ date: "2025-07-24"
 slug: "ako-kupit-iPhone-alebo-samsung-na-splatky"
 image: "/data/blog/images/closeup-shot-entrepreneur-working-from-home-his-personal-finances-savings.webp"
 categories: ["Nákupný poradca", "iPhone", "Samsung", "Splátky"]
-featured: true
+featured: false
 ---
 
 # Ako kúpiť iPhone alebo Samsung na splátky: Kompletný sprievodca

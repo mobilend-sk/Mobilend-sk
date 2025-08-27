@@ -2,10 +2,14 @@
 title: "Najlepšie Samsung Galaxy na splátky v roku 2025 | mobilend.sk"
 description: "Výber najlepších Samsung Galaxy mobilov, ktoré sa oplatí kúpiť na splátky v roku 2025."
 date: "2025-08-27"
-slug: "Najlepšie-Samsung-Galaxy-na-splátky-v-roku-2025"
-image: "/data/blog/images/Najlepšie-Samsung-Galaxy-na-splátky-v-roku-2025.webp"
+slug: "najlepsie-samsung-galaxy-na-splatky-v-roku-2025"
+image: "/data/blog/images/najlepsie-samsung-galaxy-na-splatky-v-roku-2025.webp"
 categories: ["Splátky", "Samsung", "Mobilné telefóny", "Nakupovanie"]
 featured: true
+published: true
+---
+
+
 
 
 # Najlepšie modely Samsung Galaxy na splátky  

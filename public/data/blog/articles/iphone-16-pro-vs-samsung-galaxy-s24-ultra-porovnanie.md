@@ -5,7 +5,7 @@ date: "2025-01-15"
 slug: "iphone-16-pro-vs-samsung-galaxy-s24-ultra-porovnanie"
 image: "/data/blog/images/iphone-vs-samsung.webp"
 categories: ["Porovnania", "iPhone", "Samsung", "Recenzie"]
-featured: true
+featured: false
 ---
 
 # iPhone 16 Pro vs Samsung Galaxy S24 Ultra: Ktorý vybrať?
