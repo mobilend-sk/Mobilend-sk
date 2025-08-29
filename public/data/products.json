@@ -21,7 +21,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 662.90,
+				"price": 708.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -48,7 +48,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 659.00,
+				"price": 709.40,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -75,7 +75,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 845.00,
+				"price": "???",
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -87,7 +87,7 @@
 			{
 				"model": "Apple iPhone 14 128 GB Color Starlight",
 				"category": "phone",
-				"discount": 32.92,
+				"discount": 10,
 				"mainImage": "apple_iphone_14_Starlight-1.webp",
 				"images": [
 					"apple_iphone_14_Starlight-1.webp",
@@ -102,7 +102,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 665.90,
+				"price": 708.9,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -129,7 +129,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 664.90,
+				"price": "???",
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -183,7 +183,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 604.90,
+				"price": 708.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -210,7 +210,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 664.90,
+				"price": "???",
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -264,7 +264,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 755.90,
+				"price": "????",
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -291,7 +291,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 665.90,
+				"price": "???",
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -318,7 +318,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1094.50,
+				"price": "???",
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -426,7 +426,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 665.90,
+				"price": "???",
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3647,7 +3647,7 @@
 					"apple_iphone_15_pro_max_Black_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 823.90,
+				"price": 1248,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3667,7 +3667,7 @@
 					"apple_iphone_15_pro_max_Black_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 999.90,
+				"price": 1696.15,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3687,7 +3687,7 @@
 					"apple_iphone_15_pro_max_Black_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1350.00,
+				"price": 1440.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3707,7 +3707,7 @@
 					"apple_iphone_15_pro_max_White_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 729.90,
+				"price": 1180,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3727,7 +3727,7 @@
 					"apple_iphone_15_pro_max_White_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1079.90,
+				"price": "???",
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3747,7 +3747,7 @@
 					"apple_iphone_15_pro_max_White_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1549.00,
+				"price": "???",
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3767,7 +3767,7 @@
 					"iphone_15_pro_max_256gb_Blue_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1079.90,
+				"price": 1248.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -3787,7 +3787,7 @@
 					"iphone_15_pro_max_256gb_Blue_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1199.00,
+				"price": 1494.17,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -3807,7 +3807,7 @@
 					"iphone_15_pro_max_256gb_Blue_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1799.90,
+				"price": 1929.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,
@@ -3827,7 +3827,7 @@
 					"iphone_15_pro_max_256gb_Natural_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 999.90,
+				"price": 1250.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3847,7 +3847,7 @@
 					"iphone_15_pro_max_256gb_Natural_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1549.00,
+				"price": "???",
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -3867,7 +3867,7 @@
 					"iphone_15_pro_max_256gb_Natural_Titanium-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1549.90,
+				"price": "???",
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4360,7 +4360,7 @@
 					"apple_iphone_15_pro_Black_Titanium-5.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 700.90,
+				"price": 959,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -4382,7 +4382,7 @@
 					"apple_iphone_15_pro_Black_Titanium-5.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 815.00,
+				"price": 1105.91,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5201,7 +5201,7 @@
 					"apple_iphone_15_Blue-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 700.90,
+				"price": "???",
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5221,7 +5221,7 @@
 					"apple_iphone_15_Blue-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 823.90,
+				"price": 925.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5241,7 +5241,7 @@
 					"apple_iphone_15_Blue-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1059.00,
+				"price": 958.50,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5261,7 +5261,7 @@
 					"apple_iphone_15_Yellow-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 699.00,
+				"price": 725.9,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5281,7 +5281,7 @@
 					"apple_iphone_15_Yellow-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 823.00,
+				"price": 1087.80,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5313,7 +5313,7 @@
 			{
 				"model": "Apple iPhone 15 128 GB Pink",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_Pink-1.webp",
 				"images": [
 					"apple_iphone_15_Pink-1.webp",
@@ -5321,7 +5321,7 @@
 					"apple_iphone_15_Pink-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 699.0,
+				"price": 718.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5341,7 +5341,7 @@
 					"apple_iphone_15_Pink-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 839.00,
+				"price": 1059.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5361,7 +5361,7 @@
 					"apple_iphone_15_Pink-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 1059.00,
+				"price": 1358.70,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5381,7 +5381,7 @@
 					"apple_iphone_15_Green-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 700.90,
+				"price": 729.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5401,7 +5401,7 @@
 					"apple_iphone_15_Green-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 809.00,
+				"price": 1087.80,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5421,7 +5421,7 @@
 					"apple_iphone_15_Green-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 990.00,
+				"price": 1045.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5441,7 +5441,7 @@
 					"apple_iphone_15_Midnight-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 700.90,
+				"price": 718.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5461,7 +5461,7 @@
 					"apple_iphone_15_Midnight-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 809.00,
+				"price": 925.50,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -5481,7 +5481,7 @@
 					"apple_iphone_15_Midnight-3.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 990.60,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
