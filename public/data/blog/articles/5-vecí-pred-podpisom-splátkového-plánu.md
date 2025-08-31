@@ -1,11 +1,10 @@
 ---
-title: "Mobil na splátky bez preplatenia: 5 tipov, ako si vybrať výhodný splátkový plán | Mobilend.sk"
-description: "Kupujete mobil, notebook alebo inú elektroniku na splátky? Zistite 5 kľúčových tipov, ako si vybrať najlepší splátkový plán bez preplatenia, úroku a skrytých poplatkov. Naučte sa vyhnúť sa chybám a ušetrite peniaze."
+title: "Mobil na splátky bez preplatenia: 5 vecí, ktoré musíte skontrolovať pred podpisom | Mobilend.sk"
+description: "Kupujete mobil, notebook alebo inú elektroniku na splátky? Prečítajte si 5 tipov, ako vybrať výhodný splátkový plán bez navýšenia, úroku a skrytých poplatkov."
 slug: "5-veci-pred-podpisom-splatkoveho-planu"
 date: "2025-08-27"
 categories: ["Splátky", "Financie", "Mobilné telefóny"]
 image: "/data/blog/images/splatkovy-plan.webp"
-image_alt: "Ilustrácia mobil na splátky bez preplatenia - výhodný splátkový plán"
 featured: true
 ---
 
@@ -20,8 +19,7 @@ Predajcovia často lákajú na nízke mesačné splátky, ale zákazníci si neu
 - Je ponuka označená ako *[mobil na splátky bez preplatenia](https://mobilend.sk/blog/5-krokov-telefon-na-splatky-bez-preplacania)*?  
 - Neobsahuje skryté poplatky?  
 
-Tip: Porovnajte viacero možností financovania, aby ste si vybrali ten najvýhodnejší **splátkový predaj elektroniky**.  
-Externý zdroj: [Národná banka Slovenska – spotrebiteľské úvery](https://www.nbs.sk/).
+Porovnajte viacero možností financovania, aby ste si vybrali ten najvýhodnejší **splátkový predaj elektroniky**.
 
 ---
 
@@ -83,60 +81,3 @@ Ak ide o transparentný program bez navýšenia, je to rozumná voľba.
 
 #### Ako sa vyhnúť preplateniu?
 Vyberajte si **splátkový predaj s 0 % úrokom**, sledujte skryté poplatky a využívajte iba overené formy **financovania elektroniky na splátky**.  
-
----
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Mobil na splátky bez preplatenia: 5 tipov, ako si vybrať výhodný splátkový plán",
-  "image": "https://mobilend.sk/data/blog/images/splatkovy-plan.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Mobilend.sk"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Mobilend.sk",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://mobilend.sk/logo.png"
-    }
-  },
-  "datePublished": "2025-08-27",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://mobilend.sk/blog/5-veci-pred-podpisom-splatkoveho-planu"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "Je možné kúpiť mobil na splátky online?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Áno, mnohé e-shopy ponúkajú jednoduché a rýchle schválenie cez internet."
-    }
-  }, {
-    "@type": "Question",
-    "name": "Oplatí sa kúpiť telefón na splátky?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Ak ide o transparentný program bez navýšenia, je to rozumná voľba."
-    }
-  }, {
-    "@type": "Question",
-    "name": "Ako sa vyhnúť preplateniu?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Vyberajte si splátkový predaj s 0 % úrokom, sledujte skryté poplatky a využívajte iba overené formy financovania elektroniky na splátky."
-    }
-  }]
-}
-</script>
