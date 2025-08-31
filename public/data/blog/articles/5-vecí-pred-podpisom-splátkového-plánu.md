@@ -1,6 +1,6 @@
 ---
-title: "5 vecí, ktoré musíte vedieť pred podpisom splátok"
-description: "Na čo si dať pozor pred podpisom splátkového plánu pri kúpe mobilu? Praktické rady."
+title: "5 vecí, ktoré musíte skontrolovať pred podpisom splátkového plánu na elektroniku | Mobilend.sk"
+description: "Plánujete kúpu mobilu alebo notebooku na splátky? Zistite 5 dôležitých vecí, ktoré si treba skontrolovať pred podpisom splátkového plánu"
 slug: "5-veci-pred-podpisom-splatkoveho-planu"
 date: "2025-08-27"
 categories: ["Splátky", "Financie", "Mobilné telefóny"]
@@ -8,7 +8,7 @@ image: "/data/blog/images/splatkovy-plan.webp"
 featured: true
 ---
 
-# 5 vecí pred podpisom splátkového plánu
+# 5 vecí, na ktoré si dať pozor pred podpisom splátkového plánu
 
 Ak plánujete kúpiť nový mobil, notebook alebo inú elektroniku **na splátky**, je dôležité si pred podpisom zmluvy overiť niekoľko kľúčových informácií. Nesprávne rozhodnutie môže viesť k zbytočnému preplateniu alebo k finančným problémom. V tomto článku sa pozrieme na **5 vecí, ktoré by ste mali skontrolovať pred podpisom splátkového plánu**.  
 
