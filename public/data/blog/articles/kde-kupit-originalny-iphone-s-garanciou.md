@@ -18,11 +18,11 @@ Mobilend.sk je overený slovenský predajca, ktorý vám garantuje **nové iPhon
 
 ## Prečo nakupovať iPhone práve u nás?
 
-- 🛡️ **Originálny tovar od autorizovaných distribútorov Apple**  
-- ⏱️ **Rýchle doručenie do 48 hodín** a možnosť osobného odberu v Bratislave  
-- 💳 **Nákup na splátky bez navýšenia** s jednoduchým schválením  
-- 🤝 **Zákaznícka podpora pripravená pomôcť kedykoľvek**  
-- 📄 Kompletná slovenská faktúra a záručný list s možnosťou servisnej podpory priamo u Apple
+-  **Originálny tovar od autorizovaných distribútorov Apple**  
+-  **Rýchle doručenie do 48 hodín** a možnosť osobného odberu v Bratislave  
+-  **Nákup na splátky bez navýšenia** s jednoduchým schválením  
+-  **Zákaznícka podpora pripravená pomôcť kedykoľvek**  
+-  Kompletná slovenská faktúra a záručný list s možnosťou servisnej podpory priamo u Apple
 
 ---
 
@@ -67,6 +67,6 @@ Mobilend.sk je vaším partnerom pre nákup originálnych iPhonov na Slovensku. 
 
 ---
 
-👉 [Zobraziť všetky modely iPhone a Samsung](/katalog)
+ [Zobraziť všetky modely iPhone a Samsung](/katalog)
 
-📞 Máte otázky? Kontaktujte nás na [support@mobilend.sk](mailto:support@mobilend.sk) alebo telefonicky.
+ Máte otázky? Kontaktujte nás na [support@mobilend.sk](mailto:support@mobilend.sk) alebo telefonicky.

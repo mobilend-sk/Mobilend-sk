@@ -29,10 +29,10 @@ Nakoniec zaplatíte o 10–30 % viac.
 
 Keď hovoríme o **splátkach bez banky a bez skrytých poplatkov**, znamená to:
 
-- 💶 **Fixná cena** – platíte presne toľko, koľko je uvedené pri produkte. Nič navyše.
-- ⏱️ **Rýchle vybavenie** – netreba chodiť do banky ani nosiť žiadne potvrdenia.
-- ✅ **Dostupnosť** – aj pri nižšom alebo nepravidelnom príjme máte šancu na schválenie.
-- 📱 **Široký výber** – dostupné sú aj tie **najlepšie telefóny roku 2025**, vrátane **iPhone**, **Samsung**, **Xiaomi** a ďalších.
+- **Fixná cena** – platíte presne toľko, koľko je uvedené pri produkte. Nič navyše.
+- **Rýchle vybavenie** – netreba chodiť do banky ani nosiť žiadne potvrdenia.
+- **Dostupnosť** – aj pri nižšom alebo nepravidelnom príjme máte šancu na schválenie.
+- **Široký výber** – dostupné sú aj tie **najlepšie telefóny roku 2025**, vrátane **iPhone**, **Samsung**, **Xiaomi** a ďalších.
 
 ---
 
@@ -64,11 +64,11 @@ Objednať si **telefón na splátky bez preplatenia** na **mobilend.sk** je jedn
 5. **Uhradíte prvú splátku (ak je požadovaná)** – mnohé modely sú dostupné **aj bez zálohy**.
 6. **Dostanete telefón s doručením** – priamo k vám domov.
 
-> 🧾 Pri objednávke vždy vidíte, **koľko budete mesačne platiť** a **koľko celkovo zaplatíte** – táto suma **je rovnaká ako cena produktu**.
+> Pri objednávke vždy vidíte, **koľko budete mesačne platiť** a **koľko celkovo zaplatíte** – táto suma **je rovnaká ako cena produktu**.
 
 ---
 
-## ❓ Často kladené otázky (FAQ)
+## Často kladené otázky (FAQ)
 
 ### Môžem si kúpiť telefón na splátky bez potvrdenia o príjme?
 
@@ -95,7 +95,7 @@ Bez úrokov, bez poistiek, bez skrytých podmienok.
 
 ---
 
-## ✅ Záver: prečo je práve teraz najvýhodnejší čas kúpiť telefón na splátky
+## Záver: prečo je práve teraz najvýhodnejší čas kúpiť telefón na splátky
 
 Rok 2025 priniesol množstvo skvelých noviniek – smartfóny sú výkonnejšie, ale aj drahšie.  
 Namiesto čakania alebo šetrenia si teraz môžete **kúpiť telefón na splátky bez preplatenia** – rýchlo, jednoducho a bezpečne.
@@ -103,6 +103,6 @@ Namiesto čakania alebo šetrenia si teraz môžete **kúpiť telefón na splát
 **Mobilend.sk** ponúka jeden z najčistejších a najtransparentnejších spôsobov, ako získať **smartfón s doručením na splátky**, bez banky, bez dokladovania a s reálnou výhodou.  
 Ideálna možnosť pre tých, ktorí si vážia svoj čas, komfort a férovosť.
 
-📦 **Vyberte si model, vybavte objednávku za 5 minút a dostanete telefón s doručením – bez preplatenia, bez stresu.**
+**Vyberte si model, vybavte objednávku za 5 minút a dostanete telefón s doručením – bez preplatenia, bez stresu.**
 
-👉 [Pozrieť ponuku na mobilend.sk](https://mobilend.sk)
+[Pozrieť ponuku na mobilend.sk](https://mobilend.sk)

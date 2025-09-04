@@ -25,9 +25,9 @@ Nový smartfón môže byť drahou investíciou. Našťastie, existuje riešenie
 
 | Model | iPhone 16 Pro | Galaxy S24 Ultra |
 |-------|---------------|------------------|
-| Výkon | 🔥 Najvyšší výkon na trhu | 💪 Skvelý multitasking |
-| Fotoaparát | 🎥 Stabilné video | 📸 200MP foto |
-| Batéria | ⚡ Dobrý deň výdrže | 🔋 Výdrž 1,5 dňa |
+| Výkon |  Najvyšší výkon na trhu |  Skvelý multitasking |
+| Fotoaparát |  Stabilné video |  200MP foto |
+| Batéria |  Dobrý deň výdrže |  Výdrž 1,5 dňa |
 | Cena od | €510 | €1,799 |
 
 **Oba telefóny sú vynikajúce – ide len o to, čo preferujete.**
@@ -40,14 +40,14 @@ Nový smartfón môže byť drahou investíciou. Našťastie, existuje riešenie
 4. **Schválenie zvyčajne do 15 minút**
 5. **Telefón vám doručíme do 2 dní**
 
-> 📞 Máte otázky? Zavolajte nám alebo napíšte: [support@mobilend.sk](mailto:support@mobilend.sk)
+>  Máte otázky? Zavolajte nám alebo napíšte: [support@mobilend.sk](mailto:support@mobilend.sk)
 
 ## Výhody kúpy u nás
 
-- ✅ Žiadne navýšenie ceny pri splátkach  
-- ✅ Rýchly schvaľovací proces  
-- ✅ Záruka a oficiálna distribúcia  
-- ✅ Možnosť výmeny starého telefónu  
+-  Žiadne navýšenie ceny pri splátkach  
+-  Rýchly schvaľovací proces  
+-  Záruka a oficiálna distribúcia  
+-  Možnosť výmeny starého telefónu  
 
 ## Príklady splátok
 
@@ -80,4 +80,4 @@ Ak túžite po **najnovšom smartfóne**, ale nechcete míňať veľké peniaze 
 
 ---
 
-➡️ [Zobraziť všetky modely iPhone a Samsung](/katalog)
+ [Zobraziť všetky modely iPhone a Samsung](/katalog)

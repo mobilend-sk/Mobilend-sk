@@ -20,16 +20,16 @@ V tomto článku sa pozrieme na to, **ako kúpiť telefón na splátky bez prepl
 
 Splátky bez navýšenia znamenajú, že **platíte len reálnu cenu telefónu – bez úrokov, skrytých poplatkov a provízií**. Ak stojí iPhone 16 Pro napríklad 1199 €, a rozdelíte si túto sumu na 12 mesiacov, každý mesiac zaplatíte **99,90 €**. Ani o cent viac.
 
-> 📌 **Dôležité**: Nie každý predajca ponúka skutočne nulové navýšenie. Čítajte podmienky a vyhýbajte sa slovám ako „od 0 %“ alebo „iba pre vybraných zákazníkov“.
+>  **Dôležité**: Nie každý predajca ponúka skutočne nulové navýšenie. Čítajte podmienky a vyhýbajte sa slovám ako „od 0 %“ alebo „iba pre vybraných zákazníkov“.
 
 ---
 
 ## Prečo sa oplatí kúpiť na splátky bez navýšenia?
 
-✔️ **Finančná flexibilita** – nemusíte míňať celú sumu naraz  
-✔️ **Získate top model ihneď** – nemusíte čakať, kým si našetríte  
-✔️ **Žiadne prekvapenia** – mesačné splátky sú fixné a bez poplatkov  
-✔️ **Vhodné pre každého** – študenti, rodiny aj podnikatelia
+ **Finančná flexibilita** – nemusíte míňať celú sumu naraz  
+ **Získate top model ihneď** – nemusíte čakať, kým si našetríte  
+ **Žiadne prekvapenia** – mesačné splátky sú fixné a bez poplatkov  
+ **Vhodné pre každého** – študenti, rodiny aj podnikatelia
 
 > „Preplácanie úverov je minulosť. Dnes si môžete dovoliť nový smartfón bez toho, aby ste siahli hlboko do vrecka.“
 
@@ -43,7 +43,7 @@ Splátky bez navýšenia znamenajú, že **platíte len reálnu cenu telefónu �
 4. **Počkajte na schválenie (zvyčajne do 15 minút)**
 5. **Telefón posielame kuriérom alebo si ho vyzdvihnete osobne**
 
-🕒 **Doručenie do 48 hodín po schválení.**
+ **Doručenie do 48 hodín po schválení.**
 
 ---
 
@@ -54,7 +54,7 @@ Splátky bez navýšenia znamenajú, že **platíte len reálnu cenu telefónu �
 | iPhone 16 Pro 128GB | €1,199 | €99,90 | €1,199 | ❌ 0 € |
 | Galaxy S24 Ultra 256GB | €1,299 | €108,25 | €1,299 | ❌ 0 € |
 
-> 💡 Možnosť zvoliť aj 6 alebo 18 mesačné splácanie – podľa toho, čo vám viac vyhovuje.
+>  Možnosť zvoliť aj 6 alebo 18 mesačné splácanie – podľa toho, čo vám viac vyhovuje.
 
 ---
 
@@ -62,10 +62,10 @@ Splátky bez navýšenia znamenajú, že **platíte len reálnu cenu telefónu �
 
 Nie každý predajca hovorí celú pravdu. Tu sú znaky **spoľahlivého predajcu**:
 
-- 💬 Všetko jasne uvedené v košíku a zmluve
-- 🧾 Žiadne „drobné písmo“ s navýšením
-- 📞 Rýchla zákaznícka podpora
-- ✅ Garancia ceny aj po podpise zmluvy
+-  Všetko jasne uvedené v košíku a zmluve
+-  Žiadne „drobné písmo“ s navýšením
+-  Rýchla zákaznícka podpora
+-  Garancia ceny aj po podpise zmluvy
 
 U nás máte istotu, že **platíte presne toľko, koľko stojí produkt** – bez skrytých nákladov.
 
@@ -95,5 +95,5 @@ Moderný smartfón je dnes nevyhnutnosť – pre prácu, komunikáciu aj zábavu
 
 ---
 
-👉 [Zobraziť všetky modely iPhone a Samsung](/katalog)
+ [Zobraziť všetky modely iPhone a Samsung](/katalog)
 

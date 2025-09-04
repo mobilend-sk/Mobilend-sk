@@ -22,9 +22,9 @@ No nie vždy je jednoduché kúpiť si nový smartfón, najmä ak máte obmedzen
 Nie každý si môže dovoliť zaplatiť za nový smartfón stovky eur naraz.  
 **Vďaka nákupu na splátky môžete:**
 
-- ✅ **Získať telefón hneď teraz** – bez čakania na ďalšiu výplatu  
-- ✅ **Rozložiť cenu na menšie mesačné splátky**, ktoré nezaťažia váš rozpočet  
-- ✅ **Vybrať si modernejší model**, než by ste si mohli dovoliť pri jednorazovej platbe  
+-  **Získať telefón hneď teraz** – bez čakania na ďalšiu výplatu  
+-  **Rozložiť cenu na menšie mesačné splátky**, ktoré nezaťažia váš rozpočet  
+-  **Vybrať si modernejší model**, než by ste si mohli dovoliť pri jednorazovej platbe  
 
 Mobilend.sk je riešením pre všetkých, ktorí nechcú alebo nemôžu zaplatiť plnú sumu naraz, no potrebujú **spoľahlivý smartfón čo najrýchlejšie**.
 
@@ -56,9 +56,9 @@ Mobilend.sk je riešením pre všetkých, ktorí nechcú alebo nemôžu zaplati�
 
 ## Pre koho je Mobilend.sk ideálny?
 
-- 👨‍🎓 **Študenti** – ktorí potrebujú smartfón hneď teraz  
-- 👨‍👩‍👧‍👦 **Rodiny** – ktoré nechcú viazať veľkú sumu naraz  
-- 📱 **Každý**, kto hľadá rýchly a pohodlný nákup na splátky  
+-  **Študenti** – ktorí potrebujú smartfón hneď teraz  
+-  **Rodiny** – ktoré nechcú viazať veľkú sumu naraz  
+-  **Každý**, kto hľadá rýchly a pohodlný nákup na splátky  
 
 > Mobilend.sk nie je len e-shop, ale **riešenie pre každého, kto chce modernú technológiu bez finančného stresu.**
 
@@ -70,6 +70,6 @@ Vďaka Mobilend.sk si môžete kúpiť **nový iPhone alebo Samsung** na splátk
 
 **Vyberte si svoj model, vyplňte formulár a telefón môžete používať už o pár dní.**  
 
-👉 [Navštívte Mobilend.sk a získajte svoj nový telefón na splátky ešte dnes](https://mobilend.sk/)
+ [Navštívte Mobilend.sk a získajte svoj nový telefón na splátky ešte dnes](https://mobilend.sk/)
 
 ---

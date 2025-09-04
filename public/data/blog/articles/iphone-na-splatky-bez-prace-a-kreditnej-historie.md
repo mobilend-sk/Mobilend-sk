@@ -16,19 +16,19 @@ V tomto článku vám ukážeme, **kto môže získať iPhone na splátky aj bez
 
 ---
 
-## 📱 Pre koho je táto možnosť určená?
+##  Pre koho je táto možnosť určená?
 
 Tento typ financovania je ideálny pre ľudí, ktorí:
 
-- ❌ **Nemajú oficiálnu pracovnú zmluvu**
-- 🧑‍🎓 Sú študenti alebo na stáži
-- 👩‍🍼 Sú na materskej dovolenke
-- 🧾 Pracujú na živnosť s nízkym obratom
-- 🆕 Nemajú zatiaľ žiadnu úverovú históriu
+-  **Nemajú oficiálnu pracovnú zmluvu**
+-  Sú študenti alebo na stáži
+-  Sú na materskej dovolenke
+-  Pracujú na živnosť s nízkym obratom
+-  Nemajú zatiaľ žiadnu úverovú históriu
 
 ---
 
-## ✅ Áno, iPhone môžete mať aj bez klasického príjmu
+##  Áno, iPhone môžete mať aj bez klasického príjmu
 
 Niektorí predajcovia spolupracujú s **alternatívnymi splátkovými partnermi**, ktorí nevyžadujú:
 
@@ -44,7 +44,7 @@ V takomto prípade je **rozhodujúce to, či máte schopnosť pravidelne spláca
 
 ---
 
-## 🛒 Ako to funguje v praxi?
+##  Ako to funguje v praxi?
 
 1. **Vyberiete si iPhone**, ktorý chcete (napr. iPhone 15, 15 Pro alebo starší model)
 2. V košíku zvolíte možnosť **„Na splátky“**
@@ -52,11 +52,11 @@ V takomto prípade je **rozhodujúce to, či máte schopnosť pravidelne spláca
 4. Partner preverí len základné informácie (trvalý pobyt, telefón, email)
 5. Ak ste schválený, telefón vám posielame na adresu
 
-> 🕒 Celý proces trvá 15 až 30 minút. Bez papierovačiek, bez zbytočných otázok.
+>  Celý proces trvá 15 až 30 minút. Bez papierovačiek, bez zbytočných otázok.
 
 ---
 
-## 💬 Reálne skúsenosti našich zákazníkov
+##  Reálne skúsenosti našich zákazníkov
 
 > „Som študent a nemám klasickú výplatu. Vďaka tomuto spôsobu som si mohol dovoliť iPhone 14 Pro a splácam ho mesačne po 90 € – bez úrokov!“  
 > — Martin, 22 rokov, Nitra
@@ -66,7 +66,7 @@ V takomto prípade je **rozhodujúce to, či máte schopnosť pravidelne spláca
 
 ---
 
-## 📌 Podmienky, ktoré zvyčajne stačí splniť
+##  Podmienky, ktoré zvyčajne stačí splniť
 
 Každý partner má trochu iné podmienky, ale vo všeobecnosti:
 
@@ -80,7 +80,7 @@ Každý partner má trochu iné podmienky, ale vo všeobecnosti:
 
 ---
 
-## 🧠 Na čo si dať pozor?
+##  Na čo si dať pozor?
 
 Aj keď je proces jednoduchý, dávajte si pozor na:
 
@@ -90,13 +90,13 @@ Aj keď je proces jednoduchý, dávajte si pozor na:
 
 ---
 
-## 📦 Čo ak nezaplatím načas?
+##  Čo ak nezaplatím načas?
 
 Ak sa oneskoríte s platbou, kontaktujte nás včas. Vždy hľadáme **individuálne riešenia bez sankcií**. Cieľom nie je trestať, ale pomôcť.
 
 ---
 
-## 🏁 Záver: iPhone na splátky bez práce? Áno – s rozumom a férovo
+##  Záver: iPhone na splátky bez práce? Áno – s rozumom a férovo
 
 Aj keď nemáte oficiálnu prácu alebo ste na začiatku svojej finančnej cesty, **môžete si dopriať kvalitný smartfón bez stresu**. Náš systém je postavený na dôvere a dostupnosti.
 
@@ -104,4 +104,4 @@ Aj keď nemáte oficiálnu prácu alebo ste na začiatku svojej finančnej cesty
 
 ---
 
-👉 [Zobraziť všetky modely iPhone a Samsung](/katalog)
+ [Zobraziť všetky modely iPhone a Samsung](/katalog)
