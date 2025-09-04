@@ -60,7 +60,7 @@
 			{
 				"model": "Apple iPhone 14 512 GB Color Midnight",
 				"category": "phone",
-				"discount": 9,
+				"discount": 0,
 				"mainImage": "apple_iphone_14_128gb_Midnight-1.webp",
 				"images": [
 					"apple_iphone_14_128gb_Midnight-1.webp",
@@ -75,7 +75,7 @@
 					"apple_iphone_14_128gb_Midnight-10.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": "???",
+				"price": "????",
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -411,7 +411,7 @@
 			{
 				"model": "Apple iPhone 14 128 GB Color Yellow",
 				"category": "phone",
-				"discount": 1,
+				"discount": 0,
 				"mainImage": "apple_iphone_14_Yellow-1.webp",
 				"images": [
 					"apple_iphone_14_Yellow-1.webp",
@@ -5193,7 +5193,7 @@
 			{
 				"model": "Apple iPhone 15 128 GB Blue",
 				"category": "phone",
-				"discount": 17,
+				"discount": 0,
 				"mainImage": "apple_iphone_15_Blue-1.webp",
 				"images": [
 					"apple_iphone_15_Blue-1.webp",
@@ -8406,7 +8406,7 @@
 					"apple_iphone_16_pro_Black-Titanium-4.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1186.5,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8427,7 +8427,7 @@
 					"apple_iphone_16_pro_Black-Titanium-4.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1292,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8448,7 +8448,7 @@
 					"apple_iphone_16_pro_Black-Titanium-4.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1629,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8460,7 +8460,7 @@
 			{
 				"model": "Apple iPhone 16 Pro 1 T Black Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_16_pro_Black-Titanium-1.webp",
 				"images": [
 					"apple_iphone_16_pro_Black-Titanium-1.webp",
@@ -8469,7 +8469,7 @@
 					"apple_iphone_16_pro_Black-Titanium-4.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": "????",
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8490,7 +8490,7 @@
 					"apple_iphone_16_pro_White-Titanium-4.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1186.5,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8511,7 +8511,7 @@
 					"apple_iphone_16_pro_White-Titanium-4.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1357.1,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8532,7 +8532,7 @@
 					"apple_iphone_16_pro_White-Titanium-4.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1629,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -8544,7 +8544,7 @@
 			{
 				"model": "Apple iPhone 16 Pro 1 T White Titanium",
 				"category": "phone",
-				"discount": 10,
+				"discount": 0,
 				"mainImage": "apple_iphone_16_pro_White-Titanium-1.webp",
 				"images": [
 					"apple_iphone_16_pro_White-Titanium-1.webp",
@@ -8553,7 +8553,7 @@
 					"apple_iphone_16_pro_White-Titanium-4.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": "???",
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -12950,8 +12950,8 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s24+-512gb-Marble-Gray",
-				"shortInfo": "Samsung Galaxy S24+ – Inteligencia vo veľkom štýle. Galaxy S24+ kombinuje veľký 6,7' displej, vysoký výkon a inteligentné funkcie s podporou Galaxy AI, ktoré vám uľahčia komunikáciu, tvorbu aj každodenné používanie. S elegantným dizajnom, špičkovým hardvérom a dlhou výdržou batérie je pripravený na všetko.",
+				"productLink": "samsung-galaxy-s24-plus-512gb-Marble-Gray",
+				"shortInfo": "Samsung Galaxy S24 – Inteligencia vo veľkom štýle. Galaxy S24+ kombinuje veľký 6,7' displej, vysoký výkon a inteligentné funkcie s podporou Galaxy AI, ktoré vám uľahčia komunikáciu, tvorbu aj každodenné používanie. S elegantným dizajnom, špičkovým hardvérom a dlhou výdržou batérie je pripravený na všetko.",
 				"color": "#d8d5d6",
 				"memory": "512 GB"
 			},
