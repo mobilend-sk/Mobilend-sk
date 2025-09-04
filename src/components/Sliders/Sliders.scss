@@ -23,6 +23,32 @@
 
 	.ProductCard {
 		max-width: 100%;
-		width: 220px;
+	img{
+			height: 240px;
+		}
+	}
+}
+
+@media all and (max-width: 1024) {
+	
+}
+
+@media all and (max-width: 600) {
+	.Sliders {
+		.ProductCard {
+		img{
+			height: 200px;
+		}
+	}
+	}
+}
+
+@media all and (max-width: 400) {
+	.Sliders {
+		.ProductCard {
+		img{
+			height: 180px;
+		}
+	}
 	}
 }

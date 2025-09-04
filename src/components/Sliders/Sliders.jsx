@@ -57,15 +57,21 @@ const Sliders = ({ type, model, title, limit = 10 }) => {
 				<h2>{title ? title : "Tovary"}</h2>
 				<div className="Sliders__Swiper">
 					<Swiper
-						slidesPerView={'auto'}
-						spaceBetween={15}
+						slidesPerView={2}
+						spaceBetween={10}
 						pagination={{
 							clickable: true,
 							dynamicBullets: true
 						}}
 						breakpoints={{
-							768: {
-								spaceBetween: 25
+							560: {
+								slidesPerView: 3,
+							},
+							760: {
+								slidesPerView: 4,
+							},
+							960: {
+								slidesPerView: 5,
 							}
 						}}
 						modules={[Pagination]}

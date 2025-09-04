@@ -1,6 +1,7 @@
 "use client"
 import { Shield, Truck, Award, HeartHandshake } from "lucide-react"
 import "./AboutAdvantages.scss"
+import SliderList from "@/components/SliderList/SliderList"
 
 const AboutAdvantages = () => {
 	const advantages = [
@@ -37,8 +38,9 @@ const AboutAdvantages = () => {
 							Sme tu pre vás od začiatku až do konca a ceníme si vašu dôveru.
 						</p>
 					</div>
+					<SliderList list={advantages} />
 
-					<div className="AboutAdvantages__grid">
+					{/* <div className="AboutAdvantages__grid">
 						{advantages.map((advantage, index) => {
 							const IconComponent = advantage.icon
 							return (
@@ -57,7 +59,7 @@ const AboutAdvantages = () => {
 								</div>
 							)
 						})}
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</section>

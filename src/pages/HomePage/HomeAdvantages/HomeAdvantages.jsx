@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link"
 import { Shield, Truck, Award, HeartHandshake, ArrowRight } from "lucide-react"
+import SliderList from "@/components/SliderList/SliderList"
 import "./HomeAdvantages.scss"
 
 const HomeAdvantages = () => {
@@ -38,7 +39,9 @@ const HomeAdvantages = () => {
 						</p>
 					</div>
 
-					<div className="HomeAdvantages__grid">
+					<SliderList list={advantages}/>
+
+					{/* <div className="HomeAdvantages__grid">
 						{advantages.map((advantage, index) => {
 							const IconComponent = advantage.icon
 							return (
@@ -55,7 +58,7 @@ const HomeAdvantages = () => {
 								</div>
 							)
 						})}
-					</div>
+					</div> */}
 
 					<div className="HomeAdvantages__cta">
 						<p className="HomeAdvantages__cta-text">

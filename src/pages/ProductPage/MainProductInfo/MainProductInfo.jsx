@@ -112,11 +112,28 @@ const MainProductInfo = ({ product }) => {
 									'--swiper-pagination-color': 'var(--darkBlue)',
 								}}
 								spaceBetween={10}
-								navigation
+								navigation={{
+									enabled: true,
+								}}
+								breakpoints={{
+									// На экранах меньше 768px - навигация отключена
+									0: {
+										navigation: {
+											enabled: false,
+										},
+									},
+									// На экранах 768px и больше - навигация включена
+									768: {
+										navigation: {
+											enabled: true,
+										},
+									},
+								}}
 								thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }}
 								modules={[FreeMode, Navigation, Thumbs]}
 								className="MainProductInfo__main-swiper"
 							>
+
 								{productImages.map((image, index) => (
 									<SwiperSlide key={index}>
 										<div className="MainProductInfo__image-container">
