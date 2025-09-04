@@ -19,7 +19,7 @@ const MainProductInfo = ({ product }) => {
 	const calculateDiscountedPrice = (price, discount) => {
 		const numPrice = parseFloat(price) || 0
 		const numDiscount = parseFloat(discount) || 0
-		return numPrice - (numPrice * numDiscount / 100)
+		return numPrice + (numPrice * numDiscount / 100)
 	}
 
 	// Массив с изображениями
@@ -172,11 +172,12 @@ const MainProductInfo = ({ product }) => {
 						<div className="MainProductInfo__price-section">
 							<div className="MainProductInfo__prices">
 								<div className="MainProductInfo__current-price">
-									{discountedPrice.toFixed(2)} {product.currencyLabel}
+									{price.toFixed(2)} {product.currencyLabel}
 								</div>
 								{discount > 0 && (
 									<span className="MainProductInfo__original-price">
-										{price.toFixed(2)} {product.currencyLabel}
+										
+										{discountedPrice.toFixed(2)} {product.currencyLabel}
 									</span>
 								)}
 							</div>

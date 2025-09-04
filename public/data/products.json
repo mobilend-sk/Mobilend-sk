@@ -2737,7 +2737,7 @@
 					"apple_iphones_14_plus.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 849.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -2759,7 +2759,7 @@
 					"apple_iphones_14_plus.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": "???",
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9258,7 +9258,7 @@
 					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1640.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9281,7 +9281,7 @@
 					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1999.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9304,7 +9304,7 @@
 					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1464.70,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9327,7 +9327,7 @@
 					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1928.20,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9350,7 +9350,7 @@
 					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1999.90,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9373,7 +9373,7 @@
 					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1464.70,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9396,7 +9396,7 @@
 					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1479.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9419,7 +9419,7 @@
 					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1829.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9442,7 +9442,7 @@
 					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1464.70,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9465,7 +9465,7 @@
 					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1928.20,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -9488,7 +9488,7 @@
 					"apple_iphone_16_pro_max_all.webp"
 				],
 				"modelGroup": "iPhone",
-				"price": 550.90,
+				"price": 1999.00,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
@@ -10785,7 +10785,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s23+-256gb-Phantom-Black",
+				"productLink": "samsung-galaxy-s23-plus-256gb-Phantom-Black",
 				"shortInfo": "Samsung Galaxy S23+ - Viac obrazovky, viac výkonu, viac zážitkov. Galaxy S23+ spája elegantný dizajn so silným výkonom a väčšou obrazovkou pre tých, ktorí chcú viac priestoru na prácu, hry aj zábavu. Vybavený čipom Snapdragon 8 Gen 2, 6,6' AMOLED displejom a vylepšenou batériou, ponúka hladký chod aj pri náročnom používaní.",
 				"colors": "#393939",
 				"memory": "256 GB"
@@ -10812,7 +10812,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s23+-512gb-Phantom-Black",
+				"productLink": "samsung-galaxy-s23-plus-512gb-Phantom-Black",
 				"shortInfo": "Samsung Galaxy S23+ - Viac obrazovky, viac výkonu, viac zážitkov. Galaxy S23+ spája elegantný dizajn so silným výkonom a väčšou obrazovkou pre tých, ktorí chcú viac priestoru na prácu, hry aj zábavu. Vybavený čipom Snapdragon 8 Gen 2, 6,6' AMOLED displejom a vylepšenou batériou, ponúka hladký chod aj pri náročnom používaní.",
 				"colors": "#393939",
 				"memory": "512 GB"
@@ -10839,7 +10839,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s23+-256gb-Cream",
+				"productLink": "samsung-galaxy-s23-plus-256gb-Cream",
 				"shortInfo": "Samsung Galaxy S23+ - Viac obrazovky, viac výkonu, viac zážitkov. Galaxy S23+ spája elegantný dizajn so silným výkonom a väčšou obrazovkou pre tých, ktorí chcú viac priestoru na prácu, hry aj zábavu. Vybavený čipom Snapdragon 8 Gen 2, 6,6' AMOLED displejom a vylepšenou batériou, ponúka hladký chod aj pri náročnom používaní.",
 				"colors": "#f6ebe3",
 				"memory": "256 GB"
@@ -10866,7 +10866,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s23+-512gb-Cream",
+				"productLink": "samsung-galaxy-s23-plus-512gb-Cream",
 				"shortInfo": "Samsung Galaxy S23+ - Viac obrazovky, viac výkonu, viac zážitkov. Galaxy S23+ spája elegantný dizajn so silným výkonom a väčšou obrazovkou pre tých, ktorí chcú viac priestoru na prácu, hry aj zábavu. Vybavený čipom Snapdragon 8 Gen 2, 6,6' AMOLED displejom a vylepšenou batériou, ponúka hladký chod aj pri náročnom používaní.",
 				"colors": "#f6ebe3",
 				"memory": "512 GB"
@@ -10893,7 +10893,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s23+-256gb-Green",
+				"productLink": "samsung-galaxy-s23-plus-256gb-Green",
 				"shortInfo": "Samsung Galaxy S23+ – Viac obrazovky, viac výkonu, viac zážitkov. Galaxy S23+ spája elegantný dizajn so silným výkonom a väčšou obrazovkou pre tých, ktorí chcú viac priestoru na prácu, hry aj zábavu. Vybavený čipom Snapdragon 8 Gen 2, 6,6' AMOLED displejom a vylepšenou batériou, ponúka hladký chod aj pri náročnom používaní.",
 				"colors": "#90ab83",
 				"memory": "256 GB"
@@ -10920,7 +10920,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s23+-512gb-Green",
+				"productLink": "samsung-galaxy-s23-plus-512gb-Green",
 				"shortInfo": "Samsung Galaxy S23+ – Viac obrazovky, viac výkonu, viac zážitkov. Galaxy S23+ spája elegantný dizajn so silným výkonom a väčšou obrazovkou pre tých, ktorí chcú viac priestoru na prácu, hry aj zábavu. Vybavený čipom Snapdragon 8 Gen 2, 6,6' AMOLED displejom a vylepšenou batériou, ponúka hladký chod aj pri náročnom používaní.",
 				"colors": "#90ab83",
 				"memory": "512 GB"
@@ -10947,7 +10947,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s23+-256gb-Lavender",
+				"productLink": "samsung-galaxy-s23-plus-256gb-Lavender",
 				"shortInfo": "Samsung Galaxy S23+ – Viac obrazovky, viac výkonu, viac zážitkov. Galaxy S23+ spája elegantný dizajn so silným výkonom a väčšou obrazovkou pre tých, ktorí chcú viac priestoru na prácu, hry aj zábavu. Vybavený čipom Snapdragon 8 Gen 2, 6,6' AMOLED displejom a vylepšenou batériou, ponúka hladký chod aj pri náročnom používaní.",
 				"colors": "#ece1e9",
 				"memory": "256 GB"
@@ -10974,7 +10974,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s23+-512gb-Lavender",
+				"productLink": "samsung-galaxy-s23-plus-512gb-Lavender",
 				"shortInfo": "Samsung Galaxy S23+ – Viac obrazovky, viac výkonu, viac zážitkov. Galaxy S23+ spája elegantný dizajn so silným výkonom a väčšou obrazovkou pre tých, ktorí chcú viac priestoru na prácu, hry aj zábavu. Vybavený čipom Snapdragon 8 Gen 2, 6,6' AMOLED displejom a vylepšenou batériou, ponúka hladký chod aj pri náročnom používaní.",
 				"colors": "#ece1e9",
 				"memory": "512 GB"
@@ -10984,42 +10984,42 @@
 			{
 				"hexColor": "#393939",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s23+-256gb-Phantom-Black"
+				"productLink": "samsung-galaxy-s23-plus-256gb-Phantom-Black"
 			},
 			{
 				"hexColor": "#393939",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s23+-512gb-Phantom-Black"
+				"productLink": "samsung-galaxy-s23-plus-512gb-Phantom-Black"
 			},
 			{
 				"hexColor": "#f6ebe3",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s23+-256gb-Cream"
+				"productLink": "samsung-galaxy-s23-plus-256gb-Cream"
 			},
 			{
 				"hexColor": "#f6ebe3",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s23+-512gb-Cream"
+				"productLink": "samsung-galaxy-s23-plus-512gb-Cream"
 			},
 			{
 				"hexColor": "#90ab83",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s23+-256gb-Green"
+				"productLink": "samsung-galaxy-s23-plus-256gb-Green"
 			},
 			{
 				"hexColor": "#90ab83",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s23+-512gb-Green"
+				"productLink": "samsung-galaxy-s23-plus-512gb-Green"
 			},
 			{
 				"hexColor": "#ece1e9",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s23+-256gb-Lavender"
+				"productLink": "samsung-galaxy-s23-plus-256gb-Lavender"
 			},
 			{
 				"hexColor": "#ece1e9",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s23+-512gb-Lavender"
+				"productLink": "samsung-galaxy-s23-plus-512gb-Lavender"
 			}
 		],
 		"mainCharacteristics": [
@@ -12873,7 +12873,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s24+-256gb-Onyx-Black",
+				"productLink": "samsung-galaxy-s24-plus-256gb-Onyx-Black",
 				"shortInfo": "Samsung Galaxy S24+ – Inteligencia vo veľkom štýle. Galaxy S24+ kombinuje veľký 6,7' displej, vysoký výkon a inteligentné funkcie s podporou Galaxy AI, ktoré vám uľahčia komunikáciu, tvorbu aj každodenné používanie. S elegantným dizajnom, špičkovým hardvérom a dlhou výdržou batérie je pripravený na všetko.",
 				"color": "#616161",
 				"memory": "256 GB"
@@ -12898,7 +12898,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s24+-512gb-Onyx-Black",
+				"productLink": "samsung-galaxy-s24-plus-512gb-Onyx-Black",
 				"shortInfo": "Samsung Galaxy S24+ – Inteligencia vo veľkom štýle. Galaxy S24+ kombinuje veľký 6,7' displej, vysoký výkon a inteligentné funkcie s podporou Galaxy AI, ktoré vám uľahčia komunikáciu, tvorbu aj každodenné používanie. S elegantným dizajnom, špičkovým hardvérom a dlhou výdržou batérie je pripravený na všetko.",
 				"color": "#616161",
 				"memory": "512 GB"
@@ -12924,7 +12924,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s24+-256gb-Marble-Gray",
+				"productLink": "samsung-galaxy-s24-plus-256gb-Marble-Gray",
 				"shortInfo": "Samsung Galaxy S24+ – Inteligencia vo veľkom štýle. Galaxy S24+ kombinuje veľký 6,7' displej, vysoký výkon a inteligentné funkcie s podporou Galaxy AI, ktoré vám uľahčia komunikáciu, tvorbu aj každodenné používanie. S elegantným dizajnom, špičkovým hardvérom a dlhou výdržou batérie je pripravený na všetko.",
 				"color": "#d8d5d6",
 				"memory": "256 GB"
@@ -12955,6 +12955,8 @@
 				"color": "#d8d5d6",
 				"memory": "512 GB"
 			},
+
+
 			{
 				"model": "Samsung Galaxy S24+ 256 GB Violet",
 				"category": "phone",
@@ -12975,7 +12977,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s24+-256gb-Cobalt-Violet",
+				"productLink": "samsung-galaxy-s24-plus-256gb-Cobalt-Violet",
 				"shortInfo": "Samsung Galaxy S24+ – Inteligencia vo veľkom štýle. Galaxy S24+ kombinuje veľký 6,7' displej, vysoký výkon a inteligentné funkcie s podporou Galaxy AI, ktoré vám uľahčia komunikáciu, tvorbu aj každodenné používanie. S elegantným dizajnom, špičkovým hardvérom a dlhou výdržou batérie je pripravený na všetko.",
 				"color": "#b2b5db",
 				"memory": "256 GB"
@@ -13000,7 +13002,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s24+-512gb-Cobalt-Violet",
+				"productLink": "samsung-galaxy-s24-plus-512gb-Cobalt-Violet",
 				"shortInfo": "Samsung Galaxy S24+ – Inteligencia vo veľkom štýle. Galaxy S24+ kombinuje veľký 6,7' displej, vysoký výkon a inteligentné funkcie s podporou Galaxy AI, ktoré vám uľahčia komunikáciu, tvorbu aj každodenné používanie. S elegantným dizajnom, špičkovým hardvérom a dlhou výdržou batérie je pripravený na všetko.",
 				"color": "#b2b5db",
 				"memory": "512 GB"
@@ -13026,7 +13028,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s24+-256gb-Amber-Yellow",
+				"productLink": "samsung-galaxy-s24-plus-256gb-Amber-Yellow",
 				"shortInfo": "Samsung Galaxy S24+ – Inteligencia vo veľkom štýle. Galaxy S24+ kombinuje veľký 6,7' displej, vysoký výkon a inteligentné funkcie s podporou Galaxy AI, ktoré vám uľahčia komunikáciu, tvorbu aj každodenné používanie. S elegantným dizajnom, špičkovým hardvérom a dlhou výdržou batérie je pripravený na všetko.",
 				"color": "#ffe397",
 				"memory": "256 GB"
@@ -13052,7 +13054,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s24+-512gb-Amber-Yellow",
+				"productLink": "samsung-galaxy-s24-plus-512gb-Amber-Yellow",
 				"shortInfo": "Samsung Galaxy S24+ – Inteligencia vo veľkom štýle. Galaxy S24+ kombinuje veľký 6,7' displej, vysoký výkon a inteligentné funkcie s podporou Galaxy AI, ktoré vám uľahčia komunikáciu, tvorbu aj každodenné používanie. S elegantným dizajnom, špičkovým hardvérom a dlhou výdržou batérie je pripravený na všetko.",
 				"color": "#ffe397",
 				"memory": "512 GB"
@@ -13062,42 +13064,42 @@
 			{
 				"hexColor": "#616161",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s24+-256gb-Onyx-Black"
+				"productLink": "samsung-galaxy-s24-plus-256gb-Onyx-Black"
 			},
 			{
 				"hexColor": "#616161",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s24+-512gb-Onyx-Black"
+				"productLink": "samsung-galaxy-s24-plus-512gb-Onyx-Black"
 			},
 			{
 				"hexColor": "#d8d5d6",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s24+-256gb-Marble-Gray"
+				"productLink": "samsung-galaxy-s24-plus-256gb-Marble-Gray"
 			},
 			{
 				"hexColor": "#d8d5d6",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s24+-512gb-Marble-Gray"
+				"productLink": "samsung-galaxy-s24-plus-512gb-Marble-Gray"
 			},
 			{
 				"hexColor": "#b2b5db",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s24+-256gb-Cobalt-Violet"
+				"productLink": "samsung-galaxy-s24-plus-256gb-Cobalt-Violet"
 			},
 			{
 				"hexColor": "#b2b5db",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s24+-512gb-Cobalt-Violet"
+				"productLink": "samsung-galaxy-s24-plus-512gb-Cobalt-Violet"
 			},
 			{
 				"hexColor": "#ffe397",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s24+-256gb-Amber-Yellow"
+				"productLink": "samsung-galaxy-s24-plus-256gb-Amber-Yellow"
 			},
 			{
 				"hexColor": "#ffe397",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s24+-512gb-Amber-Yellow"
+				"productLink": "samsung-galaxy-s24-plus-512gb-Amber-Yellow"
 			}
 		],
 		"mainCharacteristics": [
@@ -15281,7 +15283,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s25+-256gb-Icyblue",
+				"productLink": "samsung-galaxy-s25-plus-256gb-Icyblue",
 				"shortInfo": "Výkonný Galaxy S25+ s veľkým 6,7' AMOLED displejom, novým čipom Snapdragon 8 Elite a inteligentnými funkciami Galaxy AI. Špičkový výkon, elegantný dizajn a dlhá výdrž batérie.",
 				"color": "393939",
 				"memory": "256 GB"
@@ -15304,7 +15306,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s25+-512gb-Icyblue",
+				"productLink": "samsung-galaxy-s25-plus-512gb-Icyblue",
 				"shortInfo": "Výkonný Galaxy S25+ s veľkým 6,7' AMOLED displejom, novým čipom Snapdragon 8 Elite a inteligentnými funkciami Galaxy AI. Špičkový výkon, elegantný dizajn a dlhá výdrž batérie.",
 				"color": "393939",
 				"memory": "512 GB"
@@ -15327,7 +15329,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s25+-256gb-Mint",
+				"productLink": "samsung-galaxy-s25-plus-256gb-Mint",
 				"shortInfo": "Výkonný Galaxy S25+ s veľkým 6,7' AMOLED displejom, novým čipom Snapdragon 8 Elite a inteligentnými funkciami Galaxy AI. Špičkový výkon, elegantný dizajn a dlhá výdrž batérie.",
 				"color": "eaf5ea",
 				"memory": "256 GB"
@@ -15350,7 +15352,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s25+-512gb-Mint",
+				"productLink": "samsung-galaxy-s25-plus-512gb-Mint",
 				"shortInfo": "Výkonný Galaxy S25+ s veľkým 6,7' AMOLED displejom, novým čipom Snapdragon 8 Elite a inteligentnými funkciami Galaxy AI. Špičkový výkon, elegantný dizajn a dlhá výdrž batérie.",
 				"color": "eaf5ea",
 				"memory": "512 GB"
@@ -15373,7 +15375,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s25+-256gb-Navy",
+				"productLink": "samsung-galaxy-s25-plus-256gb-Navy",
 				"shortInfo": "Výkonný Galaxy S25+ s veľkým 6,7' AMOLED displejom, novým čipom Snapdragon 8 Elite a inteligentnými funkciami Galaxy AI. Špičkový výkon, elegantný dizajn a dlhá výdrž batérie.",
 				"color": "456699",
 				"memory": "256 GB"
@@ -15396,7 +15398,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s25+-512gb-Navy",
+				"productLink": "samsung-galaxy-s25-plus-512gb-Navy",
 				"shortInfo": "Výkonný Galaxy S25+ s veľkým 6,7' AMOLED displejom, novým čipom Snapdragon 8 Elite a inteligentnými funkciami Galaxy AI. Špičkový výkon, elegantný dizajn a dlhá výdrž batérie.",
 				"color": "456699",
 				"memory": "512 GB"
@@ -15419,7 +15421,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s25+-256gb-Silver-Shadow",
+				"productLink": "samsung-galaxy-s25-plus-256gb-Silver-Shadow",
 				"shortInfo": "Výkonný Galaxy S25+ s veľkým 6,7' AMOLED displejom, novým čipom Snapdragon 8 Elite a inteligentnými funkciami Galaxy AI. Špičkový výkon, elegantný dizajn a dlhá výdrž batérie.",
 				"color": "d5d6da",
 				"memory": "256 GB"
@@ -15442,7 +15444,7 @@
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": false,
-				"productLink": "samsung-galaxy-s25+-512gb-Silver-Shadow",
+				"productLink": "samsung-galaxy-s25-plus-512gb-Silver-Shadow",
 				"shortInfo": "Výkonný Galaxy S25+ s veľkým 6,7' AMOLED displejom, novým čipom Snapdragon 8 Elite a inteligentnými funkciami Galaxy AI. Špičkový výkon, elegantný dizajn a dlhá výdrž batérie.",
 				"color": "d5d6da",
 				"memory": "512 GB"
@@ -15452,42 +15454,42 @@
 			{
 				"hexColor": "#393939",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s25+-256gb-Icyblue"
+				"productLink": "samsung-galaxy-s25-plus-256gb-Icyblue"
 			},
 			{
 				"hexColor": "#393939",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s25+-512gb-Icyblue"
+				"productLink": "samsung-galaxy-s25-plus-512gb-Icyblue"
 			},
 			{
 				"hexColor": "#eaf5ea",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s25+-256gb-Mint"
+				"productLink": "samsung-galaxy-s25-plus-256gb-Mint"
 			},
 			{
 				"hexColor": "#eaf5ea",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s25+-512gb-Mint"
+				"productLink": "samsung-galaxy-s25-plus-512gb-Mint"
 			},
 			{
 				"hexColor": "#456699",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s25+-256gb-Navy"
+				"productLink": "samsung-galaxy-s25-plus-256gb-Navy"
 			},
 			{
 				"hexColor": "#456699",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s25+-512gb-Navy"
+				"productLink": "samsung-galaxy-s25-plus-512gb-Navy"
 			},
 			{
 				"hexColor": "#d5d6da",
 				"capacity": "256 GB",
-				"productLink": "samsung-galaxy-s25+-256gb-Silver-Shadow"
+				"productLink": "samsung-galaxy-s25-plus-256gb-Silver-Shadow"
 			},
 			{
 				"hexColor": "#d5d6da",
 				"capacity": "512 GB",
-				"productLink": "samsung-galaxy-s25+-512gb-Silver-Shadow"
+				"productLink": "samsung-galaxy-s25-plus-512gb-Silver-Shadow"
 			}
 		],
 		"mainCharacteristics": [
