@@ -5,7 +5,7 @@ date: "2025-08-21"
 slug: "samsung-galaxy-na-splatky-prakticky-sprievodca-2025"
 image: "/data/blog/images/samsung-galaxy-splatky.webp"
 categories: ["Splátky", "Samsung", "Mobilné telefóny", "Nakupovanie"]
-featured: true
+featured: false
 ---
 
 # Samsung Galaxy na splátky: praktická príručka pre výber v roku 2025
