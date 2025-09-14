@@ -62,7 +62,7 @@ export async function generateMetadata() {
 
 		// Canonical URL
 		alternates: {
-			canonical: '/caste-otazky',
+			canonical: 'https://mobilend.sk/caste-otazky',
 		},
 
 		// Dodatočné meta tagy

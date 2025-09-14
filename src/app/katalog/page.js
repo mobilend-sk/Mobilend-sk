@@ -61,7 +61,7 @@ export async function generateMetadata() {
 
 		// Canonical URL
 		alternates: {
-			canonical: '/katalog',
+			canonical: 'https://mobilend.sk/katalog',
 		},
 
 		// Dodatočné meta tagy

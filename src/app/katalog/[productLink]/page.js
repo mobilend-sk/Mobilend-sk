@@ -81,7 +81,7 @@ export async function generateMetadata({ params }) {
 
 			// Canonical URL
 			alternates: {
-				canonical: `/katalog/${productLink}`,
+				canonical: `https://mobilend.sk/katalog/${productLink}`,
 			},
 		}
 	} catch (error) {

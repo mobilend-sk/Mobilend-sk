@@ -60,7 +60,7 @@ export async function generateMetadata() {
 
 		// Canonical URL
 		alternates: {
-			canonical: '/kontakty',
+			canonical: 'https://mobilend.sk/kontakty',
 		},
 
 		// Dodatočné meta tagy pre kontakty

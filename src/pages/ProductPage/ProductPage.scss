@@ -3,6 +3,58 @@
 	padding: 20px 0;
 	background-color: var(--background);
 
+		&__breadcrumbs {
+		margin-bottom: 32px;
+
+		.breadcrumb-list {
+			display: flex;
+			align-items: center;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			gap: 8px;
+			flex-wrap: wrap;
+		}
+
+		.breadcrumb-item {
+			display: flex;
+			align-items: center;
+			font-size: 14px;
+			color: var(--darkGray);
+
+			a {
+				color: var(--darkGray);
+				text-decoration: none;
+				transition: color 0.3s ease;
+
+				&:hover {
+					color: var(--lightGreen);
+				}
+			}
+
+			&.active {
+				color: var(--darkBlue);
+				font-weight: 500;
+
+				// Обрезаем длинные заголовки
+				max-width: 300px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				display: inline-block; // Важно для работы ellipsis
+				vertical-align: middle; // Выравнивание по вертикали
+			}
+
+			&:not(:last-child)::after {
+				content: ">";
+				margin-left: 8px;
+				color: var(--darkGray);
+				font-size: 12px;
+				flex-shrink: 0;
+			}
+		}
+	}
+
 	.container {
 		max-width: 1200px;
 		margin: 0 auto;

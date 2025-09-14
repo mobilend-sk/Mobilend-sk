@@ -8,7 +8,7 @@ async function getAllProductLinks() {
 	try {
 		// Импортируем динамически чтобы избежать ошибок если сервиса нет
 		const productService = await import('@/services/productServer.service')
-		return productService.default.getAllProductLinks()
+		return await productService.default.getAllProductLinks()
 	} catch (error) {
 		console.warn('Product service not found, skipping products in sitemap')
 		return []

@@ -1,35 +1,33 @@
-// src/components/SEO/JsonLd.jsx
-// Компонент для рендера JSON-LD схем в <head>
-
-import Head from 'next/head'
-
 const JsonLd = ({ schema }) => {
 	if (!schema) return null
 
+	// ✅ Санитизация для XSS защиты (рекомендация Next.js)
+	const sanitizedSchema = schema.replace(/</g, '\\u003c')
+
 	return (
-		<Head>
-			<script
-				type="application/ld+json"
-				dangerouslySetInnerHTML={{ __html: schema }}
-			/>
-		</Head>
+		<script
+			type="application/ld+json"
+			dangerouslySetInnerHTML={{ __html: sanitizedSchema }}
+		/>
 	)
 }
 
-// Компонент для множественных схем
+// ✅ Компонент для множественных схем
 export const MultipleJsonLd = ({ schemas }) => {
 	if (!schemas || schemas.length === 0) return null
 
 	return (
-		<Head>
+		<>
 			{schemas.map((schema, index) => (
 				<script
 					key={index}
 					type="application/ld+json"
-					dangerouslySetInnerHTML={{ __html: schema }}
+					dangerouslySetInnerHTML={{ 
+						__html: schema.replace(/</g, '\\u003c') 
+					}}
 				/>
 			))}
-		</Head>
+		</>
 	)
 }
 

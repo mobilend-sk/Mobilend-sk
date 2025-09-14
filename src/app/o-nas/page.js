@@ -60,7 +60,7 @@ export async function generateMetadata() {
 
 		// Canonical URL
 		alternates: {
-			canonical: '/o-nas',
+			canonical: 'https://mobilend.sk/o-nas',
 		},
 
 		// JSON-LD schema pre organizáciu (pridáme nižšie)
