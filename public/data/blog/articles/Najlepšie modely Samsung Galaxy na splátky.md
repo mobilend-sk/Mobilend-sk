@@ -5,7 +5,7 @@ date: "2025-08-27"
 slug: "najlepsie-samsung-galaxy-na-splatky-v-roku-2025"
 image: "/data/blog/images/najlepsie-samsung-galaxy-na-splatky-v-roku-2025.webp"
 categories: ["Splátky", "Samsung", "Mobilné telefóny", "Nakupovanie"]
-featured: true
+featured: false
 published: true
 ---
 
