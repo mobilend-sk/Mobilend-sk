@@ -20,7 +20,7 @@ const FAQPage = ({ faqs = [] }) => {
 
 			<div className="container">
 				{/* Хлебные крошки */}
-				<nav className="FAQPage__breadcrumbs" aria-label="Breadcrumb">
+				{/* <nav className="FAQPage__breadcrumbs" aria-label="Breadcrumb">
 					<ol className="breadcrumb-list">
 						<li className="breadcrumb-item">
 							<a href="/">Domov</a>
@@ -29,7 +29,7 @@ const FAQPage = ({ faqs = [] }) => {
 							Často kladené otázky
 						</li>
 					</ol>
-				</nav>
+				</nav> */}
 
 				{/* Заголовок страницы */}
 				<header className="FAQPage__header">

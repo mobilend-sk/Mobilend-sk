@@ -22,7 +22,7 @@ const BlogPage = ({ allPosts = [] }) => {
 
 			<div className="container">
 				{/* Хлебные крошки */}
-				<nav className="BlogPage__breadcrumbs" aria-label="Breadcrumb">
+				{/* <nav className="BlogPage__breadcrumbs" aria-label="Breadcrumb">
 					<ol className="breadcrumb-list">
 						<li className="breadcrumb-item">
 							<a href="/">Domov</a>
@@ -31,7 +31,7 @@ const BlogPage = ({ allPosts = [] }) => {
 							Blog
 						</li>
 					</ol>
-				</nav>
+				</nav> */}
 
 				{/* Заголовок страницы */}
 				<div className="BlogPage__header">
