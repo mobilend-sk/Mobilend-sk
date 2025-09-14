@@ -111,6 +111,7 @@ const ProductPage = ({ product: initialProduct, productLink }) => {
 				{ name: product.model, url: `/katalog/${productLink || product.productLink}` }
 			])} />
 
+			<div className="container">
 			<nav className="ProductPage__breadcrumbs" aria-label="Breadcrumb">
 				<ol className="breadcrumb-list">
 					<li className="breadcrumb-item">
@@ -120,10 +121,11 @@ const ProductPage = ({ product: initialProduct, productLink }) => {
 						<a href="/katalog">Katalog</a>
 					</li>
 					<li className="breadcrumb-item active" aria-current="page">
-						{product.title}
+						{product.model}
 					</li>
 				</ol>
 			</nav>
+			</div>
 
 			{/* Основная информация о продукте */}
 			<MainProductInfo product={product} />
