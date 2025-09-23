@@ -5,7 +5,7 @@ slug: "iphone-na-splatky-bez-preplatenia"
 date: "2025-09-07"
 categories: ["iPhone", "Splátky", "Mobilné telefóny"]
 image: "/data/blog/images/iphone-na-splatky-bez-preplateniz.webp"
-featured: true
+featured: false
 ---
 
 # iPhone na splátky bez preplatenia – oplatí sa to?
