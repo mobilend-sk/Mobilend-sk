@@ -8,15 +8,15 @@ import { Pagination } from 'swiper/modules';
 import { useEffect, useState } from "react";
 import productService from "@/services/productClient.service";
 
-const Sliders = ({ type, model, title, limit = 10 }) => {
+const Sliders = ({ types, model, title, limit = 10 }) => {
 	const [productList, setProductList] = useState([])
 	const [showSlider, setShowSlider] = useState(false)
 
 	useEffect(() => {
-		if (type) {
+		if (types && types.length > 0) {
 			loadProducts()
 		}
-	}, [type, model])
+	}, [types, model])
 
 	// Функция для рандомизации массива (алгоритм Fisher-Yates)
 	const shuffleArray = (array) => {
@@ -31,16 +31,16 @@ const Sliders = ({ type, model, title, limit = 10 }) => {
 	const loadProducts = async () => {
 		try {
 			let products = []
-			if (type === "popular") products = await productService.getPopularProducts()
-			if (type === "discount") products = await productService.getProductsWithDiscount()
-			if (type === "model" && model) products = await productService.getProductsByModel(model)
+			if (types.includes("popular")) products = await productService.getPopularProducts()
+			if (types.includes("discount")) products = await productService.getProductsWithDiscount()
+			if (types.includes("model") && model) products = await productService.getProductsByModel(model)
+
+		
 
 			if (!products || !Array.isArray(products) || products.length === 0) throw new Error("Products is not correct")
-
 			// Рандомизируем массив и берем только нужное количество товаров
 			const shuffledProducts = shuffleArray(products)
 			const limitedProducts = shuffledProducts.slice(0, limit)
-
 			setProductList(limitedProducts)
 			setShowSlider(true)
 		} catch (error) {

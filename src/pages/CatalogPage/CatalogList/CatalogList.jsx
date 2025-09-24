@@ -160,6 +160,7 @@ const CatalogList = () => {
       case "nameDesc":
         filtered.sort((a, b) => b.model.localeCompare(a.model))
         break
+      // змінити метод сорт на інший
       case "discount":
         filtered.sort((a, b) => b.discount - a.discount)
         break

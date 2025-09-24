@@ -50,6 +50,7 @@ const ProductPage = ({ product: initialProduct, productLink }) => {
 		}
 	}
 
+
 	// Loading состояние
 	if (loading) {
 		return (
@@ -112,19 +113,19 @@ const ProductPage = ({ product: initialProduct, productLink }) => {
 			])} />
 
 			<div className="container">
-			<nav className="ProductPage__breadcrumbs" aria-label="Breadcrumb">
-				<ol className="breadcrumb-list">
-					<li className="breadcrumb-item">
-						<a href="/">Domov</a>
-					</li>
-					<li className="breadcrumb-item" aria-current="page">
-						<a href="/katalog">Katalog</a>
-					</li>
-					<li className="breadcrumb-item active" aria-current="page">
-						{product.model}
-					</li>
-				</ol>
-			</nav>
+				<nav className="ProductPage__breadcrumbs" aria-label="Breadcrumb">
+					<ol className="breadcrumb-list">
+						<li className="breadcrumb-item">
+							<a href="/">Domov</a>
+						</li>
+						<li className="breadcrumb-item" aria-current="page">
+							<a href="/katalog">Katalog</a>
+						</li>
+						<li className="breadcrumb-item active" aria-current="page">
+							{product.model}
+						</li>
+					</ol>
+				</nav>
 			</div>
 
 			{/* Основная информация о продукте */}
@@ -132,9 +133,9 @@ const ProductPage = ({ product: initialProduct, productLink }) => {
 
 			{/* Подробная информация о продукте */}
 			<AllProductInfo product={product} />
-
 			{/* Слайдеры с рекомендуемыми товарами */}
-			<Sliders type={"discount"} />
+
+			<Sliders types={["model", "popular"]} model={product.modelGroup} title={"Súvisiace produkty"} />
 		</main>
 	)
 }
