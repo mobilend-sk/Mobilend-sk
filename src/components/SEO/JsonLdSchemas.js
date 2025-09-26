@@ -182,26 +182,26 @@ export function generateLocalBusinessSchema() {
 		},
 
 		// Что продаем
-		"hasOfferCatalog": {
-			"@type": "OfferCatalog",
-			"name": "Mobilné telefóny",
-			"itemListElement": [
-				{
-					"@type": "Offer",
-					"itemOffered": {
-						"@type": "Product",
-						"name": "iPhone"
-					}
-				},
-				{
-					"@type": "Offer",
-					"itemOffered": {
-						"@type": "Product",
-						"name": "Samsung Galaxy"
-					}
-				}
-			]
-		}
+		// "hasOfferCatalog": {
+		// 	"@type": "OfferCatalog",
+		// 	"name": "Mobilné telefóny",
+		// 	"itemListElement": [
+		// 		{
+		// 			"@type": "Offer",
+		// 			"itemOffered": {
+		// 				"@type": "Product",
+		// 				"name": "iPhone"
+		// 			}
+		// 		},
+		// 		{
+		// 			"@type": "Offer",
+		// 			"itemOffered": {
+		// 				"@type": "Product",
+		// 				"name": "Samsung Galaxy"
+		// 			}
+		// 		}
+		// 	]
+		// }
 	}
 
 	return JSON.stringify(schema)

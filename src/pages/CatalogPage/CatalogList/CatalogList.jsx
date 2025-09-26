@@ -162,10 +162,13 @@ const CatalogList = () => {
         break
       // змінити метод сорт на інший
       case "discount":
-        filtered.sort((a, b) => b.discount - a.discount)
+        filtered = filtered
+        .sort((a,b) => b.discount - a.discount)
+        .filter(product => product.discount > 0)
         break
       default:
-        filtered.sort((a, b) => {
+        filtered = filtered
+        .filter((a, b) => {
           if (a.popular && !b.popular) return -1
           if (!a.popular && b.popular) return 1
           return 0

@@ -171,7 +171,7 @@
 		display: grid;
 		grid-template-columns: 280px 1fr;
 		gap: 30px;
-		min-height: 100vh;
+		min-height: 100vh; 
 
 		@media (max-width: 768px) {
 			grid-template-columns: 1fr;
@@ -334,8 +334,8 @@
 	&__grid {
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-between;
 		gap: 15px;
+		justify-items: start
 	}
 
 	&__empty {
