@@ -20,7 +20,12 @@ header.header {
 	}
 
 	.header__menu {
-		margin-left: auto;
+		margin: 0 auto;
+	}
+
+	.header-ico__wrapper {
+		display: flex;
+		align-items: center;
 	}
 
 	.header__burger {

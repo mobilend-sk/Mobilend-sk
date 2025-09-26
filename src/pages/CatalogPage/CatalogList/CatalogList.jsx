@@ -1,6 +1,7 @@
 "use client"
 import { useEffect, useState } from "react"
 import ProductCard from "@/components/ProductCard/ProductCard"
+import SearchComponent from "@/components/SearchComponent/SearchComponent"
 import productService from "@/services/productClient.service"
 import { Filter, X, FilterX } from "lucide-react"
 import "./CatalogList.scss"
@@ -18,47 +19,50 @@ const CatalogList = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false)
   const [selectedModel, setSelectedModel] = useState("all")
   const [sortBy, setSortBy] = useState("default")
+  const [searchTerm, setSearchTerm] = useState("")
 
-  // Загрузка фильтров из localStorage
+  // Загрузка фільтрів із localStorage
   const loadFiltersFromStorage = () => {
     try {
       const savedFilters = localStorage.getItem(STORAGE_KEY)
       if (savedFilters) {
-        const { selectedModel: savedModel, sortBy: savedSort, visibleCount: savedCount } = JSON.parse(savedFilters)
+        const { selectedModel: savedModel, sortBy: savedSort, visibleCount: savedCount, searchTerm: savedSearch } = JSON.parse(savedFilters)
         setSelectedModel(savedModel || "all")
         setSortBy(savedSort || "default")
         setVisibleCount(savedCount || PRODUCTS_PER_PAGE)
+        setSearchTerm(savedSearch || "")
       }
     } catch (error) {
-      console.error("Ошибка загрузки фильтров:", error)
+      console.error("Помилка завантаження фільтрів:", error)
     }
   }
 
-  // Сохранение фильтров в localStorage
-  const saveFiltersToStorage = (model, sort, count) => {
+  // Збереження фільтрів у localStorage
+  const saveFiltersToStorage = (model, sort, count, search) => {
     try {
       const filters = {
         selectedModel: model,
         sortBy: sort,
-        visibleCount: count
+        visibleCount: count,
+        searchTerm: search
       }
       localStorage.setItem(STORAGE_KEY, JSON.stringify(filters))
     } catch (error) {
-      console.error("Ошибка сохранения фильтров:", error)
+      console.error("Помилка збереження фільтрів:", error)
     }
   }
 
-  // Сохранение позиции скролла при уходе со страницы
+  // Збереження позиції скролла при уході зі сторінки
   const saveScrollPosition = () => {
     try {
       const scrollPosition = window.scrollY
       localStorage.setItem(SCROLL_STORAGE_KEY, scrollPosition.toString())
     } catch (error) {
-      console.error("Ошибка сохранения позиции скролла:", error)
+      console.error("Помилка збереження позиції скролла:", error)
     }
   }
 
-  // Восстановление позиции скролла
+  // Відновлення позиції скролла
   const restoreScrollPosition = () => {
     try {
       const savedPosition = localStorage.getItem(SCROLL_STORAGE_KEY)
@@ -70,40 +74,40 @@ const CatalogList = () => {
         }, 100)
       }
     } catch (error) {
-      console.error("Ошибка восстановления позиции скролла:", error)
+      console.error("Помилка відновлення позиції скролла:", error)
     }
   }
 
-  // Загрузка фильтров при монтировании компонента
+  // Завантаження фільтрів при монтуванні компонента
   useEffect(() => {
     loadFiltersFromStorage()
   }, [])
 
-  // Загрузка всех продуктов
+  // Завантаження всіх продуктів
   useEffect(() => {
     loadProducts()
   }, [])
 
-  // Применение фильтров при загрузке продуктов или изменении фильтров
+  // Застосування фільтрів при завантаженні продуктів або зміненні фільтрів
   useEffect(() => {
     if (productList.length > 0) {
       applyFilters()
     }
-  }, [productList, selectedModel, sortBy])
+  }, [productList, selectedModel, sortBy, searchTerm])
 
-  // Восстановление позиции скролла после загрузки данных
+  // Відновлення позиції скролла після завантаження даних
   useEffect(() => {
     if (filteredProducts.length > 0 && !loading) {
       restoreScrollPosition()
     }
   }, [filteredProducts, loading])
 
-  // Сохранение фильтров при их изменении
+  // Збереження фільтрів при їх зміненні
   useEffect(() => {
-    saveFiltersToStorage(selectedModel, sortBy, visibleCount)
-  }, [selectedModel, sortBy, visibleCount])
+    saveFiltersToStorage(selectedModel, sortBy, visibleCount, searchTerm)
+  }, [selectedModel, sortBy, visibleCount, searchTerm])
 
-  // Сохранение позиции скролла перед уходом со страницы
+  // Збереження позиції скролла перед уходом зі сторінки
   useEffect(() => {
     const handleBeforeUnload = () => {
       saveScrollPosition()
@@ -113,7 +117,7 @@ const CatalogList = () => {
     return () => window.removeEventListener("beforeunload", handleBeforeUnload)
   }, [])
 
-  // Подгрузка при прокрутке
+  // Підвантаження при прокрутці
   useEffect(() => {
     const handleScroll = () => {
       const bottom =
@@ -133,20 +137,39 @@ const CatalogList = () => {
       setProductList(products)
       setError(null)
     } catch (error) {
-      console.error("Ошибка загрузки продуктов:", error)
-      setError("Ошибка загрузки продуктов")
+      console.error("Помилка завантаження продуктів:", error)
+      setError("Помилка завантаження продуктів")
     } finally {
       setLoading(false)
     }
   }
 
+  // Обробник пошуку
+  const handleSearch = (searchQuery) => {
+    setSearchTerm(searchQuery)
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }
+
   const applyFilters = () => {
     let filtered = [...productList]
-    
+
+    // Фільтр по моделі
     if (selectedModel !== "all") {
       filtered = filtered.filter((product) => product.modelGroup === selectedModel)
     }
 
+    // Фільтр по пошуковому запиту
+    if (searchTerm.trim()) {
+      const searchLower = searchTerm.toLowerCase()
+      filtered = filtered.filter(product =>
+        product.name?.toLowerCase().includes(searchLower) ||
+        product.model?.toLowerCase().includes(searchLower) ||
+        product.modelGroup?.toLowerCase().includes(searchLower) ||
+        product.description?.toLowerCase().includes(searchLower)
+      )
+    }
+
+    // Сортування
     switch (sortBy) {
       case "priceAsc":
         filtered.sort((a, b) => a.price - b.price)
@@ -160,19 +183,19 @@ const CatalogList = () => {
       case "nameDesc":
         filtered.sort((a, b) => b.model.localeCompare(a.model))
         break
-      // змінити метод сорт на інший
       case "discount":
         filtered = filtered
-        .sort((a,b) => b.discount - a.discount)
-        .filter(product => product.discount > 0)
+          .filter(product => product.discount > 0)
+          .sort((a, b) => b.discount - a.discount)
         break
       default:
-        filtered = filtered
-        .filter((a, b) => {
+        // За замовчуванням - популярні спочатку
+        filtered = filtered.sort((a, b) => {
           if (a.popular && !b.popular) return -1
           if (!a.popular && b.popular) return 1
           return 0
         })
+        break
     }
 
     setFilteredProducts(filtered)
@@ -189,19 +212,21 @@ const CatalogList = () => {
     let count = 0
     if (selectedModel !== "all") count++
     if (sortBy !== "default") count++
+    if (searchTerm.trim()) count++
     return count
   }
 
   const resetFilters = () => {
     setSelectedModel("all")
     setSortBy("default")
+    setSearchTerm("")
     setVisibleCount(PRODUCTS_PER_PAGE)
     setIsFilterOpen(false)
-    
-    // Очистка localStorage при сбросе
+
+    // Очистка localStorage при скиданні
     localStorage.removeItem(STORAGE_KEY)
     localStorage.removeItem(SCROLL_STORAGE_KEY)
-    
+
     window.scrollTo({ top: 0, behavior: "smooth" })
   }
 
@@ -230,7 +255,9 @@ const CatalogList = () => {
         </button>
       </div>
 
-      {/* Фильтр по модели */}
+
+
+      {/* Фільтр по моделі */}
       <div className="CatalogList__filter">
         <label>Model:</label>
         <select value={selectedModel} onChange={handleModelChange}>
@@ -243,7 +270,7 @@ const CatalogList = () => {
         </select>
       </div>
 
-      {/* Сортировка */}
+      {/* Сортування */}
       <div className="CatalogList__filter">
         <label>Triedenie:</label>
         <select value={sortBy} onChange={handleSortChange}>
@@ -281,6 +308,14 @@ const CatalogList = () => {
         <div className="CatalogList__header">
           <h1 className="title-h1 title-h1--desktop">Katalóg tovaru</h1>
           <div className="CatalogList__header-right CatalogList__header-right--desktop">
+            <div className="CatalogList__search-desktop">
+              <SearchComponent 
+                onSearch={handleSearch}
+                placeholder="Hľadať produkty..."
+                initialValue={searchTerm}
+                className="header-search"
+              />
+            </div>
             <div className="CatalogList__results-count">
               Nájdené: {filteredProducts.length} produktov
             </div>
@@ -313,7 +348,12 @@ const CatalogList = () => {
           <div className="CatalogList__products">
             {filteredProducts.length === 0 ? (
               <div className="CatalogList__empty">
-                <p>Produkty nenájdené</p>
+                <p>
+                  {searchTerm.trim() 
+                    ? `Produkty pre "${searchTerm}" nenájdené` 
+                    : "Produkty nenájdené"
+                  }
+                </p>
                 <button onClick={resetFilters}>Resetovať filtre</button>
               </div>
             ) : (
