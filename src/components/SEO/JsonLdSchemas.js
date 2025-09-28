@@ -3,90 +3,83 @@
 
 // 1. Схема для товара (Product Schema)
 export function generateProductSchema(product) {
-    if (!product) return null
+	if (!product) return null
 
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mobilend.sk'
+	const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mobilend.sk'
 
-    // Рассчитываем цену со скидкой
-    const originalPrice = parseFloat(product.price) || 0
-    const discount = parseFloat(product.discount) || 0
-    const currentPrice = discount > 0
-        ? originalPrice * (1 - discount / 100)
-        : originalPrice
+	// Рассчитываем цену со скидкой
+	const originalPrice = parseFloat(product.price) || 0
+	const discount = parseFloat(product.discount) || 0
+	const currentPrice = discount > 0
+		? originalPrice * (1 - discount / 100)
+		: originalPrice
 
-    // Определяем изображения (множественные)
-    const productImages = []
-    if (product.mainImage) {
-        productImages.push(`${baseUrl + product.baseImageUrl}/${product.mainImage}`)
-    }
-    if (product.images && product.images.length > 0) {
-        product.images.forEach(img => {
-            if (!img.startsWith('http')) {
-                const fullImageUrl = `${baseUrl + product.baseImageUrl}/${img}`
-                if (!productImages.includes(fullImageUrl)) {
-                    productImages.push(fullImageUrl)
-                }
-            }
-        })
-    }
+	// Определяем изображение
+	let productImage = null
+	if (product.mainImage) {
+		productImage = `${baseUrl + product.baseImageUrl}/${product.mainImage}`
+	} else if (product.images && product.images.length > 0 && !product.images[0].startsWith('http')) {
+		productImage = `${baseUrl + product.baseImageUrl}/${product.images[0]}`
+	}
 
-    const schema = {
-        "@context": "https://schema.org/",
-        "@type": "Product",
-        "name": product.model,
-        "description": product.shortInfo || `${product.model} s ${product.memory || 'rôznou'} pamäťou. Kvalitný mobilný telefón s modernou technológiou.`,
-        "brand": {
-            "@type": "Brand",
-            "name": product.modelGroup === "Iphones" ? "Apple" : (product.modelGroup ? product.modelGroup.replace(" Galaxy", "") : "Apple")
-        },
+	const schema = {
+		"@context": "https://schema.org/",
+		"@type": "Product",
+		"name": product.model,
+		"description": product.shortInfo || `${product.model} s ${product.memory || 'rôznou'} pamäťou. Kvalitný mobilný telefón s modernou technológiou.`,
+		"brand": {
+			"@type": "Brand",
+			"name": product.modelGroup === "Iphones" ? "Apple" : product.modelGroup?.replace(" Galaxy", "") || "Apple"
+		},
 		"category": "Mobilné telefóny",
-        "sku": product.productLink,
-        "url": `${baseUrl}/katalog/${product.productLink}`,
-        
-        // Исправляем изображения - только если есть
-        ...(productImages.length > 0 && { "image": productImages }),
+		"sku": product.productLink,
+		"url": `${baseUrl}/katalog/${product.productLink}`,
 
-        // Цена и наличие
-        "offers": {
-            "@type": "Offer",
-            "price": currentPrice.toFixed(2),
-            "priceCurrency": "EUR",
-            "priceValidUntil": new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0], // +30 дней
-            "availability": "https://schema.org/InStock",
-            "url": `${baseUrl}/katalog/${product.productLink}`,
-            "seller": {
-                "@type": "Organization",
-                "name": "Mobilend",
-                "url": baseUrl
-            }
-        }
-    }
+  // Исправляем изображения - только если есть
+		...(productImage && { "image": [productImage] }), // Добавляем только если есть изображение
 
-    // Добавляем дополнительные свойства только если они есть
-    //.const additionalProperty = []
-    
-    if (product.memory) {
-        additionalProperty.push({
-            "@type": "PropertyValue",
-            "name": "Pamäť",
-            "value": product.memory
-        })
-    }
+		// Цена и наличие
+		"offers": {
+			"@type": "Offer",
+			"price": currentPrice.toFixed(2),
+			"priceCurrency": "EUR",
+			"priceValidUntil": new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0], // +30 дней
+			"availability": "https://schema.org/InStock",
+			"url": `${baseUrl}/katalog/${product.productLink}`,
+			"seller": {
+				"@type": "Organization",
+				"name": "Mobilend",
+				"url": baseUrl
+			}
+		}
+	}
 
-    if (product.color) {
-        additionalProperty.push({
-            "@type": "PropertyValue",
-            "name": "Farba", 
-            "value": product.color
-        })
-    }
+	// Дополнительные свойства товара - объявляем ПЕРЕД использованием
+	const additionalProperty = []
 
-    // Добавляем только если есть свойства
-    if (additionalProperty.length > 0) {
-        schema.additionalProperty = additionalProperty
-    }
+	// Добавляем характеристики если есть
+	if (product.memory) {
+		additionalProperty.push({
+			"@type": "PropertyValue",
+			"name": "Pamäť",
+			"value": product.memory
+		})
+	}
 
-    return JSON.stringify(schema)
+	if (product.color) {
+		additionalProperty.push({
+			"@type": "PropertyValue",
+			"name": "Farba",
+			"value": product.color
+		})
+	}
+
+	// Добавляем в схему только если есть дополнительные свойства
+	if (additionalProperty.length > 0) {
+		schema.additionalProperty = additionalProperty
+	}
+
+	return JSON.stringify(schema)
 }
 // 2. Схема для организации (Organization Schema)
 export function generateOrganizationSchema() {
