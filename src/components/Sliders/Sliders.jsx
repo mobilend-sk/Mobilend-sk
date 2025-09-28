@@ -35,8 +35,6 @@ const Sliders = ({ types, model, title, limit = 10 }) => {
 			if (types.includes("discount")) products = await productService.getProductsWithDiscount()
 			if (types.includes("model") && model) products = await productService.getProductsByModel(model)
 
-		
-
 			if (!products || !Array.isArray(products) || products.length === 0) throw new Error("Products is not correct")
 			// Рандомизируем массив и берем только нужное количество товаров
 			const shuffledProducts = shuffleArray(products)
