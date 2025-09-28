@@ -63,10 +63,10 @@ export function generateProductSchema(product) {
     }
 
     // Добавляем дополнительные свойства только если они есть
-    //.const additionalProperties = []
+    //.const additionalProperty = []
     
     if (product.memory) {
-        additionalProperties.push({
+        additionalProperty.push({
             "@type": "PropertyValue",
             "name": "Pamäť",
             "value": product.memory
@@ -74,7 +74,7 @@ export function generateProductSchema(product) {
     }
 
     if (product.color) {
-        additionalProperties.push({
+        additionalProperty.push({
             "@type": "PropertyValue",
             "name": "Farba", 
             "value": product.color
@@ -82,8 +82,8 @@ export function generateProductSchema(product) {
     }
 
     // Добавляем только если есть свойства
-    if (additionalProperties.length > 0) {
-        schema.additionalProperty = additionalProperties
+    if (additionalProperty.length > 0) {
+        schema.additionalProperty = additionalProperty
     }
 
     return JSON.stringify(schema)
