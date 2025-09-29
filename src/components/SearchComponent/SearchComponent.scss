@@ -1,101 +1,179 @@
  .search-component {
      display: inline-block;
+
+     .search-btn {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: 40px;
+         height: 40px;
+         background: none;
+         border: none;
+         border-radius: 8px;
+         cursor: pointer;
+         transition: all 0.2s ease;
+         color: var(--darkBlue);
+     }
+
+
+     .search-btn:hover {
+         transform: scale(1.05);
+     }
+
+     .search-form {
+         animation: slideIn 0.3s ease-out;
+     }
+
+
+     .searh-results__wrapper {
+         position: absolute;
+         max-width: 300px;
+         width: 100%;
+         height: 50vh;
+         background-color: var(--white);
+         border-radius: 0 0 20px 20px;
+         overflow: hidden;
+         overflow-y: scroll;
+         scrollbar-width: none;
+         animation: slideDown 0.3s ease-out;
+     }
+
+     .search-input-wrapper {
+         display: flex;
+         align-items: center;
+         background: white;
+         border: 2px solid var(--darkBlue);
+         border-radius: 25px;
+         padding: 4px;
+         box-shadow: 0 4px 12px rgba(52, 152, 219, 0.15);
+         min-width: 300px;
+         margin: 0 auto;
+     }
+
+     .CatalogList {
+         padding: 10px 0;
+
+         img {
+             max-height: 80px;
+         }
+
+         .ProductCard__image-popular {
+             left: 60px;
+             font-size: 11px;
+         }
+
+         .ProductCard__image-discount {
+            font-size: 12px;
+            right: 0;
+            left: 35vh;
+            top: auto;
+            bottom: 5px;
+            width: 40px;
+         }
+
+         .ProductCard__ .CatalogList__grid {
+             flex-direction: column;
+             gap: 10px;
+             margin: 0 auto;
+         }
+
+         .CatalogList__header {
+             display: none;
+         }
+
+
+         .ProductCard {
+
+             display: flex;
+             justify-content: space-between;
+             max-width: 300px;
+             max-height: 80px;
+             margin: 0 auto;
+
+             a {
+                 display: flex;
+                 align-items: center;
+             }
+
+             h3 {
+                 font-size: 13px;
+                 -webkit-line-clamp: 2;
+                 height: 30px;
+             }
+
+             .ProductCard__price-total {
+                 font-size: 14px;
+                 text-align: center;
+                 white-space: nowrap;
+             }
+
+             .BuyButton {
+                 display: none;
+             }
+
+         }
+     }
+
+     .search-input {
+         flex: 1;
+         border: none;
+         outline: none;
+         padding: 10px 16px;
+         font-size: 14px;
+         background: transparent;
+         color: #2c3e50;
+     }
+
+     .search-input::placeholder {
+         color: #95a5a6;
+     }
+
+     .search-submit {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: 32px;
+         height: 32px;
+         background: #3498db;
+         border: none;
+         border-radius: 50%;
+         cursor: pointer;
+         color: white;
+         transition: all 0.2s ease;
+         margin-right: 4px;
+     }
+
+     .search-submit:hover {
+         background: #2980b9;
+         transform: scale(1.1);
+     }
+
+     .search-submit:disabled {
+         background: #bdc3c7;
+         cursor: not-allowed;
+         transform: none;
+     }
+
+     .search-close {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: 32px;
+         height: 32px;
+         background: #e74c3c;
+         border: none;
+         border-radius: 50%;
+         cursor: pointer;
+         color: white;
+         transition: all 0.2s ease;
+     }
+
+     .search-close:hover {
+         background: #c0392b;
+         transform: scale(1.1);
+     }
  }
 
- .search-btn {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     width: 40px;
-     height: 40px;
-     background: #f8f9fa;
-     border: 1px solid #e9ecef;
-     border-radius: 8px;
-     cursor: pointer;
-     transition: all 0.2s ease;
-     color: #6c757d;
- }
-
-
- .search-btn:hover {
-     background: #e9ecef;
-     color: #495057;
-     transform: scale(1.05);
- }
-
- .search-form {
-     animation: slideIn 0.3s ease-out;
- }
-
- .search-input-wrapper {
-     display: flex;
-     align-items: center;
-     background: white;
-     border: 2px solid #3498db;
-     border-radius: 25px;
-     padding: 4px;
-     box-shadow: 0 4px 12px rgba(52, 152, 219, 0.15);
-     min-width: 300px;
- }
-
- .search-input {
-     flex: 1;
-     border: none;
-     outline: none;
-     padding: 10px 16px;
-     font-size: 14px;
-     background: transparent;
-     color: #2c3e50;
- }
-
- .search-input::placeholder {
-     color: #95a5a6;
- }
-
- .search-submit {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     width: 32px;
-     height: 32px;
-     background: #3498db;
-     border: none;
-     border-radius: 50%;
-     cursor: pointer;
-     color: white;
-     transition: all 0.2s ease;
-     margin-right: 4px;
- }
-
- .search-submit:hover {
-     background: #2980b9;
-     transform: scale(1.1);
- }
-
- .search-submit:disabled {
-     background: #bdc3c7;
-     cursor: not-allowed;
-     transform: none;
- }
-
- .search-close {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     width: 32px;
-     height: 32px;
-     background: #e74c3c;
-     border: none;
-     border-radius: 50%;
-     cursor: pointer;
-     color: white;
-     transition: all 0.2s ease;
- }
-
- .search-close:hover {
-     background: #c0392b;
-     transform: scale(1.1);
- }
 
  @keyframes slideIn {
      from {
@@ -109,9 +187,57 @@
      }
  }
 
+
+ @keyframes slideDown {
+     from {
+         opacity: 0;
+         transform: translateY(-20px);
+     }
+
+     to {
+         opacity: 1;
+         transform: translateY(0);
+     }
+ }
+
+
  @media (max-width: 768px) {
      .search-input-wrapper {
-         min-width: 250px;
+         min-width: 100px;
+     }
+
+     .search-form {
+         animation: slideIn 0.3s ease-out;
+         position: absolute;
+         width: 100%;
+         height: 60px;
+         background-color: white;
+         top: 0;
+         left: 0;
+         z-index: 1;
+         display: flex;
+         align-items: center;
+     }
+
+     .header--search-active {
+         .Logotype .header__menu .header-ico__wrapper {
+             display: none;
+         }
+
+         .CartLink {
+             a {
+                 display: none;
+             }
+         }
+     }
+
+     .searh-results__wrapper {
+         width: 100%;
+         height: 100vh;
+         background-color: var(--white);
+         position: absolute;
+         top: 60;
+         left: 0;
      }
 
      .search-input {

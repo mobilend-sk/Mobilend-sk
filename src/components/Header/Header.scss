@@ -26,6 +26,9 @@ header.header {
 	.header-ico__wrapper {
 		display: flex;
 		align-items: center;
+		margin-left: auto;
+		justify-content: flex-start;
+		z-index: 6;
 	}
 
 	.header__burger {
@@ -45,12 +48,14 @@ header.header {
 			left: -150%;
 			background: var(--white);
 			transition: all 0.3s;
+
 			nav.Menu ul {
 				height: 100vh;
 				height: 100dvh;
 				flex-direction: column;
 				justify-content: center;
 				gap: 50px;
+
 				a {
 					font-size: 20px;
 				}
@@ -84,6 +89,7 @@ header.header {
 
 		.header__cart {
 			margin-left: auto;
+
 		}
 	}
 }

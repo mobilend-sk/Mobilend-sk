@@ -1,7 +1,6 @@
 "use client"
 import { useEffect, useState } from "react"
 import ProductCard from "@/components/ProductCard/ProductCard"
-import SearchComponent from "@/components/SearchComponent/SearchComponent"
 import productService from "@/services/productClient.service"
 import { Filter, X, FilterX } from "lucide-react"
 import "./CatalogList.scss"
@@ -10,7 +9,11 @@ const PRODUCTS_PER_PAGE = 12
 const STORAGE_KEY = "catalog_filters"
 const SCROLL_STORAGE_KEY = "catalog_scroll_position"
 
-const CatalogList = () => {
+const CatalogList = ({
+  showFilters = true,
+  initialSearchTerm = "",
+  onSearchChange = null
+}) => {
   const [productList, setProductList] = useState([])
   const [filteredProducts, setFilteredProducts] = useState([])
   const [visibleCount, setVisibleCount] = useState(PRODUCTS_PER_PAGE)
@@ -19,7 +22,7 @@ const CatalogList = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false)
   const [selectedModel, setSelectedModel] = useState("all")
   const [sortBy, setSortBy] = useState("default")
-  const [searchTerm, setSearchTerm] = useState("")
+  const [searchTerm, setSearchTerm] = useState(initialSearchTerm)
 
   // Загрузка фільтрів із localStorage
   const loadFiltersFromStorage = () => {
@@ -30,7 +33,10 @@ const CatalogList = () => {
         setSelectedModel(savedModel || "all")
         setSortBy(savedSort || "default")
         setVisibleCount(savedCount || PRODUCTS_PER_PAGE)
-        setSearchTerm(savedSearch || "")
+        // Використовуємо initialSearchTerm якщо він переданий, інакше збережений
+        if (!initialSearchTerm) {
+          setSearchTerm(savedSearch || "")
+        }
       }
     } catch (error) {
       console.error("Помилка завантаження фільтрів:", error)
@@ -78,6 +84,18 @@ const CatalogList = () => {
     }
   }
 
+  // Оновлення пошукового терміна ззовні
+  useEffect(() => {
+    setSearchTerm(initialSearchTerm)
+  }, [initialSearchTerm])
+
+  // Повідомлення батьківського компонента про зміну пошукового запита
+  useEffect(() => {
+    if (onSearchChange) {
+      onSearchChange(searchTerm)
+    }
+  }, [searchTerm, onSearchChange])
+
   // Завантаження фільтрів при монтуванні компонента
   useEffect(() => {
     loadFiltersFromStorage()
@@ -102,10 +120,15 @@ const CatalogList = () => {
     }
   }, [filteredProducts, loading])
 
-  // Збереження фільтрів при їх зміненні
+  // Збереження фільтрів при їх зміненні (тільки якщо не передано initialSearchTerm)
   useEffect(() => {
-    saveFiltersToStorage(selectedModel, sortBy, visibleCount, searchTerm)
-  }, [selectedModel, sortBy, visibleCount, searchTerm])
+    if (!initialSearchTerm) {
+      saveFiltersToStorage(selectedModel, sortBy, visibleCount, searchTerm)
+    } else {
+      // Зберігаємо без searchTerm якщо він керується ззовні
+      saveFiltersToStorage(selectedModel, sortBy, visibleCount, "")
+    }
+  }, [selectedModel, sortBy, visibleCount, searchTerm, initialSearchTerm])
 
   // Збереження позиції скролла перед уходом зі сторінки
   useEffect(() => {
@@ -142,12 +165,6 @@ const CatalogList = () => {
     } finally {
       setLoading(false)
     }
-  }
-
-  // Обробник пошуку
-  const handleSearch = (searchQuery) => {
-    setSearchTerm(searchQuery)
-    window.scrollTo({ top: 0, behavior: "smooth" })
   }
 
   const applyFilters = () => {
@@ -255,8 +272,6 @@ const CatalogList = () => {
         </button>
       </div>
 
-
-
       {/* Фільтр по моделі */}
       <div className="CatalogList__filter">
         <label>Model:</label>
@@ -308,53 +323,51 @@ const CatalogList = () => {
         <div className="CatalogList__header">
           <h1 className="title-h1 title-h1--desktop">Katalóg tovaru</h1>
           <div className="CatalogList__header-right CatalogList__header-right--desktop">
-            <div className="CatalogList__search-desktop">
-              <SearchComponent 
-                onSearch={handleSearch}
-                placeholder="Hľadať produkty..."
-                initialValue={searchTerm}
-                className="header-search"
-              />
-            </div>
             <div className="CatalogList__results-count">
               Nájdené: {filteredProducts.length} produktov
             </div>
           </div>
         </div>
 
-        <div className="CatalogList__sticky-controls">
-          <div className="CatalogList__sticky-controls--box">
-            <div className="CatalogList__sticky-controls--header">
-              <h1 className="title-h1 title-h1--mobile">Katalóg tovaru</h1>
-              <div className="CatalogList__results-count">
-                Nájdené: {filteredProducts.length} produktov
+        {showFilters && (
+          <div className="CatalogList__sticky-controls">
+            <div className="CatalogList__sticky-controls--box">
+              <div className="CatalogList__sticky-controls--header">
+                <h1 className="title-h1 title-h1--mobile">Katalóg tovaru</h1>
+                <div className="CatalogList__results-count">
+                  Nájdené: {filteredProducts.length} produktov
+                </div>
               </div>
+              <button className="CatalogList__filter-btn" onClick={toggleFilter}>
+                <Filter size={20} />
+                Filter
+                {getActiveFiltersCount() > 0 && (
+                  <span className="filter-badge">{getActiveFiltersCount()}</span>
+                )}
+              </button>
             </div>
-            <button className="CatalogList__filter-btn" onClick={toggleFilter}>
-              <Filter size={20} />
-              Filter
-              {getActiveFiltersCount() > 0 && (
-                <span className="filter-badge">{getActiveFiltersCount()}</span>
-              )}
-            </button>
           </div>
-        </div>
+        )}
 
         <div className="CatalogList__content">
-          <div className="CatalogList__filters CatalogList__filters--desktop">
-            <FilterContent />
-          </div>
+          {showFilters && (
+            <div className="CatalogList__filters CatalogList__filters--desktop">
+              <FilterContent />
+            </div>
+          )}
 
           <div className="CatalogList__products">
             {filteredProducts.length === 0 ? (
               <div className="CatalogList__empty">
                 <p>
-                  {searchTerm.trim() 
-                    ? `Produkty pre "${searchTerm}" nenájdené` 
+                  {searchTerm.trim()
+                    ? `Produkty pre "${searchTerm}" nenájdené`
                     : "Produkty nenájdené"
                   }
                 </p>
-                <button onClick={resetFilters}>Resetovať filtre</button>
+                {showFilters && (
+                  <button onClick={resetFilters}>Resetovať filtre</button>
+                )}
               </div>
             ) : (
               <div className="CatalogList__grid">
@@ -366,7 +379,7 @@ const CatalogList = () => {
           </div>
         </div>
 
-        {isFilterOpen && (
+        {showFilters && isFilterOpen && (
           <div className="CatalogList__modal-overlay" onClick={() => setIsFilterOpen(false)}>
             <div className="CatalogList__modal" onClick={(e) => e.stopPropagation()}>
               <FilterContent />

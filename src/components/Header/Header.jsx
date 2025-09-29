@@ -2,7 +2,7 @@
 
 import Logotype from "../Logotype/Logotype"
 import Menu from "../Menu/Menu"
-// import SearchComponent from "../SearchComponent/SearchComponent"
+import SearchComponent from "../SearchComponent/SearchComponent"
 import CartLink from "../CartLink/CartLink"
 import { AlignJustify } from "lucide-react"
 import { useState, useEffect } from "react"
@@ -30,7 +30,7 @@ const Header = () => {
 	}, [pathname])
 
 	return (
-		<header className={`header ${isScrolled ? 'scrolled' : ''}`}>
+		<header className={`header ${isScrolled ? 'scrolled' : ''} searched`}>
 			<div className="container">
 				<div className="header__wrapper">
 					<Logotype />
@@ -39,7 +39,7 @@ const Header = () => {
 					</div>
 					<div className="header-ico__wrapper">
 						<div className="search__wrapper">
-							{/* <SearchComponent /> */}
+							<SearchComponent />
 						</div>
 						<div className="header__cart">
 							<CartLink />
