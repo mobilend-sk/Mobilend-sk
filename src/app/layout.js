@@ -157,9 +157,14 @@ export default function RootLayout({ children }) {
 			</head>
 			<body className={`${montserrat.variable}`}>
 				<noscript>
-					<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MS49G67V" height="0" width="0" style="display:none;visibility:hidden">
-					</iframe>
+					<iframe
+						src="https://www.googletagmanager.com/ns.html?id=GTM-MS49G67V"
+						height="0"
+						width="0"
+						style={{ display: "none", visibility: "hidden" }}
+					/>
 				</noscript>
+
 
 				<Script
 					id="zoho-salesiq-init"
