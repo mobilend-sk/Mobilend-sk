@@ -1,5 +1,7 @@
+
 [
 	{
+	
 		"models": [
 			{
 				"model": "Apple iPhone 14 128 GB Color Midnight",
@@ -73,7 +75,7 @@
 					"apple_iphone_14_128gb_Midnight-10.jpg"
 				],
 				"modelGroup": "Iphones",
-				"price": 949.0,
+				"price": 949.50,
 				"currency": "EUR",
 				"currencyLabel": "€",
 				"popular": true,

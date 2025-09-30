@@ -8,6 +8,7 @@ image: "/data/blog/images/splatkovy-plan.webp"
 featured: false
 ---
 
+
 # 5 vecí, na ktoré si dať pozor pred podpisom splátkového plánu
 
 Kúpa nového mobilu na splátky je dnes bežná. Mnoho ľudí si vyberá najnovšie telefóny na splátky – od modelov iPhone na splátky bez navýšenia až po prémiové zariadenia ako **[Samsung Galaxy Z Fold 5](https://mobilend.sk/katalog/samsung-galaxy-Z-Fold5-1T-PhantomBlack)** alebo **[iPhone 15 Pro](https://mobilend.sk/katalog/apple-iphone-15-pro-512gb-White-Titanium)**. Hoci ponuky vyzerajú lákavo, zle zvolený splátkový plán môže viesť k zbytočnému preplateniu. Preto je dôležité vedieť, na čo sa pri podpise zmluvy zamerať.
