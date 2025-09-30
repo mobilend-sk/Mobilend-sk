@@ -8,6 +8,7 @@ categories: ["Splátky", "Nákupný poradca", "Smartfóny", "iPhone", "Samsung"]
 featured: false
 ---
 
+
 # 5 krokov, ako kúpiť telefón na splátky bez preplácania
 
 Chcete si kúpiť **nový telefón na splátky** a nechcete zaplatiť ani cent navyše?  
