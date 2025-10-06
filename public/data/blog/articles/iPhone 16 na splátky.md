@@ -2,7 +2,7 @@
 title: "iPhone 16 na splátky – najlepšie ceny a podmienky"
 description: "Objavte výhody kúpy iPhonu 16 na splátky. Bez navýšenia, rýchle vybavenie online a spoľahlivá záruka."
 date: "2025-10-06"
-slug: "iPhone-16-na-splatky–najlepsie-ceny-a-podmienky"
+slug: "iPhone-16-na-splatky–najlepsie-ceny"
 image: "/data/blog/images/"
 categories: ["Porovnania", "iPhone 15", "iPhone 16", "Recenzie", "Splátky"]
 featured: true
