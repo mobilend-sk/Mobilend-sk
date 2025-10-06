@@ -5,5 +5,12 @@
 		color: var(--darkBlue);
 		font-size: 20px;
 		font-weight: 600;
+		display: flex;
+		align-items: center;
+		gap: 5px;
+	}
+	
+	.logoImage {
+		width: 34px; height: 34px;
 	}
 }
