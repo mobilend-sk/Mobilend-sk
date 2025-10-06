@@ -5,7 +5,7 @@ date: "2025-09-10"
 slug: "samsung-galaxy-na-splatky-slovensko-sprievodca"
 image: "/data/blog/images/samsung-galaxy-na-splátky-Slovensko-sprievodca.webp"
 categories: ["Splátky", "Samsung", "Mobilné telefóny", "Nakupovanie"]
-featured: true
+featured: false
 published: true
 ---
 
