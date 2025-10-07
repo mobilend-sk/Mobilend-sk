@@ -7,10 +7,8 @@ image: "/data/blog/images/"
 categories: ["Porovnania", "iPhone 15", "iPhone 16", "Recenzie", "Splátky"]
 featured: true
 published: true
-
-
 ---
-npm 
+
 # iPhone 16 na splátky – najlepšie ceny a podmienky
 
 ## Prečo zvoliť iPhone na splátky
