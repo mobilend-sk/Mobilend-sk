@@ -74,14 +74,31 @@ const StepConfirmation = ({
 				timestamp: new Date().toISOString()
 			}
 
-			await telegramService.sendOrderToTelegram(orderData)
 
+			console.log(orderData)
+			// ✅ Замість telegramService використовуємо API
+			const response = await fetch('localhost:5000', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify(orderData)
+			})
+
+			const result = await response.json()
+
+			if (!response.ok) {
+				throw new Error(result.message || 'Chyba servera')
+			}
+
+			// Якщо успішно
 			setOrderNumber(newOrderNumber)
 			setIsOrderComplete(true)
 			onOrderComplete()
 			clearCart()
 
 			window.scrollTo({ top: 0, behavior: "smooth" })
+
 		} catch (error) {
 			console.error("Chyba pri spracovaní objednávky:", error)
 			alert("Nastala chyba pri odoslaní objednávky. Skúste to znovu.")
@@ -89,7 +106,6 @@ const StepConfirmation = ({
 			setIsSubmitting(false)
 		}
 	}
-
 	if (isOrderComplete) {
 		return (
 			<div className="StepConfirmation">
