@@ -9,6 +9,7 @@ featured: true
 published: true
 ---
 
+
 # iPhone 16 na splátky – najlepšie ceny a podmienky
 
 ## Prečo zvoliť iPhone na splátky
