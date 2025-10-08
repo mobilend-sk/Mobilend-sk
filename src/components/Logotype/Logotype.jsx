@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link"
 import Image from "next/image"
-
+import logoSvg from '@/app/_assets/Icons/logo.svg'
 import "./Logotype.scss"
 
 const Logotype = () => {
@@ -9,7 +9,7 @@ const Logotype = () => {
 		<div className="Logotype">
 			<Link href={"/"}>
 				<Image
-					src="/images/icons/logo.svg"
+					src={logoSvg}
 					alt="logo"
 					width={40}
 					height={40}
