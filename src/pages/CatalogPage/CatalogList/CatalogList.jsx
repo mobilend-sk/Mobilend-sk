@@ -1,5 +1,7 @@
-"use client"
+'use client';
+
 import { useEffect, useState } from "react"
+import { useSearchParams } from 'next/navigation' // Додано
 import ProductCard from "@/components/ProductCard/ProductCard"
 import productService from "@/services/productClient.service"
 import { Filter, X, FilterX } from "lucide-react"
@@ -14,6 +16,8 @@ const CatalogList = ({
   initialSearchTerm = "",
   onSearchChange = null
 }) => {
+  const searchParams = useSearchParams() // Додано
+  const urlSearchTerm = searchParams.get('search') || '' // Додано
   const [productList, setProductList] = useState([])
   const [filteredProducts, setFilteredProducts] = useState([])
   const [visibleCount, setVisibleCount] = useState(PRODUCTS_PER_PAGE)
@@ -22,7 +26,8 @@ const CatalogList = ({
   const [isFilterOpen, setIsFilterOpen] = useState(false)
   const [selectedModel, setSelectedModel] = useState("all")
   const [sortBy, setSortBy] = useState("default")
-  const [searchTerm, setSearchTerm] = useState(initialSearchTerm)
+  // Використовуємо URL параметр якщо він є, інакше initialSearchTerm
+  const [searchTerm, setSearchTerm] = useState(urlSearchTerm || initialSearchTerm)
 
   // Загрузка фільтрів із localStorage
   const loadFiltersFromStorage = () => {
@@ -96,6 +101,15 @@ const CatalogList = ({
     }
   }, [searchTerm, onSearchChange])
 
+  // Оновлення пошукового терміна з URL
+  useEffect(() => {
+    if (urlSearchTerm) {
+      setSearchTerm(urlSearchTerm)
+    } else if (initialSearchTerm) {
+      setSearchTerm(initialSearchTerm)
+    }
+  }, [urlSearchTerm, initialSearchTerm])
+
   // Завантаження фільтрів при монтуванні компонента
   useEffect(() => {
     loadFiltersFromStorage()
@@ -167,7 +181,7 @@ const CatalogList = ({
     }
   }
 
-  const applyFilters = () => {
+  const applyFilters = () => {   // GET 
     let filtered = [...productList]
 
     // Фільтр по моделі

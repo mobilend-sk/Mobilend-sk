@@ -1,6 +1,15 @@
  .search-component {
      display: inline-block;
 
+     .search-component_blur {
+         width: 100%;
+         height: 100vh;
+         position: absolute;
+         top: 60px;
+         left: 0;
+         background-color: rgba(0, 0, 0, 0.507);
+     }
+
      .search-btn {
          display: flex;
          align-items: center;
@@ -27,7 +36,7 @@
 
      .searh-results__wrapper {
          position: absolute;
-         max-width: 300px;
+         max-width: 305px;
          width: 100%;
          height: 50vh;
          background-color: var(--white);
@@ -36,6 +45,10 @@
          overflow-y: scroll;
          scrollbar-width: none;
          animation: slideDown 0.3s ease-out;
+     }
+
+     svg {
+         transition: color .2s;
      }
 
      .search-input-wrapper {
@@ -58,8 +71,9 @@
          }
 
          .ProductCard__image-popular {
-             left: 60px;
              font-size: 11px;
+             right: auto;
+             left: 15%;
          }
 
          .ProductCard__image-discount {
@@ -101,11 +115,23 @@
                  height: 30px;
              }
 
-             .ProductCard__price-total {
-                 font-size: 14px;
-                 text-align: center;
-                 white-space: nowrap;
+             .ProductCard__price {
+                 flex-wrap: wrap;
+                 gap: 0;
+
+                 .ProductCard__price-total {
+                     font-size: 14px;
+                     text-align: center;
+                     white-space: nowrap;
+                 }
+
+                 .ProductCard__price-discount {
+                     font-size: 14px;
+                     text-align: center;
+                     white-space: nowrap;
+                 }
              }
+
 
              .BuyButton {
                  display: none;
@@ -260,8 +286,8 @@
              min-height: 100px;
 
              .ProductCard__image-popular {
-                 top: -10px;
-                 left: 225px;
+                 top: 6px;
+                 left: 75%;
                  font-size: 11px;
              }
          }
