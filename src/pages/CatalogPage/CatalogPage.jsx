@@ -1,11 +1,14 @@
 "use client"
 import CatalogList from "./CatalogList/CatalogList"
+import { Suspense } from "react"
 
 const CatalogPage = () => {
 
 	return (
 		<main>
-			<CatalogList />
+			<Suspense fallback={<div>Načítavajú sa produkty...</div>}>
+				<CatalogList />
+			</Suspense>
 		</main>
 	)
 }
