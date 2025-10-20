@@ -77,7 +77,7 @@ const StepConfirmation = ({
 
 			console.log(orderData)
 			// ✅ Замість telegramService використовуємо API
-			const response = await fetch('http://localhost:5000/api/offer', {
+			const response = await fetch('http://localhost:5000/api/offer/', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
