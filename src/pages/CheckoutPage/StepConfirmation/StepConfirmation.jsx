@@ -10,7 +10,6 @@ import {
 	Check,
 	Loader2
 } from "lucide-react"
-import telegramService from "@/services/telegram.service"
 import "./StepConfirmation.scss"
 
 const StepConfirmation = ({
@@ -76,7 +75,6 @@ const StepConfirmation = ({
 
 
 			console.log(orderData)
-			// ✅ Замість telegramService використовуємо API
 			const response = await fetch('http://localhost:5000/api/offer/', {
 				method: 'POST',
 				headers: {
