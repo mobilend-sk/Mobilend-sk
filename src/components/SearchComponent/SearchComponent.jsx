@@ -7,7 +7,7 @@ import CatalogList from '@/pages/CatalogPage/CatalogList/CatalogList';
 
 const SearchComponent = ({
   onSearch,
-  placeholder = "Введіть пошуковий запит...",
+  placeholder = "Zadajte hľadaný výraz...",
   initialValue = "",
   className = "",
   autoFocus = true,

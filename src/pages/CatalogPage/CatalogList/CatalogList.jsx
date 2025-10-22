@@ -190,14 +190,24 @@ const CatalogList = ({
     }
 
     // Фільтр по пошуковому запиту
+    // Фільтр по пошуковому запиту
     if (searchTerm.trim()) {
-      const searchLower = searchTerm.toLowerCase()
-      filtered = filtered.filter(product =>
-        product.name?.toLowerCase().includes(searchLower) ||
-        product.model?.toLowerCase().includes(searchLower) ||
-        product.modelGroup?.toLowerCase().includes(searchLower) ||
-        product.description?.toLowerCase().includes(searchLower)
-      )
+      const searchWords = searchTerm.toLowerCase().trim().split(/\s+/)
+
+      filtered = filtered.filter(product => {
+        const searchableText = [
+          product.name,
+          product.model,
+          product.modelGroup,
+          product.description
+        ]
+          .filter(Boolean)
+          .join(' ')
+          .toLowerCase()
+
+        // Перевіряємо, чи містить текст ВСІ слова з пошукового запиту
+        return searchWords.every(word => searchableText.includes(word))
+      })
     }
 
     // Сортування
