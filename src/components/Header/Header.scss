@@ -61,12 +61,16 @@ header.header {
 			}
 		}
 
+		.header-ico__wrapper {
+			margin-left: auto;
+		}
+
 		.header__menu.active {
 			left: 0;
 		}
 
 		.header__wrapper {
-			gap: 26px;
+			gap: 5px;
 		}
 
 		.header__burger {

@@ -71,18 +71,18 @@
          }
 
          .ProductCard__image-popular {
-             font-size: 11px;
+             font-size: 10px;
              right: auto;
-             left: 15%;
+             left: 20%;
          }
 
          .ProductCard__image-discount {
-             font-size: 12px;
-             right: 0;
-             left: 35vh;
-             top: auto;
-             bottom: 5px;
-             width: 40px;
+             font-size: 10px;
+             left: auto;
+         }
+
+         .ProductCard__price-discount {
+            display: none;
          }
 
          .ProductCard__ .CatalogList__grid {
@@ -287,8 +287,11 @@
 
              .ProductCard__image-popular {
                  top: 6px;
-                 left: 75%;
                  font-size: 11px;
+             }
+
+             .ProductCard__image-discount {
+                 font-size: 10px;
              }
          }
      }
