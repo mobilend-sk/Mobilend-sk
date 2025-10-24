@@ -98,7 +98,7 @@ export function generateOrganizationSchema() {
 		// Контактная информация
 		"contactPoint": {
 			"@type": "ContactPoint",
-			"telephone": "+421919496013",
+			"telephone": "+421919126340",
 			"contactType": "customer service",
 			"email": "support@mobilend.sk",
 			"availableLanguage": ["Slovak"]
@@ -143,7 +143,7 @@ export function generateLocalBusinessSchema() {
 		"name": "Mobilend",
 		"description": "Obchod s mobilnými telefónmi v Bratislave. Predaj iPhone, Samsung Galaxy a ďalších značiek.",
 		"url": baseUrl,
-		"telephone": "+421919496013",
+		"telephone": "+421919126340",
 		"email": "support@mobilend.sk",
 
 		// Адрес и геолокация
@@ -167,14 +167,14 @@ export function generateLocalBusinessSchema() {
 			{
 				"@type": "OpeningHoursSpecification",
 				"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-				"opens": "09:00",
-				"closes": "18:00"
+				"opens": "00:00",
+				"closes": "00:01"
 			},
 			{
 				"@type": "OpeningHoursSpecification",
 				"dayOfWeek": "Saturday",
-				"opens": "09:00",
-				"closes": "16:00"
+				"opens": "00:00",
+				"closes": "00:01"
 			}
 		],
 
