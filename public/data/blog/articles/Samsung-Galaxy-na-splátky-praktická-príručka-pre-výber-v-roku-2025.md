@@ -156,4 +156,13 @@ Pre telefóny na splátky potrebujete občiansky preukaz, potvrdenie o príjmoch
 
 ---
 
-👉 [Zobraziť všetky Samsung modely na splátky](https://mobilend.sk)
+ [Zobraziť všetky Samsung modely na splátky](https://mobilend.sk/katalog/)
+
+
+
+## Čo by vás tiež mohlo zaujímať
+
+- [Príbehy zákazníkov: Ako im nákup na splátky zachránil život, keď sa im pokazil mobilný telefón](https://mobilend.sk/blog/pribehy-zakaznikov-mobilny-telefon-na-splatky)
+- [Ako si študent kúpil nový iPhone a za prvý mesiac zaplatil len 5 €](https://mobilend.sk/blog/student-novy-iphone-za-5-eur-prvy-mesiac)
+- [Telefóny na splátky bez preplatenia — kde ich kúpiť v roku 2025](https://mobilend.sk/blog/telefony-na-splatky-bez-preplatenia-2025)
+

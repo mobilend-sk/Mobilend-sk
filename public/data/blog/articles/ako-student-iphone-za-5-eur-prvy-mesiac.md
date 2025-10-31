@@ -138,3 +138,9 @@ V EÚ štandardne platí 14 dní na odstúpenie, no detaily a termíny si overte
 ---
 
 **Pripravení?** Je čas navštíviť **[mobilend.sk](https://mobilend.sk/)**, porovnať modely a **vybrať si svoj iPhone** — s férovými splátkami a komfortným doručením.
+
+## Čo by vás tiež mohlo zaujímať
+- [Katalog](https://mobilend.sk/katalog)
+- [5 krokov, ako kúpiť telefón na splátky bez preplácania](https://mobilend.sk/blog/5-krokov-telefon-na-splatky-bez-preplacania)
+- [Ako kúpiť telefón na splátky online za 5 minút – jednoduchý návod](https://mobilend.sk/blog/ako-kupit-telefon-na-splatky-za-5-minut)
+- [Telefóny na splátky bez preplatenia — kde ich kúpiť v roku 2025](https://mobilend.sk/blog/telefony-na-splatky-bez-preplatenia-2025)

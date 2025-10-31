@@ -74,4 +74,11 @@ Ak sa váš iPhone alebo Samsung Galaxy náhle pokazí a nemôžete čakať do v
 
   **Objednajte si ho teraz a už o pár dní budete mať nový iPhone alebo Samsung Galaxy s oficiálnou zárukou.**  
 
- [Kúpiť mobilný telefón na splátky na Mobilend.sk](https://mobilend.sk/)
+ [Kúpiť mobilný telefón na splátky na Mobilend.sk](https://mobilend.sk/katalog/)
+
+
+## Čo by vás tiež mohlo zaujímať
+
+- [Ako si študent kúpil nový iPhone a za prvý mesiac zaplatil len 5 €](https://mobilend.sk/blog/student-novy-iphone-za-5-eur-prvy-mesiac)
+- [Telefóny na splátky bez preplatenia — kde ich kúpiť v roku 2025](https://mobilend.sk/blog/telefony-na-splatky-bez-preplatenia-2025)
+- [5 krokov, ako kúpiť telefón na splátky bez preplácania](https://mobilend.sk/blog/5-krokov-telefon-na-splatky-bez-preplacania)

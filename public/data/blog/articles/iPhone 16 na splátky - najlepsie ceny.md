@@ -65,9 +65,9 @@ Ešte prednedávnom bol populárny **[iPhone 15](https://mobilend.sk/katalog/app
 
 ## Ďalšie články, ktoré by vás mohli zaujímať
 
-1. [Skúsenosti zákazníkov s iPhonom na splátky.](https://mobilend.sk/blog/Skusenosti-zakaznikov-iPhone-na-splatky)
-2. [Mobil na splátky bez navýšenia – pravda alebo mýtus?](https://mobilend.sk/blog/mobil-na-splatky-bez-navysenia-pravda-alebo-mytus)
-3. [Samsung Galaxy na splátky Slovensko – sprievodca](https://mobilend.sk/blog/samsung-galaxy-na-splatky-slovensko-sprievodca)
+> [Skúsenosti zákazníkov s iPhonom na splátky.](https://mobilend.sk/blog/Skusenosti-zakaznikov-iPhone-na-splatky)
+> [Mobil na splátky bez navýšenia – pravda alebo mýtus?](https://mobilend.sk/blog/mobil-na-splatky-bez-navysenia-pravda-alebo-mytus)
+> [Samsung Galaxy na splátky Slovensko – sprievodca](https://mobilend.sk/blog/samsung-galaxy-na-splatky-slovensko-sprievodca)
 
 
 

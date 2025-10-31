@@ -67,4 +67,12 @@ Takéto ponuky nájdete u oficiálnych predajcov a operátorov. Sledujte aj e-sh
 
 Kúpa **mobilu na splátky** je praktická možnosť, ako získať moderný smartfón bez nutnosti jednorazovej investície. Nezabúdajte však na: **celkovú cenu, úrok, dĺžku splácania, podmienky zmluvy a vašu finančnú rezervu**.
 
-👉 Ak budete postupovať rozumne, získate najnovší **[iPhone alebo Samsung Galaxy na splátky](https://mobilend.sk/katalog)** bez zbytočných komplikácií a preplácania.
+👉 Ak budete postupovať rozumne, získate najnovší **[iPhone alebo Samsung Galaxy na splátky](https://mobilend.sk/katalog/)** bez zbytočných komplikácií a preplácania.
+
+## Čo by vás tiež mohlo zaujímať
+
+- [Najlepšie Samsung Galaxy na splátky v roku 2025 | mobilend.sk](https://mobilend.sk/blog/najlepsie-samsung-galaxy-na-splatky-v-roku-2025)
+- [Samsung Galaxy na splátky: praktická príručka pre výber v roku 2025](https://mobilend.sk/blog/samsung-galaxy-na-splatky-prakticky-sprievodca-2025)
+- [Príbehy zákazníkov: Ako im nákup na splátky zachránil život, keď sa im pokazil mobilný telefón](https://mobilend.sk/blog/pribehy-zakaznikov-mobilny-telefon-na-splatky)
+
+
