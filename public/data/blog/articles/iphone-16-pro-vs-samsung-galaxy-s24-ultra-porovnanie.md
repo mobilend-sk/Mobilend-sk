@@ -1,7 +1,7 @@
 ---
 title: "iPhone 16 Pro vs Samsung Galaxy S24 Ultra: Kompletné porovnanie"
 description: "Detailné porovnanie dvoch vlajkových lodí - iPhone 16 Pro a Samsung Galaxy S24 Ultra. Ktorý je lepší v roku 2025?"
-date: "2025-01-15"
+date: "2025-07-15"
 slug: "iphone-16-pro-vs-samsung-galaxy-s24-ultra-porovnanie"
 image: "/data/blog/images/iphone-vs-samsung.webp"
 categories: ["Porovnania", "iPhone", "Samsung", "Recenzie"]

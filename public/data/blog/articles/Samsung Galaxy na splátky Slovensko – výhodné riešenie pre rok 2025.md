@@ -85,4 +85,12 @@ Predčasné splatenie je možné a bez sankcií, takže máte plnú kontrolu nad
 
 **Samsung Galaxy na splátky Slovensko** je v roku 2025 moderným a výhodným riešením pre každého, kto chce vlastniť špičkový smartfón bez okamžitého finančného zaťaženia.  
 
-Vďaka ponuke **bez navýšenia**, expresnému doručeniu a širokému výberu modelov na **[mobilend.sk](https://mobilend.sk/katalog)** získate istotu, že investujete rozumne a výhodne.
+Vďaka ponuke **bez navýšenia**, expresnému doručeniu a širokému výberu modelov na **[mobilend.sk](https://mobilend.sk/katalog.)** získate istotu, že investujete rozumne a výhodne.
+
+
+## Čo by vás tiež mohlo zaujímať
+
+- [iPhone na splátky bez preplatenia 2025 | Mobilend.sk](https://mobilend.sk/blog/iphone-na-splatky-bez-preplatenia)
+- [5 vecí, na ktoré si dať pozor pred podpisom splátkového plánu | Mobilend.sk](https://mobilend.sk/blog/5-veci-pred-podpisom-splatkoveho-planu)
+- [Najlepšie Samsung Galaxy na splátky v roku 2025 | mobilend.sk](https://mobilend.sk/blog/najlepsie-samsung-galaxy-na-splatky-v-roku-2025)
+
