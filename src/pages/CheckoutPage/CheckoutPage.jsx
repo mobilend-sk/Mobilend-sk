@@ -35,6 +35,38 @@ const CheckoutPage = () => {
 		paymentMethod: ''
 	})
 
+	// Перевірка на повернення з платіжної системи
+	useEffect(() => {
+		const urlParams = new URLSearchParams(window.location.search)
+		const paymentId = urlParams.get('paymentId')
+		const pendingOrderId = localStorage.getItem('pendingOrderId')
+
+		// Якщо є paymentId або pendingOrderId, автоматично перейти на крок 3
+		if (paymentId || pendingOrderId) {
+			setCurrentStep(3)
+
+			// Завантажити збережені дані форм з localStorage
+			const savedContactData = localStorage.getItem('checkoutContactData')
+			const savedDeliveryData = localStorage.getItem('checkoutDeliveryData')
+
+			if (savedContactData) {
+				try {
+					setContactData(JSON.parse(savedContactData))
+				} catch (e) {
+					console.error('Chyba načítania kontaktných údajov:', e)
+				}
+			}
+
+			if (savedDeliveryData) {
+				try {
+					setDeliveryData(JSON.parse(savedDeliveryData))
+				} catch (e) {
+					console.error('Chyba načítania údajov doručenia:', e)
+				}
+			}
+		}
+	}, [])
+
 	// Загрузка продуктов для корзины
 	useEffect(() => {
 		const loadProducts = async () => {
@@ -71,20 +103,24 @@ const CheckoutPage = () => {
 
 	// Проверка на пустую корзину (только если заказ не завершен)
 	if (!loading && items.length === 0 && !orderCompleted) {
-		return (
-			<main className="CheckoutPage">
-				<div className="container">
-					<div className="CheckoutPage__empty">
-						<ShoppingBag size={64} />
-						<h2>Váš košík je prázdny</h2>
-						<p>Pred pokračovaním na pokladňu pridajte do košíka nejaké produkty</p>
-						<Link href="/katalog" className="CheckoutPage__empty-link">
-							Prejsť do katalógu
-						</Link>
+		// Перевірити, чи це повернення з оплати
+		const pendingOrderId = localStorage.getItem('pendingOrderId')
+		if (!pendingOrderId) {
+			return (
+				<main className="CheckoutPage">
+					<div className="container">
+						<div className="CheckoutPage__empty">
+							<ShoppingBag size={64} />
+							<h2>Váš košík je prázdny</h2>
+							<p>Pred pokračovaním na pokladňu pridajte do košíka nejaké produkty</p>
+							<Link href="/katalog" className="CheckoutPage__empty-link">
+								Prejsť do katalógu
+							</Link>
+						</div>
 					</div>
-				</div>
-			</main>
-		)
+				</main>
+			)
+		}
 	}
 
 	// Loading состояние
@@ -104,10 +140,14 @@ const CheckoutPage = () => {
 	// Обработчики шагов
 	const handleContactSubmit = (data) => {
 		setContactData(data)
+		// Зберегти дані в localStorage
+		localStorage.setItem('checkoutContactData', JSON.stringify(data))
 	}
 
 	const handleDeliverySubmit = (data) => {
 		setDeliveryData(data)
+		// Зберегти дані в localStorage
+		localStorage.setItem('checkoutDeliveryData', JSON.stringify(data))
 	}
 
 	const goToNextStep = () => {
@@ -120,6 +160,15 @@ const CheckoutPage = () => {
 		if (currentStep > 1) {
 			setCurrentStep(currentStep - 1)
 		}
+	}
+
+	const handleOrderComplete = () => {
+		setOrderCompleted(true)
+		setShowSuccessScreen(true)
+
+		// Очистити збережені дані форм
+		localStorage.removeItem('checkoutContactData')
+		localStorage.removeItem('checkoutDeliveryData')
 	}
 
 	// Рендер текущего шага
@@ -149,10 +198,7 @@ const CheckoutPage = () => {
 						deliveryData={deliveryData}
 						cartItems={cartItemsWithProducts}
 						onBack={goToPrevStep}
-						onOrderComplete={() => {
-							setOrderCompleted(true)
-							setShowSuccessScreen(true)
-						}}
+						onOrderComplete={handleOrderComplete}
 					/>
 				)
 			default:
