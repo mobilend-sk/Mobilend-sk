@@ -1,111 +1,60 @@
-import { useEffect, useState } from 'react'
-import useCartStore from '@/stores/cartStore'
+import useCartStore from "@/stores/cartStore"
+import { useEffect, useState } from "react"
 
-// Простой хук для получения количества товаров
+// 🔢 Кількість всіх товарів у кошику
 export const useCartCount = () => {
-	const [count, setCount] = useState(0)
-
-	useEffect(() => {
-		// Функция для обновления счетчика
-		const updateCount = () => {
-			const state = useCartStore.getState()
-			const totalItems = state.getTotalItems()
-			setCount(totalItems)
-		}
-
-		// Обновляем сразу
-		updateCount()
-
-		// Подписываемся на изменения
-		const unsubscribe = useCartStore.subscribe(updateCount)
-
-		return () => unsubscribe()
-	}, [])
-
-	return count
+  return useCartStore(state => state.getTotalItems())
 }
 
-// Хук для получения количества конкретного товара
+// 📦 Кількість КОНКРЕТНОГО товару по productLink
 export const useCartItemQuantity = (productLink) => {
-	const [quantity, setQuantity] = useState(0)
-
-	useEffect(() => {
-		const updateQuantity = () => {
-			const state = useCartStore.getState()
-			const qty = state.getItemQuantity(productLink)
-			setQuantity(qty)
-		}
-
-		updateQuantity()
-
-		const unsubscribe = useCartStore.subscribe(updateQuantity)
-		return () => unsubscribe()
-	}, [productLink])
-
-	return quantity
+  return useCartStore(state => state.getItemQuantity(productLink))
 }
 
-// Хук для проверки наличия товара в корзине
+// ✅ Чи є товар у кошику
 export const useIsItemInCart = (productLink) => {
-	const [isInCart, setIsInCart] = useState(false)
-
-	useEffect(() => {
-		const updateIsInCart = () => {
-			const state = useCartStore.getState()
-			const inCart = state.isItemInCart(productLink)
-			setIsInCart(inCart)
-		}
-
-		updateIsInCart()
-
-		const unsubscribe = useCartStore.subscribe(updateIsInCart)
-		return () => unsubscribe()
-	}, [productLink])
-
-	return isInCart
+  return useCartStore(state => state.isItemInCart(productLink))
 }
 
-// Основной хук для работы с корзиной
+// 🧠 Основний хук для роботи з корзиною
 export const useCart = () => {
-	const [state, setState] = useState({
-		items: [],
-		totalItems: 0
-	})
+  // Стан, який буде ре-рендерити компоненти при зміні корзини
+  const items = useCartStore(state => state.items)
+  const totalItems = useCartStore(state => state.getTotalItems())
 
-	useEffect(() => {
-		const updateState = () => {
-			const currentState = useCartStore.getState()
-			setState({
-				items: currentState.items,
-				totalItems: currentState.getTotalItems()
-			})
-		}
+  // Дії
+  const addItem = useCartStore(state => state.addItem)
+  const removeItem = useCartStore(state => state.removeItem)
+  const updateQuantity = useCartStore(state => state.updateQuantity)
+  const increaseQuantity = useCartStore(state => state.increaseQuantity)
+  const decreaseQuantity = useCartStore(state => state.decreaseQuantity)
+  const clearCart = useCartStore(state => state.clearCart)
 
-		updateState()
+  // Синхронізація з backend (ми її додали в cartStore)
+  const syncCart = useCartStore(state => state.syncCart)
 
-		const unsubscribe = useCartStore.subscribe(updateState)
-		return () => unsubscribe()
-	}, [])
+  // Утиліти
+  const getItemQuantity = useCartStore(state => state.getItemQuantity)
+  const isItemInCart = useCartStore(state => state.isItemInCart)
+  const getTotalPrice = useCartStore(state => state.getTotalPrice)
+  const getCartItemsWithProducts = useCartStore(state => state.getCartItemsWithProducts)
 
-	const store = useCartStore.getState()
+  return {
+    items,
+    totalItems,
 
-	return {
-		// Состояние
-		items: state.items,
-		totalItems: state.totalItems,
+    addItem,
+    removeItem,
+    updateQuantity,
+    increaseQuantity,
+    decreaseQuantity,
+    clearCart,
 
-		// Действия
-		addItem: store.addItem,
-		removeItem: store.removeItem,
-		updateQuantity: store.updateQuantity,
-		increaseQuantity: store.increaseQuantity,
-		decreaseQuantity: store.decreaseQuantity,
-		clearCart: store.clearCart,
+    syncCart,
 
-		// Утилиты
-		getItemQuantity: store.getItemQuantity,
-		isItemInCart: store.isItemInCart,
-		getTotalPrice: store.getTotalPrice,
-		getCartItemsWithProducts: store.getCartItemsWithProducts
-	}
+    getItemQuantity,
+    isItemInCart,
+    getTotalPrice,
+    getCartItemsWithProducts,
+  }
 }

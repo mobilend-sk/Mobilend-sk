@@ -13,7 +13,6 @@ const useCartStore = create(
 				const existingItem = items.find(item => item.productLink === productLink)
 
 				if (existingItem) {
-					// Если товар уже есть, увеличиваем количество
 					set({
 						items: items.map(item =>
 							item.productLink === productLink
@@ -22,7 +21,6 @@ const useCartStore = create(
 						)
 					})
 				} else {
-					// Если товара нет, добавляем новый
 					set({
 						items: [...items, { productLink, quantity: 1 }]
 					})
@@ -37,7 +35,6 @@ const useCartStore = create(
 
 			updateQuantity: (productLink, quantity) => {
 				if (quantity <= 0) {
-					// Если количество 0 или меньше, удаляем товар
 					get().removeItem(productLink)
 					return
 				}
@@ -88,7 +85,6 @@ const useCartStore = create(
 				set({ items: [] })
 			},
 
-			// Получение общей суммы (нужно будет использовать с данными о товарах)
 			getTotalPrice: (productList) => {
 				const items = get().items
 				return items.reduce((total, item) => {
@@ -97,17 +93,31 @@ const useCartStore = create(
 				}, 0)
 			},
 
-			// Получение товаров корзины с полными данными
 			getCartItemsWithProducts: (productList) => {
 				const items = get().items
-				return items.map(item => {
-					const product = productList.find(p => p.productLink === item.productLink)
-					return {
-						...item,
-						product: product || null
-					}
-				}).filter(item => item.product !== null) // Фильтруем товары, которые не найдены
+				return items
+					.map(item => {
+						const product = productList.find(p => p.productLink === item.productLink)
+						return {
+							...item,
+							product: product || null
+						}
+					})
+					.filter(item => item.product !== null)
+			},
+
+			// 🔥 ВАЖНО: метод для синхронизации с backend
+			// предполагаем, что backend возвращает items в том же формате [{ productLink, quantity }, ...]
+			syncCart: (serverItems) => {
+				const normalized = serverItems.map(item => ({
+					productLink: item.productLink || item.productId, // <-- пріоритет productLink
+					productId: item.productId,
+					quantity: item.quantity
+				}))
+
+				set({ items: normalized })
 			}
+
 		}),
 		{
 			name: 'shopping-cart',

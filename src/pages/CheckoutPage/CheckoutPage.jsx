@@ -8,11 +8,21 @@ import StepDelivery from "./StepDelivery/StepDelivery"
 import StepConfirmation from "./StepConfirmation/StepConfirmation"
 import Link from "next/link"
 import { ArrowLeft, ShoppingBag } from "lucide-react"
+
+import { useSearchParams, useRouter, usePathname } from "next/navigation"
+
 import "./CheckoutPage.scss"
 
 const CheckoutPage = () => {
-	const { items, totalItems } = useCart()
-	const [currentStep, setCurrentStep] = useState(1)
+	const { items } = useCart()
+	const searchParams = useSearchParams()
+	const router = useRouter()
+	const pathname = usePathname()
+
+	// STEP з URL
+	const initialStep = Number(searchParams.get("step")) || 1
+	const [currentStep, setCurrentStep] = useState(initialStep)
+
 	const [productList, setProductList] = useState([])
 	const [cartItemsWithProducts, setCartItemsWithProducts] = useState([])
 	const [loading, setLoading] = useState(true)
@@ -35,39 +45,34 @@ const CheckoutPage = () => {
 		paymentMethod: ''
 	})
 
-	// Перевірка на повернення з платіжної системи
+	// ✔️ ОНОВЛЕННЯ step при зміні URL
 	useEffect(() => {
-		const urlParams = new URLSearchParams(window.location.search)
-		const paymentId = urlParams.get('paymentId')
-		const pendingOrderId = localStorage.getItem('pendingOrderId')
+		const urlStep = Number(searchParams.get("step"))
+		if (urlStep >= 1 && urlStep <= 3) {
+			setCurrentStep(urlStep)
+		}
+	}, [searchParams])
 
-		// Якщо є paymentId або pendingOrderId, автоматично перейти на крок 3
+	// Відновлення step після повернення з платіжки
+	useEffect(() => {
+		const params = new URLSearchParams(window.location.search)
+		const paymentId = params.get("paymentId")
+		const pendingOrderId = localStorage.getItem("pendingOrderId")
+
 		if (paymentId || pendingOrderId) {
+			router.replace(`${pathname}?step=3`)
+
 			setCurrentStep(3)
 
-			// Завантажити збережені дані форм з localStorage
-			const savedContactData = localStorage.getItem('checkoutContactData')
-			const savedDeliveryData = localStorage.getItem('checkoutDeliveryData')
+			const savedContactData = localStorage.getItem("checkoutContactData")
+			const savedDeliveryData = localStorage.getItem("checkoutDeliveryData")
 
-			if (savedContactData) {
-				try {
-					setContactData(JSON.parse(savedContactData))
-				} catch (e) {
-					console.error('Chyba načítania kontaktných údajov:', e)
-				}
-			}
-
-			if (savedDeliveryData) {
-				try {
-					setDeliveryData(JSON.parse(savedDeliveryData))
-				} catch (e) {
-					console.error('Chyba načítania údajov doručenia:', e)
-				}
-			}
+			if (savedContactData) setContactData(JSON.parse(savedContactData))
+			if (savedDeliveryData) setDeliveryData(JSON.parse(savedDeliveryData))
 		}
 	}, [])
 
-	// Загрузка продуктов для корзины
+	// Загрузка продуктов
 	useEffect(() => {
 		const loadProducts = async () => {
 			try {
@@ -75,25 +80,28 @@ const CheckoutPage = () => {
 				const products = await productService.getAllProducts()
 				setProductList(products)
 			} catch (error) {
-				console.error('Chyba načítania produktov:', error)
+				console.error("Chyba načítania produktov:", error)
 			} finally {
 				setLoading(false)
 			}
 		}
-
 		loadProducts()
 	}, [])
 
-	// Обновление товаров корзины с полными данными
+	// Об'єднання товарів
 	useEffect(() => {
 		if (productList.length > 0 && items.length > 0) {
-			const cartItems = items.map(item => {
-				const product = productList.find(p => p.productLink === item.productLink)
-				return {
-					...item,
-					product: product || null
-				}
-			}).filter(item => item.product !== null)
+			const cartItems = items
+				.map(item => {
+					const product = productList.find(
+						p => p.productLink === item.productLink
+					)
+					return {
+						...item,
+						product: product || null
+					}
+				})
+				.filter(item => item.product !== null)
 
 			setCartItemsWithProducts(cartItems)
 		} else {
@@ -101,10 +109,9 @@ const CheckoutPage = () => {
 		}
 	}, [items, productList])
 
-	// Проверка на пустую корзину (только если заказ не завершен)
+	// Порожній кошик
 	if (!loading && items.length === 0 && !orderCompleted) {
-		// Перевірити, чи це повернення з оплати
-		const pendingOrderId = localStorage.getItem('pendingOrderId')
+		const pendingOrderId = localStorage.getItem("pendingOrderId")
 		if (!pendingOrderId) {
 			return (
 				<main className="CheckoutPage">
@@ -112,7 +119,7 @@ const CheckoutPage = () => {
 						<div className="CheckoutPage__empty">
 							<ShoppingBag size={64} />
 							<h2>Váš košík je prázdny</h2>
-							<p>Pred pokračovaním na pokladňu pridajte do košíka nejaké produkty</p>
+							<p>Pred pokračovaním na pokladňu pridajte produkty</p>
 							<Link href="/katalog" className="CheckoutPage__empty-link">
 								Prejsť do katalógu
 							</Link>
@@ -123,7 +130,7 @@ const CheckoutPage = () => {
 		}
 	}
 
-	// Loading состояние
+	// Завантаження
 	if (loading) {
 		return (
 			<main className="CheckoutPage">
@@ -137,41 +144,49 @@ const CheckoutPage = () => {
 		)
 	}
 
-	// Обработчики шагов
-	const handleContactSubmit = (data) => {
-		setContactData(data)
-		// Зберегти дані в localStorage
-		localStorage.setItem('checkoutContactData', JSON.stringify(data))
-	}
 
-	const handleDeliverySubmit = (data) => {
-		setDeliveryData(data)
-		// Зберегти дані в localStorage
-		localStorage.setItem('checkoutDeliveryData', JSON.stringify(data))
-	}
 
 	const goToNextStep = () => {
 		if (currentStep < 3) {
-			setCurrentStep(currentStep + 1)
+			const next = currentStep + 1
+			setCurrentStep(next)
+
+			router.push(`${pathname}?step=${next}`, { scroll: false })
 		}
 	}
 
+
+
 	const goToPrevStep = () => {
 		if (currentStep > 1) {
-			setCurrentStep(currentStep - 1)
+			const prev = currentStep - 1
+			setCurrentStep(prev)
+
+			router.push(`${pathname}?step=${prev}`, { scroll: false })
 		}
+	}
+
+
+
+	// submit-и
+	const handleContactSubmit = data => {
+		setContactData(data)
+		localStorage.setItem("checkoutContactData", JSON.stringify(data))
+	}
+
+	const handleDeliverySubmit = data => {
+		setDeliveryData(data)
+		localStorage.setItem("checkoutDeliveryData", JSON.stringify(data))
 	}
 
 	const handleOrderComplete = () => {
 		setOrderCompleted(true)
 		setShowSuccessScreen(true)
-
-		// Очистити збережені дані форм
-		localStorage.removeItem('checkoutContactData')
-		localStorage.removeItem('checkoutDeliveryData')
+		localStorage.removeItem("checkoutContactData")
+		localStorage.removeItem("checkoutDeliveryData")
 	}
 
-	// Рендер текущего шага
+	// Рендер кроку
 	const renderCurrentStep = () => {
 		switch (currentStep) {
 			case 1:
@@ -209,7 +224,7 @@ const CheckoutPage = () => {
 	return (
 		<main className="CheckoutPage">
 			<div className="container">
-				{/* Хлебные крошки - тоже скрываем на экране успеха */}
+
 				{!showSuccessScreen && (
 					<div className="CheckoutPage__breadcrumbs">
 						<Link href="/cart" className="CheckoutPage__breadcrumb">
@@ -223,10 +238,10 @@ const CheckoutPage = () => {
 					</div>
 				)}
 
-				{/* Прогресс-бар - скрываем на экране успеха */}
-				{!showSuccessScreen && <ProgressBar currentStep={currentStep} />}
+				{!showSuccessScreen && (
+					<ProgressBar currentStep={currentStep} />
+				)}
 
-				{/* Контент шага */}
 				<div className="CheckoutPage__content">
 					{renderCurrentStep()}
 				</div>

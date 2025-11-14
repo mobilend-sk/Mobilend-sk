@@ -3,6 +3,8 @@ import { useEffect, useState } from "react"
 import { useCart } from "@/hooks/useCart"
 import productService from "@/services/productClient.service"
 import CartItem from "@/components/CartItem/CartItem"
+import cartService from "@/services/cart.service"
+import useCartStore from "@/stores/cartStore"
 import Link from "next/link"
 import { ShoppingBag, ArrowLeft } from "lucide-react"
 import "./CartPage.scss"
@@ -12,6 +14,23 @@ const CartPage = () => {
 	const [productList, setProductList] = useState([])
 	const [loading, setLoading] = useState(true)
 	const [cartItemsWithProducts, setCartItemsWithProducts] = useState([])
+	const { syncCart } = useCartStore.getState()
+
+	useEffect(() => {
+		const loadCartFromServer = async () => {
+			try {
+				const res = await cartService.get()
+
+				if (res?.success && res.cart?.items) {
+					syncCart(res.cart.items)
+				}
+			} catch (e) {
+				console.error("Помилка загрузки корзины:", e)
+			}
+		}
+
+		loadCartFromServer()
+	}, [])
 
 	// Загрузка всех продуктов
 	useEffect(() => {
@@ -34,7 +53,8 @@ const CartPage = () => {
 	useEffect(() => {
 		if (productList.length > 0 && items.length > 0) {
 			const cartItems = items.map(item => {
-				const product = productList.find(p => p.productLink === item.productLink)
+				const product = productList.find(p => p.productLink === item.productId)
+
 				return {
 					...item,
 					product: product || null

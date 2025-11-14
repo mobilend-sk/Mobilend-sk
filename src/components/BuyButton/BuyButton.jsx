@@ -1,94 +1,118 @@
 "use client"
 import { Plus, ShoppingCart, Check } from "lucide-react"
 import { useCart, useCartItemQuantity } from "@/hooks/useCart"
-import Link from "next/link"
+import cartService from "@/services/cart.service"
+import { useRouter } from "next/navigation"
 import "./BuyButton.scss"
 
 const BuyButton = ({ type = "small", productLink, product }) => {
-	const { addItem, updateQuantity, removeItem } = useCart()
+	const { addItem, updateQuantity, removeItem, syncCart } = useCart()
 	const quantity = useCartItemQuantity(productLink)
 	const isInCart = quantity > 0
+	const router = useRouter()
 
-	const handleAddToCart = (e) => {
+	// ДОБАВИТЬ В КОРЗИНУ
+	const handleAddToCart = async (e) => {
 		e.preventDefault()
 		e.stopPropagation()
 
-		if (!productLink) {
-			console.error('ProductLink is required for BuyButton')
-			return
-		}
+		if (!productLink) return
 
+		// 🔥 1. мгновенно обновляем локальный стейт (для анимации)
 		addItem(productLink)
+
+		// 🔥 2. backend в фоне
+		try {
+			const res = await cartService.add(productLink, 1)
+			if (res?.success && res.cart?.items) {
+				syncCart(res.cart.items)
+			}
+		} catch (err) {
+			console.error("server error", err)
+		}
 	}
 
-	const handleQuantityChange = (e, action) => {
+	// ИЗМЕНЕНИЕ КОЛИЧЕСТВА (если будешь использовать на большой кнопке)
+	const handleQuantityChange = async (e, action) => {
 		e.preventDefault()
 		e.stopPropagation()
 
-		if (action === 'increase') {
-			updateQuantity(productLink, quantity + 1)
-		} else if (action === 'decrease') {
-			if (quantity > 1) {
-				updateQuantity(productLink, quantity - 1)
-			} else {
-				removeItem(productLink)
+		let newQty = quantity
+		if (action === "increase") newQty = quantity + 1
+		else if (action === "decrease") newQty = quantity - 1
+
+		updateQuantity(productLink, newQty)
+
+		try {
+			const res = await cartService.update(productLink, newQty)
+			if (res?.success && res.cart?.items) {
+				syncCart(res.cart.items)
 			}
+		} catch (err) {
+			console.error("update error", err)
 		}
 	}
 
-	// Для маленькой кнопки (на карточках)
+	// 👉 ДЛЯ МАЛЕНЬКОЙ КНОПКИ — ВСЕГДА ОДИН И ТОТ ЖЕ <button>
 	if (type === "small") {
-		if (!isInCart) {
-			return (
-				<button
-					className="BuyButton BuyButton--small"
-					onClick={handleAddToCart}
-					title="Pridať do košíka"
-				>
-					<Plus />
-				</button>
-			)
-		} else {
-			return (
-				<Link href="/cart" className="BuyButton BuyButton--small BuyButton--in-cart">
-					<Check size={16} />
-				</Link>
-			)
-		}
+		const handleClick = isInCart
+			? (e) => {
+				e.preventDefault()
+				e.stopPropagation()
+				router.push("/cart")
+			}
+			: handleAddToCart
+
+		return (
+			<button
+				className={`BuyButton BuyButton--small ${isInCart ? "BuyButton--in-cart" : ""
+					}`}
+				onClick={handleClick}
+				title={isInCart ? "Prejsť do košíka" : "Pridať do košíka"}
+			>
+				{isInCart ? <Check size={16} /> : <Plus />}
+			</button>
+		)
 	}
 
-	// Для большой кнопки (на странице товара)
+	// 👉 ДЛЯ БОЛЬШОЙ КНОПКИ — ТО ЖЕ САМОЕ: один <button>
 	if (type === "full") {
-		if (!isInCart) {
-			return (
-				<button
-					className="BuyButton BuyButton--full"
-					onClick={handleAddToCart}
-				>
-					<ShoppingCart size={20} />
-					Do košíka
-				</button>
-			)
-		} else {
-			return (
-				<Link
-					href="/cart"
-					className="BuyButton BuyButton--full BuyButton--in-cart"
-				>
-					<Check size={20} />
-					V košíku ({quantity})
-				</Link>
-			)
-		}
+		const handleClick = isInCart
+			? (e) => {
+				e.preventDefault()
+				e.stopPropagation()
+				router.push("/cart")
+			}
+			: handleAddToCart
+
+		return (
+			<button
+				className={`BuyButton BuyButton--full ${isInCart ? "BuyButton--in-cart" : ""
+					}`}
+				onClick={handleClick}
+			>
+				{isInCart ? (
+					<>
+						<Check size={20} />
+						V košíku ({quantity})
+					</>
+				) : (
+					<>
+						<ShoppingCart size={20} />
+						Do košíka
+					</>
+				)}
+			</button>
+		)
 	}
 
-	// Fallback для неизвестного типа
+	// fallback
 	return (
 		<button
-			className="BuyButton BuyButton--small"
-			onClick={handleAddToCart}
+			className={`BuyButton BuyButton--small ${isInCart ? "BuyButton--in-cart" : ""}`}
+			onClick={isInCart ? () => router.push("/cart") : handleAddToCart}
 		>
-			<Plus />
+			{isInCart ? <Check size={16} /> : <Plus />}
 		</button>
 	)
 }
