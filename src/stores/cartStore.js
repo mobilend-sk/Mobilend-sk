@@ -2,127 +2,135 @@ import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 
 const useCartStore = create(
-	persist(
-		(set, get) => ({
-			// Состояние корзины
-			items: [],
+    persist(
+        (set, get) => ({
 
-			// Действия
-			addItem: (productLink) => {
-				const items = get().items
-				const existingItem = items.find(item => item.productLink === productLink)
+            items: [],
 
-				if (existingItem) {
-					set({
-						items: items.map(item =>
-							item.productLink === productLink
-								? { ...item, quantity: item.quantity + 1 }
-								: item
-						)
-					})
-				} else {
-					set({
-						items: [...items, { productLink, quantity: 1 }]
-					})
-				}
-			},
+            // =====================
+            // ДОДАТИ ТОВАР
+            // =====================
+            addItem: (productLink, price) => {
+                const items = get().items
+                const existing = items.find(i => i.productLink === productLink)
 
-			removeItem: (productLink) => {
-				set({
-					items: get().items.filter(item => item.productLink !== productLink)
-				})
-			},
+                if (existing) {
+                    set({
+                        items: items.map(i =>
+                            i.productLink === productLink
+                                ? { ...i, quantity: i.quantity + 1 }
+                                : i
+                        )
+                    })
+                } else {
+                    set({
+                        items: [...items, { productLink, quantity: 1, price }]
+                    })
+                }
+            },
 
-			updateQuantity: (productLink, quantity) => {
-				if (quantity <= 0) {
-					get().removeItem(productLink)
-					return
-				}
+            // =====================
+            // ВИДАЛИТИ ТОВАР
+            // =====================
+            removeItem: (productLink) => {
+                set({
+                    items: get().items.filter(i => i.productLink !== productLink)
+                })
+            },
 
-				set({
-					items: get().items.map(item =>
-						item.productLink === productLink
-							? { ...item, quantity }
-							: item
-					)
-				})
-			},
+            // =====================
+            // ОНОВИТИ КІЛЬКІСТЬ
+            // =====================
+            updateQuantity: (productLink, quantity) => {
+                if (quantity <= 0) {
+                    get().removeItem(productLink)
+                    return
+                }
 
-			increaseQuantity: (productLink) => {
-				const items = get().items
-				const existingItem = items.find(item => item.productLink === productLink)
+                const items = get().items
+                const existing = items.find(i => i.productLink === productLink)
 
-				if (existingItem) {
-					get().updateQuantity(productLink, existingItem.quantity + 1)
-				}
-			},
+                set({
+                    items: items.map(i =>
+                        i.productLink === productLink
+                            ? { ...i, quantity, price: existing?.price }
+                            : i
+                    )
+                })
+            },
 
-			decreaseQuantity: (productLink) => {
-				const items = get().items
-				const existingItem = items.find(item => item.productLink === productLink)
+            increaseQuantity: (productLink) => {
+                const item = get().items.find(i => i.productLink === productLink)
+                if (item) {
+                    get().updateQuantity(productLink, item.quantity + 1)
+                }
+            },
 
-				if (existingItem && existingItem.quantity > 1) {
-					get().updateQuantity(productLink, existingItem.quantity - 1)
-				} else if (existingItem && existingItem.quantity === 1) {
-					get().removeItem(productLink)
-				}
-			},
+            decreaseQuantity: (productLink) => {
+                const item = get().items.find(i => i.productLink === productLink)
+                if (!item) return
 
-			getItemQuantity: (productLink) => {
-				const item = get().items.find(item => item.productLink === productLink)
-				return item ? item.quantity : 0
-			},
+                if (item.quantity <= 1) {
+                    get().removeItem(productLink)
+                } else {
+                    get().updateQuantity(productLink, item.quantity - 1)
+                }
+            },
 
-			isItemInCart: (productLink) => {
-				return get().items.some(item => item.productLink === productLink)
-			},
+            getItemQuantity: (productLink) => {
+                const item = get().items.find(i => i.productLink === productLink)
+                return item ? item.quantity : 0
+            },
 
-			getTotalItems: () => {
-				return get().items.reduce((total, item) => total + item.quantity, 0)
-			},
+            isItemInCart: (productLink) => {
+                return get().items.some(i => i.productLink === productLink)
+            },
 
-			clearCart: () => {
-				set({ items: [] })
-			},
+            getTotalItems: () => {
+                return get().items.reduce((t, i) => t + i.quantity, 0)
+            },
 
-			getTotalPrice: (productList) => {
-				const items = get().items
-				return items.reduce((total, item) => {
-					const product = productList.find(p => p.productLink === item.productLink)
-					return total + (product ? product.price * item.quantity : 0)
-				}, 0)
-			},
+            clearCart: () => set({ items: [] }),
 
-			getCartItemsWithProducts: (productList) => {
-				const items = get().items
-				return items
-					.map(item => {
-						const product = productList.find(p => p.productLink === item.productLink)
-						return {
-							...item,
-							product: product || null
-						}
-					})
-					.filter(item => item.product !== null)
-			},
+            // Підрахунок суми
+            getTotalPrice: () => {
+                return get().items.reduce((t, i) => {
+                    const price = parseFloat(i.price) || 0
+                    return t + price * i.quantity
+                }, 0)
+            },
 
-			// 🔥 ВАЖНО: метод для синхронизации с backend
-			// предполагаем, что backend возвращает items в том же формате [{ productLink, quantity }, ...]
-			syncCart: (serverItems) => {
-				const normalized = serverItems.map(item => ({
-					productLink: item.productLink || item.productId, // <-- пріоритет productLink
-					productId: item.productId,
-					quantity: item.quantity
-				}))
+            // Для checkout (з продуктами)
+            getCartItemsWithProducts: (productList) => {
+                return get().items
+                    .map(item => {
+                        const product = productList.find(p => p.productLink === item.productLink)
+                        return {
+                            ...item,
+                            product: product || null
+                        }
+                    })
+                    .filter(i => i.product !== null)
+            },
 
-				set({ items: normalized })
-			}
+            // =====================
+            // СИНХРОНІЗАЦІЯ З БЕКЕНДОМ
+            // =====================
+            syncCart: (serverItems) => {
+                const normalized = serverItems.map(item => ({
+                    productLink: item.productLink || item.productId,
+                    quantity: item.quantity,
+                    price: item.price  
+                }))
 
-		}),
-		{
-			name: 'shopping-cart',
-		}
-	)
+                set({ items: normalized })
+            }
+
+        }),
+        {
+            name: 'shopping-cart',
+        }
+    )
 )
 
 export default useCartStore

@@ -18,10 +18,17 @@ const BuyButton = ({ type = "small", productLink, product }) => {
 
 		if (!productLink) return
 
-		// 🔥 1. мгновенно обновляем локальный стейт (для анимации)
-		addItem(productLink)
+		const finalPrice =
+			product.discount
+				? product.price - product.price * (product.discount / 100)
+				: product.price
 
-		// 🔥 2. backend в фоне
+		// frontend instant update
+		addItem(productLink, finalPrice)
+
+		// backend
+		cartService.add(productLink, 1, finalPrice)
+
 		try {
 			const res = await cartService.add(productLink, 1)
 			if (res?.success && res.cart?.items) {
@@ -32,7 +39,6 @@ const BuyButton = ({ type = "small", productLink, product }) => {
 		}
 	}
 
-	// ИЗМЕНЕНИЕ КОЛИЧЕСТВА (если будешь использовать на большой кнопке)
 	const handleQuantityChange = async (e, action) => {
 		e.preventDefault()
 		e.stopPropagation()

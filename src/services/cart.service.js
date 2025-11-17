@@ -1,40 +1,85 @@
-const API = "http://localhost:5000/api/cart"
+const API_URL = "http://localhost:5000/api/cart"
 
 const cartService = {
-    async add(productId, quantity = 1) {
-        return fetch(`${API}/add`, {
-            method: "POST",
-            credentials: "include",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ productId, quantity })
-        }).then(res => res.json())
+    
+    // ДОДАТИ
+    add: async (productLink, quantity, price) => {
+        try {
+            const res = await fetch(`${API_URL}/add`, {
+                method: "POST",
+                credentials: "include",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    productLink,
+                    quantity,
+                    price            
+                })
+            })
+
+            return await res.json()
+        } catch (e) {
+            console.error("Cart add error:", e)
+            return null
+        }
     },
 
-    async update(productId, quantity) {
-        return fetch(`${API}/update`, {
-            method: "POST",
-            credentials: "include",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ productId, quantity })
-        }).then(res => res.json())
+    // ОНОВИТИ
+    update: async (productLink, quantity, price) => {
+        try {
+            const res = await fetch(`${API_URL}/update`, {
+                method: "POST",
+                credentials: "include",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    productLink,
+                    quantity,
+                    price             // 🔥 передається тут теж
+                })
+            })
+
+            return await res.json()
+        } catch (e) {
+            console.error("Cart update error:", e)
+            return null
+        }
     },
 
-    async remove(productId) {
-        return fetch(`${API}/remove`, {
-            method: "POST",
-            credentials: "include",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ productId })
-        }).then(res => res.json())
+    // ВИДАЛИТИ
+    remove: async (productLink) => {
+        try {
+            const res = await fetch(`${API_URL}/remove`, {
+                method: "POST",
+                credentials: "include",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ productLink })
+            })
+
+            return await res.json()
+        } catch (e) {
+            console.error("Cart remove error:", e)
+            return null
+        }
     },
 
-    // ⬇⬇⬇ ВАЖЛИВО! МЕТОД GET КОРЗИНИ
-    async get() {
-        return fetch(`${API}`, {
-            method: "GET",
-            credentials: "include",
-            headers: { "Content-Type": "application/json" },
-        }).then(res => res.json())
+    // ОТРИМАТИ
+    get: async () => {
+        try {
+            const res = await fetch(`${API_URL}`, {
+                method: "GET",
+                credentials: "include",
+            })
+
+            return await res.json()
+        } catch (e) {
+            console.error("Cart get error:", e)
+            return null
+        }
     }
 }
 

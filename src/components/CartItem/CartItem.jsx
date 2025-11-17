@@ -32,14 +32,14 @@ const CartItem = ({ item, product }) => {
         removeItem(item.productLink)
 
         // SERVER REMOVE
-        const res = await cartService.remove(item.productId)
+        const res = await cartService.remove(item.productLink)
         if (res?.success && res.cart?.items) syncCart(res.cart.items)
       } else {
         // LOCAL UPDATE
         updateQuantity(item.productLink, newQuantity)
 
         // SERVER UPDATE
-        const res = await cartService.update(item.productId, newQuantity)
+        const res = await cartService.update(item.productLink, newQuantity)
         if (res?.success && res.cart?.items) syncCart(res.cart.items)
       }
     } catch (error) {
@@ -55,7 +55,7 @@ const CartItem = ({ item, product }) => {
       removeItem(item.productLink)
 
       // SERVER
-      const res = await cartService.remove(item.productId)
+      const res = await cartService.remove(item.productLink)
       if (res?.success && res.cart?.items) syncCart(res.cart.items)
     } catch (error) {
       console.error("Помилка видалення:", error)

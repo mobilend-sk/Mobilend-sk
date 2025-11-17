@@ -51,9 +51,21 @@ const CartPage = () => {
 
 	// Получение товаров корзины с полными данными
 	useEffect(() => {
+		console.log("==== DEBUG START ====")
+		console.log("🟦 items:", items)
+		console.log("🟩 productList:", productList)
+
 		if (productList.length > 0 && items.length > 0) {
+
 			const cartItems = items.map(item => {
-				const product = productList.find(p => p.productLink === item.productId)
+				console.log("🔍 checking item:", item)
+
+				const product = productList.find(
+					p => p.productLink === item.productLink
+				)
+
+
+				console.log("✔ matched product:", product)
 
 				return {
 					...item,
@@ -61,11 +73,16 @@ const CartPage = () => {
 				}
 			}).filter(item => item.product !== null)
 
+			console.log("🛒 FINAL cartItems:", cartItems)
+			console.log("==== DEBUG END ====")
+
 			setCartItemsWithProducts(cartItems)
 		} else {
 			setCartItemsWithProducts([])
 		}
 	}, [items, productList])
+
+
 
 	// Расчет общей суммы
 	const calculateTotalPrice = () => {

@@ -1,5 +1,5 @@
 "use client"
-import { useState, useEffect } from "react"
+import { useState, useEffect, Suspense } from "react"
 import { useCart } from "@/hooks/useCart"
 import productService from "@/services/productClient.service"
 import ProgressBar from "./ProgressBar/ProgressBar"
@@ -8,18 +8,17 @@ import StepDelivery from "./StepDelivery/StepDelivery"
 import StepConfirmation from "./StepConfirmation/StepConfirmation"
 import Link from "next/link"
 import { ArrowLeft, ShoppingBag } from "lucide-react"
-
 import { useSearchParams, useRouter, usePathname } from "next/navigation"
 
 import "./CheckoutPage.scss"
 
-const CheckoutPage = () => {
+// Виносимо логіку з useSearchParams в окремий компонент
+const CheckoutPageContent = () => {
 	const { items } = useCart()
 	const searchParams = useSearchParams()
 	const router = useRouter()
 	const pathname = usePathname()
 
-	// STEP з URL
 	const initialStep = Number(searchParams.get("step")) || 1
 	const [currentStep, setCurrentStep] = useState(initialStep)
 
@@ -29,7 +28,6 @@ const CheckoutPage = () => {
 	const [orderCompleted, setOrderCompleted] = useState(false)
 	const [showSuccessScreen, setShowSuccessScreen] = useState(false)
 
-	// Данные форм
 	const [contactData, setContactData] = useState({
 		firstName: '',
 		lastName: '',
@@ -45,7 +43,6 @@ const CheckoutPage = () => {
 		paymentMethod: ''
 	})
 
-	// ✔️ ОНОВЛЕННЯ step при зміні URL
 	useEffect(() => {
 		const urlStep = Number(searchParams.get("step"))
 		if (urlStep >= 1 && urlStep <= 3) {
@@ -53,7 +50,6 @@ const CheckoutPage = () => {
 		}
 	}, [searchParams])
 
-	// Відновлення step після повернення з платіжки
 	useEffect(() => {
 		const params = new URLSearchParams(window.location.search)
 		const paymentId = params.get("paymentId")
@@ -61,7 +57,6 @@ const CheckoutPage = () => {
 
 		if (paymentId || pendingOrderId) {
 			router.replace(`${pathname}?step=3`)
-
 			setCurrentStep(3)
 
 			const savedContactData = localStorage.getItem("checkoutContactData")
@@ -72,7 +67,6 @@ const CheckoutPage = () => {
 		}
 	}, [])
 
-	// Загрузка продуктов
 	useEffect(() => {
 		const loadProducts = async () => {
 			try {
@@ -88,7 +82,6 @@ const CheckoutPage = () => {
 		loadProducts()
 	}, [])
 
-	// Об'єднання товарів
 	useEffect(() => {
 		if (productList.length > 0 && items.length > 0) {
 			const cartItems = items
@@ -109,7 +102,6 @@ const CheckoutPage = () => {
 		}
 	}, [items, productList])
 
-	// Порожній кошик
 	if (!loading && items.length === 0 && !orderCompleted) {
 		const pendingOrderId = localStorage.getItem("pendingOrderId")
 		if (!pendingOrderId) {
@@ -130,7 +122,6 @@ const CheckoutPage = () => {
 		}
 	}
 
-	// Завантаження
 	if (loading) {
 		return (
 			<main className="CheckoutPage">
@@ -144,31 +135,22 @@ const CheckoutPage = () => {
 		)
 	}
 
-
-
 	const goToNextStep = () => {
 		if (currentStep < 3) {
 			const next = currentStep + 1
 			setCurrentStep(next)
-
 			router.push(`${pathname}?step=${next}`, { scroll: false })
 		}
 	}
-
-
 
 	const goToPrevStep = () => {
 		if (currentStep > 1) {
 			const prev = currentStep - 1
 			setCurrentStep(prev)
-
 			router.push(`${pathname}?step=${prev}`, { scroll: false })
 		}
 	}
 
-
-
-	// submit-и
 	const handleContactSubmit = data => {
 		setContactData(data)
 		localStorage.setItem("checkoutContactData", JSON.stringify(data))
@@ -186,7 +168,6 @@ const CheckoutPage = () => {
 		localStorage.removeItem("checkoutDeliveryData")
 	}
 
-	// Рендер кроку
 	const renderCurrentStep = () => {
 		switch (currentStep) {
 			case 1:
@@ -224,7 +205,6 @@ const CheckoutPage = () => {
 	return (
 		<main className="CheckoutPage">
 			<div className="container">
-
 				{!showSuccessScreen && (
 					<div className="CheckoutPage__breadcrumbs">
 						<Link href="/cart" className="CheckoutPage__breadcrumb">
@@ -247,6 +227,24 @@ const CheckoutPage = () => {
 				</div>
 			</div>
 		</main>
+	)
+}
+
+// Основний компонент з Suspense
+const CheckoutPage = () => {
+	return (
+		<Suspense fallback={
+			<main className="CheckoutPage">
+				<div className="container">
+					<div className="CheckoutPage__loading">
+						<div className="spinner"></div>
+						<p>Načítava sa pokladňa...</p>
+					</div>
+				</div>
+			</main>
+		}>
+			<CheckoutPageContent />
+		</Suspense>
 	)
 }
 
