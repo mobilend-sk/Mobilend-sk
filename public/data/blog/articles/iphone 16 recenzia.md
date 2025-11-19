@@ -334,5 +334,5 @@ Objednať iPhone 16 online alebo zistiť aktuálne ceny môžete na **[mobilend.
 ## Ďalšie články, ktoré by vás mohli zaujímať
 
 > [Katalog](https://mobilend.sk/katalog)
-> [iPhone na splátky bez preplatenia 2025 | Mobilend.sk](https://mobilend.sk/blog/iphone-na-splatky-bez-preplatenia)
-> [Telefóny na splátky bez preplatenia — kde ich kúpiť v roku 2025](https://mobilend.sk/blog/telefony-na-splatky-bez-preplatenia-2025)
+> [Telefón na splátky online na Slovensku — podmienky, vybavenie, časté otázky a nákup bez preplatenia | mobilend.sk](https://mobilend.sk/blog/najcastejsie-otazky-mobil-na-splatky-online)
+> [Mobil na splátky bez navýšenia – pravda alebo mýtus?](https://mobilend.sk/blog/mobil-na-splatky-bez-navysenia-pravda-alebo-mytus)
