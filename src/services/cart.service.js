@@ -1,7 +1,7 @@
 const API_URL = "http://localhost:5000/api/cart"
 
 const cartService = {
-    
+
     // ДОДАТИ
     add: async (productLink, quantity, price) => {
         try {
@@ -14,7 +14,7 @@ const cartService = {
                 body: JSON.stringify({
                     productLink,
                     quantity,
-                    price            
+                    price
                 })
             })
 
@@ -37,7 +37,7 @@ const cartService = {
                 body: JSON.stringify({
                     productLink,
                     quantity,
-                    price             // 🔥 передається тут теж
+                    price
                 })
             })
 
@@ -78,6 +78,28 @@ const cartService = {
             return await res.json()
         } catch (e) {
             console.error("Cart get error:", e)
+            return null
+        }
+    },
+
+    // ОНОВИТИ STEP
+    updateStep: async (step) => {
+        try {
+            const res = await fetch(`${API_URL}/update-step`, {
+                method: "POST",
+                credentials: "include",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    productLink: "__checkout__", // технічний item
+                    step
+                })
+            })
+
+            return await res.json()
+        } catch (e) {
+            console.error("Cart update-step error:", e)
             return null
         }
     }

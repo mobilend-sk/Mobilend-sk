@@ -8,19 +8,31 @@ const StepDelivery = ({ initialValues, onSubmit, onNext, onBack }) => {
 	// Схема валидации с Yup
 	const validationSchema = Yup.object({
 		city: Yup.string()
+			.matches(
+				/^[A-Za-zÁÄáäČčĎďÉéÍíĹĺĽľŇňÓóÔôŘřŠšŤťÚúÝýŽž-]+$/,
+				'Mesto môže obsahovať iba písmená a znak "-"'
+			)
 			.min(2, 'Mesto musí mať aspoň 2 znaky')
 			.max(100, 'Názov mesta je príliš dlhý')
 			.required('Mesto je povinné'),
+
 		postalCode: Yup.string()
 			.matches(/^\d{3}\s\d{2}$/, 'PSČ musí byť ve formáte XXX XX')
 			.required('PSČ je povinné'),
+
 		address: Yup.string()
+			.matches(
+				/^[A-Za-zÁÄáäČčĎďÉéÍíĹĺĽľŇňÓóÔôŘřŠšŤťÚúÝýŽž0-9\s\/.-]+$/,
+				'Adresa môže obsahovať písmená, čísla a znaky "-","/","."'
+			)
 			.min(5, 'Adresa je príliš krátka')
 			.max(200, 'Adresa je príliš dlhá')
 			.required('Ulica a číslo domu sú povinné'),
+
 		paymentMethod: Yup.string()
 			.required('Vyberte spôsob platby')
 	})
+
 
 	// Значения по умолчанию
 	const defaultValues = {

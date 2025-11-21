@@ -172,13 +172,23 @@ const PhoneInputMask = ({ field, form }) => {
 const StepContact = ({ initialValues, onSubmit, onNext }) => {
 	const validationSchema = Yup.object({
 		firstName: Yup.string()
+			.matches(
+				/^[A-Za-zÁÄáäČčĎďÉéÍíĹĺĽľŇňÓóÔôŘřŠšŤťÚúÝýŽž-]+$/,
+				'Meno môže obsahovať iba písmená a znak "-"'
+			)
 			.min(2, 'Meno musí mať aspoň 2 znaky')
 			.max(50, 'Meno je príliš dlhé')
 			.required('Meno je povinné'),
+
 		lastName: Yup.string()
+			.matches(
+				/^[A-Za-zÁÄáäČčĎďÉéÍíĹĺĽľŇňÓóÔôŘřŠšŤťÚúÝýŽž-]+$/,
+				'Priezvisko môže obsahovať iba písmená a znak "-"'
+			)
 			.min(2, 'Priezvisko musí mať aspoň 2 znaky')
 			.max(50, 'Priezvisko je príliš dlhé')
 			.required('Priezvisko je povinné'),
+
 		phone: Yup.string()
 			.required('Telefónne číslo je povinné')
 			.test('valid-phone', 'Neplatné telefónne číslo', (value) => {
@@ -233,7 +243,19 @@ const StepContact = ({ initialValues, onSubmit, onNext }) => {
 									name="firstName"
 									className="StepContact__input"
 									placeholder="Zadajte svoje meno"
+									onKeyDown={(e) => {
+										const allowed = /^[A-Za-zÁÄáäČčĎďÉéÍíĹĺĽľŇňÓóÔôŘřŠšŤťÚúÝýŽž-]$/
+
+										if (
+											!allowed.test(e.key) &&
+											!['Backspace', 'Delete', 'Tab', 'ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(e.key)
+										) {
+											e.preventDefault()
+										}
+									}}
+
 								/>
+
 								<ErrorMessage name="firstName" component="div" className="StepContact__error" />
 							</div>
 
@@ -248,6 +270,17 @@ const StepContact = ({ initialValues, onSubmit, onNext }) => {
 									name="lastName"
 									className="StepContact__input"
 									placeholder="Zadajte svoje priezvisko"
+									onKeyDown={(e) => {
+										const allowed = /^[A-Za-zÁÄáäČčĎďÉéÍíĹĺĽľŇňÓóÔôŘřŠšŤťÚúÝýŽž-]$/
+
+										if (
+											!allowed.test(e.key) &&
+											!['Backspace', 'Delete', 'Tab', 'ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(e.key)
+										) {
+											e.preventDefault()
+										}
+									}}
+
 								/>
 								<ErrorMessage name="lastName" component="div" className="StepContact__error" />
 							</div>
