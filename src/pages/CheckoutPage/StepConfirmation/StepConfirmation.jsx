@@ -1,16 +1,24 @@
 "use client"
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import { useCart } from "@/hooks/useCart"
 import {
 	ArrowLeft,
 	ShoppingBag,
 	User,
 	MapPin,
-	CreditCard,
 	Check,
 	Loader2
 } from "lucide-react"
 import "./StepConfirmation.scss"
+
+// API URL константа
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'
+
+const removeDiacritics = (str = "") => {
+	return str
+		.normalize("NFKD")
+		.replace(/[\p{Diacritic}]/gu, "")
+}
 
 const StepConfirmation = ({
 	contactData = {},
@@ -25,141 +33,227 @@ const StepConfirmation = ({
 	const [orderNumber, setOrderNumber] = useState(null)
 	const [isCheckingPayment, setIsCheckingPayment] = useState(false)
 
-	// Перевірка статусу платежу при поверненні користувача
+	const retryCountRef = useRef(0)
+	const maxRetries = 20
+	const checkIntervalRef = useRef(null)
+
+	// =============================
+	// ПЕРЕВІРКА ПЛАТЕЖУ
+	// =============================
 	useEffect(() => {
-		let retryCount = 0
-		const maxRetries = 10 // Максимум 10 спроб (50 секунд)
+		const pendingOrderId = localStorage.getItem('pendingOrderId')
+		const pendingOrderNumber = localStorage.getItem('pendingOrderNumber')
 
-		const checkPaymentStatus = async () => {
-			const pendingOrderId = localStorage.getItem('pendingOrderId')
-			const pendingOrderNumber = localStorage.getItem('pendingOrderNumber')
+		if (pendingOrderId && pendingOrderNumber && !isOrderComplete) {
+			console.log('🔍 Знайдено pending замовлення, починаємо перевірку...')
+			setIsCheckingPayment(true)
+			startPaymentCheck()
+		}
 
-			// Перевірити чи є URL параметри від платіжної системи
+		return () => {
+			if (checkIntervalRef.current) {
+				clearTimeout(checkIntervalRef.current)
+			}
+		}
+	}, [])
+
+	const startPaymentCheck = async () => {
+		const pendingOrderId = localStorage.getItem('pendingOrderId')
+		const pendingOrderNumber = localStorage.getItem('pendingOrderNumber')
+
+		if (!pendingOrderId) {
+			console.log('❌ Немає pendingOrderId')
+			setIsCheckingPayment(false)
+			return
+		}
+
+		try {
+			console.log(`🔄 Перевірка ${retryCountRef.current + 1}/${maxRetries}...`)
+
 			const urlParams = new URLSearchParams(window.location.search)
-			const paymentId = urlParams.get('paymentId')
-			const paymentMethod = urlParams.get('paymentMethod')
+			let paymentId = urlParams.get('paymentId')
 
 			if (!paymentId) {
+				paymentId = localStorage.getItem('paymentId')
+			} else {
+				localStorage.setItem('paymentId', paymentId)
+			}
+
+			if (!paymentId) {
+				console.log('⏳ Ще немає paymentId, чекаємо...')
+				retryCountRef.current++
+
+				if (retryCountRef.current < maxRetries) {
+					checkIntervalRef.current = setTimeout(startPaymentCheck, 5000)
+				} else {
+					alert('Не вдалося отримати інформацію про платіж.')
+					setIsCheckingPayment(false)
+				}
 				return
 			}
 
-			console.log('🔍 Перевірка статусу платежу...')
-			console.log('pendingOrderId:', pendingOrderId)
-			console.log('pendingOrderNumber:', pendingOrderNumber)
-			console.log('paymentId з URL:', paymentId)
-			console.log('paymentMethod з URL:', paymentMethod)
+			// Перевірка статусу платежу
+			const response = await fetch(`${API_BASE_URL}/api/offer/${paymentId}/status`)
+			const result = await response.json()
 
-			setIsCheckingPayment(true)
+			console.log('📦 Відповідь:', result)
 
-			try {
-				// перевірка - робимо запит прямо до TatraPay Plus API
-				console.log('📡 Запит до API...')
+			if (!result.success) {
+				throw new Error(result.message)
+			}
 
-				const response = await fetch(`http://localhost:5000/api/offer/${paymentId}/status`)
-				const result = await response.json()
+			const paymentStatus = result.data?.status?.status
+			const authStatus = result.data?.authorizationStatus
 
-				console.log('📦 Відповідь від сервера:', result)
+			console.log('💳 Status:', paymentStatus, '| Auth:', authStatus)
 
-				if (!result.success) {
-					throw new Error(result.message || 'Chyba pri kontrole platby')
-				}
+			// ✅ Платіж успішний
+			if (paymentStatus === 'OK' && authStatus === 'AUTH_DONE') {
+				console.log('✅ Платіж успішний!')
 
-				// Перевірити статус з відповіді
-				const paymentStatus = result.data?.status?.status // "OK", "FAIL", "INIT"
-				const authStatus = result.data?.authorizationStatus // "AUTH_DONE", "AUTH_PENDING"
+				// 🔥 ОНОВИТИ СТАТУС ЗАМОВЛЕННЯ НА "paid"
+				try {
+					const updateStatusResponse = await fetch(
+						`${API_BASE_URL}/api/offer/${pendingOrderId}/status`,
+						{
+							method: 'POST',
+							headers: {
+								'Content-Type': 'application/json'
+							},
+							body: JSON.stringify({ status: 'paid' })
+						}
+					)
 
-				console.log('💳 Payment Status:', paymentStatus)
-				console.log('🔐 Auth Status:', authStatus)
+					const updateResult = await updateStatusResponse.json()
 
-				if (paymentStatus === 'OK' && authStatus === 'AUTH_DONE') {
-					// ✅ Платіж успішний
-					console.log('✅ Платіж успішний!')
-					setOrderNumber(pendingOrderNumber)
-					setIsOrderComplete(true)
-					onOrderComplete()
-					clearCart()
-
-					// Очистити localStorage
-					localStorage.removeItem('pendingOrderId')
-					localStorage.removeItem('pendingOrderNumber')
-
-					// Очистити URL параметри
-					window.history.replaceState({}, document.title, window.location.pathname)
-
-					window.scrollTo({ top: 0, behavior: "smooth" })
-					setIsCheckingPayment(false)
-
-				} else if (paymentStatus === 'INIT' || authStatus === 'AUTH_PENDING') {
-					// ⏳ Платіж ще обробляється
-					retryCount++
-					console.log(`⏳ Платіж обробляється... Спроба ${retryCount}/${maxRetries}`)
-
-					if (retryCount <= maxRetries) {
-						// Повторити перевірку через 5 секунд
-						console.log('⏰ Повторна перевірка через 15 секунд...')
-						setTimeout(() => checkPaymentStatus(), 15000)
+					if (updateResult.success) {
+						console.log('✅ Статус замовлення оновлено на "paid"')
 					} else {
-						// Перевищено ліміт спроб
-						console.log('⚠️ Перевищено ліміт спроб')
-						alert('Platba sa spracováva príliš dlho. Skontrolujte stav objednávky neskôr alebo kontaktujte podporu.')
-						setIsCheckingPayment(false)
+						console.warn('⚠️ Не вдалося оновити статус:', updateResult.message)
 					}
-
-				} else if (paymentStatus === 'FAIL') {
-					// ❌ Платіж не вдався
-					console.log('❌ Платіж не вдався')
-					const reasonCode = result.data?.status?.reasonCode
-					console.log('Код помилки:', reasonCode)
-
-					let errorMessage = 'Platba zlyhala.'
-
-					// Можна додати специфічні повідомлення для різних кодів помилок
-					if (reasonCode === '51') {
-						errorMessage = 'Platba bola zamietnutá. Nedostatok prostriedkov na účte.'
-					} else if (reasonCode === '05') {
-						errorMessage = 'Platba bola zamietnutá bankou.'
-					}
-
-					alert(errorMessage + ' Môžete skúsiť znovu.')
-					localStorage.removeItem('pendingOrderId')
-					localStorage.removeItem('pendingOrderNumber')
-					window.history.replaceState({}, document.title, window.location.pathname)
-					setIsCheckingPayment(false)
-
-				} else {
-					// Невідомий статус
-					console.warn('⚠️ Neznámy stav platby:', result.data)
-					alert('Nepodarilo sa overiť stav platby. Skúste obnoviť stránku.')
-					setIsCheckingPayment(false)
+				} catch (updateError) {
+					console.error('❌ Помилка при оновленні статусу:', updateError)
+					// Не зупиняємо процес, навіть якщо оновлення статусу не вдалося
 				}
 
-			} catch (error) {
-				console.error('❌ Chyba pri kontrole stavu platby:', error)
-				alert('Chyba pri kontrole stavu platby. Skúste obnoviť stránku.')
+				// Показати успішне замовлення
+				setOrderNumber(pendingOrderNumber)
+				setIsOrderComplete(true)
+				onOrderComplete()
+				clearCart()
+
+				// Очистити localStorage
+				localStorage.removeItem('pendingOrderId')
+				localStorage.removeItem('pendingOrderNumber')
+				localStorage.removeItem('paymentId')
+				
+				clearAllCookies()
+
+				// Очистити URL
+				window.history.replaceState({}, document.title, window.location.pathname + '?step=3')
+				window.scrollTo({ top: 0, behavior: "smooth" })
+
+				setIsCheckingPayment(false)
+				return
+			}
+
+			// ⏳ Платіж обробляється
+			if (paymentStatus === 'INIT' || authStatus === 'AUTH_PENDING') {
+				console.log('⏳ Платіж обробляється...')
+				retryCountRef.current++
+
+				if (retryCountRef.current < maxRetries) {
+					checkIntervalRef.current = setTimeout(startPaymentCheck, 15000)
+				} else {
+					alert('Platba sa spracováva príliš dlho. Skontrolujte stav objednávky neskôr.')
+					setIsCheckingPayment(false)
+				}
+				return
+			}
+
+			// ❌ Платіж не вдався
+			if (paymentStatus === 'FAIL') {
+				console.log('❌ Платіж не вдався')
+
+				// Оновити статус на "cancelled"
+				try {
+					await fetch(
+						`${API_BASE_URL}/api/orders/${pendingOrderId}/status`,
+						{
+							method: 'POST',
+							headers: {
+								'Content-Type': 'application/json'
+							},
+							body: JSON.stringify({ status: 'cancelled' })
+						}
+					)
+					console.log('✅ Статус замовлення оновлено на "cancelled"')
+				} catch (err) {
+					console.error('❌ Помилка при оновленні статусу:', err)
+				}
+
+				alert('Platba zlyhala. Skúste znova.')
+
+				localStorage.removeItem('pendingOrderId')
+				localStorage.removeItem('pendingOrderNumber')
+				localStorage.removeItem('paymentId')
+
+				window.history.replaceState({}, document.title, window.location.pathname + '?step=3')
+				setIsCheckingPayment(false)
+				return
+			}
+
+			// ⚠️ Невідомий статус
+			console.warn('⚠️ Neznámy stav:', paymentStatus)
+			alert('Nepodarilo sa overiť stav platby.')
+			setIsCheckingPayment(false)
+
+		} catch (err) {
+			console.error('❌ Chyba:', err)
+			retryCountRef.current++
+
+			if (retryCountRef.current < maxRetries) {
+				console.log('🔄 Повторна спроба через 10 сек...')
+				checkIntervalRef.current = setTimeout(startPaymentCheck, 10000)
+			} else {
+				alert('Chyba pri kontrole platby.')
 				setIsCheckingPayment(false)
 			}
 		}
+	}
 
-		// Перевірити при завантаженні
-		console.log('🚀 Запуск перевірки статусу при завантаженні...')
-		checkPaymentStatus()
 
-		// Перевірити при поверненні на вкладку
+	// Очистити COOKIES
+	const clearAllCookies = () => {
+		document.cookie.split(";").forEach(cookie => {
+			const eqPos = cookie.indexOf("=")
+			const name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie
+			document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/"
+		})
+	}
+
+	// =============================
+	// ОБРОБКА VISIBILITY CHANGE
+	// =============================
+	useEffect(() => {
 		const handleVisibilityChange = () => {
-			if (document.visibilityState === 'visible') {
-				retryCount = 0 // Скинути лічильник при поверненні
-				checkPaymentStatus()
+			const pendingOrderId = localStorage.getItem('pendingOrderId')
+
+			if (document.visibilityState === 'visible' && pendingOrderId && !isOrderComplete) {
+				console.log('👁️ Вкладка активна, перевіряємо платіж...')
+				retryCountRef.current = 0
+				setIsCheckingPayment(true)
+				startPaymentCheck()
 			}
 		}
 
 		document.addEventListener('visibilitychange', handleVisibilityChange)
+		return () => document.removeEventListener('visibilitychange', handleVisibilityChange)
+	}, [isOrderComplete])
 
-		return () => {
-			document.removeEventListener('visibilitychange', handleVisibilityChange)
-		}
-	}, [onOrderComplete, clearCart])
-
-
+	// =============================
+	// ДОПОМІЖНІ ФУНКЦІЇ
+	// =============================
 	const calculateDiscountedPrice = (price = 0, discount = 0) => {
 		const numPrice = parseFloat(price) || 0
 		const numDiscount = parseFloat(discount) || 0
@@ -173,17 +267,13 @@ const StepConfirmation = ({
 			const quantity = parseInt(item?.quantity) || 0
 			const price = parseFloat(item?.product?.price) || 0
 			const discount = parseFloat(item?.product?.discount) || 0
-
-			const finalPrice =
-				discount > 0 ? calculateDiscountedPrice(price, discount) : price
+			const finalPrice = discount > 0 ? calculateDiscountedPrice(price, discount) : price
 
 			return sum + finalPrice * quantity
 		}, 0)
 
-		// Округлення до 2 знаків після коми, як вимагають фінансові API
 		return parseFloat(total.toFixed(2))
 	}
-
 
 	const getPaymentMethodLabel = (method) => {
 		const methods = {
@@ -200,57 +290,53 @@ const StepConfirmation = ({
 		return `${timestamp}${random}`
 	}
 
+	const formatPhoneNumber = (phone) => {
+		if (!phone) return ""
+		let cleaned = phone.replace(/[^\d+]/g, "")
+		if (cleaned.startsWith("0")) cleaned = "+421" + cleaned.substring(1)
+		if (!cleaned.startsWith("+")) cleaned = "+421" + cleaned
+		return cleaned.replace(/\s/g, "")
+	}
+
+	// =============================
+	// ПІДТВЕРДЖЕННЯ ЗАМОВЛЕННЯ
+	// =============================
 	const handleConfirmOrder = async () => {
 		setIsSubmitting(true)
 
 		try {
 			const newOrderNumber = generateOrderNumber()
 
-			const formatPhoneNumber = (phone) => {
-				if (!phone) return "";
+			const orderItems = Array.isArray(cartItems)
+				? cartItems.map(item => {
+					const quantity = parseInt(item?.quantity) || 0
+					const product = item?.product || {}
+					const price = parseFloat(product?.price) || 0
+					const discount = parseFloat(product?.discount) || 0
+					const finalPrice = discount > 0
+						? calculateDiscountedPrice(price, discount)
+						: price
+					const totalItemPrice = parseFloat((finalPrice * quantity).toFixed(2))
 
-				let cleaned = phone.replace(/[^\d+]/g, "");
-
-				if (cleaned.startsWith("0")) {
-					cleaned = "+421" + cleaned.substring(1);
-				}
-
-				if (!cleaned.startsWith("+")) {
-					cleaned = "+421" + cleaned;
-				}
-
-				cleaned = cleaned.replace(/\s/g, "");
-
-				return cleaned;
-			};
-
-			const orderItems = Array.isArray(cartItems) ? cartItems.map(item => {
-				const quantity = parseInt(item?.quantity) || 0
-				const product = item?.product || {}
-				const price = parseFloat(product?.price) || 0
-				const discount = parseFloat(product?.discount) || 0
-				const finalPrice = discount > 0
-					? calculateDiscountedPrice(price, discount)
-					: price
-				const totalItemPrice = (finalPrice * quantity).toFixed(2)
-
-
-				return {
-					quantity: quantity,
-					totalItemPrice: totalItemPrice,
-					itemDetail: {
-						itemDetailSK: {
-							itemName: product?.model || "Neznámy produkt",
-							itemDescription: product?.description || product?.model || ""
+					return {
+						quantity,
+						totalItemPrice,
+						itemDetail: {
+							itemDetailSK: {
+								itemName: product?.model || "Neznámy produkt",
+								itemDescription: product?.description || product?.model || ""
+							},
+							itemDetailEN: {
+								itemName: product?.model || "Unknown product",
+								itemDescription: product?.description || product?.model || ""
+							}
 						},
-						itemDetailEN: {
-							itemName: product?.model || "Unknown product",
-							itemDescription: product?.description || product?.model || ""
-						}
-					},
-					itemInfoURL: product?.link ? `https://yourdomain.com/product/${product.link}` : "https://yourdomain.com"
-				}
-			}) : []
+						itemInfoURL: product?.link
+							? `https://yourdomain.com/product/${product.link}`
+							: "https://yourdomain.com"
+					}
+				})
+				: []
 
 			const totalAmount = calculateTotal()
 
@@ -274,7 +360,7 @@ const StepConfirmation = ({
 					phone: formatPhoneNumber(contactData?.phone)
 				},
 				bankTransfer: {
-					remittanceInformationUnstructured: contactData?.comment || `${newOrderNumber}`
+					remittanceInformationUnstructured: contactData?.comment || newOrderNumber
 				},
 				cardDetail: {
 					billingAddress: {
@@ -284,7 +370,9 @@ const StepConfirmation = ({
 						townName: deliveryData?.city || "",
 						postCode: deliveryData?.postalCode || ""
 					},
-					cardHolder: `${contactData?.firstName || ""} ${contactData?.lastName || ""}`.trim(),
+					cardHolder: removeDiacritics(
+						`${contactData?.firstName || ""} ${contactData?.lastName || ""}`.trim()
+					),
 					isPreAuthorization: false,
 					shippingAddress: {
 						country: "SK",
@@ -297,7 +385,7 @@ const StepConfirmation = ({
 				payLater: {
 					order: {
 						orderNo: newOrderNumber,
-						orderItems: orderItems,
+						orderItems,
 						preferredLoanDuration: 24,
 						downPayment: 0
 					},
@@ -316,13 +404,9 @@ const StepConfirmation = ({
 				}
 			}
 
-			console.log(orderData)
-
-			const response = await fetch('http://localhost:5000/api/offer/', {
+			const response = await fetch(`${API_BASE_URL}/api/offer/`, {
 				method: 'POST',
-				headers: {
-					'Content-Type': 'application/json',
-				},
+				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify(orderData)
 			})
 
@@ -333,24 +417,24 @@ const StepConfirmation = ({
 			}
 
 			if (result.data.tatraPayPlusUrl && result.data.orderId) {
-				// Зберегти дані перед редіректом
 				localStorage.setItem('pendingOrderId', result.data.orderId)
 				localStorage.setItem('pendingOrderNumber', newOrderNumber)
 
-				// Редірект на платіжну систему
 				window.location.replace(result.data.tatraPayPlusUrl)
 			} else {
-				throw new Error(result.message || 'Chyba servera - chýba orderId alebo URL platby')
+				throw new Error('Chýba orderId alebo URL na platbu')
 			}
 
 		} catch (error) {
-			console.error("Chyba pri spracovaní objednávky:", error)
-			alert("Nastala chyba pri odoslaní objednávky. Skúste to znovu.")
+			console.error('❌ Chyba:', error)
+			alert("Chyba pri odoslaní objednávky.")
 			setIsSubmitting(false)
 		}
 	}
 
-	// Stav načítavania pri kontrole platby
+	// =============================
+	// RENDER: ПЕРЕВІРКА ПЛАТЕЖУ
+	// =============================
 	if (isCheckingPayment) {
 		return (
 			<div className="StepConfirmation">
@@ -362,14 +446,19 @@ const StepConfirmation = ({
 						Kontrola stavu platby...
 					</h2>
 					<p className="StepConfirmation__success-text">
-						Prosím, počkajte chvíľu.
+						Prosím, počkajte chvíľu. Prebieha overovanie platby.
+					</p>
+					<p className="StepConfirmation__success-text" style={{ fontSize: '0.9em', marginTop: '1rem', opacity: 0.7 }}>
+						Pokus {retryCountRef.current}/{maxRetries}
 					</p>
 				</div>
 			</div>
 		)
 	}
 
-	// Úspešná objednávka
+	// =============================
+	// RENDER: УСПІШНЕ ЗАМОВЛЕННЯ
+	// =============================
 	if (isOrderComplete) {
 		return (
 			<div className="StepConfirmation">
@@ -384,8 +473,7 @@ const StepConfirmation = ({
 						Číslo objednávky: <strong>{orderNumber}</strong>
 					</p>
 					<p className="StepConfirmation__success-text">
-						Ďakujeme za Vašu objednávku. Čoskoro Vás budeme kontaktovať na telefónnom čísle{" "}
-						<strong>{contactData?.phone || "neznáme číslo"}</strong>.
+						Ďakujeme za Vašu objednávku. Čoskoro Vás budeme kontaktovať.
 					</p>
 					<button
 						className="StepConfirmation__success-btn"
@@ -398,6 +486,9 @@ const StepConfirmation = ({
 		)
 	}
 
+	// =============================
+	// RENDER: ГОЛОВНА ФОРМА
+	// =============================
 	return (
 		<div className="StepConfirmation">
 			<div className="StepConfirmation__header">

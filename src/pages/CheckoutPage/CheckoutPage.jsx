@@ -15,94 +15,131 @@ import { useSearchParams, useRouter, usePathname } from "next/navigation"
 
 import "./CheckoutPage.scss"
 
-const CHECKOUT_LINK = "__checkout__" // технический item для step
-
-// -------------------------
-// Оснoвной компонент
-// -------------------------
 const CheckoutPageContent = () => {
 	const { items } = useCart()
+
 	const searchParams = useSearchParams()
 	const router = useRouter()
 	const pathname = usePathname()
 
-	const initialStep = Number(searchParams.get("step")) || 1
-	const [currentStep, setCurrentStep] = useState(initialStep)
+	const urlStep = Number(searchParams.get("step")) || 1
+	const [currentStep, setCurrentStep] = useState(urlStep)
+
+	const [backendStep, setBackendStep] = useState(1)
 
 	const [productList, setProductList] = useState([])
 	const [cartItemsWithProducts, setCartItemsWithProducts] = useState([])
+
 	const [loading, setLoading] = useState(true)
 	const [orderCompleted, setOrderCompleted] = useState(false)
 	const [showSuccessScreen, setShowSuccessScreen] = useState(false)
 
-	const [contactData, setContactData] = useState({
-		firstName: '',
-		lastName: '',
-		phone: '',
-		email: '',
-		comment: ''
+	// =============================
+	// СТАНИ ФОРМ з localStorage
+	// =============================
+	const [contactData, setContactData] = useState(() => {
+		if (typeof window !== 'undefined') {
+			const saved = localStorage.getItem("checkoutContactData")
+			if (saved) {
+				try {
+					return JSON.parse(saved)
+				} catch (e) {
+					console.error("Failed to parse contact data:", e)
+				}
+			}
+		}
+		return {
+			firstName: "",
+			lastName: "",
+			phone: "",
+			email: "",
+			comment: ""
+		}
 	})
 
-	const [deliveryData, setDeliveryData] = useState({
-		city: '',
-		postalCode: '',
-		address: '',
-		paymentMethod: ''
+	const [deliveryData, setDeliveryData] = useState(() => {
+		if (typeof window !== 'undefined') {
+			const saved = localStorage.getItem("checkoutDeliveryData")
+			if (saved) {
+				try {
+					return JSON.parse(saved)
+				} catch (e) {
+					console.error("Failed to parse delivery data:", e)
+				}
+			}
+		}
+		return {
+			city: "",
+			postalCode: "",
+			address: "",
+			paymentMethod: ""
+		}
 	})
 
-	// -----------------------------
-	// Защита step на основании backend
-	// -----------------------------
+	// =============================
+	// 1) Завантажуємо step з backend
+	// =============================
 	useEffect(() => {
-		const urlStep = Number(searchParams.get("step")) || 1
+		const init = async () => {
+			setLoading(true)
 
-		const sync = async () => {
-			const checkoutItem = items.find(i => i.productLink === CHECKOUT_LINK)
-			const cartStep = checkoutItem?.step || 1
+			// 1. Отримуємо step з бекенду
+			const res = await cartService.get()
 
-			// URL показывает step, который нельзя посещать → редирект назад
-			if (urlStep > cartStep) {
-				router.replace(`${pathname}?step=${cartStep}`)
-				setCurrentStep(cartStep)
+			const backendStep = res?.cart?.step || 1
+			setBackendStep(backendStep)
+
+			// 2. URL step
+			const urlStep = Number(searchParams.get("step")) || 1
+
+			// 3. Якщо URL > backendStep → редирект назад
+			if (urlStep > backendStep) {
+				router.replace(`${pathname}?step=${backendStep}`)
+				setCurrentStep(backendStep)
+				setLoading(false)
 				return
 			}
 
-			// Если step в URL меньше — например после оплаты можно прыгнуть вперёд
-			if (urlStep < cartStep) {
-				router.replace(`${pathname}?step=${cartStep}`)
-				setCurrentStep(cartStep)
+			// 4. Якщо URL < backendStep → оновлюємо URL
+			if (urlStep < backendStep) {
+				router.replace(`${pathname}?step=${backendStep}`)
+				setCurrentStep(backendStep)
+				setLoading(false)
 				return
 			}
 
+			// 5. Якщо URL == backend → норм
 			setCurrentStep(urlStep)
+			setLoading(false)
 		}
 
-		sync()
-	}, [searchParams, items])
+		init()
+	}, [])
 
-	// -----------------------------
-	// Создаём item "__checkout__" если нет
-	// -----------------------------
+	// =============================
+	// 2) Реакція на зміну URL
+	// =============================
 	useEffect(() => {
-		if (items.length === 0) return
+		const step = Number(searchParams.get("step")) || 1
 
-		const checkoutItem = items.find(i => i.productLink === CHECKOUT_LINK)
-		if (!checkoutItem) {
-			cartService.updateStep(1)
+		if (step > backendStep) {
+			router.replace(`${pathname}?step=${backendStep}`)
+			setCurrentStep(backendStep)
+			return
 		}
-	}, [items])
 
-	// -----------------------------
-	// Загрузка продуктов
-	// -----------------------------
+		setCurrentStep(step)
+	}, [searchParams, backendStep])
+
+	// =============================
+	// 3) Завантаження продуктів
+	// =============================
 	useEffect(() => {
 		const loadProducts = async () => {
 			try {
 				setLoading(true)
 				const products = await productService.getAllProducts()
 				setProductList(products)
-			} catch (error) {
-				console.error("Chyba načítania produktov:", error)
 			} finally {
 				setLoading(false)
 			}
@@ -110,62 +147,62 @@ const CheckoutPageContent = () => {
 		loadProducts()
 	}, [])
 
-	// -----------------------------
-	// Сопоставляем cart items → products
-	// -----------------------------
+	// =============================
+	// 4) Об'єднання товарів cart + products
+	// =============================
 	useEffect(() => {
-		if (productList.length > 0 && items.length > 0) {
-			const cartItems = items
-				.map(item => {
-					if (item.productLink === CHECKOUT_LINK) return null
+		if (productList.length === 0) return
 
-					const product = productList.find(
-						p => p.productLink === item.productLink
-					)
+		const merged = items
+			.map(i => {
+				const product = productList.find(p => p.productLink === i.productLink)
+				return product ? { ...i, product } : null
+			})
+			.filter(Boolean)
 
-					return product ? { ...item, product } : null
-				})
-				.filter(i => i !== null)
-
-			setCartItemsWithProducts(cartItems)
-		} else {
-			setCartItemsWithProducts([])
-		}
+		setCartItemsWithProducts(merged)
 	}, [items, productList])
 
-	// -----------------------------
-	// Пустая корзина
-	// -----------------------------
-	if (!loading && cartItemsWithProducts.length === 0 && !orderCompleted) {
-		const pendingOrderId = localStorage.getItem("pendingOrderId")
-		if (!pendingOrderId) {
-			return (
-				<main className="CheckoutPage">
-					<div className="container">
-						<div className="CheckoutPage__empty">
-							<ShoppingBag size={64} />
-							<h2>Váš košík je prázdny</h2>
-							<p>Pred pokračovaním na pokladňu pridajte produkty</p>
-							<Link href="/katalog" className="CheckoutPage__empty-link">
-								Prejsť do katalógu
-							</Link>
-						</div>
-					</div>
-				</main>
-			)
+	// =============================
+	// 5) Очистка даних після завершення замовлення
+	// =============================
+	useEffect(() => {
+		if (orderCompleted && showSuccessScreen) {
+			localStorage.removeItem("checkoutContactData")
+			localStorage.removeItem("checkoutDeliveryData")
 		}
+	}, [orderCompleted, showSuccessScreen])
+
+	// =============================
+	// Порожній кошик
+	// =============================
+	if (!loading && cartItemsWithProducts.length === 0 && !orderCompleted) {
+		return (
+			<main className="CheckoutPage">
+				<div className="container">
+					<div className="CheckoutPage__empty">
+						<ShoppingBag size={64} />
+						<h2>Váš košík je prázdny</h2>
+						<p>Pred pokračovaním na pokladňu pridajte produkty</p>
+						<Link href="/katalog" className="CheckoutPage__empty-link">
+							Prejsť do katalógu
+						</Link>
+					</div>
+				</div>
+			</main>
+		)
 	}
 
-	// -----------------------------
-	// Переключение шагов
-	// -----------------------------
+	// =============================
+	// Кнопки кроків
+	// =============================
 	const goToNextStep = async () => {
 		if (currentStep < 3) {
 			const next = currentStep + 1
-			await cartService.updateStep(next)
 
-			setCurrentStep(next)
-			router.push(`${pathname}?step=${next}`, { scroll: false })
+			await cartService.updateStep(next)
+			setBackendStep(next)
+			router.push(`${pathname}?step=${next}`)
 		}
 	}
 
@@ -173,17 +210,15 @@ const CheckoutPageContent = () => {
 		if (currentStep > 1) {
 			const prev = currentStep - 1
 
-			// если логика на backend запрещает уменьшать step — можно удалить строку ниже
 			await cartService.updateStep(prev)
-
-			setCurrentStep(prev)
-			router.push(`${pathname}?step=${prev}`, { scroll: false })
+			setBackendStep(prev)
+			router.push(`${pathname}?step=${prev}`)
 		}
 	}
 
-	// -----------------------------
-	// Сохранение форм
-	// -----------------------------
+	// =============================
+	// Сабміти форм
+	// =============================
 	const handleContactSubmit = data => {
 		setContactData(data)
 		localStorage.setItem("checkoutContactData", JSON.stringify(data))
@@ -197,14 +232,14 @@ const CheckoutPageContent = () => {
 	const handleOrderComplete = () => {
 		setOrderCompleted(true)
 		setShowSuccessScreen(true)
-		localStorage.removeItem("checkoutContactData")
-		localStorage.removeItem("checkoutDeliveryData")
 	}
 
-	// -----------------------------
-	// Рендеринг шагов
-	// -----------------------------
-	const renderCurrentStep = () => {
+	// =============================
+	// Рендер кроків
+	// =============================
+	const renderStep = () => {
+		if (loading) return null
+
 		switch (currentStep) {
 			case 1:
 				return (
@@ -241,13 +276,14 @@ const CheckoutPageContent = () => {
 		}
 	}
 
-	// -----------------------------
-	// Основной UI
-	// -----------------------------
+	// =============================
+	// Рендер сторінки
+	// =============================
 	return (
 		<main className="CheckoutPage">
 			<div className="container">
 
+				{/* breadcrumbs */}
 				{!showSuccessScreen && (
 					<div className="CheckoutPage__breadcrumbs">
 						<Link href="/cart" className="CheckoutPage__breadcrumb">
@@ -261,12 +297,14 @@ const CheckoutPageContent = () => {
 					</div>
 				)}
 
+				{/* прогресбар */}
 				{!showSuccessScreen && (
 					<ProgressBar currentStep={currentStep} />
 				)}
 
+				{/* контент */}
 				<div className="CheckoutPage__content">
-					{renderCurrentStep()}
+					{renderStep()}
 				</div>
 
 			</div>

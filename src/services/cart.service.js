@@ -91,10 +91,7 @@ const cartService = {
                 headers: {
                     "Content-Type": "application/json"
                 },
-                body: JSON.stringify({
-                    productLink: "__checkout__", // технічний item
-                    step
-                })
+                body: JSON.stringify({ step }) 
             })
 
             return await res.json()
