@@ -18,10 +18,17 @@ const cartService = {
                 })
             })
 
-            return await res.json()
+            const result = await res.json()
+
+            // Перевіряємо новий формат відповіді
+            if (!result.success) {
+                throw new Error(result.message || 'Помилка додавання товару')
+            }
+
+            return result.data
         } catch (e) {
             console.error("Cart add error:", e)
-            return null
+            throw e
         }
     },
 
@@ -41,10 +48,16 @@ const cartService = {
                 })
             })
 
-            return await res.json()
+            const result = await res.json()
+
+            if (!result.success) {
+                throw new Error(result.message || 'Помилка оновлення товару')
+            }
+
+            return result.data
         } catch (e) {
             console.error("Cart update error:", e)
-            return null
+            throw e
         }
     },
 
@@ -60,10 +73,16 @@ const cartService = {
                 body: JSON.stringify({ productLink })
             })
 
-            return await res.json()
+            const result = await res.json()
+
+            if (!result.success) {
+                throw new Error(result.message || 'Помилка видалення товару')
+            }
+
+            return result.data
         } catch (e) {
             console.error("Cart remove error:", e)
-            return null
+            throw e
         }
     },
 
@@ -75,10 +94,16 @@ const cartService = {
                 credentials: "include",
             })
 
-            return await res.json()
+            const result = await res.json()
+
+            if (!result.success) {
+                throw new Error(result.message || 'Помилка отримання кошика')
+            }
+
+            return result.data
         } catch (e) {
             console.error("Cart get error:", e)
-            return null
+            throw e
         }
     },
 
@@ -91,13 +116,19 @@ const cartService = {
                 headers: {
                     "Content-Type": "application/json"
                 },
-                body: JSON.stringify({ step }) 
+                body: JSON.stringify({ step })
             })
 
-            return await res.json()
+            const result = await res.json()
+
+            if (!result.success) {
+                throw new Error(result.message || 'Помилка оновлення кроку')
+            }
+
+            return result.data
         } catch (e) {
             console.error("Cart update-step error:", e)
-            return null
+            throw e
         }
     }
 }

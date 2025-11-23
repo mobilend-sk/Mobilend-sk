@@ -77,40 +77,48 @@ const CheckoutPageContent = () => {
 	})
 
 	// =============================
-	// 1) Завантажуємо step з backend
+	// 1) Завантажуємо step з backend (FIXED)
 	// =============================
 	useEffect(() => {
 		const init = async () => {
 			setLoading(true)
 
-			// 1. Отримуємо step з бекенду
-			const res = await cartService.get()
+			try {
+				// 1. Отримуємо step з бекенду (тепер cartService.get() повертає data)
+				const cartData = await cartService.get()
 
-			const backendStep = res?.cart?.step || 1
-			setBackendStep(backendStep)
+				const backendStep = cartData?.cart?.step || 1
+				setBackendStep(backendStep)
 
-			// 2. URL step
-			const urlStep = Number(searchParams.get("step")) || 1
+				// 2. URL step
+				const urlStep = Number(searchParams.get("step")) || 1
 
-			// 3. Якщо URL > backendStep → редирект назад
-			if (urlStep > backendStep) {
-				router.replace(`${pathname}?step=${backendStep}`)
-				setCurrentStep(backendStep)
+				// 3. Якщо URL > backendStep → редирект назад
+				if (urlStep > backendStep) {
+					router.replace(`${pathname}?step=${backendStep}`)
+					setCurrentStep(backendStep)
+					setLoading(false)
+					return
+				}
+
+				// 4. Якщо URL < backendStep → оновлюємо URL
+				if (urlStep < backendStep) {
+					router.replace(`${pathname}?step=${backendStep}`)
+					setCurrentStep(backendStep)
+					setLoading(false)
+					return
+				}
+
+				// 5. Якщо URL == backend → норм
+				setCurrentStep(urlStep)
+			} catch (error) {
+				console.error("Init error:", error)
+				// Якщо помилка, встановлюємо дефолтний крок
+				setBackendStep(1)
+				setCurrentStep(1)
+			} finally {
 				setLoading(false)
-				return
 			}
-
-			// 4. Якщо URL < backendStep → оновлюємо URL
-			if (urlStep < backendStep) {
-				router.replace(`${pathname}?step=${backendStep}`)
-				setCurrentStep(backendStep)
-				setLoading(false)
-				return
-			}
-
-			// 5. Якщо URL == backend → норм
-			setCurrentStep(urlStep)
-			setLoading(false)
 		}
 
 		init()
@@ -140,6 +148,8 @@ const CheckoutPageContent = () => {
 				setLoading(true)
 				const products = await productService.getAllProducts()
 				setProductList(products)
+			} catch (error) {
+				console.error("Products load error:", error)
 			} finally {
 				setLoading(false)
 			}
@@ -194,15 +204,20 @@ const CheckoutPageContent = () => {
 	}
 
 	// =============================
-	// Кнопки кроків
+	// Кнопки кроків (FIXED)
 	// =============================
 	const goToNextStep = async () => {
 		if (currentStep < 3) {
 			const next = currentStep + 1
 
-			await cartService.updateStep(next)
-			setBackendStep(next)
-			router.push(`${pathname}?step=${next}`)
+			try {
+				await cartService.updateStep(next)
+				setBackendStep(next)
+				router.push(`${pathname}?step=${next}`)
+			} catch (error) {
+				console.error("Step update error:", error)
+				alert("Помилка оновлення кроку")
+			}
 		}
 	}
 
@@ -210,9 +225,14 @@ const CheckoutPageContent = () => {
 		if (currentStep > 1) {
 			const prev = currentStep - 1
 
-			await cartService.updateStep(prev)
-			setBackendStep(prev)
-			router.push(`${pathname}?step=${prev}`)
+			try {
+				await cartService.updateStep(prev)
+				setBackendStep(prev)
+				router.push(`${pathname}?step=${prev}`)
+			} catch (error) {
+				console.error("Step update error:", error)
+				alert("Помилка оновлення кроку")
+			}
 		}
 	}
 

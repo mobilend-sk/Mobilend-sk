@@ -177,7 +177,7 @@ const StepContact = ({ initialValues, onSubmit, onNext }) => {
 				'Meno môže obsahovať iba písmená a znak "-"'
 			)
 			.min(2, 'Meno musí mať aspoň 2 znaky')
-			.max(50, 'Meno je príliš dlhé')
+			.max(30, 'Meno je príliš dlhé')
 			.required('Meno je povinné'),
 
 		lastName: Yup.string()
@@ -186,7 +186,7 @@ const StepContact = ({ initialValues, onSubmit, onNext }) => {
 				'Priezvisko môže obsahovať iba písmená a znak "-"'
 			)
 			.min(2, 'Priezvisko musí mať aspoň 2 znaky')
-			.max(50, 'Priezvisko je príliš dlhé')
+			.max(30, 'Priezvisko je príliš dlhé')
 			.required('Priezvisko je povinné'),
 
 		phone: Yup.string()
