@@ -65,18 +65,22 @@
 		color: var(--white);
 		font-weight: 500;
 	}
-
-	.ProductCard__image-popular {
-		position: absolute;
-		top: 5px;
-		left: 5px;
-		background: var(--lightGreen);
-		padding: 4px 8px;
-		font-size: 14px;
-		border-radius: 10px;
-		color: var(--white);
-		font-weight: 500;
-		z-index: 1;
+	.ProductCard__Desc {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		.ProductCard__image-popular {
+			margin-left: 5px;
+			position: relative;
+			background: var(--lightGreen);
+			padding: 4px 8px;
+			font-size: 14px;
+			border-radius: 10px;
+			color: var(--white);
+			font-weight: 500;
+			max-width: 90px;
+			z-index: 1;
+		}
 	}
 }
 

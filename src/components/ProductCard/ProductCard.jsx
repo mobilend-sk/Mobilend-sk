@@ -13,18 +13,21 @@ const ProductCard = ({ product }) => {
 		<div
 			className="ProductCard"
 		>
-			{
-				product.popular ? <div className="ProductCard__image-popular">
-					Populárne
-				</div> : ""
-			}
+
 			<Link href={`/katalog/${product.productLink}`}>
 				<div className="ProductCard__image">
 					<Image src={product.mainImage ? `${product.baseImageUrl}/${product.mainImage}` : product.images[0] ? `${product.baseImageUrl}/${product.images[0]}` : "/images/placeholder.webp"} alt="Image" width={200} height={220} />
 
 
 				</div>
-				<h3>{product.model}</h3>
+				<div className="ProductCard__Desc">
+					{
+						product.popular ? <div className="ProductCard__image-popular">
+							Populárne
+						</div> : ""
+					}
+					<h3>{product.model}</h3>
+				</div>
 			</Link>
 			{
 				product.discount ? <div className="ProductCard__image-discount">
