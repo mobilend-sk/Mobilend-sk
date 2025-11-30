@@ -249,6 +249,7 @@
          .searh-results__wrapper {
              width: 100%;
              height: calc(100vh - 40px); // Віднімаємо висоту хедера
+             height: calc(100dvh - 40px); // Віднімаємо висоту хедера
              background-color: var(--white);
              position: absolute;
              top: 60px; // Виправлено: було top: 60 без 'px'
