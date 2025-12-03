@@ -43,6 +43,7 @@
          border-radius: 0 0 20px 20px;
          overflow: hidden;
          overflow-y: scroll;
+         -webkit-overflow-scrolling: touch;
          scrollbar-width: none;
          animation: slideDown 0.3s ease-out;
      }
@@ -98,9 +99,8 @@
 
              display: flex;
              justify-content: space-between;
-             max-width: 300px;
              max-height: 80px;
-             margin: 0 auto;
+             max-width: none;
 
              a {
                  display: flex;
@@ -263,7 +263,7 @@
          }
 
          .search-input-wrapper {
-             min-width: 100px;
+             width: 100%;
          }
 
          .search-form {
@@ -277,6 +277,7 @@
              z-index: 1;
              display: flex;
              align-items: center;
+             padding: 0 15px;
          }
 
 

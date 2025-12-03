@@ -64,7 +64,10 @@ const generateOrderNumber = () => {
 // =============================
 const orderAPI = {
 	checkPaymentStatus: async (paymentId) => {
-		const response = await fetch(`${API_BASE_URL}/api/offer/${paymentId}/status`)
+		const response = await fetch(`${API_BASE_URL}/api/offer/${paymentId}/status`, {
+			method: 'GET',
+			credentials: 'include'
+		})
 		const result = await response.json()
 
 		// Обробляємо новий формат відповіді
@@ -79,6 +82,7 @@ const orderAPI = {
 		const response = await fetch(`${API_BASE_URL}/api/offer/${orderId}/status`, {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
+			credentials: 'include', // ⭐ ДОДАНО
 			body: JSON.stringify({ status })
 		})
 		const result = await response.json()
@@ -94,6 +98,7 @@ const orderAPI = {
 		const response = await fetch(`${API_BASE_URL}/api/offer/`, {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
+			credentials: 'include', // ⭐ ДОДАНО
 			body: JSON.stringify(orderData)
 		})
 		const result = await response.json()
