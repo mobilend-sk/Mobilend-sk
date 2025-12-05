@@ -6,10 +6,7 @@ header.header {
 	width: 100%;
 	z-index: 5;
 	transition: box-shadow 0.3s ease;
-
-	&.scrolled {
-		box-shadow: 0 2px 20px rgba(37, 39, 88, 0.1);
-	}
+	box-shadow: 0 2px 20px rgba(37, 39, 88, 0.1);
 
 	.header__wrapper {
 		display: flex;
@@ -35,7 +32,7 @@ header.header {
 	}
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 840px) {
 	header.header {
 		.header__menu {
 			position: absolute;

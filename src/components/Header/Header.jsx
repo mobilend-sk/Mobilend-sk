@@ -13,24 +13,9 @@ import "./Header.scss"
 
 const Header = () => {
 	const [activeMenu, setActiveMenu] = useState(false)
-	const [isScrolled, setIsScrolled] = useState(false)
-	const pathname = usePathname()
-
-	useEffect(() => {
-		const handleScroll = () => {
-			if (pathname === '/katalog') {
-				setIsScrolled(false)
-				return
-			}
-			setIsScrolled(window.scrollY > 0)
-		}
-
-		window.addEventListener('scroll', handleScroll)
-		return () => window.removeEventListener('scroll', handleScroll)
-	}, [pathname])
 
 	return (
-		<header className={`header ${isScrolled ? 'scrolled' : ''} searched`}>
+		<header className={`header searched`}>
 			<div className="container">
 				<div className="header__wrapper">
 					<Logotype />
