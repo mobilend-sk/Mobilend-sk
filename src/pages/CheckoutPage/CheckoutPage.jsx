@@ -35,7 +35,7 @@ const CheckoutPageContent = () => {
 	const [showSuccessScreen, setShowSuccessScreen] = useState(false)
 
 	// =============================
-	// СТАНИ ФОРМ з localStorage
+	// STAVY FORM z localStorage
 	// =============================
 	const [contactData, setContactData] = useState(() => {
 		if (typeof window !== 'undefined') {
@@ -77,14 +77,14 @@ const CheckoutPageContent = () => {
 	})
 
 	// =============================
-	// 1) Завантажуємо step з backend (FIXED)
+	// 1) Nacitanie step z backendu
 	// =============================
 	useEffect(() => {
 		const init = async () => {
 			setLoading(true)
 
 			try {
-				// 1. Отримуємо step з бекенду (тепер cartService.get() повертає data)
+				// 1. Získanie stepu z backendu
 				const cartData = await cartService.get()
 
 				const backendStep = cartData?.cart?.step || 1
@@ -93,7 +93,7 @@ const CheckoutPageContent = () => {
 				// 2. URL step
 				const urlStep = Number(searchParams.get("step")) || 1
 
-				// 3. Якщо URL > backendStep → редирект назад
+				// 3. Ak URL > backendStep → redirect naspäť
 				if (urlStep > backendStep) {
 					router.replace(`${pathname}?step=${backendStep}`)
 					setCurrentStep(backendStep)
@@ -101,7 +101,7 @@ const CheckoutPageContent = () => {
 					return
 				}
 
-				// 4. Якщо URL < backendStep → оновлюємо URL
+				// 4. Ak URL < backendStep → aktualizácia URL
 				if (urlStep < backendStep) {
 					router.replace(`${pathname}?step=${backendStep}`)
 					setCurrentStep(backendStep)
@@ -109,11 +109,11 @@ const CheckoutPageContent = () => {
 					return
 				}
 
-				// 5. Якщо URL == backend → норм
+				// 5. Ak URL == backend → OK
 				setCurrentStep(urlStep)
 			} catch (error) {
 				console.error("Init error:", error)
-				// Якщо помилка, встановлюємо дефолтний крок
+				// Pri chybe nastavíme defaultný krok
 				setBackendStep(1)
 				setCurrentStep(1)
 			} finally {
@@ -125,7 +125,7 @@ const CheckoutPageContent = () => {
 	}, [])
 
 	// =============================
-	// 2) Реакція на зміну URL
+	// 2) Reakcia na zmenu URL
 	// =============================
 	useEffect(() => {
 		const step = Number(searchParams.get("step")) || 1
@@ -140,7 +140,7 @@ const CheckoutPageContent = () => {
 	}, [searchParams, backendStep])
 
 	// =============================
-	// 3) Завантаження продуктів
+	// 3) Nacitanie produktov
 	// =============================
 	useEffect(() => {
 		const loadProducts = async () => {
@@ -158,7 +158,7 @@ const CheckoutPageContent = () => {
 	}, [])
 
 	// =============================
-	// 4) Об'єднання товарів cart + products
+	// 4) Spojenie tovaru cart + products
 	// =============================
 	useEffect(() => {
 		if (productList.length === 0) return
@@ -174,7 +174,7 @@ const CheckoutPageContent = () => {
 	}, [items, productList])
 
 	// =============================
-	// 5) Очистка даних після завершення замовлення
+	// 5) Vyčistenie dát po dokončení objednávky
 	// =============================
 	useEffect(() => {
 		if (orderCompleted && showSuccessScreen) {
@@ -184,7 +184,7 @@ const CheckoutPageContent = () => {
 	}, [orderCompleted, showSuccessScreen])
 
 	// =============================
-	// Порожній кошик
+	// Prázdny košík
 	// =============================
 	if (!loading && cartItemsWithProducts.length === 0 && !orderCompleted) {
 		return (
@@ -204,7 +204,7 @@ const CheckoutPageContent = () => {
 	}
 
 	// =============================
-	// Кнопки кроків (FIXED)
+	// Tlačidlá krokov
 	// =============================
 	const goToNextStep = async () => {
 		if (currentStep < 3) {
@@ -216,7 +216,7 @@ const CheckoutPageContent = () => {
 				router.push(`${pathname}?step=${next}`)
 			} catch (error) {
 				console.error("Step update error:", error)
-				alert("Помилка оновлення кроку")
+				alert("Chyba pri aktualizácii kroku. Skúste to neskôr.")
 			}
 		}
 	}
@@ -231,13 +231,13 @@ const CheckoutPageContent = () => {
 				router.push(`${pathname}?step=${prev}`)
 			} catch (error) {
 				console.error("Step update error:", error)
-				alert("Помилка оновлення кроку")
+				alert("Chyba pri aktualizácii kroku. Skúste to neskôr.")
 			}
 		}
 	}
 
 	// =============================
-	// Сабміти форм
+	// Submity formulárov
 	// =============================
 	const handleContactSubmit = data => {
 		setContactData(data)
@@ -255,7 +255,7 @@ const CheckoutPageContent = () => {
 	}
 
 	// =============================
-	// Рендер кроків
+	// Render krokov
 	// =============================
 	const renderStep = () => {
 		if (loading) return null
@@ -297,7 +297,7 @@ const CheckoutPageContent = () => {
 	}
 
 	// =============================
-	// Рендер сторінки
+	// Render stránky
 	// =============================
 	return (
 		<main className="CheckoutPage">
@@ -317,12 +317,12 @@ const CheckoutPageContent = () => {
 					</div>
 				)}
 
-				{/* прогресбар */}
+				{/* progressbar */}
 				{!showSuccessScreen && (
 					<ProgressBar currentStep={currentStep} />
 				)}
 
-				{/* контент */}
+				{/* obsah */}
 				<div className="CheckoutPage__content">
 					{renderStep()}
 				</div>

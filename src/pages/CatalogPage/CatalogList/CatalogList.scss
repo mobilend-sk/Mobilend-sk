@@ -1,3 +1,8 @@
+.searh-results__wrapper {
+	.CatalogList__content {
+		grid-template-columns: none;
+	}
+}
 .CatalogList {
 	padding: 40px 0;
 	min-height: 60vh;
@@ -6,9 +11,12 @@
 		padding: 0 0 40px 0;
 	}
 
+	
+
 	.title-h1 {
 		&--desktop {
 			display: block;
+
 			@media (max-width: 768px) {
 				display: none;
 			}
@@ -18,6 +26,7 @@
 			font-size: 17px;
 			display: none;
 			font-weight: 500;
+
 			@media (max-width: 768px) {
 				display: block;
 			}
@@ -117,6 +126,7 @@
 		font-size: 16px;
 		color: #7f8c8d;
 		font-weight: 500;
+
 		@media (max-width: 768px) {
 			font-size: 12px;
 		}
@@ -167,11 +177,14 @@
 		}
 	}
 
+
 	&__content {
 		display: grid;
-		grid-template-columns: 1fr;
+
+
+		grid-template-columns: 280px 1fr;
 		gap: 30px;
-		min-height: 100vh; 
+		min-height: 100vh;
 
 		@media (max-width: 768px) {
 			grid-template-columns: 1fr;
@@ -406,6 +419,7 @@
 		transform: translateY(-20px);
 		opacity: 0;
 	}
+
 	to {
 		transform: translateY(0);
 		opacity: 1;

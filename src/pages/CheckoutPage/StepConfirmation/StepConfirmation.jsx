@@ -12,7 +12,7 @@ import {
 import "./StepConfirmation.scss"
 
 // =============================
-// КОНСТАНТИ
+// KONSTANTИ
 // =============================
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'
 const MAX_RETRIES = 20
@@ -26,7 +26,7 @@ const PAYMENT_METHODS = {
 }
 
 // =============================
-// HELPER ФУНКЦІЇ
+// HELPER FUNKCIE
 // =============================
 const removeDiacritics = (str = "") => {
 	return str
@@ -36,14 +36,11 @@ const removeDiacritics = (str = "") => {
 
 const sanitizeRemittance = (text = "") => {
 	return text
-		// замінити діакритику
 		.normalize("NFD")
 		.replace(/[\u0300-\u036f]/g, "")
-		// видалити заборонені символи SEPA
 		.replace(/[^A-Za-z0-9\/\-\?:\(\)\.,'\+ ]/g, "")
 		.trim();
 };
-
 
 const formatPhoneNumber = (phone) => {
 	if (!phone) return ""
@@ -60,7 +57,7 @@ const generateOrderNumber = () => {
 }
 
 // =============================
-// API СЕРВІСИ (FIXED)
+// API SERVISY
 // =============================
 const orderAPI = {
 	checkPaymentStatus: async (paymentId) => {
@@ -70,9 +67,8 @@ const orderAPI = {
 		})
 		const result = await response.json()
 
-		// Обробляємо новий формат відповіді
 		if (!result.success) {
-			throw new Error(result.message || 'Помилка перевірки статусу')
+			throw new Error(result.message || 'Chyba pri kontrole stavu')
 		}
 
 		return result.data
@@ -82,13 +78,13 @@ const orderAPI = {
 		const response = await fetch(`${API_BASE_URL}/api/offer/${orderId}/status`, {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
-			credentials: 'include', // ⭐ ДОДАНО
+			credentials: 'include',
 			body: JSON.stringify({ status })
 		})
 		const result = await response.json()
 
 		if (!result.success) {
-			throw new Error(result.message || 'Помилка оновлення статусу')
+			throw new Error(result.message || 'Chyba pri aktualizácii stavu')
 		}
 
 		return result.data
@@ -98,13 +94,13 @@ const orderAPI = {
 		const response = await fetch(`${API_BASE_URL}/api/offer/`, {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
-			credentials: 'include', // ⭐ ДОДАНО
+			credentials: 'include',
 			body: JSON.stringify(orderData)
 		})
 		const result = await response.json()
 
 		if (!response.ok || !result.success) {
-			throw new Error(result.message || 'Помилка створення замовлення')
+			throw new Error(result.message || 'Chyba pri vytváraní objednávky')
 		}
 
 		return result.data
@@ -112,7 +108,7 @@ const orderAPI = {
 }
 
 // =============================
-// ЛОКАЛЬНЕ СХОВИЩЕ
+// LOKALNE ULOZISKO
 // =============================
 const storage = {
 	getPendingOrder: () => ({
@@ -138,7 +134,7 @@ const storage = {
 }
 
 // =============================
-// ГОЛОВНИЙ КОМПОНЕНТ
+// HLAVNY KOMPONENT
 // =============================
 const StepConfirmation = ({
 	contactData = {},
@@ -159,7 +155,7 @@ const StepConfirmation = ({
 	const isMountedRef = useRef(true)
 
 	// =============================
-	// ОБЧИСЛЕННЯ З МЕМОІЗАЦІЄЮ
+	// VYPOCTY S MEMOIZACIOU
 	// =============================
 	const calculateDiscountedPrice = useCallback((price = 0, discount = 0) => {
 		const numPrice = parseFloat(price) || 0
@@ -218,7 +214,7 @@ const StepConfirmation = ({
 	}, [cartItems, calculateDiscountedPrice])
 
 	// =============================
-	// ОБРОБКА УСПІШНОГО ЗАМОВЛЕННЯ
+	// SPRACOVANIE USPESNEJ OBJEDNAVKY
 	// =============================
 	const handleOrderSuccess = useCallback((orderNum) => {
 		setOrderNumber(orderNum)
@@ -232,7 +228,7 @@ const StepConfirmation = ({
 	}, [onOrderComplete, clearCart])
 
 	// =============================
-	// ПЕРЕВІРКА СТАТУСУ ПЛАТЕЖУ (FIXED)
+	// KONTROLA STAVU PLATBY
 	// =============================
 	const checkPaymentStatus = useCallback(async () => {
 		if (!isMountedRef.current) return
@@ -240,15 +236,14 @@ const StepConfirmation = ({
 		const { orderId, orderNumber: storedOrderNumber } = storage.getPendingOrder()
 
 		if (!orderId) {
-			console.log('❌ Немає pendingOrderId')
+			console.log('❌ Chýba pendingOrderId')
 			setIsCheckingPayment(false)
 			return
 		}
 
 		try {
-			console.log(`🔄 Перевірка ${retryCount + 1}/${MAX_RETRIES}...`)
+			console.log(`🔄 Kontrola ${retryCount + 1}/${MAX_RETRIES}...`)
 
-			// Отримуємо paymentId
 			const urlParams = new URLSearchParams(window.location.search)
 			let paymentId = urlParams.get('paymentId') || storage.getPendingOrder().paymentId
 
@@ -257,19 +252,18 @@ const StepConfirmation = ({
 			}
 
 			if (!paymentId) {
-				console.log('⏳ Ще немає paymentId, чекаємо...')
+				console.log('⏳ Ešte nie je paymentId, čakáme...')
 				setRetryCount(prev => prev + 1)
 
 				if (retryCount < MAX_RETRIES && isMountedRef.current) {
 					timeoutRef.current = setTimeout(checkPaymentStatus, RETRY_INTERVAL)
 				} else {
-					alert('Не вдалося отримати інформацію про платіж.')
+					alert('Nepodarilo sa získať informácie o platbe. Skúste to neskôr.')
 					setIsCheckingPayment(false)
 				}
 				return
 			}
 
-			// Перевіряємо статус платежу (FIXED - тепер result це вже data)
 			const paymentData = await orderAPI.checkPaymentStatus(paymentId)
 
 			const paymentStatus = paymentData?.status?.status
@@ -277,15 +271,15 @@ const StepConfirmation = ({
 
 			console.log('💳 Status:', paymentStatus, '| Auth:', authStatus)
 
-			// ✅ Платіж успішний
+			// ✅ Platba úspešná
 			if (paymentStatus === 'OK' && authStatus === 'AUTH_DONE') {
-				console.log('✅ Платіж успішний!')
+				console.log('✅ Platba úspešná!')
 
 				try {
 					await orderAPI.updateOrderStatus(orderId, 'paid')
-					console.log('✅ Статус оновлено на "paid"')
+					console.log('✅ Stav aktualizovaný na "paid"')
 				} catch (updateError) {
-					console.warn('⚠️ Не вдалося оновити статус:', updateError)
+					console.warn('⚠️ Nepodarilo sa aktualizovať stav:', updateError)
 				}
 
 				if (isMountedRef.current) {
@@ -295,9 +289,9 @@ const StepConfirmation = ({
 				return
 			}
 
-			// ⏳ Платіж обробляється
+			// ⏳ Platba sa spracováva
 			if (paymentStatus === 'INIT' || authStatus === 'AUTH_PENDING') {
-				console.log('⏳ Платіж обробляється...')
+				console.log('⏳ Platba sa spracováva...')
 				setRetryCount(prev => prev + 1)
 
 				if (retryCount < MAX_RETRIES && isMountedRef.current) {
@@ -308,18 +302,18 @@ const StepConfirmation = ({
 				return
 			}
 
-			// ❌ Платіж не вдався
+			// ❌ Platba zlyhala
 			if (paymentStatus === 'FAIL') {
-				console.log('❌ Платіж не вдався')
+				console.log('❌ Platba zlyhala')
 
 				try {
 					await orderAPI.updateOrderStatus(orderId, 'cancelled')
-					console.log('✅ Статус оновлено на "cancelled"')
+					console.log('✅ Stav aktualizovaný na "cancelled"')
 				} catch (err) {
-					console.error('❌ Помилка при оновленні:', err)
+					console.error('❌ Chyba pri aktualizácii:', err)
 				}
 
-				alert('Platba zlyhala. Skúste znova.')
+				alert('Platba zlyhala. Skúste to neskôr.')
 				storage.clearPendingOrder()
 
 				if (isMountedRef.current) {
@@ -329,9 +323,9 @@ const StepConfirmation = ({
 				return
 			}
 
-			// ⚠️ Невідомий статус
+			// ⚠️ Neznámy stav
 			console.warn('⚠️ Neznámy stav:', paymentStatus)
-			alert('Nepodarilo sa overiť stav platby.')
+			alert('Nepodarilo sa overiť stav platby. Skúste to neskôr.')
 			setIsCheckingPayment(false)
 
 		} catch (err) {
@@ -339,17 +333,17 @@ const StepConfirmation = ({
 			setRetryCount(prev => prev + 1)
 
 			if (retryCount < MAX_RETRIES && isMountedRef.current) {
-				console.log('🔄 Повторна спроба через 10 сек...')
+				console.log('🔄 Opakovaný pokus o 10 sekúnd...')
 				timeoutRef.current = setTimeout(checkPaymentStatus, 10000)
 			} else {
-				alert('Chyba pri kontrole platby.')
+				alert('Chyba pri kontrole platby. Skúste to neskôr.')
 				setIsCheckingPayment(false)
 			}
 		}
 	}, [retryCount, handleOrderSuccess])
 
 	// =============================
-	// ПОЧАТКОВА ПЕРЕВІРКА ПЛАТЕЖУ
+	// POCIATOCNA KONTROLA PLATBY
 	// =============================
 	useEffect(() => {
 		isMountedRef.current = true
@@ -357,7 +351,7 @@ const StepConfirmation = ({
 		const { orderId, orderNumber: storedOrderNumber } = storage.getPendingOrder()
 
 		if (orderId && storedOrderNumber && !isOrderComplete) {
-			console.log('🔍 Знайдено pending замовлення, починаємо перевірку...')
+			console.log('🔍 Nájdená pending objednávka, začíname kontrolu...')
 			setIsCheckingPayment(true)
 			setRetryCount(0)
 			checkPaymentStatus()
@@ -372,14 +366,14 @@ const StepConfirmation = ({
 	}, [])
 
 	// =============================
-	// ПЕРЕВІРКА ПРИ ПОВЕРНЕННІ НА ВКЛАДКУ
+	// KONTROLA PRI NAVRATE NA KARTU
 	// =============================
 	useEffect(() => {
 		const handleVisibilityChange = () => {
 			const { orderId } = storage.getPendingOrder()
 
 			if (document.visibilityState === 'visible' && orderId && !isOrderComplete) {
-				console.log('👁️ Вкладка активна, перевіряємо платіж...')
+				console.log('👁️ Karta aktívna, kontrolujeme platbu...')
 				setRetryCount(0)
 				setIsCheckingPayment(true)
 				checkPaymentStatus()
@@ -391,10 +385,9 @@ const StepConfirmation = ({
 	}, [isOrderComplete, checkPaymentStatus])
 
 	// =============================
-	// ПІДГОТОВКА ДАНИХ ЗАМОВЛЕННЯ
+	// PRIPRAVA DAT OBJEDNAVKY
 	// =============================
 	const prepareOrderData = useCallback((newOrderNumber) => {
-
 		const cleanFirstName = (contactData?.firstName || "")
 			.replace(/[^a-zA-Z0-9À-ž ]/g, "");
 
@@ -471,9 +464,8 @@ const StepConfirmation = ({
 		}
 	}, [contactData, deliveryData, orderItems, totalAmount, totalItems]);
 
-
 	// =============================
-	// ПІДТВЕРДЖЕННЯ ЗАМОВЛЕННЯ (FIXED)
+	// POTVRDENIE OBJEDNAVKY
 	// =============================
 	const handleConfirmOrder = useCallback(async () => {
 		setIsSubmitting(true)
@@ -482,7 +474,6 @@ const StepConfirmation = ({
 			const newOrderNumber = generateOrderNumber()
 			const orderData = prepareOrderData(newOrderNumber)
 
-			// FIXED - тепер result.data містить потрібні дані
 			const responseData = await orderAPI.createOrder(orderData)
 
 			if (responseData.tatraPayPlusUrl && responseData.orderId) {
@@ -494,20 +485,20 @@ const StepConfirmation = ({
 
 		} catch (error) {
 			console.error('❌ Chyba:', error)
-			alert(error.message || "Chyba pri odoslaní objednávky.")
+			alert(error.message || "Chyba pri odoslaní objednávky. Skúste to neskôr.")
 			setIsSubmitting(false)
 		}
 	}, [prepareOrderData])
 
 	// =============================
-	// ДОПОМІЖНІ ФУНКЦІЇ ДЛЯ RENDER
+	// POMOCNE FUNKCIE PRE RENDER
 	// =============================
 	const getPaymentMethodLabel = useCallback((method) => {
 		return PAYMENT_METHODS[method] || 'Neznámy spôsob platby'
 	}, [])
 
 	// =============================
-	// RENDER: ПЕРЕВІРКА ПЛАТЕЖУ
+	// RENDER: KONTROLA PLATBY
 	// =============================
 	if (isCheckingPayment) {
 		return (
@@ -531,7 +522,7 @@ const StepConfirmation = ({
 	}
 
 	// =============================
-	// RENDER: УСПІШНЕ ЗАМОВЛЕННЯ
+	// RENDER: USPESNA OBJEDNAVKA
 	// =============================
 	if (isOrderComplete) {
 		return (
@@ -561,7 +552,7 @@ const StepConfirmation = ({
 	}
 
 	// =============================
-	// RENDER: ГОЛОВНА ФОРМА
+	// RENDER: HLAVNA FORMA
 	// =============================
 	return (
 		<div className="StepConfirmation">
