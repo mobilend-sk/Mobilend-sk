@@ -22,6 +22,8 @@ const CheckoutPageContent = () => {
 	const router = useRouter()
 	const pathname = usePathname()
 
+
+
 	const urlStep = Number(searchParams.get("step")) || 1
 	const [currentStep, setCurrentStep] = useState(urlStep)
 

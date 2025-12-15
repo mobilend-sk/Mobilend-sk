@@ -71,13 +71,13 @@ const StepDelivery = ({ initialValues, onSubmit, onNext, onBack }) => {
 			value: 'credit',
 			label: 'Kúpa na splátky',
 			description: 'Rozloženie platby na splátky',
-			enabled: false
+			enabled: true
 		},
 		{
 			value: 'online_payment',
 			label: 'Online platba kartou',
 			description: 'Okamžitá platba cez internet',
-			enabled: false
+			enabled: true
 		}
 	]
 

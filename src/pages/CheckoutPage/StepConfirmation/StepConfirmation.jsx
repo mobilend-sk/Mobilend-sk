@@ -388,6 +388,7 @@ const StepConfirmation = ({
 	// PRIPRAVA DAT OBJEDNAVKY
 	// =============================
 	const prepareOrderData = useCallback((newOrderNumber) => {
+
 		const cleanFirstName = (contactData?.firstName || "")
 			.replace(/[^a-zA-Z0-9À-ž ]/g, "");
 
@@ -441,6 +442,7 @@ const StepConfirmation = ({
 					postCode: deliveryData?.postalCode || ""
 				}
 			},
+
 			payLater: {
 				order: {
 					orderNo: newOrderNumber,
@@ -454,6 +456,7 @@ const StepConfirmation = ({
 					numberOfChildren: 0
 				}
 			},
+
 			_metadata: {
 				orderNumber: newOrderNumber,
 				paymentMethod: deliveryData?.paymentMethod || "",
@@ -461,34 +464,59 @@ const StepConfirmation = ({
 				timestamp: new Date().toISOString(),
 				status: "pending"
 			}
-		}
-	}, [contactData, deliveryData, orderItems, totalAmount, totalItems]);
+		};
 
+	}, [cartItems, contactData, deliveryData, totalAmount, totalItems]);
+
+	
 	// =============================
 	// POTVRDENIE OBJEDNAVKY
 	// =============================
 	const handleConfirmOrder = useCallback(async () => {
-		setIsSubmitting(true)
+    setIsSubmitting(true);
 
-		try {
-			const newOrderNumber = generateOrderNumber()
-			const orderData = prepareOrderData(newOrderNumber)
+    try {
+        const paymentMethod = deliveryData?.paymentMethod;
+        const newOrderNumber = generateOrderNumber();
+        const orderData = prepareOrderData(newOrderNumber);
 
-			const responseData = await orderAPI.createOrder(orderData)
+        // 1️⃣ Dobierka — просто створюємо замовлення, без редіректу
+        if (paymentMethod === "cash_on_delivery") {
+            await orderAPI.createOrder(orderData);
+            handleOrderSuccess(newOrderNumber);
+            return;
+        }
 
-			if (responseData.tatraPayPlusUrl && responseData.orderId) {
-				storage.setPendingOrder(responseData.orderId, newOrderNumber)
-				window.location.replace(responseData.tatraPayPlusUrl)
-			} else {
-				throw new Error('Chýba orderId alebo URL na platbu')
-			}
+        // 2️⃣ Splátky — очікуємо loanRedirectUrl
+        if (paymentMethod === "credit") {
+            const responseData = await orderAPI.createOrder(orderData);
 
-		} catch (error) {
-			console.error('❌ Chyba:', error)
-			alert(error.message || "Chyba pri odoslaní objednávky. Skúste to neskôr.")
-			setIsSubmitting(false)
-		}
-	}, [prepareOrderData])
+            if (responseData?.loanRedirectUrl) {
+                window.location.replace(responseData.loanRedirectUrl);
+                return;
+            }
+
+            throw new Error("Chýba loanRedirectUrl pre splátky");
+        }
+
+        // 3️⃣ Online kartou — TatraPay flow
+        const responseData = await orderAPI.createOrder(orderData);
+
+        if (responseData.tatraPayPlusUrl && responseData.orderId) {
+            storage.setPendingOrder(responseData.orderId, newOrderNumber);
+            window.location.replace(responseData.tatraPayPlusUrl);
+            return;
+        }
+
+        throw new Error("Chýba orderId alebo URL na online platbu");
+
+    } catch (error) {
+        console.error("❌ Chyba:", error);
+        alert(error.message || "Chyba pri odoslaní objednávky.");
+        setIsSubmitting(false);
+    }
+}, [deliveryData, prepareOrderData]);
+
 
 	// =============================
 	// POMOCNE FUNKCIE PRE RENDER
