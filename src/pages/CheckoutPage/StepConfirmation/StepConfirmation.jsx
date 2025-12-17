@@ -451,9 +451,9 @@ const StepConfirmation = ({
 					downPayment: 0
 				},
 				capacityInfo: {
-					monthlyIncome: 0,
-					monthlyExpenses: 0,
-					numberOfChildren: 0
+					monthlyIncome: parseFloat(deliveryData?.monthlyIncome) || 0,
+					monthlyExpenses: parseFloat(deliveryData?.monthlyExpenses) || 0,
+					numberOfChildren: parseInt(deliveryData?.numberOfChildren) || 0
 				}
 			},
 
@@ -468,54 +468,54 @@ const StepConfirmation = ({
 
 	}, [cartItems, contactData, deliveryData, totalAmount, totalItems]);
 
-	
+
 	// =============================
 	// POTVRDENIE OBJEDNAVKY
 	// =============================
 	const handleConfirmOrder = useCallback(async () => {
-    setIsSubmitting(true);
+		setIsSubmitting(true);
 
-    try {
-        const paymentMethod = deliveryData?.paymentMethod;
-        const newOrderNumber = generateOrderNumber();
-        const orderData = prepareOrderData(newOrderNumber);
+		try {
+			const paymentMethod = deliveryData?.paymentMethod;
+			const newOrderNumber = generateOrderNumber();
+			const orderData = prepareOrderData(newOrderNumber);
 
-        // 1️⃣ Dobierka — просто створюємо замовлення, без редіректу
-        if (paymentMethod === "cash_on_delivery") {
-            await orderAPI.createOrder(orderData);
-            handleOrderSuccess(newOrderNumber);
-            return;
-        }
+			// 1️⃣ Dobierka — просто створюємо замовлення, без редіректу
+			if (paymentMethod === "cash_on_delivery") {
+				await orderAPI.createOrder(orderData);
+				handleOrderSuccess(newOrderNumber);
+				return;
+			}
 
-        // 2️⃣ Splátky — очікуємо loanRedirectUrl
-        if (paymentMethod === "credit") {
-            const responseData = await orderAPI.createOrder(orderData);
+			// 2️⃣ Splátky — очікуємо loanRedirectUrl
+			if (paymentMethod === "credit") {
+				const responseData = await orderAPI.createOrder(orderData);
 
-            if (responseData?.loanRedirectUrl) {
-                window.location.replace(responseData.loanRedirectUrl);
-                return;
-            }
+				if (responseData?.loanRedirectUrl) {
+					window.location.replace(responseData.loanRedirectUrl);
+					return;
+				}
 
-            throw new Error("Chýba loanRedirectUrl pre splátky");
-        }
+				throw new Error("Chýba loanRedirectUrl pre splátky");
+			}
 
-        // 3️⃣ Online kartou — TatraPay flow
-        const responseData = await orderAPI.createOrder(orderData);
+			// 3️⃣ Online kartou — TatraPay flow
+			const responseData = await orderAPI.createOrder(orderData);
 
-        if (responseData.tatraPayPlusUrl && responseData.orderId) {
-            storage.setPendingOrder(responseData.orderId, newOrderNumber);
-            window.location.replace(responseData.tatraPayPlusUrl);
-            return;
-        }
+			if (responseData.tatraPayPlusUrl && responseData.orderId) {
+				storage.setPendingOrder(responseData.orderId, newOrderNumber);
+				window.location.replace(responseData.tatraPayPlusUrl);
+				return;
+			}
 
-        throw new Error("Chýba orderId alebo URL na online platbu");
+			throw new Error("Chýba orderId alebo URL na online platbu");
 
-    } catch (error) {
-        console.error("❌ Chyba:", error);
-        alert(error.message || "Chyba pri odoslaní objednávky.");
-        setIsSubmitting(false);
-    }
-}, [deliveryData, prepareOrderData]);
+		} catch (error) {
+			console.error("❌ Chyba:", error);
+			alert(error.message || "Chyba pri odoslaní objednávky.");
+			setIsSubmitting(false);
+		}
+	}, [deliveryData, prepareOrderData]);
 
 
 	// =============================

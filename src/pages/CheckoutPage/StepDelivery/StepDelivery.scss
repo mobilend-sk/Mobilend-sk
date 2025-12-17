@@ -110,6 +110,13 @@
 		}
 	}
 
+	&__hint {
+		font-size: 12px;
+		color: #6c757d;
+		font-style: italic;
+		margin-top: -4px;
+	}
+
 	&__error {
 		font-size: 13px;
 		color: #dc3545;
@@ -120,12 +127,12 @@
 		margin-top: 4px;
 
 		&::before {
-			content: "⚠";
+			content: "⚠ ";
 			font-size: 12px;
 		}
 	}
 
-	// Стили для радиокнопок оплаты
+	// Стилі для радіокнопок оплати
 	&__payment-options {
 		display: flex;
 		flex-direction: column;
@@ -185,7 +192,7 @@
 			opacity: 0.6;
 		}
 
-		// Кастомная радиокнопка
+		// Кастомна радіокнопка
 		&::before {
 			content: "";
 			width: 20px;
@@ -197,7 +204,7 @@
 			flex-shrink: 0;
 		}
 
-		// Точка внутри радиокнопки
+		// Точка всередині радіокнопки
 		&::after {
 			content: "";
 			position: absolute;
@@ -243,7 +250,83 @@
 		line-height: 1.4;
 	}
 
-	// Кнопки навигации
+	// Стилі для секції кредитних інформацій
+	&__credit-section {
+		animation: slideInUp 0.4s ease forwards;
+		border: 2px solid var(--lightGreen);
+		background: linear-gradient(135deg, rgba(135, 225, 47, 0.03) 0%, rgba(135, 225, 47, 0.01) 100%);
+	}
+
+	&__credit-info {
+		font-size: 14px;
+		color: #6c757d;
+		line-height: 1.6;
+		margin-bottom: 24px;
+		padding: 12px 16px;
+		background: rgba(135, 225, 47, 0.05);
+		border-left: 3px solid var(--lightGreen);
+		border-radius: 4px;
+	}
+
+	// Індикатор платоспроможності
+	&__affordability {
+		margin-top: 24px;
+		padding-top: 20px;
+		border-top: 1px solid #e9ecef;
+	}
+
+	&__affordability-indicator {
+		padding: 16px 20px;
+		border-radius: 8px;
+		border: 2px solid;
+		
+		&.positive {
+			background: rgba(40, 167, 69, 0.05);
+			border-color: #28a745;
+
+			.StepDelivery__affordability-title {
+				color: #28a745;
+			}
+		}
+
+		&.warning {
+			background: rgba(255, 193, 7, 0.05);
+			border-color: #ffc107;
+
+			.StepDelivery__affordability-title {
+				color: #d39e00;
+			}
+		}
+	}
+
+	&__affordability-title {
+		font-size: 16px;
+		font-weight: 700;
+		margin-bottom: 8px;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+
+	&__affordability-text {
+		font-size: 14px;
+		color: var(--darkBlue);
+		margin-bottom: 4px;
+
+		strong {
+			font-weight: 700;
+			font-size: 16px;
+		}
+	}
+
+	&__affordability-warning {
+		font-size: 13px;
+		color: #6c757d;
+		margin-top: 8px;
+		font-style: italic;
+	}
+
+	// Кнопки навігації
 	&__actions {
 		display: flex;
 		justify-content: space-between;
@@ -319,7 +402,7 @@
 	}
 }
 
-// Адаптивность для планшетов
+// Адаптивність для планшетів
 @media (max-width: 768px) {
 	.StepDelivery {
 		padding: 30px 15px;
@@ -339,10 +422,14 @@
 		&__section-title {
 			font-size: 18px;
 		}
+
+		&__row {
+			grid-template-columns: 1fr !important;
+		}
 	}
 }
 
-// Адаптивность для мобильных
+// Адаптивність для мобільних
 @media (max-width: 480px) {
 	.StepDelivery {
 		padding: 20px 0;
@@ -382,7 +469,7 @@
 	}
 }
 
-// Анимации
+// Анімації
 @keyframes slideInUp {
 	from {
 		opacity: 0;
@@ -406,5 +493,8 @@
 	}
 	&:nth-child(2) {
 		animation-delay: 0.2s;
+	}
+	&:nth-child(3) {
+		animation-delay: 0.3s;
 	}
 }

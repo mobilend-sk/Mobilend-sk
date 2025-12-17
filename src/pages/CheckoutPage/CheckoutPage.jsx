@@ -74,7 +74,10 @@ const CheckoutPageContent = () => {
 			city: "",
 			postalCode: "",
 			address: "",
-			paymentMethod: ""
+			paymentMethod: "",
+			monthlyIncome: "",
+			monthlyExpenses: "",
+			numberOfChildren: 0
 		}
 	})
 
