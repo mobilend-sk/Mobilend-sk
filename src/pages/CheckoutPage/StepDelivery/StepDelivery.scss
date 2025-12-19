@@ -89,6 +89,26 @@
 		}
 	}
 
+	&__wrapper {
+		display: grid;
+		grid-template-columns: 1fr 150px;
+		gap: 20px;
+		align-items: start;
+
+		@media (max-width: 768px) {
+			grid-template-columns: 1fr;
+			gap: 0;
+		}
+
+		.house {
+			margin-bottom: 20px;
+
+			@media (max-width: 768px) {
+				margin-bottom: 20px;
+			}
+		}
+	}
+
 	&__input {
 		padding: 14px 16px;
 		border: 2px solid #e9ecef;

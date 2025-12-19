@@ -20,14 +20,21 @@ const StepDelivery = ({ initialValues, onSubmit, onNext, onBack }) => {
 			.matches(/^\d{3}\s\d{2}$/, 'PSČ musí byť ve formáte XXX XX')
 			.required('PSČ je povinné'),
 
-		address: Yup.string()
+		street: Yup.string()
 			.matches(
-				/^[A-Za-zÁÄáäČčĎďÉéÍíĹĺĽľŇňÓóÔôŘřŠšŤťÚúÝýŽž0-9\s\/.-]+$/,
-				'Adresa môže obsahovať písmená, čísla a znaky "-","/","."'
+				/^[A-Za-zÁÄáäČčĎďÉéÍíĹĺĽľŇňÓóÔôŘřŠšŤťÚúÝýŽž\s.-]+$/,
+				'Ulica môže obsahovať písmená a znaky "-","."'
 			)
-			.min(5, 'Adresa je príliš krátka')
-			.max(200, 'Adresa je príliš dlhá')
-			.required('Ulica a číslo domu sú povinné'),
+			.min(2, 'Názov ulice je príliš krátky')
+			.max(100, 'Názov ulice je príliš dlhý')
+			.required('Ulica je povinná'),
+
+		houseNumber: Yup.string()
+			.matches(
+				/^[0-9]+[A-Za-z]?$/,
+				'Číslo domu musí byť číslo, prípadne s písmenom (napr. 123 alebo 123A)'
+			)
+			.required('Číslo domu je povinné'),
 
 		paymentMethod: Yup.string()
 			.required('Vyberte spôsob platby'),
@@ -64,7 +71,8 @@ const StepDelivery = ({ initialValues, onSubmit, onNext, onBack }) => {
 	const defaultValues = {
 		city: '',
 		postalCode: '',
-		address: '',
+		street: '',
+		houseNumber: '',
 		paymentMethod: '',
 		monthlyIncome: '',
 		monthlyExpenses: '',
@@ -87,12 +95,6 @@ const StepDelivery = ({ initialValues, onSubmit, onNext, onBack }) => {
 	// Варіанти оплати
 	const paymentOptions = [
 		{
-			value: 'cash_on_delivery',
-			label: 'Dobierka (platba pri prevzatí)',
-			description: 'Zaplatíte pri doručení balíka',
-			enabled: true
-		},
-		{
 			value: 'credit',
 			label: 'Kúpa na splátky',
 			description: 'Rozloženie platby na splátky',
@@ -103,9 +105,15 @@ const StepDelivery = ({ initialValues, onSubmit, onNext, onBack }) => {
 			label: 'Online platba kartou',
 			description: 'Okamžitá platba cez internet',
 			enabled: true
+		},
+		{
+			value: 'cash_on_delivery',
+			label: 'Dobierka (platba pri prevzatí)',
+			description: 'Zaplatíte pri doručení balíka',
+			enabled: true
 		}
 	]
-
+	
 	return (
 		<div className="StepDelivery">
 			<div className="StepDelivery__header">
@@ -188,22 +196,41 @@ const StepDelivery = ({ initialValues, onSubmit, onNext, onBack }) => {
 							</div>
 
 							{/* Ulica a číslo domu */}
-							<div className="StepDelivery__field">
-								<label htmlFor="address" className="StepDelivery__label">
-									Ulica a číslo domu *
-								</label>
-								<Field
-									type="text"
-									id="address"
-									name="address"
-									className="StepDelivery__input"
-									placeholder="Hlavná ulica 123"
-								/>
-								<ErrorMessage
-									name="address"
-									component="div"
-									className="StepDelivery__error"
-								/>
+							<div className="StepDelivery__wrapper">
+								<div className="StepDelivery__field">
+									<label htmlFor="street" className="StepDelivery__label">
+										Ulica *
+									</label>
+									<Field
+										type="text"
+										id="street"
+										name="street"
+										className="StepDelivery__input"
+										placeholder="Hlavná"
+									/>
+									<ErrorMessage
+										name="street"
+										component="div"
+										className="StepDelivery__error"
+									/>
+								</div>
+								<div className="StepDelivery__field house">
+									<label htmlFor="houseNumber" className="StepDelivery__label">
+										Číslo domu *
+									</label>
+									<Field
+										type="text"
+										id="houseNumber"
+										name="houseNumber"
+										className="StepDelivery__input"
+										placeholder="123"
+									/>
+									<ErrorMessage
+										name="houseNumber"
+										component="div"
+										className="StepDelivery__error"
+									/>
+								</div>
 							</div>
 						</div>
 

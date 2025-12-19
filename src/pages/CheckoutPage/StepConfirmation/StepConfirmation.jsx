@@ -252,15 +252,8 @@ const StepConfirmation = ({
 			}
 
 			if (!paymentId) {
-				console.log('⏳ Ešte nie je paymentId, čakáme...')
-				setRetryCount(prev => prev + 1)
-
-				if (retryCount < MAX_RETRIES && isMountedRef.current) {
-					timeoutRef.current = setTimeout(checkPaymentStatus, RETRY_INTERVAL)
-				} else {
-					alert('Nepodarilo sa získať informácie o platbe. Skúste to neskôr.')
-					setIsCheckingPayment(false)
-				}
+				alert('Nepodarilo sa získať informácie o platbe. Skúste to neskôr.')
+				setIsCheckingPayment(false)
 				return
 			}
 
@@ -427,8 +420,8 @@ const StepConfirmation = ({
 			cardDetail: {
 				billingAddress: {
 					country: "SK",
-					streetName: deliveryData?.address || "",
-					buildingNumber: "1",
+					streetName: deliveryData?.street || "",
+					buildingNumber: deliveryData?.houseNumber || "",
 					townName: deliveryData?.city || "",
 					postCode: deliveryData?.postalCode || ""
 				},
@@ -436,8 +429,8 @@ const StepConfirmation = ({
 				isPreAuthorization: false,
 				shippingAddress: {
 					country: "SK",
-					streetName: deliveryData?.address || "",
-					buildingNumber: "1",
+					streetName: deliveryData?.street || "",
+					buildingNumber: deliveryData?.houseNumber || "",
 					townName: deliveryData?.city || "",
 					postCode: deliveryData?.postalCode || ""
 				}
