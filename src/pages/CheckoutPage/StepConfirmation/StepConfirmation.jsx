@@ -534,9 +534,6 @@ const StepConfirmation = ({
 					<p className="StepConfirmation__success-text">
 						Prosím, počkajte chvíľu. Prebieha overovanie platby.
 					</p>
-					<p className="StepConfirmation__success-text" style={{ fontSize: '0.9em', marginTop: '1rem', opacity: 0.7 }}>
-						Pokus {retryCount}/{MAX_RETRIES}
-					</p>
 				</div>
 			</div>
 		)

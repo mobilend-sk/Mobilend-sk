@@ -14,8 +14,8 @@ const HomePage = ({ blogPosts = [], faqs = [] }) => {
 		<main>
 			<Hero />
 			<Sliders types={["popular"]} title={"Populárne tovary v obchode Mobilend"} />
-			<Sliders types={["discount"]} title={"Tovary so zľavou - ušetrite už dnes!"} />
-			<Sliders types={["model"]} model={"Iphones"} title={"Najnovšie modely iPhone"} />
+			{/* <Sliders types={["discount"]} title={"Tovary so zľavou - ušetrite už dnes!"} />
+			// <Sliders types={["model"]} model={"Iphones"} title={"Najnovšie modely iPhone"} /> */} 
 			<Sliders types={["model"]} model={"Samsung Galaxy"} title={"Samsung Galaxy - prémiové smartfóny"} />
 
 			{/* Блог секция - показываем только если есть статьи */}

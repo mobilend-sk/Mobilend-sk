@@ -11,10 +11,13 @@ import productService from "@/services/productClient.service";
 const Sliders = ({ types, model, title, limit = 10 }) => {
 	const [productList, setProductList] = useState([])
 	const [showSlider, setShowSlider] = useState(false)
+	const [isLoading, setIsLoading] = useState(true)
 
 	useEffect(() => {
 		if (types && types.length > 0) {
 			loadProducts()
+		} else {
+			setIsLoading(false)
 		}
 	}, [types, model])
 
@@ -29,6 +32,7 @@ const Sliders = ({ types, model, title, limit = 10 }) => {
 	}
 
 	const loadProducts = async () => {
+		setIsLoading(true)
 		try {
 			let products = []
 			if (types.includes("popular")) products = await productService.getPopularProducts()
@@ -44,9 +48,25 @@ const Sliders = ({ types, model, title, limit = 10 }) => {
 		} catch (error) {
 			console.log(error.message);
 			setShowSlider(false)
+		} finally {
+			setIsLoading(false)
 		}
 	}
 
+	if (isLoading) {
+		return (
+			<section className="Sliders">
+				<div className="container">
+					<h2>{title ? title : "Tovary"}</h2>
+					<div className="Sliders__Loading">
+						<div className="spinner"></div>
+					</div>
+				</div>
+			</section>
+		)
+	}
+
+	// Якщо немає продуктів або слайдер не потрібно показувати - нічого не рендеримо
 	if (productList.length === 0 || !showSlider) return null
 
 	return (
