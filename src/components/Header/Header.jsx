@@ -3,6 +3,7 @@
 import Logotype from "../Logotype/Logotype"
 import Menu from "../Menu/Menu"
 import SearchComponent from "../SearchComponent/SearchComponent"
+import ActiveOrdersComponent from "../ActiveOrdersComponent/ActiveOrdersComponent"
 import CartLink from "../CartLink/CartLink"
 import { AlignJustify } from "lucide-react"
 import { useState, useEffect } from "react"
@@ -23,6 +24,11 @@ const Header = () => {
 						<Menu setActiveMenu={setActiveMenu} />
 					</div>
 					<div className="header-ico__wrapper">
+						<ActiveOrdersComponent
+							apiUrl="http://localhost:5000/api/offer/active"
+							headerSelector=".header"
+							activeHeaderClass="header--orders-active"
+						/>
 						<div className="search__wrapper">
 							<SearchComponent />
 						</div>
