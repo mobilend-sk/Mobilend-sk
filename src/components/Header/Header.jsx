@@ -25,7 +25,7 @@ const Header = () => {
 					</div>
 					<div className="header-ico__wrapper">
 						<ActiveOrdersComponent
-							apiUrl="http://localhost:5000/api/offer/active"
+							apiUrl="http://localhost:5000/api/offer"
 							headerSelector=".header"
 							activeHeaderClass="header--orders-active"
 						/>

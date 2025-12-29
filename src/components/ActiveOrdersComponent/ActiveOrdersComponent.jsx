@@ -1,30 +1,92 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
+import Image from 'next/image';
+import AccountImage from "@/app/_assets/Icons/account.svg"
 import "./ActiveOrdersComponent.scss";
 
 const ActiveOrdersComponent = ({
   className = "",
   headerSelector = ".header",
   activeHeaderClass = "header--orders-active",
-  apiUrl = "/api/orders/active"
+  apiUrl = "/api/offer"  // 👈 Змінено з /api/orders на /api/offer
 }) => {
+  // 🔍 Debug: перевіряємо що приходить в apiUrl
+  useEffect(() => {
+    console.log('ActiveOrdersComponent apiUrl:', apiUrl);
+  }, [apiUrl]);
+
   const [isOpen, setIsOpen] = useState(false);
   const [email, setEmail] = useState('');
-  const [savedEmail, setSavedEmail] = useState('');
+  const [verificationCode, setVerificationCode] = useState('');
+  const [step, setStep] = useState('email'); // 'email' | 'verify' | 'orders'
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const inputRef = useRef(null);
+  const [countdown, setCountdown] = useState(0);
+  const [canResend, setCanResend] = useState(true);
+  const emailInputRef = useRef(null);
+  const codeInputRef = useRef(null);
 
-  // Завантажуємо збережений email при монтуванні
+  // Завантажуємо збережений email при монтуванні та автоматично завантажуємо замовлення
   useEffect(() => {
     const storedEmail = localStorage.getItem('userEmail');
-    if (storedEmail) {
-      setSavedEmail(storedEmail);
+    const verifiedTimestamp = localStorage.getItem('emailVerifiedAt');
+    const VERIFICATION_VALIDITY = 24 * 60 * 60 * 1000; // 24 години
+
+    if (storedEmail && verifiedTimestamp) {
+      const isVerificationValid = Date.now() - parseInt(verifiedTimestamp) < VERIFICATION_VALIDITY;
+
+      if (isVerificationValid) {
+        setEmail(storedEmail);
+        // Якщо модалка відкрита - автоматично завантажуємо замовлення
+        if (isOpen) {
+          fetchOrdersDirectly(storedEmail);
+        }
+      } else {
+        // Верифікація застаріла - очищаємо
+        localStorage.removeItem('emailVerifiedAt');
+        setStep("email")
+      }
+    } else if (storedEmail) {
       setEmail(storedEmail);
+    } else {
+      setStep("email")
     }
-  }, []);
+  }, [isOpen]);
+
+  // Функція для прямого завантаження замовлень (без верифікації)
+  const fetchOrdersDirectly = async (emailToFetch) => {
+    setLoading(true);
+    setError(null);
+
+    try {
+      const ordersResponse = await fetch(
+        `${apiUrl}/active?email=${encodeURIComponent(emailToFetch)}`
+      );
+
+      if (!ordersResponse.ok) {
+        if (ordersResponse.status === 401 || ordersResponse.status === 403) {
+          localStorage.removeItem('emailVerifiedAt');
+          setStep('email');
+        }
+        throw new Error('Unauthorized or fetch failed');
+      }
+
+      const ordersData = await ordersResponse.json();
+
+      setOrders(ordersData.data.orders || []);
+      setStep('orders');
+
+    } catch (err) {
+      console.error('Fetch orders error:', err);
+      setError(null); // або кастомне повідомлення
+      setStep('email'); // 🔥 КЛЮЧОВЕ
+    } finally {
+      setLoading(false);
+    }
+  };
+
 
   // Управління класом хедера
   useEffect(() => {
@@ -50,10 +112,14 @@ const ActiveOrdersComponent = ({
 
   // Фокус на інпуті
   useEffect(() => {
-    if (isOpen && inputRef.current) {
-      inputRef.current.focus();
+    if (isOpen) {
+      if (step === 'email' && emailInputRef.current) {
+        emailInputRef.current.focus();
+      } else if (step === 'verify' && codeInputRef.current) {
+        codeInputRef.current.focus();
+      }
     }
-  }, [isOpen]);
+  }, [isOpen, step]);
 
   // Закриття при Escape
   useEffect(() => {
@@ -72,39 +138,88 @@ const ActiveOrdersComponent = ({
     };
   }, [isOpen]);
 
-  // Автоматично завантажуємо замовлення якщо є збережений email
+  // Countdown для resend
   useEffect(() => {
-    if (isOpen && savedEmail) {
-      fetchOrders(savedEmail);
+    if (countdown > 0) {
+      const timer = setTimeout(() => setCountdown(countdown - 1), 1000);
+      return () => clearTimeout(timer);
+    } else if (countdown === 0 && !canResend) {
+      setCanResend(true);
     }
-  }, [isOpen, savedEmail]);
+  }, [countdown, canResend]);
 
-  const fetchOrders = async (emailToFetch) => {
+  const sendVerificationCode = async (emailToSend) => {
     setLoading(true);
     setError(null);
 
     try {
-      const response = await fetch(`${apiUrl}?email=${encodeURIComponent(emailToFetch)}`);
-      
-      // Перевіряємо чи response є JSON
-      const contentType = response.headers.get("content-type");
-      if (!contentType || !contentType.includes("application/json")) {
-        throw new Error('Server vrátil neplatný formát odpovede');
-      }
+      const response = await fetch(`${apiUrl}/send-verification`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email: emailToSend })
+      });
 
       const data = await response.json();
 
       if (!response.ok) {
-        throw new Error(data.message || 'Chyba pri načítaní objednávok');
+        throw new Error(data.message || 'Chyba pri odoslaní kódu');
       }
 
-      setOrders(data.data.orders || []);
-      setSavedEmail(emailToFetch);
-      localStorage.setItem('userEmail', emailToFetch);
+      setStep('verify');
+      setCountdown(60);
+      setCanResend(false);
+
     } catch (err) {
-      console.error('Fetch error:', err);
-      setError(err.message || 'Nepodarilo sa načítať objednávky');
-      setOrders([]);
+      console.error('Send verification error:', err);
+      setError(err.message || 'Nepodarilo sa odoslať kód');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const verifyCodeAndFetchOrders = async () => {
+    setLoading(true);
+    setError(null);
+
+    try {
+
+      // Верифікація коду
+      const verifyResponse = await fetch(`${apiUrl}/verify-code`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: email.trim(),
+          code: verificationCode.trim()
+        })
+      });
+
+      const verifyData = await verifyResponse.json();
+
+      if (!verifyResponse.ok) {
+        throw new Error(verifyData.message || 'Nesprávny kód');
+      }
+
+      localStorage.setItem('userEmail', email.trim());
+      localStorage.setItem('emailVerifiedAt', Date.now().toString());
+
+      // Завантаження замовлень
+      const ordersResponse = await fetch(`${apiUrl}/active?email=${encodeURIComponent(email.trim())}`);
+      const ordersData = await ordersResponse.json();
+
+      if (!ordersResponse.ok) {
+        throw new Error(ordersData.message || 'Chyba pri načítaní objednávok');
+      }
+
+      setOrders(ordersData.data.orders || []);
+      setStep('orders');
+
+    } catch (err) {
+      console.error('Verification error:', err);
+      setError(err.message || 'Nepodarilo sa overiť kód');
     } finally {
       setLoading(false);
     }
@@ -114,28 +229,40 @@ const ActiveOrdersComponent = ({
     setIsOpen(true);
   };
 
-  const handleSubmit = (e) => {
+  const handleEmailSubmit = (e) => {
     e.preventDefault();
     const trimmedEmail = email.trim();
 
     if (trimmedEmail && isValidEmail(trimmedEmail)) {
-      fetchOrders(trimmedEmail);
+      sendVerificationCode(trimmedEmail);
+    }
+  };
+
+  const handleVerifySubmit = (e) => {
+    e.preventDefault();
+    if (verificationCode.trim().length === 6) {
+      verifyCodeAndFetchOrders();
+    }
+  };
+
+  const handleResendCode = () => {
+    if (canResend) {
+      sendVerificationCode(email.trim());
     }
   };
 
   const handleClose = () => {
     setIsOpen(false);
     setError(null);
+    // ❌ НЕ очищаємо email - він збережений в localStorage
+    // setEmail('');
+    setVerificationCode('');
+    setOrders([]);
   };
 
-  const handleKeyDown = (e) => {
-    if (e.key === 'Escape') {
-      handleClose();
-    }
-  };
-
-  const handleInputChange = (e) => {
-    setEmail(e.target.value);
+  const handleBack = () => {
+    setStep('email');
+    setVerificationCode('');
     setError(null);
   };
 
@@ -184,19 +311,14 @@ const ActiveOrdersComponent = ({
           className="orders-btn"
           aria-label="Moje objednávky"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="30"
-            height="30"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-          >
-            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
-            <line x1="3" y1="6" x2="21" y2="6" />
-            <path d="M16 10a4 4 0 0 1-8 0" />
-          </svg>
+          <Image
+            src={AccountImage}
+            alt="logo"
+            width={28}
+            height={28}
+            className="logoImage"
+            priority
+          />
         </button>
       ) : (
         <div className="orders__wrapper">
@@ -204,81 +326,142 @@ const ActiveOrdersComponent = ({
             className="orders-component_blur"
             onClick={handleClose}
           />
-          
+
           <div className="orders-modal">
             <div className="orders-modal__header">
-              <h2 className="orders-modal__title">Moje objednávky</h2>
+              <h2 className="orders-modal__title">
+                {step === 'email' && 'Moje objednávky'}
+                {step === 'verify' && 'Overenie emailu'}
+                {step === 'orders' && 'Vaše objednávky'}
+              </h2>
               <button
                 type="button"
                 onClick={handleClose}
                 className="orders-close"
                 aria-label="Zavrieť"
               >
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                >
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="m18 6-12 12" />
                   <path d="m6 6 12 12" />
                 </svg>
               </button>
             </div>
 
-            <form onSubmit={handleSubmit} className="orders-form">
-              <div className="orders-input-wrapper">
-                <input
-                  ref={inputRef}
-                  type="email"
-                  value={email}
-                  onChange={handleInputChange}
-                  onKeyDown={handleKeyDown}
-                  placeholder="Zadajte váš email..."
-                  className="orders-input"
-                  required
-                />
-                <button
-                  type="submit"
-                  className="orders-submit"
-                  disabled={!email.trim() || !isValidEmail(email.trim())}
-                >
-                  <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                  >
-                    <circle cx="11" cy="11" r="8" />
-                    <path d="m21 21-4.35-4.35" />
+            {/* Email Step */}
+            {step === 'email' && (
+              <form onSubmit={handleEmailSubmit} className="orders-form">
+                <div className="verification-info">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="m9 12 2 2 4-4" />
                   </svg>
-                  Hľadať
-                </button>
-              </div>
-            </form>
-
-            <div className="orders-content">
-              {loading && (
-                <div className="orders-loading">
-                  <div className="spinner"></div>
-                  <p>Načítavam objednávky...</p>
+                  <p>Na overenie identity vám pošleme 6-miestny kód na email</p>
                 </div>
-              )}
+                <div className="orders-input-wrapper">
+                  <input
+                    ref={emailInputRef}
+                    type="email"
+                    value={email}
+                    onChange={(e) => {
+                      setEmail(e.target.value);
+                      setError(null);
+                    }}
+                    placeholder="Zadajte váš email..."
+                    className="orders-input"
+                    required
+                  />
+                  <button
+                    type="submit"
+                    className="orders-submit"
+                    disabled={!email.trim() || !isValidEmail(email.trim()) || loading}
+                  >
+                    {loading ? (
+                      <>
+                        <div className="spinner-small"></div>
+                        Odosielam...
+                      </>
+                    ) : (
+                      <>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                          <path d="m22 2-7 20-4-9-9-4Z" />
+                          <path d="M22 2 11 13" />
+                        </svg>
+                        Odoslať kód
+                      </>
+                    )}
+                  </button>
+                </div>
+              </form>
+            )}
 
+            {/* Verification Step */}
+            {step === 'verify' && (
+              <form onSubmit={handleVerifySubmit} className="orders-form">
+                <div className="verification-sent">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <rect width="20" height="16" x="2" y="4" rx="2" />
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                  </svg>
+                  <p>Kód bol odoslaný na <strong>{email}</strong></p>
+                  <button type="button" onClick={handleBack} className="link-button">
+                    Zmeniť email
+                  </button>
+                </div>
+                <div className="orders-input-wrapper">
+                  <input
+                    ref={codeInputRef}
+                    type="text"
+                    value={verificationCode}
+                    onChange={(e) => {
+                      const value = e.target.value.replace(/\D/g, '').slice(0, 6);
+                      setVerificationCode(value);
+                      setError(null);
+                    }}
+                    placeholder="Zadajte 6-miestny kód..."
+                    className="orders-input orders-input--code"
+                    maxLength="6"
+                    required
+                  />
+                  <button
+                    type="submit"
+                    className="orders-submit"
+                    disabled={verificationCode.length !== 6 || loading}
+                  >
+                    {loading ? (
+                      <>
+                        <div className="spinner-small"></div>
+                        Overujem...
+                      </>
+                    ) : (
+                      <>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                          <circle cx="12" cy="12" r="10" />
+                          <path d="m9 12 2 2 4-4" />
+                        </svg>
+                        Overiť
+                      </>
+                    )}
+                  </button>
+                </div>
+                <div className="resend-section">
+                  {canResend ? (
+                    <button type="button" onClick={handleResendCode} className="link-button">
+                      Znovu poslať kód
+                    </button>
+                  ) : (
+                    <p className="resend-timer">
+                      Znovu poslať kód za {countdown}s
+                    </p>
+                  )}
+                </div>
+              </form>
+            )}
+
+            {/* Orders Display */}
+            <div className="orders-content">
               {error && (
                 <div className="orders-error">
-                  <svg
-                    width="48"
-                    height="48"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                  >
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <circle cx="12" cy="12" r="10" />
                     <line x1="12" y1="8" x2="12" y2="12" />
                     <line x1="12" y1="16" x2="12.01" y2="16" />
@@ -287,16 +470,9 @@ const ActiveOrdersComponent = ({
                 </div>
               )}
 
-              {!loading && !error && orders.length === 0 && savedEmail && (
+              {step === 'orders' && !loading && !error && orders.length === 0 && (
                 <div className="orders-empty">
-                  <svg
-                    width="64"
-                    height="64"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                  >
+                  <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                     <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
                     <line x1="3" y1="6" x2="21" y2="6" />
                     <path d="M16 10a4 4 0 0 1-8 0" />
@@ -305,7 +481,7 @@ const ActiveOrdersComponent = ({
                 </div>
               )}
 
-              {!loading && !error && orders.length > 0 && (
+              {step === 'orders' && !loading && !error && orders.length > 0 && (
                 <div className="orders-list">
                   {orders.map((order) => (
                     <div key={order._id} className="order-card">

@@ -229,7 +229,7 @@
 
      .header--search-active {
          .Logotype .header__menu .header-ico__wrapper {
-             display: none;
+             display: none !important
          }
 
          .CartLink {
