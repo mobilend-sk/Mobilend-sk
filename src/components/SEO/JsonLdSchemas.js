@@ -79,7 +79,7 @@ export function generateProductSchema(product) {
 		schema.additionalProperty = additionalProperty
 	}
 
-	return JSON.stringify(schema)
+	return schema
 }
 // 2. Схема для организации (Organization Schema)
 export function generateOrganizationSchema() {
@@ -130,7 +130,7 @@ export function generateOrganizationSchema() {
 		]
 	}
 
-	return JSON.stringify(schema)
+	return schema
 }
 
 // 3. Схема для местного бизнеса (Local Business Schema)
@@ -210,7 +210,7 @@ export function generateLocalBusinessSchema() {
 		// }
 	}
 
-	return JSON.stringify(schema)
+	return schema
 }
 
 // 4. Схема для веб-сайта (Website Schema)
@@ -243,7 +243,7 @@ export function generateWebsiteSchema() {
 		}
 	}
 
-	return JSON.stringify(schema)
+	return schema
 }
 
 // 5. Схема хлебных крошек (Breadcrumb Schema)
