@@ -41,6 +41,9 @@ export const metadata = {
   alternates: {
     canonical: 'https://mobilend.sk',
   },
+  verification: {
+    google: 'FSaPwNNHa_INuIokyRiaONgJt97b84T43F6xqFTkR_8'
+  },
   other: {
     'theme-color': '#ffffff',
     'apple-mobile-web-app-capable': 'yes',
@@ -78,11 +81,11 @@ export const metadata = {
     images: [`${process.env.NEXT_PUBLIC_SITE_URL || 'https://mobilend.sk'}/images/og.jpg`],
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     googleBot: {
-      index: false,
-      follow: false,
+      index: true,
+      follow: true,
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
@@ -90,9 +93,7 @@ export const metadata = {
   },
 }
 
-
 export default async function RootLayout({ children }) {
-  // Генеруємо JSON-LD схеми для SEO
   const organizationSchema = generateOrganizationSchema()
   const localBusinessSchema = generateLocalBusinessSchema()
   const websiteSchema = generateWebsiteSchema()
@@ -100,7 +101,6 @@ export default async function RootLayout({ children }) {
   return (
     <html lang="sk">
       <body className={montserrat.variable}>
-        {/* JSON-LD Schema для SEO */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: organizationSchema }}
@@ -114,13 +114,11 @@ export default async function RootLayout({ children }) {
           dangerouslySetInnerHTML={{ __html: websiteSchema }}
         />
 
-        {/* Основний контент */}
         <Header />
         <CartProvider>
           {children}
         </CartProvider>
         <Footer />
-
       </body>
     </html>
   )
