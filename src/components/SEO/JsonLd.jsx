@@ -1,15 +1,22 @@
 const JsonLd = ({ schema }) => {
 	if (!schema) return null
 
-	// ✅ Санитизация для XSS защиты (рекомендация Next.js)
-	const sanitizedSchema = schema.replace(/</g, '\\u003c')
+	try {
+		const jsonString = typeof schema === 'string'
+			? schema
+			: JSON.stringify(schema)
 
-	return (
-		<script
-			type="application/ld+json"
-			dangerouslySetInnerHTML={{ __html: sanitizedSchema }}
-		/>
-	)
+		return (
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: jsonString }}
+				suppressHydrationWarning
+			/>
+		)
+	} catch (error) {
+		console.error('Error rendering JsonLd component:', error)
+		return null
+	}
 }
 
 // ✅ Компонент для множественных схем
@@ -22,8 +29,8 @@ export const MultipleJsonLd = ({ schemas }) => {
 				<script
 					key={index}
 					type="application/ld+json"
-					dangerouslySetInnerHTML={{ 
-						__html: schema.replace(/</g, '\\u003c') 
+					dangerouslySetInnerHTML={{
+						__html: schema.replace(/</g, '\\u003c')
 					}}
 				/>
 			))}

@@ -25,27 +25,27 @@ export function generateProductSchema(product) {
 	const schema = {
 		"@context": "https://schema.org/",
 		"@type": "Product",
-		"name": product.model,
-		"description": product.shortInfo || `${product.model} s ${product.memory || 'rôznou'} pamäťou. Kvalitný mobilný telefón s modernou technológiou.`,
+		"name": String(product.model || 'Mobilný telefón'),
+		"description": String(product.shortInfo || `${product.model} s ${product.memory || 'rôznou'} pamäťou. Kvalitný mobilný telefón s modernou technológiou.`),
 		"brand": {
 			"@type": "Brand",
-			"name": product.modelGroup === "Iphones" ? "Apple" : product.modelGroup?.replace(" Galaxy", "") || "Apple"
+			"name": String(product.modelGroup === "Iphones" ? "Apple" : product.modelGroup?.replace(" Galaxy", "") || "Apple")
 		},
 		"category": "Mobilné telefóny",
-		"sku": product.productLink,
-		"url": `${baseUrl}/katalog/${product.productLink}`,
+		"sku": String(product.productLink || ''),
+		"url": `${baseUrl}/katalog/${String(product.productLink || '')}`,
 
-  // Исправляем изображения - только если есть
-		...(productImage && { "image": [productImage] }), // Добавляем только если есть изображение
+		// Изображения - только если есть
+		...(productImage && { "image": [productImage] }),
 
 		// Цена и наличие
 		"offers": {
 			"@type": "Offer",
-			"price": currentPrice.toFixed(2),
+			"price": String(currentPrice.toFixed(2)),
 			"priceCurrency": "EUR",
-			"priceValidUntil": new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0], // +30 дней
+			"priceValidUntil": new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0],
 			"availability": "https://schema.org/InStock",
-			"url": `${baseUrl}/katalog/${product.productLink}`,
+			"url": `${baseUrl}/katalog/${String(product.productLink || '')}`,
 			"seller": {
 				"@type": "Organization",
 				"name": "Mobilend",
@@ -54,15 +54,14 @@ export function generateProductSchema(product) {
 		}
 	}
 
-	// Дополнительные свойства товара - объявляем ПЕРЕД использованием
+	// Дополнительные свойства товара
 	const additionalProperty = []
 
-	// Добавляем характеристики если есть
 	if (product.memory) {
 		additionalProperty.push({
 			"@type": "PropertyValue",
 			"name": "Pamäť",
-			"value": product.memory
+			"value": String(product.memory)
 		})
 	}
 
@@ -70,17 +69,17 @@ export function generateProductSchema(product) {
 		additionalProperty.push({
 			"@type": "PropertyValue",
 			"name": "Farba",
-			"value": product.color
+			"value": String(product.color)
 		})
 	}
 
-	// Добавляем в схему только если есть дополнительные свойства
 	if (additionalProperty.length > 0) {
 		schema.additionalProperty = additionalProperty
 	}
 
 	return schema
 }
+
 // 2. Схема для организации (Organization Schema)
 export function generateOrganizationSchema() {
 	const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mobilend.sk'
@@ -162,19 +161,19 @@ export function generateLocalBusinessSchema() {
 			"longitude": "17.135069"
 		},
 
-		// Часы работы (настрой под свои)
+		// Часы работы
 		"openingHoursSpecification": [
 			{
 				"@type": "OpeningHoursSpecification",
 				"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-				"opens": "00:00",
-				"closes": "00:01"
+				"opens": "09:00",
+				"closes": "18:00"
 			},
 			{
 				"@type": "OpeningHoursSpecification",
 				"dayOfWeek": "Saturday",
-				"opens": "00:00",
-				"closes": "00:01"
+				"opens": "10:00",
+				"closes": "16:00"
 			}
 		],
 
@@ -185,29 +184,7 @@ export function generateLocalBusinessSchema() {
 		"areaServed": {
 			"@type": "Country",
 			"name": "Slovakia"
-		},
-
-		// Что продаем
-		// "hasOfferCatalog": {
-		// 	"@type": "OfferCatalog",
-		// 	"name": "Mobilné telefóny",
-		// 	"itemListElement": [
-		// 		{
-		// 			"@type": "Offer",
-		// 			"itemOffered": {
-		// 				"@type": "Product",
-		// 				"name": "iPhone"
-		// 			}
-		// 		},
-		// 		{
-		// 			"@type": "Offer",
-		// 			"itemOffered": {
-		// 				"@type": "Product",
-		// 				"name": "Samsung Galaxy"
-		// 			}
-		// 		}
-		// 	]
-		// }
+		}
 	}
 
 	return schema
@@ -225,7 +202,7 @@ export function generateWebsiteSchema() {
 		"url": baseUrl,
 		"description": "Mobilné telefóny za najlepšie ceny na Slovensku",
 
-		// Поиск по сайту (если есть функция поиска)
+		// Поиск по сайту
 		"potentialAction": {
 			"@type": "SearchAction",
 			"target": {
@@ -258,10 +235,21 @@ export function generateBreadcrumbSchema(breadcrumbs) {
 		"itemListElement": breadcrumbs.map((crumb, index) => ({
 			"@type": "ListItem",
 			"position": index + 1,
-			"name": crumb.name,
-			"item": `${baseUrl}${crumb.url}`
+			"name": String(crumb.name || ''),
+			"item": `${baseUrl}${String(crumb.url || '')}`
 		}))
 	}
 
-	return JSON.stringify(schema)
+	return schema // Возвращаем объект, а не строку!
+}
+
+// Вспомогательная функция для безопасной сериализации JSON-LD
+export function serializeSchema(schema) {
+	if (!schema) return null
+	try {
+		return JSON.stringify(schema)
+	} catch (error) {
+		console.error('Error serializing schema:', error)
+		return null
+	}
 }
