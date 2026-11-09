@@ -3,7 +3,7 @@ title: "iPhone 16 – recenzia, špecifikácie, cena a kde kúpiť v Slovensku |
 description: "Kompletná recenzia Apple iPhone 16: špecifikácie, fotoaparát, čip A18, Apple Intelligence, nové tlačidlá a cena na Slovensku. Kúpiť iPhone 16 a iPhone 16 Plus – Mobilend.sk."
 date: "2025-11-14"
 slug: "iphone-recenzia-specifikacie"
-image: "/data/blog/images/"
+image: "/data/blog/images/iPhone-16–recenzia-specifikacie.webp"
 categories: ["Splátky", "Smartfóny", "iPhone", "Samsung"]
 featured: true
 publish: true

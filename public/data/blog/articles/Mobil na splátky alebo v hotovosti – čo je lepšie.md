@@ -3,7 +3,7 @@ title: "Mobil na splátky alebo v hotovosti – čo je lepšie?"
 description: "Oplatí sa kúpiť mobil na splátky alebo v hotovosti? Porovnanie výhod a nevýhod."
 date: "2025-10-07"
 slug: "mobil-na-splatky-alebo-v-hotovosti"
-image: "/data/blog/images/"
+image: "/data/blog/images/Mobil-na-splatky-alebo-v-hotovosti.webp"
 categories: ["Hotovost", "Recenzie", "Splátky"]
 featured: true
 

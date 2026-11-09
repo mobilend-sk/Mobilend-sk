@@ -3,7 +3,7 @@ title: "Telefón na splátky online na Slovensku — podmienky, vybavenie, čast
 description: "Kúpa telefónu na splátky online na Slovensku: ako vybaviť nákup, aké doklady sú potrebné, schválenie do 10 minút a splátky bez preplatenia. Kompletný sprievodca a odpovede na najčastejšie otázky o nákupe smartfónu na splátky cez mobilend.sk — rýchlo, jednoducho a spoľahlivo."
 date: "2025-11-19"
 slug: "najcastejsie-otazky-mobil-na-splatky-online"
-image: "/data/blog/images/"
+image: "/data/blog/images/najcastejsie-otazky-a-kompletny-sprievodca.webp"
 categories: ["Splátky", "Smartfóny", "iPhone", "Samsung"]
 featured: true
 publish: true
